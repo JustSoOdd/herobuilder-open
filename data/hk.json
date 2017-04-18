@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "HK-206",
+        "de": "HK-206",
+        "es": "HK-206",
+        "fr": "HK-206"
+    },
+    "shortName": "HK",
+    "description": {
+        "en": "Shoot all the Things!",
+        "de": "Schieß alles ab!",
+        "es": "¡Dispara a todo!",
+        "fr": "Tire sur tout ce qui bouge !"
+    },
+    "lore": {
+        "en": "Field notes, trial #88-34: Subject HK-206 scored 94 on the ballistics assessment and withstood the test-to-failure battery with no function loss. Overall trial grade is \"incomplete,\" however, because subject destroyed the obstacle course barrier and hasn't been seen since...",
+        "de": "Feldstudien, Versuch #88-34: Subjekt HK-206 erreichte 94 Punkte bei der ballistischen Einstufung und überstand den Batteriefehler-Test ohne jegliche Funktionsstörung. Der Versuchsaufbau ist insgesamt jedoch „unvollständig“, da das Subjekt die Absperrung des Hindernisparcours zerstörte und seitdem nicht mehr gesehen wurde ...",
+        "es": "Notas de campo, prueba núm. 88-34: El sujeto HK-206 ha puntuado 94 en la evaluación de balística y resistió la batería de pruebas de fallo sin pérdida en la funcionalidad. Sin embargo, la nota general de la prueba es \"incompleta\" debido a que el sujeto destruyó la barrera de la pista de obstáculos y no se le ha vuelto a ver...",
+        "fr": "Notes de terrain n° 88-34 :Le sujet HK-206 a obtenu un score de 94 en balistique, et a passé l'épreuve de batterie sans aucune perte de fonction. Cependant, l'essai n'a pas pu être achevé : le sujet a détruit la barrière du parcours d'obstacles et on ne l'a pas revu depuis..."
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Shoot everything! HK-206 has a gun for every occasion—and armor plating to keep its arsenal intact.",
+            "playStyleTips": [
+                "Pulverize your enemies with a rail gun, a mortar, and a salvo of missiles.",
+                "Convert your rail gun into a chest cannon that fires explosive shells.",
+                "Fortify to get extra armor until you decide to move again."
+            ]
+        },
+        "de": {
+            "description": "Nimm alles unter Beschuss! HK-206 besitzt eine Kanone für jede Situation sowie eine Metallpanzerung, die sein Arsenal vor Schaden schützt.",
+            "playStyleTips": [
+                "Pulverisiere deine Gegner mit einer Schienenkanone, einem Mörser und einer Raketensalve.",
+                "Baue deine Schienenkanone zu einer Torsokanone um, die explosive Granaten abfeuert.",
+                "Verschanze dich, um zusätzliche Panzerung zu erhalten, bis du dich wieder bewegen möchtest."
+            ]
+        },
+        "es": {
+            "description": "¡Dispara a todo! HK-206 tiene un arma para cada ocasión y una armadura acorazada para mantener el arsenal intacto.",
+            "playStyleTips": [
+                "Pulveriza a los enemigos con un cañón de riel, un mortero y una salva de misiles.",
+                "Convierte tu cañón de riel en un cañón de pecho que lanza proyectiles explosivos.",
+                "Fortifica para crear armadura adicional hasta que decidas moverte de nuevo."
+            ]
+        },
+        "fr": {
+            "description": "Tirez sur tout ce qui bouge ! HK-206 possède une arme pour chaque situation et une armure pour protéger son arsenal.",
+            "playStyleTips": [
+                "Pulvérisez vos ennemis avec un canon électrique, un mortier ou une salve de missiles.",
+                "Convertissez votre canon électrique en obusier fixé sur votre poitrine.",
+                "Retranchez-vous pour obtenir davantage d'armure jusqu'à ce que vous décidiez de repartir."
+            ]
+        }
+    },
+    "attackStat": 80,
+    "defenseStat": 100,
+    "mobilityStat": 10,
+    "utilityStat": 30,
+    "difficulty": 4,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "BULLET BARRAGE",
+                "de": "KUGELHAGEL",
+                "es": "CORTINA DE BALAS",
+                "fr": "BARRAGE DE BALLES"
+            },
+            "description": {
+                "en": "HOLD LMB: A constant stream of bullets.",
+                "de": "LMB GEDRÜCKT HALTEN: Ein permanenter Fluss aus Kugeln.",
+                "es": "MANTÉN PULSADO LMB: una ráfaga de balas constante.",
+                "fr": "Maintenir LMB pour un déluge constant de balles."
+            },
+            "lore": {
+                "en": "Dozens of subsequent creators have updated the core instructions, creating contradictions that HK-206 resolves with ballistic violence.",
+                "de": "Dutzende aufeinanderfolgender Ingenieure haben die Grundanweisungen überarbeitet, was bei HK-206 zu Widersprüchen führte, die er mit ballistischer Gewalt löst.",
+                "es": "Muchos creadores posteriores han actualizado las instrucciones principales, generando contradicciones que HK-206 resuelve con furiosa violencia.",
+                "fr": "Des dizaines de scientifiques successifs ont chacun mis les instructions du processeur à jour, créant ainsi des contradictions que HK-206 règle par une violence balistique inouïe."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Recoil Dampener",
+                    "de": "Rückstoßdämpfer",
+                    "es": "Amortiguador de retroceso",
+                    "fr": "As du recul"
+                },
+                "description": {
+                    "en": "Increased accuracy and fire rate.",
+                    "de": "Verbesserte Präzision und Feuerrate.",
+                    "es": "Aumenta la precisión y la cadencia de tiro.",
+                    "fr": "Précision et cadence de tir augmentées."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Ballistic Accelerator",
+                    "de": "Ballistikbeschleuniger",
+                    "es": "Acelerador balístico",
+                    "fr": "Accélérateur balistique"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: Now does full damage regardless of range.",
+                    "de": "WÄHREND VERSCHANZUNG: Verursacht nun unabhängig von der Reichweite vollen Schaden.",
+                    "es": "AL ESTAR FORTIFICADO: inflige daño total, independientemente del alcance.",
+                    "fr": "En retranchement : inflige l'intégralité des dégâts, peu importe la distance."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "High Caliber Rounds",
+                    "de": "Großkalibrige Patronen",
+                    "es": "Proyectiles de alto calibre",
+                    "fr": "Balles de gros calibre"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: Deal more damage at close range.",
+                    "de": "WÄHREND VERSCHANZUNG: Teile im Nahkampf mehr Schaden aus.",
+                    "es": "AL ESTAR FORTIFICADO: inflige más daño a corta distancia.",
+                    "fr": "En retranchement : inflige plus de dégâts à courte portée."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Piercing Rounds",
+                    "de": "Durchbrechende Patronen",
+                    "es": "Proyectiles perforadores",
+                    "fr": "Munitions perforantes"
+                },
+                "description": {
+                    "en": "Your shots pierce enemies.",
+                    "de": "Deine Schüsse durchbohren Gegner.",
+                    "es": "Los disparos atraviesan a los enemigos.",
+                    "fr": "Vos tirs transpercent les ennemis."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Impeding Fire",
+                    "de": "Niederhalten",
+                    "es": "Fuego obstaculizante",
+                    "fr": "Feu d'entrave"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: On hit, slows foes. (1s)",
+                    "de": "WÄHREND VERSCHANZUNG: Verlangsamt Gegner bei Treffer Gegner. (1 Sek.)",
+                    "es": "AL ESTAR FORTIFICADO: al impactar, ralentiza a los enemigos (1 s).",
+                    "fr": "En retranchement : ralentit les ennemis à l'impact (1 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Debilitating Rounds",
+                    "de": "Schwächende Munition",
+                    "es": "Proyectiles debilitantes",
+                    "fr": "Tirs affaiblissants"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: On hit, weakens foes.<BR>(1s duration, 10% dmg reduction)",
+                    "de": "WÄHREND VERSCHANZUNG: Schwächt Gegner bei Treffer.<BR>(Dauer 1 Sek., 10% Schadensreduktion)",
+                    "es": "AL ESTAR FORTIFICADO: al impactar, ralentiza a los enemigos. (1 s de duración, -10% de daño).",
+                    "fr": "En retranchement : affaiblit les ennemis, à l'impact. Durée : 1 s, -10 % de dégâts."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "RAIL GUN",
+                "de": "SCHIENENKANONE",
+                "es": "CAÑÓN DE RIEL",
+                "fr": "CANON ÉLECTRIQUE"
+            },
+            "description": {
+                "en": "Fire a powerful energy blast.",
+                "de": "Feuere einen mächtigen Energiestoß ab.",
+                "es": "Dispara una poderosa explosión de energía.",
+                "fr": "Déclenche une puissante explosion d'énergie."
+            },
+            "lore": {
+                "en": "Unlike more than 200 prior designs, the machine refused to self-destruct, refused to shut down, and refused to stop shelling its creators' workshop.",
+                "de": "Im Gegensatz zu ihren 200 Vorgängermodellen weigerte sich die Maschine, sich auszuschalten oder den Selbstzerstörungsmechanismus auszulösen – und, mal ganz davon abgesehen, den Beschuss der Werkstatt seiner Erfinder einzustellen.",
+                "es": "A diferencia de los 200 diseños anteriores, la máquina se negó a autodestruirse, se negó a apagarse y se negó a dejar de destruir el taller de su creador.",
+                "fr": "Contrairement aux 200 versions antérieures, cette machine a refusé de s'autodétruire, de s'éteindre et d'arrêter de pilonner les ateliers de ses créateurs."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Charged Rounds",
+                    "de": "Aufgeladene Munition",
+                    "es": "Proyectiles cargados",
+                    "fr": "Tirs chargés"
+                },
+                "description": {
+                    "en": "You can now charge your shots for increased damage.",
+                    "de": "Du kannst nun deine Schüsse für erhöhten Schaden aufladen.",
+                    "es": "Puedes cambiar tus proyectiles para infligir más daño.",
+                    "fr": "Vous pouvez désormais charger vos tirs pour infliger plus de dégâts."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Armor Piercing",
+                    "de": "Panzerbrecher",
+                    "es": "Penetración de armadura",
+                    "fr": "Faille d'armure"
+                },
+                "description": {
+                    "en": "Charged shots pierce through enemies and interrupt on hit.",
+                    "de": "Aufgeladene Schüsse durchschlagen Gegner und unterbrechen bei einem Treffer.",
+                    "es": "Los disparos cargados atraviesan a los enemigos e interrumpen al impactar.",
+                    "fr": "Les tirs chargés transpercent les ennemis et les stoppent."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Parallel Outputs",
+                    "de": "Parallelausgabe",
+                    "es": "Salida paralela",
+                    "fr": "Multitâche"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: Fire your chestgun while charging.",
+                    "de": "WÄHREND VERSCHANZUNG: Feuere deine Torsokanone beim Ansturm ab.",
+                    "es": "AL ESTAR FORTIFICADO: dispara tu cañón de pecho mientras cargas.",
+                    "fr": "En retranchement : tire avec l'obusier fixé sur votre poitrine en chargeant."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Hand Cannon",
+                    "de": "Handkanone",
+                    "es": "Cañón manual",
+                    "fr": "Canon à main"
+                },
+                "description": {
+                    "en": "Replaces your Rail Gun with a Cannon, fires a short range explosive round.",
+                    "de": "Ersetzt dein Schienengewehr durch eine Kanone, die Explosivgeschosse mit kurzer Reichweite feuert.",
+                    "es": "Sustituye tu cañón de riel por un cañón que dispara un proyectil explosivo de corto alcance.",
+                    "fr": "Remplace votre Canon électrique par un canon qui tire des munitions explosives à courte distance."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Dazed and Confused",
+                    "de": "Totale Verwirrung",
+                    "es": "Atontado y confuso",
+                    "fr": "Étourdi et désorienté"
+                },
+                "description": {
+                    "en": "Dazes enemies on impact. (50% damage)",
+                    "de": "Verwirrt Gegner bei Aufprall. (50% Schaden)",
+                    "es": "Al impactar, atonta a los enemigos (50% de daño).",
+                    "fr": "Étourdit les ennemis à l'impact (50 % de dégâts)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Salvo Fire",
+                    "de": "Salvenfeuer",
+                    "es": "Salva",
+                    "fr": "Salve de tirs"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: Fire 3 shots with a spread.",
+                    "de": "WÄHREND VERSCHANZT: Feuere 3 Schüsse mit Streuung ab.",
+                    "es": "AL ESTAR FORTIFICADO: dispara 3 proyectiles con dispersión.",
+                    "fr": "En retranchement : déclenchez 3 tirs espacés."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "MORTAR",
+                "de": "MÖRSER",
+                "es": "MORTERO",
+                "fr": "MORTIER"
+            },
+            "description": {
+                "en": "Lobbed, explosive projectile that sets enemies on fire. (3s)",
+                "de": "Geworfenes Explosivprojektil  setzt Gegner in Brand. (3 Sek.)",
+                "es": "Proyectil explosivo en trayectoria elevada que prende fuego a los enemigos (3 s).",
+                "fr": "Projectile explosif qui met feu aux ennemis (3 s)."
+            },
+            "lore": {
+                "en": "\"It actually has a numeric setting for 'capriciousness.' Who designs something like that?\" —Semiotician Ganari, House Tesserus",
+                "de": "„Es hat in der Tat eine numerische Einstellung für ‚Unberechenbarkeit‘. Wer entwirft bloß derlei Maschinen?“ – Semiotikerin Ganari, Haus Tesserus",
+                "es": "\"Tiene una configuración numérica para 'antojos'. ¿Quién diseña algo así?\" —Semiótica Ganari, Casa Tesserus",
+                "fr": "« Il a été paramétré pour être capricieux... Qui a bien pu le programmer de cette manière ? » —Sémioticienne Ganari, Maison Tesserus"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Mortar Love",
+                    "de": "Mörserliebe",
+                    "es": "Pasión por el mortero",
+                    "fr": "Mortiel"
+                },
+                "description": {
+                    "en": "Mortar deals 25% more damage.",
+                    "de": "Mörserschaden ist um 25% erhöht.",
+                    "es": "Infliges un 25% más de daño.",
+                    "fr": "+25 % de dégâts."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Kaboom Box",
+                    "de": "Kabumm-Box",
+                    "es": "Caja explosiva",
+                    "fr": "Bombe incendiaire"
+                },
+                "description": {
+                    "en": "On impact, creates a burning area for 4s.",
+                    "de": "Erzeugt bei Aufprall für 4 Sek. ein brennendes Gebiet.",
+                    "es": "Al impactar, crea una zona de fuego durante 4 s.",
+                    "fr": "Crée une zone d'incendie après l'impact (4 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Bombardment",
+                    "de": "Bombardement",
+                    "es": "Bombardeo",
+                    "fr": "Bombardement"
+                },
+                "description": {
+                    "en": "Increased range on Mortar.",
+                    "de": "Mörser hat eine verbesserte Reichweite.",
+                    "es": "Aumenta el alcance de Mortero.",
+                    "fr": "Augmente la portée du Mortier."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Impact Trigger",
+                    "de": "Einschlagauslöser",
+                    "es": "Provocaimpacto",
+                    "fr": "Impact explosif"
+                },
+                "description": {
+                    "en": "Mortar explodes and pushes on impact.",
+                    "de": "Mörser explodiert und drängt beim Aufprall vorwärts.",
+                    "es": "Al impactar, el mortero explota y empuja.",
+                    "fr": "Repousse les ennemis en explosant."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Percussive Force",
+                    "de": "Stoßkraft",
+                    "es": "Fuerza de percusión",
+                    "fr": "Force de percussion"
+                },
+                "description": {
+                    "en": "Mortar pushes enemies much farther.",
+                    "de": "Mörser drängt Gegner deutlich weiter.",
+                    "es": "El mortero empuja a los enemigos más lejos.",
+                    "fr": "Repousse les ennemis encore plus loin."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Speed Loader",
+                    "de": "Schnelllader",
+                    "es": "Cargadora rápida",
+                    "fr": "Rechargement rapide"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: cooldown is reduced by 33%.",
+                    "de": "WÄHREND VERSCHANZUNG: Abklingzeit ist um 33% reduziert.",
+                    "es": "AL ESTAR FORTIFICADO: se reduce la recarga un 33%.",
+                    "fr": "En retranchement : temps de rechargement réduit de 33 %."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "FORTIFY",
+                "de": "VERSCHANZEN",
+                "es": "FORTIFICACIÓN",
+                "fr": "RETRANCHEMENT"
+            },
+            "description": {
+                "en": "+20 front armor but you cannot move.<BR>TAP E AGAIN: Unfortify.",
+                "de": "+20 Frontalrüstung, Bewegung ist jedoch nicht möglich.<BR>TIPPE E ERNEUT: Verschanzen abbrechen.",
+                "es": "+20 armadura frontal, pero no te puedes mover. PULSA E DE NUEVO para deshacer la fortificación.",
+                "fr": "+20 d'armure frontale mais pas de mouvement possible. Appuyer sur E à nouveau : désactive le retranchement."
+            },
+            "lore": {
+                "en": "IF fire(incoming) THEN point(laugh)",
+                "de": "WENN Feuer(eingehend) DANN zeige(Lache)",
+                "es": "SI fuego(recibido) ENTONCES señala(ríe)",
+                "fr": "Attaque ennemie - S'en moquer"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Siege Mode",
+                    "de": "Belagerungsmodus",
+                    "es": "Modo de asedio",
+                    "fr": "Mode siège"
+                },
+                "description": {
+                    "en": "WHILE FORTIFIED: Gain a 500 HP shield.",
+                    "de": "WÄHREND VERSCHANZUNG: Verleiht einen 400-TP-Schild.",
+                    "es": "AL ESTAR FORTIFICADO: obtienes protección de 400 PV.",
+                    "fr": "En retranchement : gagnez un bouclier de 400 PV."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Shock Absorbers",
+                    "de": "Stoßdämpfer",
+                    "es": "Absorción de impactos",
+                    "fr": "Absorbeur de chocs"
+                },
+                "description": {
+                    "en": "Cannot be STUNNED, INTERRUPTED, LAUNCHED, or PUSHED while Fortified.",
+                    "de": "Kann in Verschanzung nicht BETÄUBT, UNTERBROCHEN, GESCHLEUDERT oder GESTOSSEN werden.",
+                    "es": "AL ESTAR FORTIFICADO: no te pueden aturdir, interrumpir, lanzar ni empujar.",
+                    "fr": "En retranchement : ne peut pas être ASSOMMÉ, STOPPÉ, PROPULSÉ, ou REPOUSSÉ."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Earth Mover",
+                    "de": "Erdtreiber",
+                    "es": "Moviendo la tierra",
+                    "fr": "Pouvoirs telluriques"
+                },
+                "description": {
+                    "en": "Fortifying/Unfortifying launches foes away and gain front Deflection (3s).",
+                    "de": "Verschanzen/Verschanzen abbrechen schleudert Gegner davon und gibt dir Frontal-Umlenkung (3 Sek.).",
+                    "es": "Fortificar y deshacer la fortificación lanza a los enemigos y desvía frontalmente (3 s).",
+                    "fr": "Activer et désactiver le Retranchement propulse les ennemis et vous permet de gagner en déviation frontale (3 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Servo Boost",
+                    "de": "Servo-Boost",
+                    "es": "Servopotenciador",
+                    "fr": "Servomoteur puissant"
+                },
+                "description": {
+                    "en": "Fortifying/Unfortifying is 2x faster and has shorter cooldown (-6s).",
+                    "de": "Verschanzen/Verschanzen abbrechen ist doppelt so schnell und hat eine um 6 Sek. kürzere Abklingzeit.",
+                    "es": "Fortificar y deshacer la fortificación es el doble de rápido y la recarga es 6 s más corta.",
+                    "fr": "Activer et désactiver le Retranchement est 2x plus rapide et le temps de rechargement est plus rapide (-6 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Recalibration",
+                    "de": "Rekalibrierung",
+                    "es": "Recalibrado",
+                    "fr": "Recalibrage"
+                },
+                "description": {
+                    "en": "Fortifying, gives you a 15% damage boost. (8s)",
+                    "de": "Verschanzen gibt dir für 8 Sek. einen Schadensboost von 15%. (8 Sek.)",
+                    "es": "Fortificar te otorga un potenciador de daño del 15% (8 s).",
+                    "fr": "Retranchement vous octroie 15 % de boost de dégâts (8 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Reciprocating Differential",
+                    "de": "Differenzialgetriebe",
+                    "es": "Diferencial recíproco",
+                    "fr": "Différence réciproque"
+                },
+                "description": {
+                    "en": "Unfortifying gives you a 15% speed boost (6s) and restores 50 stamina.",
+                    "de": "Das Abbrechen der Verschanzung verleiht dir einen Geschwindigkeitsboost von 15% (6 Sek.) und stellt 50 Ausdauer wieder her.",
+                    "es": "Deshacer la fortificación aumenta tu velocidad un 15% (6 s) y restaura 50 de resistencia.",
+                    "fr": "Sortir du Retranchement vous donne un boost de rapidité de 15 % (6 s) et vous récupérez 50 d'énergie."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "S.W.A.R.M.",
+                "de": "S.C.H.W.A.R.M.",
+                "es": "B.A.N.G.",
+                "fr": "N.U.É.E."
+            },
+            "description": {
+                "en": "Unleash a barrage of missiles.",
+                "de": "Entfessle eine Salve von Raketen.",
+                "es": "Desata una cortina de misiles.",
+                "fr": "Déclenche un tir de missiles."
+            },
+            "lore": {
+                "en": "It's variously believed to stand for \"Salvo Weapon Artillery, Range Medium\" or \"Shock Wave And Rubble Maker\" or \"Should Work All Right...Maybe?\"",
+                "de": "Die Abkürzung steht vermutlich für „Schock-Wellen-Artillerie, Reichweite Mittel“. Oder für „Schnell Wirksames Aus-Radierungs-Mittel“. Oder aber für „Schuss-Choreografie Hochwertiger Waffenangriffe, Rundum Mutwillig“.",
+                "es": "Se cree que significa \"Bombardeo Antipersona Neutralizador Guiado\" o \"Bombas Abrumadoras Nada Garantizadas\" o \"Bum, Ahora No Ganarás\".",
+                "fr": "Cela peut signifier « Nuage Ultra Explosif et Éradiquant » ou « Nappage Ultime d'Explosifs Exterminateurs » voire «Nulle Utilisation n'Est Expérimentale», qui sait... ?"
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Nigh Invulnerable",
+                    "de": "Nahezu unverwundbar",
+                    "es": "Casi invulnerable",
+                    "fr": "Presque invulnérable"
+                },
+                "description": {
+                    "en": "You take 90% less damage while performing F.",
+                    "de": "Du erleidest 90% weniger Schaden, während du F ausführst.",
+                    "es": "Al usar F, recibes un 90% menos de daño.",
+                    "fr": "90 % de dégâts en moins en appuyant sur F."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Shoot n Scoot",
+                        "de": "Schießen und schlendern",
+                        "es": "Dispara y lárgate",
+                        "fr": "Tirer et filer"
+                    },
+                    "description": {
+                        "en": "LMB: Move at normal speed while shooting. Fire longer before reloading.",
+                        "de": "LMB: Bewege dich mit normaler Geschwindigkeit während du schießt. Feuere länger, vor dem Nachladen.",
+                        "es": "LMB: te mueves a velocidad normal mientras disparas. Disparas más tiempo antes de tener que recargar.",
+                        "fr": "LMB : déplacez-vous à vitesse normale en tirant. Tirez plus longtemps avant de recharger."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Double Plating",
+                        "de": "Doppelt gepanzert",
+                        "es": "Doble capa",
+                        "fr": "Double blindage"
+                    },
+                    "description": {
+                        "en": "E: Increased front armor bonus for Fortifying.",
+                        "de": "E: Erhöhter Frontal-Rüstungs-Bonus für  Verschanzen'.",
+                        "es": "E: aumenta la bonificación de armadura frontal al fortificar.",
+                        "fr": "E : bonus d'armure frontale amélioré en Retranchement."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Shredder",
+                        "de": "Schredder",
+                        "es": "Trituradora",
+                        "fr": "Broyeur"
+                    },
+                    "description": {
+                        "en": "30% armor penetration.",
+                        "de": "30% Rüstungsdurchdringung.",
+                        "es": "30% de penetración de armadura.",
+                        "fr": "30 % de pénétration d'armure."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Bloody Minded",
+                        "de": "Blutdürstig",
+                        "es": "Testarudez",
+                        "fr": "Obstination"
+                    },
+                    "description": {
+                        "en": "Immunity to Weakness. Recover from Daze twice as fast.",
+                        "de": "Immunität gegen Schwäche. Du erholst dich doppelt so schnell von Verwirrung.",
+                        "es": "Inmunidad a la debilidad. Te recuperas del atontamiento el doble de rápido.",
+                        "fr": "Immunité à Faiblesse. Se remet d'un étourdissement deux fois plus rapidement."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Stonewall",
+                        "de": "Steinmauer",
+                        "es": "Muro de piedra",
+                        "fr": "Mur de pierre"
+                    },
+                    "description": {
+                        "en": "You are immune to critical hits.",
+                        "de": "Du bist immun gegen kritische Treffer.",
+                        "es": "Eres inmune a los golpes críticos.",
+                        "fr": "Immunise contre les coups critiques."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hard Charger",
+                        "de": "Derber Anstürmer",
+                        "es": "Carga pesada",
+                        "fr": "Charge volontaire"
+                    },
+                    "description": {
+                        "en": "+33% max stamina. Reduced distance when pushed.",
+                        "de": "+33% max. Ausdauer. Verringerte Distanz, wenn gestoßen.",
+                        "es": "+33% de resistencia máxima. Se reduce la distancia al ser empujado.",
+                        "fr": "+33 % d'énergie max. Distance réduite lors des repoussements."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

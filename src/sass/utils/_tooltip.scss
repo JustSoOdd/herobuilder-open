@@ -1,0 +1,14 @@
+.tooltip {
+  position: absolute;
+  background: $color-ggu-blue;
+  border: 2px solid $color-ggu-blue-light;
+  color: $color-ggu-white;
+  padding: 0.5rem 0.75rem;
+  z-index: 5;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+  text-align: left;
+  white-space: nowrap;
+  font-weight: 300;
+  right: -20%;
+}

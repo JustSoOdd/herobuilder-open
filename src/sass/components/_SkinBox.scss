@@ -1,0 +1,70 @@
+.skin-box {
+  background: $color-ggu-blue-2;
+  margin: 5px 5px 50px 5px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+
+  &--key {
+    color: $color-ggu-white;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 0.75rem;
+  }
+
+  &--inner {
+    background: $color-ggu-white;
+    border: 1px solid $color-ggu-blue-2;
+    border-radius: 0 0 3px 3px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &--skin {
+    width: 98%;
+    display: flex;
+    align-items: center;
+
+    border: 1px solid $color-ggu-blue;
+    border-radius: 5px;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+
+    &-default {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &--arrow {
+      color: $color-ggu-blue-2;
+      font-size: 5rem;
+      margin: 0 1.5%;
+    }
+  }
+
+  &--flex {
+    flex: 1 1 50%;
+    align-self: flex-start;
+  }
+
+  &--left {
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--right {
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

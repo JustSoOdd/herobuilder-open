@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Lord Knossos",
+        "de": "Fürst Knossos",
+        "es": "Lord Knossos",
+        "fr": "Seigneur Knossos"
+    },
+    "shortName": "Knossos",
+    "description": {
+        "en": "Offensive Powerhouse.",
+        "de": "Offensives Kraftpaket.",
+        "es": "Atacante inagotable.",
+        "fr": "Forteresse offensive"
+    },
+    "lore": {
+        "en": "At the battle's end, they offered Knossos the high lord's mantle, but he refused. \"You honor me, and you honor the lineage that flows through my veins,\" he said. \"But I cannot lead. I am not ready for the tribe, and the tribe is not ready for me.\"",
+        "de": "Am Ende der Schlacht boten sie Knossos den Umhang des Hochfürsten an, doch er lehnte ab. „Ihr ehrt mich und das Geschlecht, das durch meine Adern fließt“, sagte er. „Aber ich bin kein Anführer. Ich bin noch nicht für den Stamm bereit und er nicht für mich.“",
+        "es": "Al final de la batalla, le ofrecieron el manto de gran señor, pero lo rechazó. \"Me honráis a mí y honráis el linaje que corre por mis venas\", dijo. \"Pero no puedo liderar. No estoy preparado para la tribu y la tribu no está preparada para mí.\"",
+        "fr": "À la fin de la bataille, ils offrirent à Knossos la cape du grand seigneur, mais il la refusa. « C'est un grand honneur pour ma famille et pour moi, » déclara-t-il. « Mais je ne peux pas être votre chef. Je ne suis pas prêt pour la tribu, et elle n'est pas prête pour moi. »"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Charge into the fray! Lord Knossos is a fearsome force in melee, and his spears ensure that enemies can't escape.",
+            "playStyleTips": [
+                "Your horns deal more damage with each hit in a row.",
+                "Immobilize your enemies in a rain of spears from the sky.",
+                "Upgrade your Bull Rush to make your allies faster and tougher."
+            ]
+        },
+        "de": {
+            "description": "Auf ins Schlachtgetümmel! Fürst Knossos ist im Nahkampf wahrlich angsteinflößend und seine Speere stellen sicher, dass ihm seine Gegner nicht entkommen können.",
+            "playStyleTips": [
+                "Deine Hörner verursachen mit jedem aufeinanderfolgenden Treffer mehr Schaden.",
+                "Mache deine Gegner mit einem Hagel aus Speeren bewegungsunfähig.",
+                "Werte deinen Stierspurt auf, um deine Verbündeten schneller und zäher zu machen."
+            ]
+        },
+        "es": {
+            "description": "¡A entrar en batalla! Lord Knossos es una fuerza imponente en el cuerpo a cuerpo, y sus lanzas impiden al enemigo escapar.",
+            "playStyleTips": [
+                "Tus cuernos infligen más daño con cada golpe seguido.",
+                "Inmoviliza a los enemigos en una lluvia de lanzas caída del cielo.",
+                "Sube de nivel la Embestida para hacer a los aliados más rápidos y fuertes."
+            ]
+        },
+        "fr": {
+            "description": "Foncez dans le tas ! Le Seigneur Knossos est incroyablement puissant dans la mêlée, et sa lance empêche les ennemis de s'échapper.",
+            "playStyleTips": [
+                "Vos cornes provoquent plus de dégâts quand les coups sont assénés à la suite.",
+                "Immobilisez vos ennemis avec une pluie de lances venant du ciel.",
+                "Améliorez votre Ruée pour rendre vos alliés plus rapides et plus féroces."
+            ]
+        }
+    },
+    "attackStat": 90,
+    "defenseStat": 60,
+    "mobilityStat": 60,
+    "utilityStat": 30,
+    "difficulty": 2,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "SKEWER",
+                "de": "SPIESS",
+                "es": "ENSARTAR",
+                "fr": "ENCORNÉ"
+            },
+            "description": {
+                "en": "Brutal melee attack combo.",
+                "de": "Erbarmungslose Nahkampf-Angriffscombo.",
+                "es": "Una brutal combinación de ataques cuerpo a cuerpo.",
+                "fr": "Combo brutal d'attaques de mêlée."
+            },
+            "lore": {
+                "en": "Some in the tribe regard their horns as decorative. Not Knossos. He lavishes attention on them, but only to ensure that they're razor sharp.",
+                "de": "Einige im Stamm betrachten ihre Hörner als rein dekorativ. Nicht jedoch Knossos. Er schenkt ihnen große Beachtung, allerdings nur, um sicherzustellen, dass sie auch rasiermesserscharf sind.",
+                "es": "Algunos en la tribu piensan que los cuernos son decorativos. Knossos no. Los colma de atención, pero solo para cerciorarse de que están tan afilados como una cuchilla.",
+                "fr": "Pour certains membres de la tribu, leurs cornes ne sont que décoratives, mais pas pour Knossos : il en prend grand soin mais seulement pour s'assurer qu'elles soient aussi tranchantes qu'une lame."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Bruiser",
+                    "de": "Raufbold",
+                    "es": "Gorila",
+                    "fr": "Cogneur"
+                },
+                "description": {
+                    "en": "Each hit in your combo does more damage than the previous one.",
+                    "de": "Jeder Treffer deiner Combos erzielt mehr Schaden der vorherige.",
+                    "es": "Cada golpe de tu combinación inflige más daño que el anterior.",
+                    "fr": "Chaque coup de votre combo cause plus de dégâts que le coup précédent."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Sharpened Horns",
+                    "de": "Gespitzte Hörner",
+                    "es": "Cuernos afilados",
+                    "fr": "Épines tranchantes"
+                },
+                "description": {
+                    "en": "Landing 4 hits in a row boosts your damage by 25% for 15s.",
+                    "de": "Dein Schaden wird für 15 Sek. um 25% verstärkt, wenn du 4 Treffer hintereinander landest.",
+                    "es": "Asestar 4 golpes seguidos potencia un 25% tu daño durante 15 s.",
+                    "fr": "Enchaîner 4 coups d'affilée avec succès augmente vos dégâts de 25 % (15 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Seeing Red",
+                    "de": "Rot sehen",
+                    "es": "Veo rojo",
+                    "fr": "La vie en rouge"
+                },
+                "description": {
+                    "en": "After killing a foe with LMB, you deal double damage for 5s.",
+                    "de": "Nach dem Eliminieren eines Gegners mit LMB verursachst du für 5 Sek. doppelten Schaden.",
+                    "es": "Tras matar a un enemigo con LMB, infliges el doble de daño durante 5 s.",
+                    "fr": "Tuer un ennemi avec LMB permet de causer deux fois plus de dégâts pendant 5 s."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Pierce",
+                    "de": "Durchbohren",
+                    "es": "Perforar",
+                    "fr": "Percée"
+                },
+                "description": {
+                    "en": "SPRINT+LMB: Your first attack causes bleeding (30 hp/s). (Costs 8 stamina.)",
+                    "de": "SPRINTEN + LMB: Dein erster Angriff verursacht Blutung (30 TP/Sek.). (Kosten: 8 Ausdauer)",
+                    "es": "ESPRINTAR +LMB: primer ataque inflige hemorragia (30 PV por s) (consumo resistencia: 8).",
+                    "fr": "Sprinter+LMB : votre première attaque cause des saignements (30 PV/s). Coûte 8 d'énergie."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Adding Assault to Injury",
+                    "de": "Wunden aufreißen",
+                    "es": "Echar asalto a la herida",
+                    "fr": "Chose promise"
+                },
+                "description": {
+                    "en": "Against bleeding foes, LMB causes more bleeding (50 hp/s).",
+                    "de": "Bei Gegnern die bluten, verursacht LMB noch mehr Blutung (50 TP/Sek.).",
+                    "es": "LMB aumenta la hemorragia de los enemigos que ya la sufren (50 PV por segundo).",
+                    "fr": "Contre des ennemis atteints de saignement, LMB cause encore plus de saignements (50 PV/s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Overrun",
+                    "de": "Überrennen",
+                    "es": "Arrollar",
+                    "fr": "Dépassement"
+                },
+                "description": {
+                    "en": "SPRINT+LMB: Your first attack also breaks armor. (4s)",
+                    "de": "SPRINTEN + LMB: Dein erster Angriff durchbricht auch Rüstung. (4 Sek.)",
+                    "es": "ESPRINTAR +LMB: tu primer ataque también rompe armadura (4 s).",
+                    "fr": "Sprinter+LMB : votre première attaque brise aussi l'armure (4 s)."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "CHUCK",
+                "de": "SPEERWURF",
+                "es": "LANZAMIENTO",
+                "fr": "LANCER"
+            },
+            "description": {
+                "en": "Throw a spear.",
+                "de": "Wirf einen Speer.",
+                "es": "Tira una lanza.",
+                "fr": "Jet d'une lance."
+            },
+            "lore": {
+                "en": "If you're as tall as the spear, you should be carrying the spear. —Proverb of the Wandering Tribes",
+                "de": "Wenn du so groß wie der Speer bist, dann solltest du ihn auch tragen. – Sprichwort der Wandernden Stämme",
+                "es": "\"Si ya eres tan alto como la lanza, deberías estar llevándola.\" —Proverbio de las Tribus Errantes",
+                "fr": "Si vous êtes aussi grand que la lance, vous devriez être celui qui la tient. —Proverbe des tribus nomades"
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Heavy Barrel",
+                    "de": "Schwere Lanze",
+                    "es": "Cañón pesado",
+                    "fr": "Poids lourd"
+                },
+                "description": {
+                    "en": "HOLD RMB: When fully charged, chuck causes bleeding for 4s but has +3s cooldown.",
+                    "de": "RMB GEDRÜCKT HALTEN: Voll aufgeladen, verursacht Speerwurf Blutung (4 Sek.); Abklingzeit (+3 Sek.).",
+                    "es": "MANTÉN PULSADO RMB: al máximo, Lanzamiento inflige hemorragia (4 s) (recarga: +3 s).",
+                    "fr": "Maintenir RMB : une fois chargé à 100%, cause des saignements (4 s) mais +3 s de temps de rechargement."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Kidney Shot",
+                    "de": "Nierenschuss",
+                    "es": "Tiro al riñón",
+                    "fr": "Calculs rénaux"
+                },
+                "description": {
+                    "en": "When fully charged, foes hit in the back take +150 damage.",
+                    "de": "Bei voller Aufladung nehmen Gegner, die von hinten getroffen werden, +150 Schaden.",
+                    "es": "Al estar completamente cargada, los enemigos impactados por detrás obtienen +150 de daño.",
+                    "fr": "Une fois rechargé à 100 %, les ennemis touchés par derrière subissent +150 de dégâts."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Skill Shot",
+                    "de": "Schützenkönig",
+                    "es": "Tiro de habilidad",
+                    "fr": "Tir assuré"
+                },
+                "description": {
+                    "en": "Hitting with a fully charged shot gives a damage bonus for 5 seconds.",
+                    "de": "Ein Treffer mit einem voll aufgeladenen Schuss verleiht dir für 5 Sek. einen Schadensbonus.",
+                    "es": "Golpear con un tiro cargado al máximo otorga una bonificación de daño durante 5 s.",
+                    "fr": "Toucher un ennemi avec un tir complètement chargé donne un bonus de dégâts (5 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Torus",
+                    "de": "Torus",
+                    "es": "Torus",
+                    "fr": "Pluie de lances"
+                },
+                "description": {
+                    "en": "Ground Target: Falling spears that slow enemies for 3s. (+12s cooldown)",
+                    "de": "Bodenziel: Fallende Speere, die Gegner für 3 Sek. verlangsamen. (+12 Sek. Abklingzeit)",
+                    "es": "Objetivo terrestre: caen lanzas que ralentizas a los enemigos durante 3 s (recarga: +12 s)",
+                    "fr": "Cible au sol : fait tomber des lances qui ralentissent les ennemis pendant 3 s (+12 s temps de rechargement)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Immobilizing Torus",
+                    "de": "Lahmlegender Torus",
+                    "es": "Torus inmovilizador",
+                    "fr": "Pris au piège"
+                },
+                "description": {
+                    "en": "Torus Immobilizes enemies for 1s before slowing them.",
+                    "de": "Torus' macht Gegner für 1 Sek. bewegungsunfähig, bevor sie verlangsamt werden.",
+                    "es": "Torus inmoviliza a los enemigos durante 1 s antes de ralentizarlos.",
+                    "fr": "Pluie de lances immobilise les ennemis pendant 1 s avant de les ralentir."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Shattered",
+                    "de": "Zerschmettert",
+                    "es": "Fragmentado",
+                    "fr": "Hémoglobine"
+                },
+                "description": {
+                    "en": "No longer slows, instead breaks armor and causes bleeding. (4s)",
+                    "de": "Verlangsamt nicht länger, zerbricht jedoch Rüstung und verursacht Blutung. (4 Sek.)",
+                    "es": "No ralentiza, rompe la armadura y provoca hemorragia (4 s).",
+                    "fr": "Ne ralentit plus, mais brise l'armure et cause des saignements (4 s)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "GORE",
+                "de": "HORNSTOSS",
+                "es": "CORNADA",
+                "fr": "CARNAGE"
+            },
+            "description": {
+                "en": "Melee attack that interrupts enemies on hit.",
+                "de": "Nahkampfsangriff, der Gegner bei einem Treffer unterbricht.",
+                "es": "Ataque cuerpo a cuerpo que interrumpe a los enemigos al impactar.",
+                "fr": "Attaque de mêlée qui stoppe les ennemis touchés."
+            },
+            "lore": {
+                "en": "\"The best part about using your horns is that you're always looking your enemy in the eye.\" —Lord Knossos",
+                "de": "„Das Beste daran, seine Hörner zu benutzen, ist, dass du deinen Gegner dabei immer im Auge behältst.“ – Fürst Knossos",
+                "es": "\"Lo mejor de usar los cuernos es que siempre estás mirando a los enemigos a los ojos.\" —Lord Knossos",
+                "fr": "« L'atout numéro un dans l'utilisation de vos cornes est de pouvoir regarder vos ennemis dans les yeux. » —Seigneur Knossos"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Goring Up",
+                    "de": "Aufwärtshornstoß",
+                    "es": "Por los cuernos",
+                    "fr": "Sanglant"
+                },
+                "description": {
+                    "en": "On hit, launches enemies.",
+                    "de": "Schleudert Gegner bei einem Treffer in die Luft.",
+                    "es": "Al impactar, lanza a los enemigos.",
+                    "fr": "Propulse les ennemis à l'impact."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "More Gore",
+                    "de": "Besserer Hornstoß",
+                    "es": "Más Cornada",
+                    "fr": "Plus de sang"
+                },
+                "description": {
+                    "en": "On hit, also launches enemies in a small AOE around your target.",
+                    "de": "Bei einem Treffer werden Gegner in einem kleinen Wirkungsbereich um dein Ziel herum in die Luft geschleudert.",
+                    "es": "Al impactar, lanza a los enemigos a una reducida área de efecto alrededor del objetivo.",
+                    "fr": "Propulse aussi les ennemis dans une petite zone d'effet près de votre cible."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Refreshing Gore",
+                    "de": "Auffrischender Hornstoß",
+                    "es": "Recargando Cornada",
+                    "fr": "Ruée sans fin"
+                },
+                "description": {
+                    "en": "During Bull Rush (E), hitting with Gore refreshes its duration.",
+                    "de": "Während  Stierspurt  andauert, (E) frischt die Dauer der Treffer mit  Hornstoß  wieder auf.",
+                    "es": "Se recarga la duración de Embestida (E) si se usa Cornada al mismo tiempo.",
+                    "fr": "Lors de Ruée (E), utilisez Carnage pour déclencher une autre Ruée."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Bulldoze",
+                    "de": "Bulldozer",
+                    "es": "Demolición",
+                    "fr": "Bulldozer"
+                },
+                "description": {
+                    "en": "Q,Q for powerful second attack. (+5s cooldown)",
+                    "de": "Q, Q für einen mächtigen, zweiten Angriff. (+5 Sek. Abklingzeit)",
+                    "es": "Q,Q para un potente segundo ataque (recarga: +5 s).",
+                    "fr": "Q,Q pour une deuxième attaque puissante (temps de rechargement : +5 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Initiating Gore",
+                    "de": "Anlauf-Hornstoß",
+                    "es": "Iniciando la cornada",
+                    "fr": "Premier sang"
+                },
+                "description": {
+                    "en": "Hitting an enemy who has more than 75% health gives a damage bonus for 3s.",
+                    "de": "Du erhältst für 3 Sek. einen Schadensbonus, wenn du einen Gegner mit mehr als 75% Gesundheit triffst.",
+                    "es": "Al impactar a un enemigo con más del 75% de PV, recibes una bonificación de daño durante 3 s.",
+                    "fr": "Toucher un ennemi qui a plus de 75 % de santé donne un bonus de dégâts (3 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Focus on the Kill",
+                    "de": "Fokussiert auf die Elimination",
+                    "es": "Centrado en matar",
+                    "fr": "Focus de l'élimination"
+                },
+                "description": {
+                    "en": "Killing an enemy with this skill grants a full Focus charge.",
+                    "de": "Wenn du einen Gegner mit dieser Fertigkeit besiegst, erhältst du eine volle Fokus-Aufladung.",
+                    "es": "Si matas a un enemigo con esta habilidad recibes una carga completa de concentración.",
+                    "fr": "Rechargement de Focus complet en éliminant un ennemi avec cette compétence."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "BULL RUSH",
+                "de": "STIERSPURT",
+                "es": "EMBESTIDA",
+                "fr": "RUÉE"
+            },
+            "description": {
+                "en": "Increases movement speed for 5s.",
+                "de": "Erhöht für 5 Sek. die Bewegungsgeschwindigkeit.",
+                "es": "Aumenta la velocidad de movimiento durante 5 s.",
+                "fr": "Augmente la vitesse de déplacement (5 s)."
+            },
+            "lore": {
+                "en": "Better to rush into combat than to rush into retreat. —Proverb of the Wandering Tribes",
+                "de": "Es ist besser, sich in die Schlacht zu stürzen, als überstürzt zu fliehen. – Sprichwort der Wandernden Stämme",
+                "es": "\"Más vale precipitarse a un combate que precipitarse a una retirada.\" —Proverbio de las Tribus Errantes",
+                "fr": "Il est préférable de se ruer au combat que de se ruer à l'abri. —Proverbe des tribus nomades"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Mighty Yawp",
+                    "de": "Mächtiger Aufschrei",
+                    "es": "Grito poderoso",
+                    "fr": "Cri puissant"
+                },
+                "description": {
+                    "en": "Bull Rush also applies to nearby allies.",
+                    "de": "Stierspurt' wird auch auf Verbündete in der Nähe angewendet.",
+                    "es": "Embestida también afecta a los aliados cercanos.",
+                    "fr": "Ruée s'applique aussi aux alliés proches."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Raging Bull",
+                    "de": "Wilder Stier",
+                    "es": "Toro iracundo",
+                    "fr": "Taureau enragé"
+                },
+                "description": {
+                    "en": "Increases damage by 15% for you and nearby allies.",
+                    "de": "Erhöht den Schaden für dich und Verbündete in deiner Nähe um 15%.",
+                    "es": "Aumenta tu daño y el de tus aliados cercanos un 15%.",
+                    "fr": "Augmente les dégâts de 15 % pour vous et les alliés proches."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Long Running",
+                    "de": "Langer Lauf",
+                    "es": "Carrera eterna",
+                    "fr": "Longue course"
+                },
+                "description": {
+                    "en": "You and nearby allies move 10% faster for an additional 15s.",
+                    "de": "Du und Verbündete in deiner Nähe bewegen sich für zusätzliche 15 Sek. 10% schneller.",
+                    "es": "Los aliados cercanos y tú os movéis un 10% más rápido durante 15 s más.",
+                    "fr": "Vos alliés proches et vous-même bougez 10 % plus vite pendant 15 s supplémentaires."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Major Beef",
+                    "de": "Rinderwahnsinn",
+                    "es": "Más carne al asador",
+                    "fr": "Fort comme un bSuf"
+                },
+                "description": {
+                    "en": "Gives you +400 health for 5s.",
+                    "de": "Verleiht dir +400 Rüstung für 5 Sek.",
+                    "es": "Te otorga +400 PV durante 5 s.",
+                    "fr": "+100 de santé pendant 5 s."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Thick Skinned",
+                    "de": "Dickhäuter",
+                    "es": "Piel gruesa",
+                    "fr": "Peau dure"
+                },
+                "description": {
+                    "en": "Gives an additional +200 health.",
+                    "de": "Verleiht zusätzlich +200 Gesundheit.",
+                    "es": "Otorga +200 PV.",
+                    "fr": "+200 de santé."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Interrupting Cow",
+                    "de": "Rindervention",
+                    "es": "Vaca interruptora",
+                    "fr": "Halte là"
+                },
+                "description": {
+                    "en": "On use, interrupts enemies in front of you.",
+                    "de": "Unterbricht bei Benutzung Gegner vor dir.",
+                    "es": "Al usarla, interrumpe a los enemigos que tengas delante.",
+                    "fr": "Stoppe les ennemis en face de vous."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "LABYRINTH",
+                "de": "LABYRINTH",
+                "es": "LABERINTO",
+                "fr": "LABYRINTHE"
+            },
+            "description": {
+                "en": "Interrupt, bleed, and armor break all nearby enemies. (4/5/6s)",
+                "de": "Alle Gegner in der Nähe erleiden Blutung, werden unterbrochen und ihre Rüstung wird durchbrochen. (4/5/6 Sek.)",
+                "es": "Interrumpe, provoca hemorragia y rompe la armadura de todos los enemigos cercanos. (4 s/5 s/6 s).",
+                "fr": "Stoppe, fait saigner et brise les armures de tous les ennemis proches (4/5/6 s)."
+            },
+            "lore": {
+                "en": "The bell Knossos wears signifies a season guarding his tribe's barrow-mounds. Sentries ring a bell whenever bandits or rival tribes drew near.",
+                "de": "Die Glocke, die Knossos trägt, kennzeichnet eine Zeit, in der er die Hünengräber seines Stammes bewacht hat. Wann immer Räuber oder rivalisierende Stämme ihnen zu nahe kamen, läuteten die Wachen eine Glocke.",
+                "es": "La campana que lleva Knossos simboliza una temporada salvaguardando las colinas de su tribu. Los centinelas tocan una campana cuando se acercan bandidos o tribus rivales.",
+                "fr": "La cloche que porte Knossos indique qu'il a passé une saison à garder le tertre funéraire de sa tribu. Les gardiens font sonner la cloche quand des bandits ou des tribus ennemies sont dans les parages."
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Nigh Invulnerable",
+                    "de": "Nahezu unverwundbar",
+                    "es": "Casi invulnerable",
+                    "fr": "Presque invulnérable"
+                },
+                "description": {
+                    "en": "You take 90% less damage while performing F.",
+                    "de": "Du erleidest 90% weniger Schaden, während du F ausführst.",
+                    "es": "Al usar F, recibes un 90% menos de daño.",
+                    "fr": "90 % de dégâts en moins en appuyant sur F."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Savage",
+                        "de": "Wilder",
+                        "es": "Salvaje",
+                        "fr": "Sauvage"
+                    },
+                    "description": {
+                        "en": "LMB: Longer melee attack combo. Final strike deals +150 damage.",
+                        "de": "LMB: Längere Nahkampfangriffs-Combos. Finaler Schlag verursacht +150 Schaden.",
+                        "es": "LMB: combinación más larga de ataque cuerpo a cuerpo. El último impacto inflige +150 de daño.",
+                        "fr": "LMB : combo d'attaque de mêlée plus long. Coup final inflige +150 de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Fury",
+                        "de": "Wut",
+                        "es": "Furia",
+                        "fr": "Furie"
+                    },
+                    "description": {
+                        "en": "E: Bull Rush lasts 2 seconds longer.",
+                        "de": "E:  Stierspurt' währt 2 Sekunden länger.",
+                        "es": "E: Embestida dura 2 s más.",
+                        "fr": "E : Ruée dure 2 secondes de plus."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Shredder",
+                        "de": "Schredder",
+                        "es": "Trituradora",
+                        "fr": "Broyeur"
+                    },
+                    "description": {
+                        "en": "30% armor penetration.",
+                        "de": "30% Rüstungsdurchdringung.",
+                        "es": "30% de penetración de armadura.",
+                        "fr": "30 % de pénétration d'armure."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Bloody Minded",
+                        "de": "Blutdürstig",
+                        "es": "Testarudez",
+                        "fr": "Obstination"
+                    },
+                    "description": {
+                        "en": "Immunity to Weakness. Recover from Daze twice as fast.",
+                        "de": "Immunität gegen Schwäche. Du erholst dich doppelt so schnell von Verwirrung.",
+                        "es": "Inmunidad a la debilidad. Te recuperas del atontamiento el doble de rápido.",
+                        "fr": "Immunité à Faiblesse. Se remet d'un étourdissement deux fois plus rapidement."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Pure Escapism",
+                        "de": "Pure Weltflucht",
+                        "es": "Escapismo puro",
+                        "fr": "La grande évasion"
+                    },
+                    "description": {
+                        "en": "Lose debuffs when you dodge. (Once every 20s.)",
+                        "de": "Verliere Schwächungen, wenn du ausweichst. (Einmal alle 20 Sek.)",
+                        "es": "Pierdes las debilitaciones al esquivar (una vez cada 20 s).",
+                        "fr": "Debuffs perdus lorsque vous esquivez (une fois toutes les 20 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Easy Strider",
+                        "de": "Leichter Läufer",
+                        "es": "Paso fácil",
+                        "fr": "Coureur confirmé"
+                    },
+                    "description": {
+                        "en": "You move 10% faster and sprinting drains stamina 25% slower.",
+                        "de": "Du bewegst dich um 10% schneller und Sprinten entzieht Ausdauer 25% langsamer.",
+                        "es": "Te mueves un 10% más rápido y esprintar te absorbe resistencia un 25% más despacio.",
+                        "fr": "Vous vous déplacez 10 % plus vite et votre énergie s'épuise 25 % moins vite quand vous sprintez."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

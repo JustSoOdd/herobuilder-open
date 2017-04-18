@@ -1,0 +1,121 @@
+.header {
+  background: $color-ggu-blue;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.9);
+  text-align: right;
+  position: relative;
+  font-family: $font-ggu-nav;
+  z-index: 1;
+
+  &__menu-toggle {
+    width: auto;
+    border: 2px solid $color-ggu-white;
+    color: $color-ggu-white;
+    padding: 0.375rem;
+    text-transform: uppercase;
+    margin: 0.625rem;
+    border-radius: 5px;
+    font-weight: 300;
+
+    @media screen and (max-width: $break-xs) {
+      display: inline-block;
+    }
+
+    @media screen and (min-width: $break-xs) {
+      display: none;
+    }
+  }
+
+  &__toggle {
+    position: absolute;
+    left: -9999px;
+  }
+
+  &__toggle:checked ~ &__navigation {
+    display: block;
+  }
+
+  &__toggle:checked + &__menu-toggle {
+    color: $color-ggu-grey;
+    border-color: $color-ggu-grey;
+  }
+
+  &__navigation {
+    text-align: right;
+
+    @media screen and (max-width: $break-xs) {
+      display: none;
+
+      &-item {
+        display: block !important;
+        text-align: right;
+      }
+    }
+
+    &-backlink {
+      text-align: left;
+      float: left;
+
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 0 1rem;
+      line-height: 4.375rem;
+
+      @media screen and (max-width: $break-xs) {
+        line-height: 3rem;
+      }
+    }
+
+    &-logo {
+      position: absolute;
+      text-align: center;
+      top: 25%;
+      left: 41%;
+      width: 17.5%;
+
+      @media screen and (max-width: $break-md) {
+        left: 25%;
+        width: 25%;
+      }
+
+      @media screen and (max-width: $break-sm) {
+        left: 17.5%;
+        width: 27.5%;
+      }
+
+      @media screen and (max-width: $break-xs) {
+        left: 33%;
+        width: 33%;
+      }
+    }
+
+    &-item {
+      display: inline-block;
+
+      &-link {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0 1rem;
+        line-height: 4.375rem;
+
+        @media screen and (max-width: $break-xs) {
+          line-height: 3rem;
+        }
+      }
+
+    }
+  }
+
+  &__reverse-row {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 0.5%;
+  }
+
+  &__patch {
+    color: $color-ggu-blue-2;
+    margin-left: 0.25%;
+  }
+}

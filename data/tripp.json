@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Tripp",
+        "de": "Tripp",
+        "es": "Tripp",
+        "fr": "Tripp"
+    },
+    "shortName": "Tripp",
+    "description": {
+        "en": "Stealthy Assassin.",
+        "de": "Verstohlene Assassinin.",
+        "es": "Asesina furtiva.",
+        "fr": "Assassin furtif"
+    },
+    "lore": {
+        "en": "\"Tripp is supposed to be the living incarnation of lightning, yet the world knows only her exploits as a thief and assassin. Is she rebelling against her heritage, or is there a subtle plan at work?\" —The Laughing Cowl, House Melkior",
+        "de": "„Angeblich ist Tripp die lebende Inkarnation von Blitzen – und doch weiß die Welt nur von ihren Schandtaten als Diebin und Assassinin. Lehnt sie sich gegen ihr eigenes Erbe auf oder handelt es sich hierbei um einen weitaus raffinierteren Plan?“ – Die Lachende Kapuze, Haus Melkior",
+        "es": "\"Tripp debería ser la personificación de un relámpago, pero lo único que se conoce de ella son sus hazañas como ladrona y asesina. ¿Se está revelando contra su herencia o hay algún sutil plan?\" —La capucha que ríe, Casa Melkior",
+        "fr": "« Tripp est censée être l'incarnation vivante de la foudre, mais pour l'instant, le monde ne la connaît que pour ses exploits de voleuse et criminelle. Se rebelle-t-elle contre son destin, ou doit-on y voir quelque chose de bien plus complexe ? » —La Capuche hilare, Maison Melkior"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Gank them from behind! Tripp is a stealthy assassin who can carve up an enemy, then escape to safety before the rest of the team can react.",
+            "playStyleTips": [
+                "Upgrade the Lightning Strike dagger attacks for extra damage, or to make you move faster.",
+                "Turn invisible with Flashdance and gain a short teleport.",
+                "Use Electric Slide for a quick getaway that grants a shield against projectiles."
+            ]
+        },
+        "de": {
+            "description": "Nimm deine Gegner von hinten aus! Tripp ist eine verstohlene Assassinin, die einen Gegner aufschlitzen kann und sich dann in Sicherheit zurückzieht, bevor der Rest des Teams in der Lage ist, darauf zu reagieren.",
+            "playStyleTips": [
+                "Werte deine Blitzschlag-Dolchangriffe für Extra-Schaden oder für schnelleres Bewegungstempo auf.",
+                "Werde durch den Blendeffekt unsichtbar und erhalte dabei eine kurze Teleportation.",
+                "Benutze Elektro-Gleiter, um dich schnell aus dem Staub zu machen, und erhalte gleichzeitig einen Schild, der dich vor Projektilen schützt."
+            ]
+        },
+        "es": {
+            "description": "¡Píllalos por detrás! Tripp es una asesina furtiva que acaba con un enemigo y luego escapa a un lugar seguro antes de que el resto del equipo pueda reaccionar.",
+            "playStyleTips": [
+                "Sube de nivel los Golpes de relámpago para infligir daño adicional o para moverte más rápido.",
+                "Te vuelves invisible con Baile de luces y ganas un teletransporte corto.",
+                "Usa Deslizamiento eléctrico para efectuar una huida rápida que te protege de proyectiles."
+            ]
+        },
+        "fr": {
+            "description": "Attaquez par derrière ! Tripp est une criminelle furtive qui peut découper un ennemi, puis s'échapper avant même que son équipe ne s'en rende compte.",
+            "playStyleTips": [
+                "Améliorez les Frappes éclairs à la dague pour infliger des dégâts supplémentaires, ou pour vous déplacer plus rapidement.",
+                "Devenez invisible avec la Danse aveuglante et téléportez-vous sur une courte distance.",
+                "Utilisez la Glissade électrique pour vous échapper rapidement tout en vous protégeant des projectiles."
+            ]
+        }
+    },
+    "attackStat": 100,
+    "defenseStat": 20,
+    "mobilityStat": 90,
+    "utilityStat": 20,
+    "difficulty": 9,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "LIGHTNING STRIKES",
+                "de": "BLITZSCHLÄGE",
+                "es": "GOLPES DE RELÃMPAGO",
+                "fr": "FRAPPES ÉCLAIR"
+            },
+            "description": {
+                "en": "Lightning-fast melee attacks.",
+                "de": "Blitzschnelle Nahkampfangriffe.",
+                "es": "Ataque cuerpo a cuerpo a velocidad de relámpago.",
+                "fr": "Attaques de mêlée très rapides."
+            },
+            "lore": {
+                "en": "They say lightning never strikes the same place twice. In Tripp's case, it rarely needs to.",
+                "de": "Man sagt, der Blitz schlägt nie zweimal an derselben Stelle ein. In Tripps Fall ist dies auch so gut wie nie nötig.",
+                "es": "Dicen que un relámpago nunca cae dos veces en el mismo sitio. En el caso de Tripp, no tiene por qué.",
+                "fr": "On dit que la foudre ne frappe jamais deux fois au même endroit. Mais, de toute façon, Tripp n'a pas besoin de frapper deux fois."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Power Surge",
+                    "de": "Stromstoß",
+                    "es": "Impulso de energía",
+                    "fr": "Décharge électrique"
+                },
+                "description": {
+                    "en": "Damage increases by +8% every hit.  (Max 40%, Lasts 3s)",
+                    "de": "Schaden erhöht sich mit jedem Treffer um 8%. (Max. 40%, währt 3 Sek.)",
+                    "es": "Aumenta un 8% el daño con cada impacto (máx. 40%, dura 3 s).",
+                    "fr": "Les dégâts augmentent de +8 % sur chaque coup (max. 40 % et dure 3 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Full Charge",
+                    "de": "Voll aufgeladen",
+                    "es": "Recargado",
+                    "fr": "Charge complète"
+                },
+                "description": {
+                    "en": "Maxing out Power Surge extends its duration to 10s.",
+                    "de": "Bei maximaler Kraft verlängert sich die Dauer von  Stromstoß' auf 10 Sek.",
+                    "es": "La duración de Impulso de energía aumenta 10 s al usarla al máximo.",
+                    "fr": "Charger complètement Décharge électrique pour augmenter sa durée de 10 s."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Lightning Quick",
+                    "de": "Blitzschnell",
+                    "es": "Velocidad del rayo",
+                    "fr": "Plus rapide que l'éclair"
+                },
+                "description": {
+                    "en": "On hit, gain +25% movement speed (3s).",
+                    "de": "Erhalte bei einem Treffer 25% mehr Bewegungsgeschwindigkeit (3 Sek.).",
+                    "es": "Al impactar, obtienes +25% de velocidad de movimiento (3 s).",
+                    "fr": "+25 % de rapidité de mouvement, à l'impact (3 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Shocking Blades",
+                    "de": "Schockklingen",
+                    "es": "Filos impactantes",
+                    "fr": "Lames rapides"
+                },
+                "description": {
+                    "en": "From stealth, Lighting Strikes deals 2x damage and interrupts.",
+                    "de": "Aus der Tarnung heraus verursachen Blitzschläge doppelten Schaden und unterbrechen.",
+                    "es": "Desde el sigilo, Golpes de relámpago inflige el doble de daño e interrumpe.",
+                    "fr": "Quand vous êtes discret, Frappe éclair cause 2x plus de dégâts et stoppe les ennemis."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Assassin's Credo",
+                    "de": "Assassinenkredo",
+                    "es": "El credo del asesino",
+                    "fr": "Credo d'assassin"
+                },
+                "description": {
+                    "en": "Killing target hit by Shocking Blades within 3s lowers Flashdance's cooldown.",
+                    "de": "Wenn du ein Ziel mit  Schockklingen' innerhalb von 3 Sek. eliminierst, verringert sich die Abklingzeit von  Blendeffekt'.",
+                    "es": "Matar al objetivo con Filos impactantes en menos de 3 s reduce la recarga de Baile de luces.",
+                    "fr": "Élimine une cible avec Lames rapides dans les 3 s du rechargement de Danse aveuglante."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Unseen Strike",
+                    "de": "Unsichtbarer Schlag",
+                    "es": "Golpe imprevisto",
+                    "fr": "Attaque surprise"
+                },
+                "description": {
+                    "en": "From stealth, inflict Bleeding on foes below 50% health. ",
+                    "de": "Verursache aus der Tarnung heraus Blutung bei Gegnern unter 50% Gesundheit.",
+                    "es": "Desde el sigilo, inflige hemorragia a los enemigos con menos del 50% de salud.",
+                    "fr": "Quand vous êtes discret, inflige un saignement aux ennemis en dessous de 50 % de santé."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "PLASMA BLADES",
+                "de": "PLASMAKLINGEN",
+                "es": "HOJAS DE PLASMA",
+                "fr": "LAMES DE PLASMA"
+            },
+            "description": {
+                "en": "Throw daggers.<BR>Inflicts Bleeding for 5s.",
+                "de": "Wirf Dolche.<BR>Verursacht Blutung für 5 Sek.",
+                "es": "Lanza dagas. Inflige hemorragia durante 5 s.",
+                "fr": "Jet de dagues.<BR>Inflige des saignements pendant 5 s."
+            },
+            "lore": {
+                "en": "\"In orphanage records, we found references to Tripp's birth in the aftermath of the Chauton hurricane.\" —Excerpt from House Melkior files",
+                "de": "„In den Aufzeichnungen von Waisenhäusern fanden wir Hinweise auf Tripps Geburt, die kurz nach dem Hurrikan von Chauton stattgefunden hat.“ – Auszug aus den Akten des Hauses Melkior",
+                "es": "\"En documentos del orfanato, se han encontrado referencias al nacimiento de Tripp tras el paso del huracán Chauton.\" —Extracto de archivos de la Casa Melkior",
+                "fr": "« Dans les archives d'un orphelinat, nous avons pu apprendre que Tripp était née suite au passage de l'ouragan Chauton. » —Extrait des dossiers de la Maison Melkior"
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Hidden Daggers",
+                    "de": "Versteckte Dolche",
+                    "es": "Dagas ocultas",
+                    "fr": "Dagues cachées"
+                },
+                "description": {
+                    "en": "HOLD RMB: Throw more daggers. (Shorter cooldown if you throw fewer daggers.)",
+                    "de": "RMB GEDRÜCKT HALTEN: Wirf mehr Dolche. (Kürzere Abklingzeit, wenn du weniger Dolche wirfst.)",
+                    "es": "MANTÉN PULSADO RMB: lanzas más dagas (recarga más corta si lanzas menos dagas).",
+                    "fr": "Maintenir RMB : plus de dagues jetées. Rechargement plus court si vous jetez moins de dagues."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Precision Blades",
+                    "de": "Präzisionsklingen",
+                    "es": "Filos precisos",
+                    "fr": "Lames précises"
+                },
+                "description": {
+                    "en": "Your daggers can crit. Move at normal speed while throwing daggers.",
+                    "de": "Deine Dolche können kritische Treffer verursachen. Bewege dich mit normaler Geschwindigkeit, wenn du Dolche wirfst.",
+                    "es": "Las dagas pueden asestar golpes críticos. Muévete a velocidad normal mientras lanzas dagas.",
+                    "fr": "Vos dagues peuvent effectuer des coups critiques. Se déplacer à une vitesse normale quand vous jetez des dagues."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Hidden Killer",
+                    "de": "Versteckter Killer",
+                    "es": "Asesino oculto",
+                    "fr": "Assassin camouflé"
+                },
+                "description": {
+                    "en": "RMB does not break stealth.",
+                    "de": "RMB unterbricht Tarnung nicht.",
+                    "es": "RMB no rompe el sigilo.",
+                    "fr": "Rester invisible en utilisant RMB."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Marked for Death",
+                    "de": "Todgeweiht",
+                    "es": "Destinado a morir",
+                    "fr": "Marque de mort"
+                },
+                "description": {
+                    "en": "RMB, LMB for bonus damage. (Hit same target within 5s.)",
+                    "de": "RMB, LMB für Zusatz-Schaden. (Triff dasselbe Ziel innerhalb 5 Sek.)",
+                    "es": "RMB, LMB para daño adicional (impacta al mismo objetivo en menos de 5 s).",
+                    "fr": "RMB,LMB pour des dégâts bonus. Touchez la même cible dans les 5 s."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Shattering Blades",
+                    "de": "Zerschmetternde Klingen",
+                    "es": "Filos destructivos",
+                    "fr": "Lames terribles"
+                },
+                "description": {
+                    "en": "RMB, LMB breaks armor. (4s)",
+                    "de": "RMB, LMB durchbricht Rüstungen. (4 Sek.)",
+                    "es": "RMB, LMB rompe armadura (4 s).",
+                    "fr": "RMB, LMB brise l'armure (4 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Grounding",
+                    "de": "Erdung",
+                    "es": "Toma de tierra",
+                    "fr": "La tête la première"
+                },
+                "description": {
+                    "en": "RMB, LMB slows and grounds. (3s)",
+                    "de": "RMB, LMB verlangsamt und erdet. (3 Sek.)",
+                    "es": "RMB, LMB ralentiza y derriba (3 s).",
+                    "fr": "RMB,LMB ralentit et empêche de sauter (3 s)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "ELECTRIC SLIDE",
+                "de": "ELEKTRO-GLEITER",
+                "es": "DESLIZAMIENTO ELÉCTRICO",
+                "fr": "GLISSADE ÉLECTRIQUE"
+            },
+            "description": {
+                "en": "Glide forward rapidly. <BR>TAP Q AGAIN: Deadly kick that launches foes.",
+                "de": "Gleite schnell vorwärts. <BR>Q ERNEUT TIPPEN: Tödlicher Kick, der Gegner hochschleudert.",
+                "es": "Planeas rápido adelante. PULSA Q DE NUEVO para patada mortal que lanza a los enemigos.",
+                "fr": "Glissade rapide vers l'avant.<BR>Appuyer sur Q à nouveau pour déclencher un coup de pied mortel qui propulse les ennemis."
+            },
+            "lore": {
+                "en": "\"People who use lightning only as a weapon lack imagination. It's even better as transportation!\" —Tripp",
+                "de": "„Leuten, die Blitze nur als Waffe einsetzen, fehlt es an Fantasie. Als Transportmittel eignen sie sich noch viel besser!“ – Tripp",
+                "es": "\"A la gente que solo usa el relámpago como arma le falta imaginación. ¡Es mucho mejor incluso como medio de transporte!\" —Tripp",
+                "fr": "« Les personnes qui utilisent la foudre uniquement comme arme, manquent cruellement d'imagination. C'est un moyen de transport exceptionnel ! » —Tripp"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Light Speed",
+                    "de": "Lichtgeschwindigkeit",
+                    "es": "Velocidad de la luz",
+                    "fr": "Vitesse de la lumière"
+                },
+                "description": {
+                    "en": "Move farther and faster.",
+                    "de": "Bewege dich weiter und schneller.",
+                    "es": "Llegas más lejos y más rápido.",
+                    "fr": "Aller plus loin et plus rapidement."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Static Shield",
+                    "de": "Statischer Schild",
+                    "es": "Escudo de estática",
+                    "fr": "Bouclier statique"
+                },
+                "description": {
+                    "en": "Deflect projectiles from front. (3s duration)",
+                    "de": "Wirf Projektile von vorne zurück, während du dich bewegst. (Dauer: 3 Sek.)",
+                    "es": "Desvías los proyectiles por delante (duración: 3 s).",
+                    "fr": "Dévie les projectiles venant de l'avant (3 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Phantom Slide",
+                    "de": "Phantom-Gleiter",
+                    "es": "Deslizamiento fantasma",
+                    "fr": "Glissade fantôme"
+                },
+                "description": {
+                    "en": "Q does not break stealth. (Q,Q still does.)",
+                    "de": "Q unterbricht Tarnung nicht. (Q,Q jedoch schon.)",
+                    "es": "Q no rompe el sigilo (Q, Q sí).",
+                    "fr": "Restez invisible avec Q. Attaquer avec Q,Q vous rendra visible."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Heel Blade",
+                    "de": "Fersenklinge",
+                    "es": "Filo de tacón",
+                    "fr": "Talon d'acier"
+                },
+                "description": {
+                    "en": "Q,Q: Hitting raises crit chance to 100%.",
+                    "de": "Q, Q: Treffer erhöhen die Chance auf kritische Treffer auf 100%.",
+                    "es": "Q,Q: al impactar, aumenta un 100% la probabilidad de golpe crítico.",
+                    "fr": "Q,Q : toucher les ennemis augmente vos chances de coup critique de 100 %."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Chain Lightning",
+                    "de": "Kettenblitz",
+                    "es": "Cadena de rayos",
+                    "fr": "Chaîne de foudre"
+                },
+                "description": {
+                    "en": "Q,Q attacks twice. (50% damage for second hit.)",
+                    "de": "Q, Q greift doppelt an. (50% Schaden für den zweiten Treffer.)",
+                    "es": "Q,Q ataca dos veces (50% de daño en el segundo impacto).",
+                    "fr": "Attaquer deux fois avec Q,Q. 50 % de dégâts lors de la seconde attaque."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Rolling Thunder",
+                    "de": "Donnergrollen",
+                    "es": "Trueno arrollador",
+                    "fr": "Déferlante orageuse"
+                },
+                "description": {
+                    "en": "Q sends out a wave that interrupts foes.",
+                    "de": "Q entsendet eine Welle, die Gegner unterbricht.",
+                    "es": "Q lanza una oleada que interrumpe a los enemigos.",
+                    "fr": "Q envoie une vague qui stoppe les ennemis."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "FLASHDANCE",
+                "de": "BLENDEFFEKT",
+                "es": "BAILE DE LUCES",
+                "fr": "DANSE AVEUGLANTE"
+            },
+            "description": {
+                "en": "You become invisible for 6s.",
+                "de": "Du wirst für 6 Sek. unsichtbar.",
+                "es": "Te vuelves invisible durante 6 s.",
+                "fr": "Rend invisible pendant 6 s."
+            },
+            "lore": {
+                "en": "\"She disappeared throughout her early teens, though rumors persist of an elusive cat burglar in the Gilded Ward...\" —Excerpt from House Melkior files",
+                "de": "„Sie verschwand während ihrer frühen Jugendjahre immer aufs Neue. Gerüchte von einem schwer fassbaren Fassadenkletterer im Goldenen Bezirk halten sich jedoch hartnäckig ...“ – Auszug aus den Akten des Hauses Melkior",
+                "es": "\"Despareció durante la adolescencia, aunque continúan los rumores acerca de una escurridiza ladrona en la Sala dorada...\" —Extracto de archivos de la Casa Melkior",
+                "fr": "« Elle a disparu au début de son adolescence, mais des rumeurs évoquaient une cambrioleuse insaisissable dans la Salle d'or... » —Extrait des dossiers de la Maison Melkior"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Storm Surge",
+                    "de": "Sturmflut",
+                    "es": "Sobrecarga de la tormenta",
+                    "fr": "Déferlement"
+                },
+                "description": {
+                    "en": "+25% move speed while invisible.",
+                    "de": "25% mehr Bewegungsgeschwindigkeit, während du unsichtbar bist.",
+                    "es": "+25% de velocidad de movimiento al ser invisible.",
+                    "fr": "+25 % de rapidité de déplacement quand vous êtes invisible."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "In a Flash",
+                    "de": "Blitzschnell",
+                    "es": "En un destello",
+                    "fr": "En un éclair"
+                },
+                "description": {
+                    "en": "E Flashdance is instant and breaks LAUNCH and STUN.",
+                    "de": "E  Blendeffekt  wirkt sofort und unterbricht SCHLEUDERN und BETÄUBEN.",
+                    "es": "E Baile de luces es instantáneo, y rompe el lanzamiento y el aturdimiento.",
+                    "fr": "E Danse aveuglante est instantanée et empêche d'être propulsé ou assommé."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Flash Step",
+                    "de": "Blitzschritt",
+                    "es": "Paso brillante",
+                    "fr": "Course éclair"
+                },
+                "description": {
+                    "en": "HOLD: On release, you teleport a short distance.<BR>Invis duration reduced to 3s.",
+                    "de": "ANVISIERT: Beim Loslassen teleportierst du dich eine kurze Strecke weit.<BR>Unsichtbarkeit wird auf 3 Sek. reduziert.",
+                    "es": "Dirigido: al soltar, te teletransportas una corta distancia. Invisibilidad: 3 s.",
+                    "fr": "Téléporte sur une courte distance. Invisibilité réduite à 3 s."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Starburst",
+                    "de": "Strahlenkranz",
+                    "es": "Estallido estelar",
+                    "fr": "Supernova"
+                },
+                "description": {
+                    "en": "On use, dazes nearby foes for 2s. (Flashdance takes longer to start.)",
+                    "de": "Verwirrt bei Benutzung für 2 Sek. Gegner in der Nähe. ( Blendeffekt  startet langsamer.)",
+                    "es": "Al usarla, atonta a los enemigos cercanos durante 2 s (Baile de luces tarda más en iniciarse).",
+                    "fr": "Étourdit les ennemis proches (2 s). Danse aveuglante met plus de temps à se lancer."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Electrical Storm",
+                    "de": "Elektrischer Sturm",
+                    "es": "Tormenta eléctrica",
+                    "fr": "Tempête magnétique"
+                },
+                "description": {
+                    "en": "On use, creates a damaging electrical area. (Lasts 3s)",
+                    "de": "Erzeugt bei Benutzung ein schädigendes, elektrisches Gebiet. (Währt 4 Sek.)",
+                    "es": "Al usarlo, creas una zona eléctrica que inflige daño (dura 3 s).",
+                    "fr": "Crée une zone de dégâts électrique (3 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Disorienting Flash",
+                    "de": "Desorientierender Blitz",
+                    "es": "Destello desorientador",
+                    "fr": "Choc électrique"
+                },
+                "description": {
+                    "en": "On use, slows nearby foes for 3s.",
+                    "de": "Verlangsamt bei Benutzung für 3 Sek. Gegner in der Nähe.",
+                    "es": "Al usarla, ralentizas a los enemigos cercanos durante 3 s.",
+                    "fr": "Ralentit les ennemis proches (3 s)."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "BLADESTORM",
+                "de": "KLINGENSTURM",
+                "es": "TORMENTA DE ESPADAS",
+                "fr": "TEMPÊTE D'ACIER"
+            },
+            "description": {
+                "en": "HOLD: On release - teleport forward, stunning your target and rapidly hitting the area with lightning.",
+                "de": "GEDRÜCKT HALTEN: Beim Loslassen teleportierst du dich vorwärts, betäubst dein Ziel und triffst das Gebiet mit Blitzen.",
+                "es": "MANTÉN PULSADO: al soltar, te teletransportas, aturdes al objetivo e impactas rápido en el área con un relámpago.",
+                "fr": "Maintenir puis relâcher pour vous téléporter vers l'avant et assommer votre cible, tandis que la zone est frappée par la foudre."
+            },
+            "lore": {
+                "en": "By the time you hear the thunder, it's far too late. Tripp is long gone.",
+                "de": "Wenn du den Donner vernimmst, ist es bereits viel zu spät – Tripp ist dann schon lange weg.",
+                "es": "Para cuando escuchas el trueno, es demasiado tarde. Tripp ya se ha escabullido.",
+                "fr": "Quand vous entendrez la foudre, il sera déjà trop tard. Tripp sera partie depuis longtemps."
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "In the Zone",
+                    "de": "Fokussiert",
+                    "es": "Enfoque",
+                    "fr": "Tir surpuissant"
+                },
+                "description": {
+                    "en": "On hit, raise your crit chance to 100%.",
+                    "de": "Bei einem Treffer erhöht sich die Chance auf kritische Treffer auf 100%.",
+                    "es": "Al impactar, aumenta al 100% la probabilidad de golpe crítico.",
+                    "fr": "Augmente votre chance critique de 100 %."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Killer Instinct",
+                        "de": "Killerinstinkt",
+                        "es": "Instinto asesino",
+                        "fr": "Instinct meurtrier"
+                    },
+                    "description": {
+                        "en": "LMB: +15% damage against foes with less than 50% health.",
+                        "de": "LMB: 15% mehr Schaden gegen Gegner mit weniger als 50% Gesundheit.",
+                        "es": "LMB: +15% de daño contra enemigos que tengan menos del 50% de salud.",
+                        "fr": "LMB : +15 % de dégâts contre les ennemis ayant moins de 50 % de santé."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Back in a Flash",
+                        "de": "Blitzschnelle Rückkehr",
+                        "es": "Vuelvo enseguida",
+                        "fr": "Transe en danse"
+                    },
+                    "description": {
+                        "en": "E: You can perform Flashdance more often.",
+                        "de": "E: Du kannst  Blendeffekt  häufiger ausführen.",
+                        "es": "E: puedes usar Baile de luces más a menudo.",
+                        "fr": "E : utiliser Danse aveuglante plus souvent."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Ambush",
+                        "de": "Hinterhalt",
+                        "es": "Emboscada",
+                        "fr": "Embuscade"
+                    },
+                    "description": {
+                        "en": "+20% crit chance and +10% crit damage from behind.",
+                        "de": "20% größere Chance auf kritische Treffer und 10% mehr kritischer Schaden von hinten.",
+                        "es": "+20% de probabilidad de daño crítico y +10% de daño crítico por detrás.",
+                        "fr": "+20 % de chance critique et +10 % de dégâts critiques par derrière"
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Acrobatics",
+                        "de": "Akrobatik",
+                        "es": "Acrobacias",
+                        "fr": "Acrobaties"
+                    },
+                    "description": {
+                        "en": "Dodging and jumping cost 33% less stamina.",
+                        "de": "Ausweichen und Springen kosten 33% weniger Ausdauer.",
+                        "es": "Esquivar y saltar absorbe un 33% menos de resistencia.",
+                        "fr": "Esquiver et sauter requièrent 33 % d'énergie en moins."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Precision",
+                        "de": "Präzision",
+                        "es": "Precisión",
+                        "fr": "Précision"
+                    },
+                    "description": {
+                        "en": "Crit chance builds faster.",
+                        "de": "Chance auf kritische Treffer baut sich schneller auf.",
+                        "es": "Aumenta más rápido la probabilidad de golpe crítico.",
+                        "fr": "Vos chances de coups critiques augmentent plus rapidement."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "En Garde",
+                        "de": "En Garde",
+                        "es": "En Garde",
+                        "fr": "En garde"
+                    },
+                    "description": {
+                        "en": "+10 front armor, +20 while attacking.",
+                        "de": "+10 Frontalrüstung, +20, während du angreifst.",
+                        "es": "+10 de armadura frontal, +20 al atacar.",
+                        "fr": "+10 d'armure frontale, +20 en attaquant."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

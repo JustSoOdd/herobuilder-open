@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Tyto The Swift",
+        "de": "Tyto Der Flinke",
+        "es": "Tyto El Raudo",
+        "fr": "Tyto Le Vif"
+    },
+    "shortName": "Tyto",
+    "description": {
+        "en": "Speed Kills.",
+        "de": "Schnelligkeit tötet.",
+        "es": "Habilidades de velocidad.",
+        "fr": "Vitesse mortelle"
+    },
+    "lore": {
+        "en": "\"What do I know about Tyto? Everything and nothing. I've got a million contradictory tales about a red-caped acrobat with a sword. Some tales are folklore, others propaganda...but Tyto doesn't stay in one place long enough for a story to stick.\" —Uthnan, House Karkaresh sage-historian",
+        "de": "„Was ich über Tyto weiß? Alles und nichts. Ich kenne eine Million sich widersprechender Geschichten über einen Akrobaten mit Schwert und rotem Umhang. Einiges von dem, was man sich so erzählt, ist Folklore, anderes reine Propaganda ... Tyto verweilt nicht lange genug an einem Ort, als dass eine Geschichte ihn beschreiben könnte.“ – Uthnan, weiser Historiker aus dem Haus Karkaresh",
+        "es": "\"¿Qué sé de Tyto? Todo y nada. He oído un millón de historias contradictorias sobre un acróbata con capa roja y espada. Algunas historias son tradicionales, otras propaganda..., pero Tyto no se queda en un sitio el tiempo suficiente como para que las historias perduren.\" —Uthnan, sabio-historiador de la Casa Karkaresh",
+        "fr": "« Ce que je sais sur Tyto ? Tout et rien. J'ai entendu des millions de choses contradictoires sur un acrobate avec une cape rouge et une épée. Certaines histoires relèvent du folklore, tandis que d'autres ne sont que pure propagande... Tyto ne reste jamais au même endroit très longtemps, ce qui rend tous ces récits approximatifs. » —Uthnan, sage-historien Maison Karkaresh"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Death from above! Tyto the Swift is a spinning cyclone of blades, fast on the battlefield and deadly in melee. Tyto's companion pet, Fang, attacks your enemies with equal ferocity.",
+            "playStyleTips": [
+                "Stay elusive by combining a dodge with every attack.",
+                "Upgrade Fang to chase down foes or bypass enemy armor.",
+                "Your Blade Dance is a whirlwind that can deflect incoming projectiles."
+            ]
+        },
+        "de": {
+            "description": "Tod von oben! Tyto der Flinke ist ein Wirbelwind aus Klingen; schnell auf dem Schlachtfeld unterwegs und tödlich im Nahkampf. Tytos Begleiter Fang greift deine Gegner mit der gleichen Wildheit an.",
+            "playStyleTips": [
+                "Bleibe schwer zu fassen, indem du mit jedem Angriff gleichzeitig auch ausweichst.",
+                "Werte Fang auf, um deine Gegner aufzuspüren oder deren Rüstung zu umgehen.",
+                "Dein Klingentanz ist ein Wirbelwind, der herannahende Projektile abwehren kann."
+            ]
+        },
+        "es": {
+            "description": "¡Muerte desde lo alto! Tyto el raudo es un ciclón de espadas, rápido en el campo de batalla y mortal en el cuerpo a cuerpo. Fang, el compañero de Tyto, ataca a los enemigos con la misma ferocidad.",
+            "playStyleTips": [
+                "Esquiva con cada ataque para ser más escurridizo.",
+                "Sube de nivel a Fang para perseguir a los enemigos o anular la armadura de los enemigos.",
+                "El Baile de espadas es un torbellino que puede desviar los proyectiles enemigos."
+            ]
+        },
+        "fr": {
+            "description": "La mort arrive ! Tyto le vif est une tornade de lames, rapide sur le champ de bataille et mortel au corps-à-corps. Le compagnon animal de Tyto, Fang, attaque les ennemis avec la même férocité.",
+            "playStyleTips": [
+                "Restez insaisissable en combinant une esquive avec chaque attaque.",
+                "Améliorez Fang pour poursuivre vos ennemis ou ignorer leur armure.",
+                "Votre Danse tranchante est un tourbillon qui peut dévier les projectiles."
+            ]
+        }
+    },
+    "attackStat": 70,
+    "defenseStat": 50,
+    "mobilityStat": 100,
+    "utilityStat": 20,
+    "difficulty": 5,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "TALON",
+                "de": "SCHNITTER",
+                "es": "GARRA",
+                "fr": "FINE LAME"
+            },
+            "description": {
+                "en": "Melee attack combo.",
+                "de": "Nahkampf-Angriffscombo.",
+                "es": "Combinación de ataques cuerpo a cuerpo.",
+                "fr": "Combo d'attaques de mêlée."
+            },
+            "lore": {
+                "en": "If you see the blade coming, it's only because Tyto wants you distracted.",
+                "de": "Wenn du die Klinge auf dich zurasen siehst, dann nur, weil Tyto dich ablenken will.",
+                "es": "Si ves la espada venir, es solo porque Tyto quiere distraerte.",
+                "fr": "Si vous voyez la lame arriver, c'est seulement parce que Tyto veut détourner votre attention."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Kith and Keen",
+                    "de": "Ahnenschärfe",
+                    "es": "Amistad y buen rollo",
+                    "fr": "Au nom des miens"
+                },
+                "description": {
+                    "en": "Hits build crit chance and focus faster.",
+                    "de": "Treffer bauen die Chance auf kritische Treffer und Fokus schneller auf.",
+                    "es": "Los golpes aumentan la probabilidad de crítico y acumulas concentración más rápido.",
+                    "fr": "Les coups augmentent les chances de coup critique et le Focus plus rapidement."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Talon and Fang",
+                    "de": "Schnitter und Fang",
+                    "es": "Garra y Fang",
+                    "fr": "Fine lame et Fang"
+                },
+                "description": {
+                    "en": "When Fang is with you, Talon deals +15% additional damage.",
+                    "de": "Wenn Fang bei dir ist, verursacht  Schnitter' 15% zusätzlichen Schaden.",
+                    "es": "Cuando Fang te acompaña, Garra inflige +15% de daño adicional.",
+                    "fr": "Quand Fang est avec vous, Fine lame provoque + 15 % de dégâts supplémentaires."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Synchronicity",
+                    "de": "Synchronizität",
+                    "es": "Sincronía",
+                    "fr": "Synchronisation"
+                },
+                "description": {
+                    "en": "E,LMB: You move farther and hit harder after using Fang.",
+                    "de": "E,LMB: Du bewegst dich weiter und triffst härter, nachdem du Fang entsendet hast.",
+                    "es": "E,LMB: tras usar a Fang, llegas más lejos y los impactos tienen más fuerza.",
+                    "fr": "E,LMB pour aller plus loin et vos coups sont plus puissants après avoir utilisé Fang."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Windcutter",
+                    "de": "Windschneider",
+                    "es": "Cortavientos",
+                    "fr": "Coupe-vent"
+                },
+                "description": {
+                    "en": "Talon sends out a projectile when you miss.",
+                    "de": "Schnitter' entsendet ein Projektil, wenn du nicht triffst.",
+                    "es": "Garra lanza un proyectil al fallar.",
+                    "fr": "Fine lame envoie un projectile quand vous ratez."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Footwork",
+                    "de": "Beinarbeit",
+                    "es": "Pies ligeros",
+                    "fr": "Jeu de jambes"
+                },
+                "description": {
+                    "en": "LMB+`strafeleft/`straferight/`backward: Move farther when you attack.",
+                    "de": "LMB + `strafeleft/`straferight/`backward: Bewege dich weiter, wenn du angreifst.",
+                    "es": "LMB+`strafeleft/`straferight/`backward: llegas más lejos al atacar.",
+                    "fr": "LMB+`strafeleft/`straferight/`backward : allez plus loin lors de vos attaques."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Feint",
+                    "de": "Finte",
+                    "es": "Finta",
+                    "fr": "Feinte"
+                },
+                "description": {
+                    "en": "After Dodging, Talon crits and inflicts bleeding. (Once every 5s.)",
+                    "de": "Nach dem Ausweichen verursacht  Schnitter' automatisch kritische Treffer und Blutung. (Einmal alle 5 Sek.)",
+                    "es": "Tras esquivar, Garra asesta un golpe crítico y provoca hemorragia (una vez cada 5 s).",
+                    "fr": "Après une esquive, Fine lame inflige des saignements. Une fois toutes les 5 s."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "SWOOP",
+                "de": "STURZFLUG",
+                "es": "EN PICADO",
+                "fr": "PIQUÉ"
+            },
+            "description": {
+                "en": "Powerful leaping attack.",
+                "de": "Mächtiger Sprungangriff.",
+                "es": "Poderoso ataque de salto.",
+                "fr": "Puissante attaque sautée."
+            },
+            "lore": {
+                "en": "After Tyto scaled the Crimson Cliffs, the hawk-spirits who dwelt there bestowed a gift: a red cloak fashioned from their own feathers.",
+                "de": "Nachdem Tyto die Purpurnen Klippen erklommen hatte, machten ihm die dort ansässigen Geister der Falken ein Geschenk: einen roten Umhang, hergestellt aus ihren eigenen Federn.",
+                "es": "Después de que Tyto escalara el Precipicio Carmesí, los espíritus de los halcones que lo habitaban le concedieron un regalo: un manto rojo hecho con sus propias plumas.",
+                "fr": "Après que Tyto ait escaladé les falaises de Crimson, les esprits de faucon qui y habitaient, lui firent un cadeau : une cape rouge faite de leurs propres plumes."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Cut Down",
+                    "de": "Niedermachen",
+                    "es": "Bajada",
+                    "fr": "Coupe"
+                },
+                "description": {
+                    "en": "Swoop inflicts 2x damage on targets below 50% health.",
+                    "de": "Sturzflug' verursacht doppelten Schaden bei Zielen, deren Gesundheit unter 50% liegt.",
+                    "es": "En picado inflige el doble de daño a objetivos por debajo del 50% de salud.",
+                    "fr": "Piqué inflige 2x plus de dégâts aux cibles en-dessous de 50% santé."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Predatory Instincts",
+                    "de": "Raubtierinstinkte",
+                    "es": "Instintos de depredador",
+                    "fr": "Instincts de prédateur"
+                },
+                "description": {
+                    "en": "Killing an enemy with this skill resets the cooldown.",
+                    "de": "Wenn du mit dieser Fertigkeit einen Gegner besiegst, wird die Abklingzeit zurückgesetzt.",
+                    "es": "La recarga de esta habilidad se reinicia al matar a un enemigo.",
+                    "fr": "Tuer un ennemi avec cette compétence pour réinitialiser le temps de rechargement."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Rake",
+                    "de": "Reißen",
+                    "es": "Rastrillo",
+                    "fr": "Râteau"
+                },
+                "description": {
+                    "en": "Inflicts a heavy bleed on targets above 50% health.",
+                    "de": "Verursacht schwere Blutung bei Zielen mit über 50% Gesundheit.",
+                    "es": "Inflige hemorragia a los objetivos por encima del 50% de salud.",
+                    "fr": "Inflige un saignement important aux cibles ayant plus de 50 % de santé."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Swoop de Loop",
+                    "de": "Sturzflug-Doppel",
+                    "es": "Trayectoria circular en picado",
+                    "fr": "Piqué doublé"
+                },
+                "description": {
+                    "en": "You can use Swoop twice in a row. You no longer attack on landing.",
+                    "de": "Du kannst  Sturzflug' zweimal hintereinander verwenden. Du greifst bei der Landung nicht mehr an.",
+                    "es": "Puedes usar En picado dos veces seguidas. No atacas al aterrizar.",
+                    "fr": "Utiliser Piqué deux fois d'affilée. Pas d'attaque en atterrissant."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Catch The Wind",
+                    "de": "Windfänger",
+                    "es": "Atrapa el viento",
+                    "fr": "Direction du vent"
+                },
+                "description": {
+                    "en": "Move 33% faster (5s) after the second Swoop. ",
+                    "de": "Bewege dich nach deinem zweiten Sturzflug für 5 Sek. 33% schneller.",
+                    "es": "Te mueves un 33% más rápido (5 s) tras el segundo En picado.",
+                    "fr": "Se déplacer 33% plus rapidement (5 s) après le second Piqué."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Shake It Off",
+                    "de": "Abschütteln",
+                    "es": "Quitándose la tontería",
+                    "fr": "Secousse"
+                },
+                "description": {
+                    "en": "Swoop can be used to break free from being stunned or launched.",
+                    "de": "Sturzflug' kann dazu benutzt werden, um dich von Betäubung oder Schleudern zu befreien.",
+                    "es": "Se puede usar En picado para librarse del aturdimiento o del lanzamiento.",
+                    "fr": "Piqué peut être utilisé pour ne plus être propulsé ou assommé."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "BLADE DANCE",
+                "de": "KLINGENTANZ",
+                "es": "BAILE DE ESPADAS",
+                "fr": "DANSE TRANCHANTE"
+            },
+            "description": {
+                "en": "Spinning attack that lets you move quickly.",
+                "de": "Wirbelnder Angriff, der dir schnelle Bewegung ermöglicht.",
+                "es": "Ataque giratorio que te permite moverte rápido.",
+                "fr": "Une attaque tournoyante qui vous permet de vous déplacer rapidement."
+            },
+            "lore": {
+                "en": "Like a tornado, its path is unpredictable, and it leaves mourners in its wake.",
+                "de": "Sein schwer vorhersehbarer Weg gleicht einem Tornado und hinterlässt nichts als Leid.",
+                "es": "Como un tornado, su trayectoria es impredecible y va dejando desconsolados a su paso.",
+                "fr": "Telle une tornade, son déplacement est imprévisible, et laisse des victimes sur son passage."
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Cyclone",
+                    "de": "Zyklon",
+                    "es": "Ciclón",
+                    "fr": "Cyclone"
+                },
+                "description": {
+                    "en": "Radius you hit is 50% larger.  Deals more damage.",
+                    "de": "Dein Trefferradius ist um 50% vergrößert. Verursacht mehr Schaden.",
+                    "es": "El radio del impacto es un 50% más amplio. Infliges más daño.",
+                    "fr": "La zone affectée est 50 % plus grande. Inflige plus de dégâts."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Deadly Dance",
+                    "de": "Tödlicher Tanz",
+                    "es": "Baile letal",
+                    "fr": "Danse mortelle"
+                },
+                "description": {
+                    "en": "Blade Dance inflicts bleeding on hit. (3s)",
+                    "de": "Klingentanz' verursacht bei einem Treffer Blutung. (3 Sek.)",
+                    "es": "Baile de espadas provoca hemorragia al impactar (3 s).",
+                    "fr": "Danse tranchante inflige un saignement à l'impact (3 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Burden of Prey",
+                    "de": "Bürde der Beute",
+                    "es": "La carga de la presa",
+                    "fr": "Fardeau de proie"
+                },
+                "description": {
+                    "en": "Applies Cripple to enemies hit. (Slow + Grounded)",
+                    "de": "Verursacht bei getroffenen Gegnern Verkrüppeln. (Verlangsamung + Bodenbindung)",
+                    "es": "Deja incapacitados a los enemigos impactados (ralentiza y derriba).",
+                    "fr": "Handicape les ennemis touchés. Ralentit et empêche de sauter."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Windborne",
+                    "de": "Windgetragen",
+                    "es": "Hijo del viento",
+                    "fr": "Né des tempêtes"
+                },
+                "description": {
+                    "en": "Blade Dance drains no stamina.  You move faster.",
+                    "de": "Klingentanz verbraucht keine Ausdauer. Du bewegst dich schneller.",
+                    "es": "Baile de espadas no consume resistencia. Te mueves más rápido.",
+                    "fr": "Danse tranchante ne draine pas d'énergie. Vous vous déplacez plus rapidement."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Hard Target",
+                    "de": "Schwieriges Ziel",
+                    "es": "Objetivo difícil",
+                    "fr": "Cible difficile"
+                },
+                "description": {
+                    "en": "During Blade Dance, deflect projectiles from front.",
+                    "de": "Während  Klingentanz' aktiv ist, werden Projektile von vorne zurückgeworfen.",
+                    "es": "Durante Baile de espadas desvías los proyectiles por delante.",
+                    "fr": "Lors de Danse tranchante, les projectiles venant de l'avant sont déviés."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Windswept",
+                    "de": "Flink wie der Wind",
+                    "es": "Viento barrido",
+                    "fr": "Balayage"
+                },
+                "description": {
+                    "en": "The cooldown for Blade Dance is halved if you do not hit anyone with it.",
+                    "de": "Die Abklingzeit für  Klingentanz' wird halbiert, wenn du niemanden damit triffst.",
+                    "es": "La recarga de Baile de espadas se reduce a la mitad si no golpeas a nadie.",
+                    "fr": "Le temps de rechargement de Danse tranchante est diminué de moitié si vous ne touchez personne."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "FANG",
+                "de": "FANG",
+                "es": "FANG",
+                "fr": "FANG"
+            },
+            "description": {
+                "en": "Send out your pet to attack. Bleeds target for 5s.",
+                "de": "Entsendet deinen Begleiter, um anzugreifen. Fügt dem Ziel für 5 Sek. Blutung zu.",
+                "es": "Envía tu mascota a atacar. Provoca hemorragia al objetivo durante 5 s.",
+                "fr": "Votre animal part à l'attaque. Fait saigner la cible pendant 5 s."
+            },
+            "lore": {
+                "en": "\"Our agents have glimpsed Fang picking up objects, turning doorknobs, and otherwise acting as Tyto's left hand.\" —The Silent Singer, House Melkior",
+                "de": "„Unsere Agenten haben Fang dabei beobachtet, wie er Objekte aufsammelt, Türklinken herunterdrückt und auch sonst als Tytos rechte Hand fungiert.“ – Der Stumme Sänger, Haus Melkior",
+                "es": "\"Nuestros agentes han visto a Fang recogiendo objetos, abriendo puertas y actuando en general como la mano izquierda de Tyto.\" —El cantante silencioso, Casa Melkior",
+                "fr": "« Nos agents ont repéré Fang ramassant des objets, ouvrant des portes, et apportant son aide à Tyto. » —Le Chanteur silencieux, Maison Melkior"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Pounce",
+                    "de": "Ergreifen",
+                    "es": "Rebote",
+                    "fr": "Bond animal"
+                },
+                "description": {
+                    "en": "On hit, Fang deals 175 armor-ignoring damage.",
+                    "de": "Fang verursacht bei einem Treffer 175 rüstungsignorierenden Schaden.",
+                    "es": "Al impactar, Fang inflige 175 de daño que ignora la armadura.",
+                    "fr": "À l'impact, Fang cause 175 dégâts en ignorant les armures."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Gnawing Out",
+                    "de": "Herausnagen",
+                    "es": "Mordisqueo",
+                    "fr": "Rongeur"
+                },
+                "description": {
+                    "en": "On hit, Fang breaks target's armor. (5s)",
+                    "de": "Fang zerbricht bei einem Treffer die Rüstung des Ziels. (5 Sek.)",
+                    "es": "Al impactar, Fang rompe la armadura del objetivo (5 s).",
+                    "fr": "Fang brise l'armure de la cible (5 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Ankle Biter",
+                    "de": "Fersenbeißer",
+                    "es": "Muerdetobillos",
+                    "fr": "Morsure à la cheville"
+                },
+                "description": {
+                    "en": "Fang slows enemies he is attacking. (4s)",
+                    "de": "Fang verlangsamt Gegner, die er angreift. (4 Sek.)",
+                    "es": "Fang ralentiza a los enemigos a los que ataca (4 s).",
+                    "fr": "Fang ralentit les ennemis qu'il attaque (4 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Unity",
+                    "de": "Einigkeit",
+                    "es": "Unidad",
+                    "fr": "Unité"
+                },
+                "description": {
+                    "en": "TAP E AGAIN: Appear at Fang's target. (Fang stops attacking.)",
+                    "de": "TIPPE E ERNEUT: Du tauchst bei Fangs Ziel auf. (Fang stellt Angriffe ein.)",
+                    "es": "PULSA E DE NUEVO: apareces junto al objetivo de Fang (y Fang deja de atacar).",
+                    "fr": "Appuyer à nouveau sur E pour rejoindre la cible de Fang. Fang arrête d'attaquer."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Celerity",
+                    "de": "Schnelligkeit",
+                    "es": "Celeridad",
+                    "fr": "Célérité"
+                },
+                "description": {
+                    "en": "When you teleport, gain Haste (3s).",
+                    "de": "Wenn du dich teleportierst, erhältst du Hast. (3 Sek.)",
+                    "es": "Al teletransportarte, obtienes velocidad (3 s).",
+                    "fr": "Gagnez de la vitesse (3 s) quand vous vous téléportez."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Disruption",
+                    "de": "Unterbrechung",
+                    "es": "Perturbación",
+                    "fr": "Interruption"
+                },
+                "description": {
+                    "en": "When you teleport, interrupt Fang's target.",
+                    "de": "Wenn du dich teleportierst, wird Fangs Ziel unterbrochen.",
+                    "es": "Al teletransportarte, interrumpes al objetivo de Fang.",
+                    "fr": "Stoppe la cible de Fang quand vous vous téléportez."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "BLUR",
+                "de": "SCHEMENGESTALT",
+                "es": "BORRÓN",
+                "fr": "ASSAUT"
+            },
+            "description": {
+                "en": "Rush forward in a blur, bleeding all enemies you pass.",
+                "de": "Stürme als verschwommener Schemen voran und verursache Blutung bei allen Gegnern, die du passierst.",
+                "es": "Avanzas tan rápido que te conviertes en un borrón que causa hemorragias a todos los enemigos a tu paso.",
+                "fr": "Charge droit devant infligeant des saignements à tous les ennemis sur votre passage."
+            },
+            "lore": {
+                "en": "Tyto's allies would appreciate the acrobatics more if they didn't happen so fast.",
+                "de": "Tytos Verbündete würden seine Akrobatik weitaus mehr zu schätzen wissen, wenn sie nicht so schnell wäre.",
+                "es": "Los aliados de Tyto admirarían más las acrobacias si no ocurrieran tan deprisa.",
+                "fr": "Les alliés de Tyto apprécieraient davantage le spectacle des acrobaties de Tyto s'il n'était pas aussi rapide."
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Renewed Focus",
+                    "de": "Erneuerte Konzentration",
+                    "es": "Concentración renovada",
+                    "fr": "Récupération de Focus"
+                },
+                "description": {
+                    "en": "On use, resets all your skill cooldowns.",
+                    "de": "All deine Abklingzeiten werden bei Benutzung zurückgesetzt.",
+                    "es": "Al usarla, se reinician todas las recargas de habilidad.",
+                    "fr": "Réinitialise les temps de rechargement de toutes vos compétences."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Bird of Prey",
+                        "de": "Raubvogel",
+                        "es": "Ave rapaz",
+                        "fr": "Oiseau de proie"
+                    },
+                    "description": {
+                        "en": "RMB: You can use Swoop more often.",
+                        "de": "RMB: Du kannst  Sturzflug' öfters benutzen.",
+                        "es": "RMB: puedes usar En picado más a menudo.",
+                        "fr": "RMB : utiliser Piqué plus souvent."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Equilibrium",
+                        "de": "Gleichgewicht",
+                        "es": "Equilibrio",
+                        "fr": "Équilibre"
+                    },
+                    "description": {
+                        "en": "Q: Blade Dance lasts 50% longer.",
+                        "de": "Q:  Klingentanz' währt 50% länger.",
+                        "es": "Q: Baile de espadas dura un 50% más.",
+                        "fr": "Q : Danse tranchante dure 50 % plus longtemps."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Precision",
+                        "de": "Präzision",
+                        "es": "Precisión",
+                        "fr": "Précision"
+                    },
+                    "description": {
+                        "en": "Crit chance builds faster.",
+                        "de": "Chance auf kritische Treffer baut sich schneller auf.",
+                        "es": "Aumenta más rápido la probabilidad de golpe crítico.",
+                        "fr": "Vos chances de coups critiques augmentent plus rapidement."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "En Garde",
+                        "de": "En Garde",
+                        "es": "En Garde",
+                        "fr": "En garde"
+                    },
+                    "description": {
+                        "en": "+10 front armor, +20 while attacking.",
+                        "de": "+10 Frontalrüstung, +20, während du angreifst.",
+                        "es": "+10 de armadura frontal, +20 al atacar.",
+                        "fr": "+10 d'armure frontale, +20 en attaquant."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Pure Escapism",
+                        "de": "Pure Weltflucht",
+                        "es": "Escapismo puro",
+                        "fr": "La grande évasion"
+                    },
+                    "description": {
+                        "en": "Lose debuffs when you dodge. (Once every 20s.)",
+                        "de": "Verliere Schwächungen, wenn du ausweichst. (Einmal alle 20 Sek.)",
+                        "es": "Pierdes las debilitaciones al esquivar (una vez cada 20 s).",
+                        "fr": "Debuffs perdus lorsque vous esquivez (une fois toutes les 20 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Easy Strider",
+                        "de": "Leichter Läufer",
+                        "es": "Paso fácil",
+                        "fr": "Coureur confirmé"
+                    },
+                    "description": {
+                        "en": "You move 10% faster and sprinting drains stamina 25% slower.",
+                        "de": "Du bewegst dich um 10% schneller und Sprinten entzieht Ausdauer 25% langsamer.",
+                        "es": "Te mueves un 10% más rápido y esprintar te absorbe resistencia un 25% más despacio.",
+                        "fr": "Vous vous déplacez 10 % plus vite et votre énergie s'épuise 25 % moins vite quand vous sprintez."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

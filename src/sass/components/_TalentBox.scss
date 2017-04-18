@@ -1,0 +1,73 @@
+.talent-box {
+  border: 1px solid $color-ggu-blue-2;
+  background: $color-ggu-blue-2;
+  border-radius: 5px;
+  margin: 5px;
+  flex: 1 1 25%;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+
+  &--list {
+    flex: 1 1 100%;
+
+    display: flex;
+    flex-direction: column;
+    background: $color-ggu-white;
+    border-radius: 4px;
+  }
+
+  &--path {
+    color: $color-ggu-white;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 0.75rem;
+  }
+
+  &--talent {
+    flex: 1 1 50%;
+
+    margin: 5px;
+    padding: 0.625rem 0.375rem 0.625rem 0.625rem;
+    border: 1px solid $color-ggu-blue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s background ease, 0.3s border ease;
+
+    &-name {
+      font-weight: 500;
+      font-size: 1rem;
+      color: $color-ggu-blue;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    &-description {
+      display: block;
+      font-size: 0.875rem;
+      line-height: 1rem;
+    }
+
+    &.selected {
+
+      background-color: $color-ggu-blue;
+      color: white;
+
+      .talent-box--talent-name {
+        color: white;
+      }
+    }
+
+    &:hover {
+      background-color: $color-ggu-blue-light;
+      border-color: $color-ggu-blue-light;
+      color: white;
+
+      .talent-box--talent-name {
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Mozu",
+        "de": "Mozu",
+        "es": "Mozu",
+        "fr": "Mozu"
+    },
+    "shortName": "Mozu",
+    "description": {
+        "en": "Arcane Mage",
+        "de": "Arkaner Magier.",
+        "es": "Maga arcana.",
+        "fr": "Mage d'arcane"
+    },
+    "lore": {
+        "en": "\"The recipe for a troublemaker like Mozu is appallingly simple. Just mix a modicum of magical training with a penchant for mischief and a flexible definition of ownership.\" —Sage-Instructor Jellathir, House Devaedra",
+        "de": "„Die Erfolgsformel für eine Unruhestifterin wie Mozu ist überraschend einfach. Man vermische einen Funken magischer Ausbildung mit einer Vorliebe für Unfug sowie einer dehnbaren Auffassung von Verantwortung.“ – Weisen-Ausbilder Jellathir, Haus Devaedra",
+        "es": "\"La receta para una alborotadora como Mozu es espantosamente simple. Se mezcla una pizca de entrenamiento mágico con la afición a las diabluras y una definición flexible de propiedad.\" —Sabio-instructor Jellathir, Casa Devaedra",
+        "fr": "« La recette pour obtenir une fauteuse de troubles comme Mozu est d'une simplicité effroyable. Il faut juste mélanger un peu de magie avec un zeste de malice, le tout saupoudré d'une définition très personnelle de la propriété. » —Sage-instructeur Jellathir, Maison Devaedra"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Blast them with magic! Mozu has an arsenal of magic wands that confound her enemies and let her teleport across the battlefield.",
+            "playStyleTips": [
+                "Shield yourself against attacks as you charge up your wands.",
+                "Upgrade your Attractor Beam to drain enemy life as it slows them.",
+                "Teleport to the location you target, or to a nearby ally."
+            ]
+        },
+        "de": {
+            "description": "Vernichte sie mit Magie! Mozu hat eine Auswahl an Zauberstäben, die ihre Gegner verwirren und ihr erlauben, sich über das gesamte Schlachtfeld zu teleportieren.",
+            "playStyleTips": [
+                "Schütze dich vor Angriffen, während du deine Zauberstäbe auflädst",
+                "Werte deinen Traktorstrahl auf, um Gegnern Lebensenergie zu rauben und sie zu verlangsamen.",
+                "Teleportiere dich an eine anvisierte Stelle oder in die Nähe eines Verbündeten."
+            ]
+        },
+        "es": {
+            "description": "¡Bombardéalos con magia! Mozu tiene un arsenal de varitas mágicas que confunden a sus enemigos y le permiten teletransportarse por el campo de batalla.",
+            "playStyleTips": [
+                "Protégete de los ataques mientras cargas las varitas.",
+                "Sube de nivel el Rayo hechicero para absorber vida de los enemigos mientras los ralentiza.",
+                "Teletranspórtate al lugar objetivo o a un aliado cercano."
+            ]
+        },
+        "fr": {
+            "description": "Désintégrez vos ennemis avec de la magie ! Mozu possède un arsenal de baguettes magiques déconcertant pour ses ennemis, et qui lui permet de se téléporter sur le champ de bataille.",
+            "playStyleTips": [
+                "Protégez-vous contre les attaques lorsque vous chargez vos baguettes magiques.",
+                "Améliorez votre Rayon attracteur pour drainer l'énergie de vos ennemis et les ralentir.",
+                "Téléportez-vous vers une zone ciblée ou aux côtés d'un allié proche de vous."
+            ]
+        }
+    },
+    "attackStat": 80,
+    "defenseStat": 40,
+    "mobilityStat": 60,
+    "utilityStat": 60,
+    "difficulty": 3,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "MAGIC BOLT",
+                "de": "MAGISCHER BLITZ",
+                "es": "FLECHA MÃGICA",
+                "fr": "FOUDRE MAGIQUE"
+            },
+            "description": {
+                "en": "HOLD LMB: Unleash magic bolts. Attack rate increases as you hold.",
+                "de": "LMB GEDRÜCKT HALTEN: Feuere magische Blitze ab. Die Angriffsrate steigt beim Halten.",
+                "es": "MANTÉN PULSADO LMB: desata Flecha mágica. Aumenta el índice de ataque mientras lo mantienes pulsado.",
+                "fr": "Maintenir LMB pour envoyer des foudres magiques. Plus vous maintenez, plus la vitesse d'attaque augmente."
+            },
+            "lore": {
+                "en": "Over a two-year burglary spree, Mozu stole the wands of at least six archmages and sorcerers. More remarkably, she's still on the loose.",
+                "de": "Während einer zweijährigen Einbruchsserie stahl Mozu die Zauberstäbe von mindestens sechs Erzmagiern und Hexern. Noch erstaunlicher ist allerdings, dass man sie immer noch nicht erwischt hat.",
+                "es": "Durante una racha de robos de dos años, Mozu robó las varitas de al menos seis archimagos y hechiceros. Lo sorprendente es que todavía anda suelta.",
+                "fr": "Après deux années de larcins divers, Mozu possède désormais les baguettes magiques d'au moins six archimages et sorciers. Mais le plus remarquable est qu'elle n'ait jamais été arrêtée."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Arcane Guidance",
+                    "de": "Arkane Führung",
+                    "es": "Guía arcana",
+                    "fr": "Contrôle des arcanes"
+                },
+                "description": {
+                    "en": "Magic Bolt acquires and tracks enemies easier.",
+                    "de": "Magischer Blitz' findet und verfolgt Gegner einfacher.",
+                    "es": "Flecha mágica encuentra y persigue a los enemigos con mayor facilidad.",
+                    "fr": "Foudre magique poursuit les ennemis plus facilement."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Run and Hit",
+                    "de": "Flucht und Angriff",
+                    "es": "Huye y ataca",
+                    "fr": "Course meurtrière"
+                },
+                "description": {
+                    "en": "After using Dimension Door, Magic Bolt powers up instantly.",
+                    "de": "Nach der Verwendung von  Dimensionstür' lädt sich  Magischer Blitz' sofort auf.",
+                    "es": "Tras usar Pórtico dimensional, Flecha mágica se potencia al instante.",
+                    "fr": "Après avoir utilisé Portail dimensionnel, Foudre magique se recharge instantanément."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Omega Bolt",
+                    "de": "Omega-Blitz",
+                    "es": "Flecha omega",
+                    "fr": "Foudre ultime"
+                },
+                "description": {
+                    "en": "If Magic Bolts ends fully charged, fire a powerful final blast.",
+                    "de": "Wenn  Magischer Blitz' voll aufgeladen wird, entlädt sich eine mächtige finale Explosion.",
+                    "es": "Si cargas al máximo Flecha mágica, lanzarás un potente ataque final.",
+                    "fr": "Si les Foudres magiques sont complètement rechargées, déclenchez un dernier tir surpuissant."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Magic Shell",
+                    "de": "Magische Hülle",
+                    "es": "Coraza mágica",
+                    "fr": "Coquille magique"
+                },
+                "description": {
+                    "en": "While powering up Magic Bolt, you take 50% less damage from the front.",
+                    "de": "Während  Magischer Blitz' aufgeladen wird, erleidest du 50% weniger Frontal-Schaden.",
+                    "es": "Al cargar Flecha mágica, sufres un 50% menos de daño por delante.",
+                    "fr": "50 % de dégâts en moins par devant quand la Foudre magique se recharge."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Deflecting Shield",
+                    "de": "Abwehrender Schild",
+                    "es": "Escudo reflector",
+                    "fr": "Bouclier déflecteur"
+                },
+                "description": {
+                    "en": "Magic Shell also deflects up to 3 projectiles from the front.",
+                    "de": "Magische Hülle' wirft zusätzlich bis zu 3 Projektile von vorne zurück.",
+                    "es": "Coraza mágica también desvía hasta 3 proyectiles por delante.",
+                    "fr": "La Coquille magique peut dévier jusqu'à 3 projectiles venant de face."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Magic Dome",
+                    "de": "Magische Kuppel",
+                    "es": "Cúpula mágica",
+                    "fr": "Dôme magique"
+                },
+                "description": {
+                    "en": "While in your Vortex, Magic Shell gives nearby allies 25% damage reduction.",
+                    "de": "Magische Hülle' verleiht Verbündeten in der Nähe 25% Schadensreduzierung, während du dich in deinem Wirbel aufhältst.",
+                    "es": "Coraza mágica reduce un 25% el daño a los aliados cercanos mientras estés en tu vórtice.",
+                    "fr": "La Coquille magique permet aux alliés proches de subir 25 % de dégâts en moins quand vous êtes dans votre Vortex."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "ATTRACTOR BEAM",
+                "de": "TRAKTORSTRAHL",
+                "es": "RAYO HECHICERO",
+                "fr": "RAYON ATTRACTEUR"
+            },
+            "description": {
+                "en": "Beam attack that slows enemies.",
+                "de": "Strahlenangriff, der Gegner verlangsamt.",
+                "es": "Ataque de rayo que ralentiza a los enemigos.",
+                "fr": "Lance un rayon qui ralentit vos ennemis."
+            },
+            "lore": {
+                "en": "One stolen wand can warp time itself, but Mozu has unlocked only a few of its secrets. \"It's a time-wand! Why would I rush?\" she asks.",
+                "de": "Einer der gestohlenen Zauberstäbe kann die Zeit selbst krümmen, doch Mozu hat ihm bisher nur ein paar seiner Geheimnisse entlockt. „Es ist ein Zeit-Zauberstab! Wozu die Eile?“, fragt sie.",
+                "es": "Una varita robada puede distorsionar el tiempo, pero Mozu solo ha descubierto algunos de sus secretos. \"¡Es una varita del tiempo! ¿Para qué darme prisa?\", se pregunta.",
+                "fr": "Une des baguettes magiques volées peut contrôler le temps, mais Mozu n'a pas encore découvert tous ses secrets. Comme elle le dit si bien : « C'est une baguette temporelle ! Pourquoi devrais-je me dépêcher ? »."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Cantrip of Disruption",
+                    "de": "Zerbrechungstrick",
+                    "es": "Hechizo disruptor",
+                    "fr": "Sort d'interruption"
+                },
+                "description": {
+                    "en": "Slight delay before casting, interrupts on start. Deals 10x damage.",
+                    "de": "Kurze Verzögerung vor dem Zauber, der bei Beginn unterbricht. Verursacht zehnfachen Schaden.",
+                    "es": "Pequeño retardo antes del lanzamiento. Interrumpe al inicio e inflige 10 veces más daño.",
+                    "fr": "Incantation retardée, stoppe dès le départ. Inflige 10x plus de dégâts."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Enervation Effect",
+                    "de": "Schwächeeffekt",
+                    "es": "Efecto enervante",
+                    "fr": "Effets d'affaiblissement"
+                },
+                "description": {
+                    "en": "Attractor Beam reduces your target's outgoing damage by 25%.",
+                    "de": "Traktorstrahl' reduziert den Schaden, den dein Ziel verursacht, um 25%.",
+                    "es": "Rayo hechicero reduce un 25% el daño infligido por el objetivo.",
+                    "fr": "Le Rayon attracteur réduit les dégâts de votre cible de 25 %."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Feedback",
+                    "de": "Rückkopplung",
+                    "es": "Retroalimentación",
+                    "fr": "Retour de bâton"
+                },
+                "description": {
+                    "en": "If you interrupt an attack, deal 150 extra damage and reduce cooldown (-3s) ",
+                    "de": "Wenn du einen Angriff unterbrichst, fügst du 150 Schaden zu und reduzierst die Abklingzeit. (-3 Sek.)",
+                    "es": "Al interrumpir un ataque, infliges +150 de daño y se reduce el tiempo de recarga (-3 s).",
+                    "fr": "Si vous interrompez une attaque, cause 150 de dégâts supplémentaires et réduit le temps de rechargement de 3 s."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Channel Selector",
+                    "de": "Kanalselektion",
+                    "es": "Selector de canal",
+                    "fr": "Double action"
+                },
+                "description": {
+                    "en": "Fires Magic Bolts while using Attractor Beam.",
+                    "de": "Während du den  Traktorstrahl  benutzt, werden  Magische Blitze  abgefeuert.",
+                    "es": "Al usar Rayo hechicero, dispara Flecha Mágica.",
+                    "fr": "Déclenche des Foudres magiques tout en utilisant Rayon attracteur."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Renewed Attraction",
+                    "de": "Erneuerte Anziehung",
+                    "es": "Atracción renovada",
+                    "fr": "Attraction renouvelée"
+                },
+                "description": {
+                    "en": "If your Attractor Beam target dies, this skill recharges instantly.",
+                    "de": "Wenn das Ziel von  Traktorstrahl' stirbt, wird diese Fertigkeit sofort wieder aufgeladen.",
+                    "es": "Si el objetivo de Rayo hechicero muere, esta habilidad se recargará al instante.",
+                    "fr": "Rayon attracteur se recharge automatiquement quand sa cible meurt."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Drawn to Life",
+                    "de": "Vom Leben angezogen",
+                    "es": "De vuelta a la vida",
+                    "fr": "Lente agonie"
+                },
+                "description": {
+                    "en": "Attractor Beam's slow is 2x as effective against targets below 33% health.",
+                    "de": "Die Verlangsamung von  Traktorstrahl' ist doppelt so effektiv gegen Ziele mit weniger als 33% Gesundheit.",
+                    "es": "La ralentización de Rayo hechicero es doblemente efectiva en objetivos con 33% de PV o menos.",
+                    "fr": "La lenteur provoquée par Rayon attracteur est deux fois plus efficace face à des cibles qui ont moins de 33 % de santé."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "ARCANE VORTEX",
+                "de": "ARKANER WIRBEL",
+                "es": "VÓRTICE ARCANO",
+                "fr": "VORTEX D'ARCANE"
+            },
+            "description": {
+                "en": "Create a vortex that deflects enemy projectiles. Lasts 5s.",
+                "de": "Erzeuge einen Wirbel, der gegnerische Geschosse zurückwirft. Währt 5 Sek.",
+                "es": "Crea un vórtice que desvía los proyectiles enemigos. Dura 5 s.",
+                "fr": "Crée un vortex qui dévie les projectiles ennemis (5 s)."
+            },
+            "lore": {
+                "en": "\"Technically speaking, it doesn't deflect arrows. They just kinda get lost on the way,\" Mozu explained.",
+                "de": "„Genau genommen wehrt es keine Projektile ab. Sie kommen einfach nur von ihrem Weg ab“, erklärte Mozu.",
+                "es": "\"Técnicamente hablando, no desvía las flechas. Simplemente desaparecen por el camino\", explicó Mozu.",
+                "fr": "« D'un point de vue purement technique, il ne dévie pas les flèches. Elles se perdent simplement en route. » explique Mozu."
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Reverse Polarity",
+                    "de": "Umgekehrte Polarität",
+                    "es": "Polaridad invertida",
+                    "fr": "Polarité inversée"
+                },
+                "description": {
+                    "en": "Your Vortex reflects enemy projectiles.",
+                    "de": "Dein Wirbel wirft gegnerische Projektile zurück.",
+                    "es": "El vórtice hace rebotar los proyectiles del enemigo.",
+                    "fr": "Votre Vortex renvoie les projectiles ennemis."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "True Strike",
+                    "de": "Gezielter Schlag",
+                    "es": "Golpe puro",
+                    "fr": "Coup dur"
+                },
+                "description": {
+                    "en": "Magic Bolts that hit your Vortex redirect toward enemies.",
+                    "de": "Magische Blitze, die deinen Wirbel treffen, werden auf Gegner umgeleitet.",
+                    "es": "Las flechas mágicas que impacten contra tu vórtice se dirigirán hacia los enemigos.",
+                    "fr": "Les Foudres magiques qui touchent votre Vortex sont redirigées vers les ennemis."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Warp Factor",
+                    "de": "Warp-Faktor",
+                    "es": "Factor de salto",
+                    "fr": "Vitesse magique"
+                },
+                "description": {
+                    "en": "Allies passing through your Vortex gain Haste. (5s)",
+                    "de": "Verbündete, die durch deinen Wirbel gehen, erhalten Hast. (5 Sek.)",
+                    "es": "Los aliados que atraviesen el vórtice obtienen velocidad (5 s).",
+                    "fr": "Les alliés qui passent dans votre Vortex gagnent en Vitesse (5 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Induction Field",
+                    "de": "Induktionsfeld",
+                    "es": "Campo de inducción",
+                    "fr": "Induction magnétique"
+                },
+                "description": {
+                    "en": "Range increased - On creation, pull one nearby foe into the Vortex. (+5s cooldown)",
+                    "de": "Reichweite erhöht. Ziehe bei Erschaffung einen Gegner in der Nähe in den Wirbel. (+8 Sek. Abklingzeit)",
+                    "es": "Aumento del alcance. Al crearlo, empuja a un enemigo cercano hacia el vórtice (recarga: +5 s).",
+                    "fr": "Portée accrue - Attirez un ennemi proche dans le Vortex lors de sa création (+5 s de temps de rechargement)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Diffraction",
+                    "de": "Feldbeugung",
+                    "es": "Difracción",
+                    "fr": "Diffraction"
+                },
+                "description": {
+                    "en": "Hitting an enemy in your Vortex extends Attractor Beam to nearby enemies.",
+                    "de": "Triffst du einen Gegner in deinem Wirbel, verlängert sich der  Traktorstrahl' auf Gegner in der Nähe.",
+                    "es": "Impactar a un enemigo en tu vórtice amplía el Rayo hechicero a los enemigos cercanos.",
+                    "fr": "Toucher un ennemi dans votre Vortex permet d'étendre Rayon attracteur aux ennemis proches."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Confusion",
+                    "de": "Konfusion",
+                    "es": "Confusión",
+                    "fr": "Confusion"
+                },
+                "description": {
+                    "en": "Enemies that exit your Vortex are Dazed for 1s.",
+                    "de": "Gegner, die deinen Wirbel verlassen, werden für 1 Sek. verwirrt.",
+                    "es": "Los enemigos que salgan de tu vórtice se quedarán atontados durante 1 s.",
+                    "fr": "Les ennemis qui sortent de votre Vortex sont étourdis (1 s)."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "DIMENSION DOOR",
+                "de": "DIMENSIONSTÜR",
+                "es": "PÓRTICO DIMENSIONAL",
+                "fr": "PORTAIL DIMENSIONNEL"
+            },
+            "description": {
+                "en": "Teleport to target location.",
+                "de": "Teleportiere dich zum Zielort.",
+                "es": "Te teletransportas a la zona objetivo.",
+                "fr": "Téléporte jusqu'à la destination cible."
+            },
+            "lore": {
+                "en": "\"It's a really useful wand,\" Mozu laughed. \"Just don't use it on a full stomach.\"",
+                "de": "„Ein wirklich nützlicher Zauberstab!“, meinte Mozu lachend. „Man sollte ihn nur nicht mit vollem Magen verwenden.“",
+                "es": "\"Es una varita muy útil\", se reía Mozu. \"Pero no la uses con el estómago lleno.\"",
+                "fr": "« C'est une baguette très utile. » s'esclaffe Mozu. « Il ne faut surtout pas l'utiliser quand on a trop mangé. »"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Temporal Discontinuity",
+                    "de": "Temporale Unstetigkeit",
+                    "es": "Discontinuidad temporal",
+                    "fr": "Discontinuité temporelle"
+                },
+                "description": {
+                    "en": "When you use Dimension Door, all your other skills recharge.",
+                    "de": "Wenn du  Dimensionstür' benutzt, werden all deine anderen Fertigkeiten aufgeladen.",
+                    "es": "Cuando usas Pórtico dimensional, todas tus demás habilidades se recargan.",
+                    "fr": "Toutes vos autres compétences se rechargent quand vous utilisez Portail dimensionnel."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Dimensional Rift",
+                    "de": "Dimensionsriss",
+                    "es": "Grieta dimensional",
+                    "fr": "Faille dimensionnelle"
+                },
+                "description": {
+                    "en": "Damage enemies at both your source and destination.",
+                    "de": "Füge Gegnern sowohl am Ursprung als auch am Ziel Schaden zu.",
+                    "es": "Daña a los enemigos tanto en el origen como en el destino.",
+                    "fr": "Cause des dégâts aux ennemis à vos lieux de départ et d'arrivée."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Open to Offense",
+                    "de": "Bereit zum Angriff",
+                    "es": "Abierto al ataque",
+                    "fr": "Attaque ouverte"
+                },
+                "description": {
+                    "en": "After teleporting you deal 25% more damage for 5s.",
+                    "de": "Nach dem Teleportieren verursachst du 5 Sek. lang 25% mehr Schaden.",
+                    "es": "Tras teletransportarte, infliges un 25% más de daño durante 5 s.",
+                    "fr": "Inflige 25 % de dégâts supplémentaires pendant 5 s après une téléportation."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Seek Shelter",
+                    "de": "Schutz suchen",
+                    "es": "Buscar cobijo",
+                    "fr": "Désir de refuge"
+                },
+                "description": {
+                    "en": "HOLD E: Teleport to your nearest allied hero. (Longer cast time.)",
+                    "de": "E GEDRÜCKT HALTEN: Teleportiere dich zu deinem nächstgelegenen, verbündeten Helden. (Längere Wirkzeit.)",
+                    "es": "MANTÉN PULSADO E: te teletransportas junto al aliado más cercano (más tiempo de lanzamiento).",
+                    "fr": "Maintenir E : téléportation vers le héros allié le plus proche (temps d'incantation plus long)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Give Shelter",
+                    "de": "Schutz gewähren",
+                    "es": "Dar cobijo",
+                    "fr": "Refuge"
+                },
+                "description": {
+                    "en": "Teleporting to a hurt ally gives them armor and projectile deflection. (3s)",
+                    "de": "Wenn du dich zu einem verletzten Verbündeten teleportierst, erhält dieser Rüstung und Projektil-Rückwurf. (3 Sek.)",
+                    "es": "Al teletransportarte a un aliado herido, le otorgas armadura y desvío de proyectiles (3 s).",
+                    "fr": "Téléportation vers un allié affaibli pour lui donner de l'armure et pour qu'il puisse détourner les projectiles (3 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Knock, Knock",
+                    "de": "Klopf, klopf",
+                    "es": "Toc, toc",
+                    "fr": "Toc toc"
+                },
+                "description": {
+                    "en": "When you use Dimension Door, enemies near your destination are stunned.",
+                    "de": "Wenn du  Dimensionstür' benutzt, werden Gegner in der Nähe deines Ziels betäubt.",
+                    "es": "Al usar Pórtico dimensional, los enemigos cercanos a tu destino quedarán aturdidos.",
+                    "fr": "Quand vous utilisez le Portail dimensionnel, les ennemis proches de votre destination sont assommés."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "DEATH RAY",
+                "de": "TODESSTRAHL",
+                "es": "RAYO DE MUERTE",
+                "fr": "RAYON DE LA MORT"
+            },
+            "description": {
+                "en": "Deadly beam attack that also slows enemies.<BR>Hits more targets per focus charge. (2/3/5)",
+                "de": "Tödlicher Strahlenangriff, der Gegner auch verlangsamt.<BR>Trifft mehr Ziele pro Fokus-Aufladung. (2/3/5)",
+                "es": "Ataque de rayo mortal que también ralentiza a los enemigos. Alcanza más objetivos por carga de concentración (2 s/3 s/5 s).",
+                "fr": "Attaque de rayon fatale qui ralentit les ennemis.<BR>Atteint plus de cibles en fonction de la quantité de Focus (2/3/5)."
+            },
+            "lore": {
+                "en": "\"I call it a 'death ray' because if you don't keep moving, you're pretty much dead,\" Mozu said.",
+                "de": "„Ich nenne es den ,Todesstrahl‘, weil du ziemlich schnell tot bist, wenn du einfach stehen bleibst“, sagte Mozu.",
+                "es": "\"Yo lo llamo 'rayo de muerte' porque si te quedas quieto, estás básicamente muerto\", explicó Mozu.",
+                "fr": "« Je l'appelle le Rayon de la mort, car si vous restez sur place, vous avez très peu de chance de vous en sortir vivant. » précise Mozu."
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Nigh Invulnerable",
+                    "de": "Nahezu unverwundbar",
+                    "es": "Casi invulnerable",
+                    "fr": "Presque invulnérable"
+                },
+                "description": {
+                    "en": "You take 90% less damage while performing F.",
+                    "de": "Du erleidest 90% weniger Schaden, während du F ausführst.",
+                    "es": "Al usar F, recibes un 90% menos de daño.",
+                    "fr": "90 % de dégâts en moins en appuyant sur F."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Wand Mastery",
+                        "de": "Zauberstab-Meisterung",
+                        "es": "Maestría con la varita",
+                        "fr": "Maitrise de la baguette"
+                    },
+                    "description": {
+                        "en": "LMB: You can channel Magic Bolts longer.",
+                        "de": "LMB: Du kannst  Magische Blitze' länger kanalisieren.",
+                        "es": "LMB: puedes canalizar Flecha mágica durante más tiempo.",
+                        "fr": "LMB : canalise Foudre magique plus longtemps."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "All to Tether Now",
+                        "de": "Alle an die Leine",
+                        "es": "Todas las ataduras",
+                        "fr": "Longue laisse"
+                    },
+                    "description": {
+                        "en": "RMB: Attractor Beam stays attached at longer range.",
+                        "de": "RMB:  Traktorstrahl' bleibt auf längerer Reichweite haften.",
+                        "es": "RMB: Rayo hechicero se queda conectado a más largo alcance.",
+                        "fr": "RMB : Rayon attracteur a une meilleure portée."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Shredder",
+                        "de": "Schredder",
+                        "es": "Trituradora",
+                        "fr": "Broyeur"
+                    },
+                    "description": {
+                        "en": "30% armor penetration.",
+                        "de": "30% Rüstungsdurchdringung.",
+                        "es": "30% de penetración de armadura.",
+                        "fr": "30 % de pénétration d'armure."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Bloody Minded",
+                        "de": "Blutdürstig",
+                        "es": "Testarudez",
+                        "fr": "Obstination"
+                    },
+                    "description": {
+                        "en": "Immunity to Weakness. Recover from Daze twice as fast.",
+                        "de": "Immunität gegen Schwäche. Du erholst dich doppelt so schnell von Verwirrung.",
+                        "es": "Inmunidad a la debilidad. Te recuperas del atontamiento el doble de rápido.",
+                        "fr": "Immunité à Faiblesse. Se remet d'un étourdissement deux fois plus rapidement."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Precision",
+                        "de": "Präzision",
+                        "es": "Precisión",
+                        "fr": "Précision"
+                    },
+                    "description": {
+                        "en": "Crit chance builds faster.",
+                        "de": "Chance auf kritische Treffer baut sich schneller auf.",
+                        "es": "Aumenta más rápido la probabilidad de golpe crítico.",
+                        "fr": "Vos chances de coups critiques augmentent plus rapidement."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "En Garde",
+                        "de": "En Garde",
+                        "es": "En Garde",
+                        "fr": "En garde"
+                    },
+                    "description": {
+                        "en": "+10 front armor, +20 while attacking.",
+                        "de": "+10 Frontalrüstung, +20, während du angreifst.",
+                        "es": "+10 de armadura frontal, +20 al atacar.",
+                        "fr": "+10 d'armure frontale, +20 en attaquant."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

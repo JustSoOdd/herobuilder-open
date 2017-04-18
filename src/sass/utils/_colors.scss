@@ -1,0 +1,19 @@
+$color-ggu-blue: #003e49;
+$color-ggu-blue-light:   lighten($color-ggu-blue, 10%);
+$color-ggu-blue-lighter: lighten($color-ggu-blue, 20%);
+$color-ggu-blue-dark:    darken($color-ggu-blue, 5%);
+$color-ggu-blue-darker:  darken($color-ggu-blue, 10%);
+
+$color-ggu-grey: #b4b4b4;
+
+$color-ggu-white: #ffffff;
+$color-ggu-white-dark: darken($color-ggu-white, 6%);
+$color-ggu-white-darker: darken($color-ggu-white, 30%);
+
+$color-missing-asset: #ff00ff;
+
+
+$color-ggu-blue-2: #19505A; // = rgba($color-ggu-blue, 0.9) on white background
+$color-ggu-blue-2-light: lighten($color-ggu-blue-2, 10%); // = rgba($color-ggu-blue, 0.9) on white background
+$color-ggu-blue-2-dark: darken($color-ggu-blue-2, 10%); // = rgba($color-ggu-blue, 0.9) on white background
+$color-ggu-orange: #f1710a; // Mouseover

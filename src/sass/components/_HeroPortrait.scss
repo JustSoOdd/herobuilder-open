@@ -1,0 +1,39 @@
+.hero-portrait {
+  color: $color-ggu-white;
+  background-image: linear-gradient(to bottom, $color-ggu-blue-dark, $color-ggu-blue);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  &--avatar {
+    z-index: auto;
+    flex: 1 1 120px;
+    width: 120px;
+    max-width: 120px;
+    height: 162px;
+  }
+
+  &--text {
+    box-sizing: border-box;
+    flex: 1 10;
+    padding: 20px;
+
+    &-name {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      font-weight: 700;
+    }
+
+    &-description {
+      font-size: 1rem;
+    }
+
+    &-flavortext {
+      color: $color-ggu-grey;
+      font-size: 0.825rem;
+      font-style: italic;
+      margin-top: 0.5rem;
+      line-height: 1.3rem;
+    }
+  }
+}

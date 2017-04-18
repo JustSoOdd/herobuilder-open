@@ -1,0 +1,2353 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: map-get($icon-home, 'width');
+// }
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+$-skills-aisling-focus-desaturated: (
+  name: 'Skills_AislingFocus_Desaturated',
+  x: 52px,
+  y: 0px,
+  offset-x: -52px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-focus: (
+  name: 'Skills_AislingFocus',
+  x: 260px,
+  y: 468px,
+  offset-x: -260px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill1-desaturated: (
+  name: 'Skills_AislingSkill1_Desaturated',
+  x: 0px,
+  y: 52px,
+  offset-x: 0px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill1: (
+  name: 'Skills_AislingSkill1',
+  x: 52px,
+  y: 52px,
+  offset-x: -52px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill2-desaturated: (
+  name: 'Skills_AislingSkill2_Desaturated',
+  x: 104px,
+  y: 0px,
+  offset-x: -104px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill2: (
+  name: 'Skills_AislingSkill2',
+  x: 104px,
+  y: 52px,
+  offset-x: -104px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill3-desaturated: (
+  name: 'Skills_AislingSkill3_Desaturated',
+  x: 0px,
+  y: 104px,
+  offset-x: 0px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill3: (
+  name: 'Skills_AislingSkill3',
+  x: 52px,
+  y: 104px,
+  offset-x: -52px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill4-desaturated: (
+  name: 'Skills_AislingSkill4_Desaturated',
+  x: 104px,
+  y: 104px,
+  offset-x: -104px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-aisling-skill4: (
+  name: 'Skills_AislingSkill4',
+  x: 156px,
+  y: 0px,
+  offset-x: -156px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-focus-desaturated: (
+  name: 'Skills_BeckettFocus_Desaturated',
+  x: 156px,
+  y: 52px,
+  offset-x: -156px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-focus: (
+  name: 'Skills_BeckettFocus',
+  x: 156px,
+  y: 104px,
+  offset-x: -156px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill1-desaturated: (
+  name: 'Skills_BeckettSkill1_Desaturated',
+  x: 0px,
+  y: 156px,
+  offset-x: 0px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill1: (
+  name: 'Skills_BeckettSkill1',
+  x: 52px,
+  y: 156px,
+  offset-x: -52px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill2-desaturated: (
+  name: 'Skills_BeckettSkill2_Desaturated',
+  x: 104px,
+  y: 156px,
+  offset-x: -104px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill2: (
+  name: 'Skills_BeckettSkill2',
+  x: 156px,
+  y: 156px,
+  offset-x: -156px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill3-desaturated: (
+  name: 'Skills_BeckettSkill3_Desaturated',
+  x: 208px,
+  y: 0px,
+  offset-x: -208px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill3: (
+  name: 'Skills_BeckettSkill3',
+  x: 208px,
+  y: 52px,
+  offset-x: -208px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill4-desaturated: (
+  name: 'Skills_BeckettSkill4_Desaturated',
+  x: 208px,
+  y: 104px,
+  offset-x: -208px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-beckett-skill4: (
+  name: 'Skills_BeckettSkill4',
+  x: 208px,
+  y: 156px,
+  offset-x: -208px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-focus-desaturated: (
+  name: 'Skills_CharnokFocus_Desaturated',
+  x: 0px,
+  y: 208px,
+  offset-x: 0px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-focus: (
+  name: 'Skills_CharnokFocus',
+  x: 52px,
+  y: 208px,
+  offset-x: -52px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill1-desaturated: (
+  name: 'Skills_CharnokSkill1_Desaturated',
+  x: 104px,
+  y: 208px,
+  offset-x: -104px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill1: (
+  name: 'Skills_CharnokSkill1',
+  x: 156px,
+  y: 208px,
+  offset-x: -156px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill2-desaturated: (
+  name: 'Skills_CharnokSkill2_Desaturated',
+  x: 208px,
+  y: 208px,
+  offset-x: -208px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill2: (
+  name: 'Skills_CharnokSkill2',
+  x: 260px,
+  y: 0px,
+  offset-x: -260px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill3-desaturated: (
+  name: 'Skills_CharnokSkill3_Desaturated',
+  x: 260px,
+  y: 52px,
+  offset-x: -260px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill3: (
+  name: 'Skills_CharnokSkill3',
+  x: 260px,
+  y: 104px,
+  offset-x: -260px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill4-desaturated: (
+  name: 'Skills_CharnokSkill4_Desaturated',
+  x: 260px,
+  y: 156px,
+  offset-x: -260px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-charnok-skill4: (
+  name: 'Skills_CharnokSkill4',
+  x: 260px,
+  y: 208px,
+  offset-x: -260px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-focus-desaturated: (
+  name: 'Skills_GriselmaFocus_Desaturated',
+  x: 0px,
+  y: 260px,
+  offset-x: 0px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-focus: (
+  name: 'Skills_GriselmaFocus',
+  x: 52px,
+  y: 260px,
+  offset-x: -52px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill1-desaturated: (
+  name: 'Skills_GriselmaSkill1_Desaturated',
+  x: 104px,
+  y: 260px,
+  offset-x: -104px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill1: (
+  name: 'Skills_GriselmaSkill1',
+  x: 156px,
+  y: 260px,
+  offset-x: -156px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill2-desaturated: (
+  name: 'Skills_GriselmaSkill2_Desaturated',
+  x: 208px,
+  y: 260px,
+  offset-x: -208px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill2: (
+  name: 'Skills_GriselmaSkill2',
+  x: 260px,
+  y: 260px,
+  offset-x: -260px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill3-desaturated: (
+  name: 'Skills_GriselmaSkill3_Desaturated',
+  x: 312px,
+  y: 0px,
+  offset-x: -312px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill3: (
+  name: 'Skills_GriselmaSkill3',
+  x: 312px,
+  y: 52px,
+  offset-x: -312px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill4-desaturated: (
+  name: 'Skills_GriselmaSkill4_Desaturated',
+  x: 312px,
+  y: 104px,
+  offset-x: -312px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-griselma-skill4: (
+  name: 'Skills_GriselmaSkill4',
+  x: 312px,
+  y: 156px,
+  offset-x: -312px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-focus-desaturated: (
+  name: 'Skills_HKFocus_Desaturated',
+  x: 312px,
+  y: 208px,
+  offset-x: -312px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-focus: (
+  name: 'Skills_HKFocus',
+  x: 312px,
+  y: 260px,
+  offset-x: -312px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill1-desaturated: (
+  name: 'Skills_HKSkill1_Desaturated',
+  x: 0px,
+  y: 312px,
+  offset-x: 0px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill1: (
+  name: 'Skills_HKSkill1',
+  x: 52px,
+  y: 312px,
+  offset-x: -52px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill2-desaturated: (
+  name: 'Skills_HKSkill2_Desaturated',
+  x: 104px,
+  y: 312px,
+  offset-x: -104px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill2: (
+  name: 'Skills_HKSkill2',
+  x: 156px,
+  y: 312px,
+  offset-x: -156px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill3-desaturated: (
+  name: 'Skills_HKSkill3_Desaturated',
+  x: 208px,
+  y: 312px,
+  offset-x: -208px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill3: (
+  name: 'Skills_HKSkill3',
+  x: 260px,
+  y: 312px,
+  offset-x: -260px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill4-desaturated: (
+  name: 'Skills_HKSkill4_Desaturated',
+  x: 312px,
+  y: 312px,
+  offset-x: -312px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-h-k-skill4: (
+  name: 'Skills_HKSkill4',
+  x: 364px,
+  y: 0px,
+  offset-x: -364px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-focus-desaturated: (
+  name: 'Skills_ImaniFocus_Desaturated',
+  x: 364px,
+  y: 52px,
+  offset-x: -364px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-focus: (
+  name: 'Skills_ImaniFocus',
+  x: 364px,
+  y: 104px,
+  offset-x: -364px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill1-desaturated: (
+  name: 'Skills_ImaniSkill1_Desaturated',
+  x: 364px,
+  y: 156px,
+  offset-x: -364px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill1: (
+  name: 'Skills_ImaniSkill1',
+  x: 364px,
+  y: 208px,
+  offset-x: -364px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill2-desaturated: (
+  name: 'Skills_ImaniSkill2_Desaturated',
+  x: 364px,
+  y: 260px,
+  offset-x: -364px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill2: (
+  name: 'Skills_ImaniSkill2',
+  x: 364px,
+  y: 312px,
+  offset-x: -364px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill3-desaturated: (
+  name: 'Skills_ImaniSkill3_Desaturated',
+  x: 0px,
+  y: 364px,
+  offset-x: 0px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill3: (
+  name: 'Skills_ImaniSkill3',
+  x: 52px,
+  y: 364px,
+  offset-x: -52px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill4-desaturated: (
+  name: 'Skills_ImaniSkill4_Desaturated',
+  x: 104px,
+  y: 364px,
+  offset-x: -104px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-imani-skill4: (
+  name: 'Skills_ImaniSkill4',
+  x: 156px,
+  y: 364px,
+  offset-x: -156px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-focus-desaturated: (
+  name: 'Skills_KnossosFocus_Desaturated',
+  x: 208px,
+  y: 364px,
+  offset-x: -208px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-focus: (
+  name: 'Skills_KnossosFocus',
+  x: 260px,
+  y: 364px,
+  offset-x: -260px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill1-desaturated: (
+  name: 'Skills_KnossosSkill1_Desaturated',
+  x: 312px,
+  y: 364px,
+  offset-x: -312px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill1: (
+  name: 'Skills_KnossosSkill1',
+  x: 364px,
+  y: 364px,
+  offset-x: -364px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill2-desaturated: (
+  name: 'Skills_KnossosSkill2_Desaturated',
+  x: 416px,
+  y: 0px,
+  offset-x: -416px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill2: (
+  name: 'Skills_KnossosSkill2',
+  x: 416px,
+  y: 52px,
+  offset-x: -416px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill3-desaturated: (
+  name: 'Skills_KnossosSkill3_Desaturated',
+  x: 416px,
+  y: 104px,
+  offset-x: -416px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill3: (
+  name: 'Skills_KnossosSkill3',
+  x: 416px,
+  y: 156px,
+  offset-x: -416px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill4-desaturated: (
+  name: 'Skills_KnossosSkill4_Desaturated',
+  x: 416px,
+  y: 208px,
+  offset-x: -416px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-knossos-skill4: (
+  name: 'Skills_KnossosSkill4',
+  x: 416px,
+  y: 260px,
+  offset-x: -416px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-focus-desaturated: (
+  name: 'Skills_MargraveFocus_Desaturated',
+  x: 416px,
+  y: 312px,
+  offset-x: -416px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-focus: (
+  name: 'Skills_MargraveFocus',
+  x: 416px,
+  y: 364px,
+  offset-x: -416px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill1-desaturated: (
+  name: 'Skills_MargraveSkill1_Desaturated',
+  x: 0px,
+  y: 416px,
+  offset-x: 0px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill1: (
+  name: 'Skills_MargraveSkill1',
+  x: 52px,
+  y: 416px,
+  offset-x: -52px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill2-desaturated: (
+  name: 'Skills_MargraveSkill2_Desaturated',
+  x: 104px,
+  y: 416px,
+  offset-x: -104px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill2: (
+  name: 'Skills_MargraveSkill2',
+  x: 156px,
+  y: 416px,
+  offset-x: -156px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill3-desaturated: (
+  name: 'Skills_MargraveSkill3_Desaturated',
+  x: 208px,
+  y: 416px,
+  offset-x: -208px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill3: (
+  name: 'Skills_MargraveSkill3',
+  x: 260px,
+  y: 416px,
+  offset-x: -260px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill4-desaturated: (
+  name: 'Skills_MargraveSkill4_Desaturated',
+  x: 312px,
+  y: 416px,
+  offset-x: -312px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-margrave-skill4: (
+  name: 'Skills_MargraveSkill4',
+  x: 364px,
+  y: 416px,
+  offset-x: -364px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-focus-desaturated: (
+  name: 'Skills_MozuFocus_Desaturated',
+  x: 416px,
+  y: 416px,
+  offset-x: -416px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-focus: (
+  name: 'Skills_MozuFocus',
+  x: 468px,
+  y: 0px,
+  offset-x: -468px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill1-desaturated: (
+  name: 'Skills_MozuSkill1_Desaturated',
+  x: 468px,
+  y: 52px,
+  offset-x: -468px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill1: (
+  name: 'Skills_MozuSkill1',
+  x: 468px,
+  y: 104px,
+  offset-x: -468px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill2-desaturated: (
+  name: 'Skills_MozuSkill2_Desaturated',
+  x: 468px,
+  y: 156px,
+  offset-x: -468px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill2: (
+  name: 'Skills_MozuSkill2',
+  x: 468px,
+  y: 208px,
+  offset-x: -468px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill3-desaturated: (
+  name: 'Skills_MozuSkill3_Desaturated',
+  x: 468px,
+  y: 260px,
+  offset-x: -468px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill3: (
+  name: 'Skills_MozuSkill3',
+  x: 468px,
+  y: 312px,
+  offset-x: -468px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill4-desaturated: (
+  name: 'Skills_MozuSkill4_Desaturated',
+  x: 468px,
+  y: 364px,
+  offset-x: -468px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-mozu-skill4: (
+  name: 'Skills_MozuSkill4',
+  x: 468px,
+  y: 416px,
+  offset-x: -468px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-focus-desaturated: (
+  name: 'Skills_PakkoFocus_Desaturated',
+  x: 0px,
+  y: 468px,
+  offset-x: 0px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-focus: (
+  name: 'Skills_PakkoFocus',
+  x: 52px,
+  y: 468px,
+  offset-x: -52px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill1-desaturated: (
+  name: 'Skills_PakkoSkill1_Desaturated',
+  x: 104px,
+  y: 468px,
+  offset-x: -104px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill1: (
+  name: 'Skills_PakkoSkill1',
+  x: 156px,
+  y: 468px,
+  offset-x: -156px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill2-desaturated: (
+  name: 'Skills_PakkoSkill2_Desaturated',
+  x: 208px,
+  y: 468px,
+  offset-x: -208px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill2: (
+  name: 'Skills_PakkoSkill2',
+  x: 0px,
+  y: 0px,
+  offset-x: 0px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill3-desaturated: (
+  name: 'Skills_PakkoSkill3_Desaturated',
+  x: 312px,
+  y: 468px,
+  offset-x: -312px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill3: (
+  name: 'Skills_PakkoSkill3',
+  x: 364px,
+  y: 468px,
+  offset-x: -364px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill4-desaturated: (
+  name: 'Skills_PakkoSkill4_Desaturated',
+  x: 416px,
+  y: 468px,
+  offset-x: -416px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-pakko-skill4: (
+  name: 'Skills_PakkoSkill4',
+  x: 468px,
+  y: 468px,
+  offset-x: -468px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-focus-desaturated: (
+  name: 'Skills_RolandFocus_Desaturated',
+  x: 520px,
+  y: 0px,
+  offset-x: -520px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-focus: (
+  name: 'Skills_RolandFocus',
+  x: 520px,
+  y: 52px,
+  offset-x: -520px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill1-desaturated: (
+  name: 'Skills_RolandSkill1_Desaturated',
+  x: 520px,
+  y: 104px,
+  offset-x: -520px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill1: (
+  name: 'Skills_RolandSkill1',
+  x: 520px,
+  y: 156px,
+  offset-x: -520px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill2-desaturated: (
+  name: 'Skills_RolandSkill2_Desaturated',
+  x: 520px,
+  y: 208px,
+  offset-x: -520px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill2: (
+  name: 'Skills_RolandSkill2',
+  x: 520px,
+  y: 260px,
+  offset-x: -520px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill3-desaturated: (
+  name: 'Skills_RolandSkill3_Desaturated',
+  x: 520px,
+  y: 312px,
+  offset-x: -520px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill3: (
+  name: 'Skills_RolandSkill3',
+  x: 520px,
+  y: 364px,
+  offset-x: -520px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill4-desaturated: (
+  name: 'Skills_RolandSkill4_Desaturated',
+  x: 520px,
+  y: 416px,
+  offset-x: -520px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-roland-skill4: (
+  name: 'Skills_RolandSkill4',
+  x: 520px,
+  y: 468px,
+  offset-x: -520px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-focus-desaturated: (
+  name: 'Skills_SvenFocus_Desaturated',
+  x: 0px,
+  y: 520px,
+  offset-x: 0px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-focus: (
+  name: 'Skills_SvenFocus',
+  x: 52px,
+  y: 520px,
+  offset-x: -52px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill1-desaturated: (
+  name: 'Skills_SvenSkill1_Desaturated',
+  x: 104px,
+  y: 520px,
+  offset-x: -104px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill1: (
+  name: 'Skills_SvenSkill1',
+  x: 156px,
+  y: 520px,
+  offset-x: -156px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill2-desaturated: (
+  name: 'Skills_SvenSkill2_Desaturated',
+  x: 208px,
+  y: 520px,
+  offset-x: -208px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill2: (
+  name: 'Skills_SvenSkill2',
+  x: 260px,
+  y: 520px,
+  offset-x: -260px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill3-desaturated: (
+  name: 'Skills_SvenSkill3_Desaturated',
+  x: 312px,
+  y: 520px,
+  offset-x: -312px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill3: (
+  name: 'Skills_SvenSkill3',
+  x: 364px,
+  y: 520px,
+  offset-x: -364px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill4-desaturated: (
+  name: 'Skills_SvenSkill4_Desaturated',
+  x: 416px,
+  y: 520px,
+  offset-x: -416px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-sven-skill4: (
+  name: 'Skills_SvenSkill4',
+  x: 468px,
+  y: 520px,
+  offset-x: -468px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-focus-desaturated: (
+  name: 'Skills_TrippFocus_Desaturated',
+  x: 520px,
+  y: 520px,
+  offset-x: -520px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-focus: (
+  name: 'Skills_TrippFocus',
+  x: 572px,
+  y: 0px,
+  offset-x: -572px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill1-desaturated: (
+  name: 'Skills_TrippSkill1_Desaturated',
+  x: 572px,
+  y: 52px,
+  offset-x: -572px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill1: (
+  name: 'Skills_TrippSkill1',
+  x: 572px,
+  y: 104px,
+  offset-x: -572px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill2-desaturated: (
+  name: 'Skills_TrippSkill2_Desaturated',
+  x: 572px,
+  y: 156px,
+  offset-x: -572px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill2: (
+  name: 'Skills_TrippSkill2',
+  x: 572px,
+  y: 208px,
+  offset-x: -572px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill3-desaturated: (
+  name: 'Skills_TrippSkill3_Desaturated',
+  x: 572px,
+  y: 260px,
+  offset-x: -572px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill3: (
+  name: 'Skills_TrippSkill3',
+  x: 572px,
+  y: 312px,
+  offset-x: -572px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill4-desaturated: (
+  name: 'Skills_TrippSkill4_Desaturated',
+  x: 572px,
+  y: 364px,
+  offset-x: -572px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tripp-skill4: (
+  name: 'Skills_TrippSkill4',
+  x: 572px,
+  y: 416px,
+  offset-x: -572px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-focus-desaturated: (
+  name: 'Skills_TytoFocus_Desaturated',
+  x: 572px,
+  y: 468px,
+  offset-x: -572px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-focus: (
+  name: 'Skills_TytoFocus',
+  x: 572px,
+  y: 520px,
+  offset-x: -572px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill1-desaturated: (
+  name: 'Skills_TytoSkill1_Desaturated',
+  x: 0px,
+  y: 572px,
+  offset-x: 0px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill1: (
+  name: 'Skills_TytoSkill1',
+  x: 52px,
+  y: 572px,
+  offset-x: -52px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill2-desaturated: (
+  name: 'Skills_TytoSkill2_Desaturated',
+  x: 104px,
+  y: 572px,
+  offset-x: -104px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill2: (
+  name: 'Skills_TytoSkill2',
+  x: 156px,
+  y: 572px,
+  offset-x: -156px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill3-desaturated: (
+  name: 'Skills_TytoSkill3_Desaturated',
+  x: 208px,
+  y: 572px,
+  offset-x: -208px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill3: (
+  name: 'Skills_TytoSkill3',
+  x: 260px,
+  y: 572px,
+  offset-x: -260px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill4-desaturated: (
+  name: 'Skills_TytoSkill4_Desaturated',
+  x: 312px,
+  y: 572px,
+  offset-x: -312px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-tyto-skill4: (
+  name: 'Skills_TytoSkill4',
+  x: 364px,
+  y: 572px,
+  offset-x: -364px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-focus-desaturated: (
+  name: 'Skills_VadasiFocus_Desaturated',
+  x: 416px,
+  y: 572px,
+  offset-x: -416px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-focus: (
+  name: 'Skills_VadasiFocus',
+  x: 468px,
+  y: 572px,
+  offset-x: -468px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill1-desaturated: (
+  name: 'Skills_VadasiSkill1_Desaturated',
+  x: 520px,
+  y: 572px,
+  offset-x: -520px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill1: (
+  name: 'Skills_VadasiSkill1',
+  x: 572px,
+  y: 572px,
+  offset-x: -572px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill2-desaturated: (
+  name: 'Skills_VadasiSkill2_Desaturated',
+  x: 624px,
+  y: 0px,
+  offset-x: -624px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill2: (
+  name: 'Skills_VadasiSkill2',
+  x: 624px,
+  y: 52px,
+  offset-x: -624px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill3-desaturated: (
+  name: 'Skills_VadasiSkill3_Desaturated',
+  x: 624px,
+  y: 104px,
+  offset-x: -624px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill3: (
+  name: 'Skills_VadasiSkill3',
+  x: 624px,
+  y: 156px,
+  offset-x: -624px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill4-desaturated: (
+  name: 'Skills_VadasiSkill4_Desaturated',
+  x: 624px,
+  y: 208px,
+  offset-x: -624px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-vadasi-skill4: (
+  name: 'Skills_VadasiSkill4',
+  x: 624px,
+  y: 260px,
+  offset-x: -624px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-focus-desaturated: (
+  name: 'Skills_VodenFocus_Desaturated',
+  x: 624px,
+  y: 312px,
+  offset-x: -624px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-focus: (
+  name: 'Skills_VodenFocus',
+  x: 624px,
+  y: 364px,
+  offset-x: -624px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill1-desaturated: (
+  name: 'Skills_VodenSkill1_Desaturated',
+  x: 624px,
+  y: 416px,
+  offset-x: -624px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill1: (
+  name: 'Skills_VodenSkill1',
+  x: 624px,
+  y: 468px,
+  offset-x: -624px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill2-desaturated: (
+  name: 'Skills_VodenSkill2_Desaturated',
+  x: 624px,
+  y: 520px,
+  offset-x: -624px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill2: (
+  name: 'Skills_VodenSkill2',
+  x: 624px,
+  y: 572px,
+  offset-x: -624px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill3-desaturated: (
+  name: 'Skills_VodenSkill3_Desaturated',
+  x: 0px,
+  y: 624px,
+  offset-x: 0px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill3: (
+  name: 'Skills_VodenSkill3',
+  x: 52px,
+  y: 624px,
+  offset-x: -52px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill4-desaturated: (
+  name: 'Skills_VodenSkill4_Desaturated',
+  x: 104px,
+  y: 624px,
+  offset-x: -104px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-voden-skill4: (
+  name: 'Skills_VodenSkill4',
+  x: 156px,
+  y: 624px,
+  offset-x: -156px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-focus-desaturated: (
+  name: 'Skills_WuFocus_Desaturated',
+  x: 208px,
+  y: 624px,
+  offset-x: -208px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-focus: (
+  name: 'Skills_WuFocus',
+  x: 260px,
+  y: 624px,
+  offset-x: -260px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill1-desaturated: (
+  name: 'Skills_WuSkill1_Desaturated',
+  x: 312px,
+  y: 624px,
+  offset-x: -312px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill1: (
+  name: 'Skills_WuSkill1',
+  x: 364px,
+  y: 624px,
+  offset-x: -364px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill2-desaturated: (
+  name: 'Skills_WuSkill2_Desaturated',
+  x: 416px,
+  y: 624px,
+  offset-x: -416px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill2: (
+  name: 'Skills_WuSkill2',
+  x: 468px,
+  y: 624px,
+  offset-x: -468px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill3-desaturated: (
+  name: 'Skills_WuSkill3_Desaturated',
+  x: 520px,
+  y: 624px,
+  offset-x: -520px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill3: (
+  name: 'Skills_WuSkill3',
+  x: 572px,
+  y: 624px,
+  offset-x: -572px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill4-desaturated: (
+  name: 'Skills_WuSkill4_Desaturated',
+  x: 624px,
+  y: 624px,
+  offset-x: -624px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-wu-skill4: (
+  name: 'Skills_WuSkill4',
+  x: 676px,
+  y: 0px,
+  offset-x: -676px,
+  offset-y: 0px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-focus-desaturated: (
+  name: 'Skills_XenobiaFocus_Desaturated',
+  x: 676px,
+  y: 52px,
+  offset-x: -676px,
+  offset-y: -52px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-focus: (
+  name: 'Skills_XenobiaFocus',
+  x: 676px,
+  y: 104px,
+  offset-x: -676px,
+  offset-y: -104px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill1-desaturated: (
+  name: 'Skills_XenobiaSkill1_Desaturated',
+  x: 676px,
+  y: 156px,
+  offset-x: -676px,
+  offset-y: -156px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill1: (
+  name: 'Skills_XenobiaSkill1',
+  x: 676px,
+  y: 208px,
+  offset-x: -676px,
+  offset-y: -208px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill2-desaturated: (
+  name: 'Skills_XenobiaSkill2_Desaturated',
+  x: 676px,
+  y: 260px,
+  offset-x: -676px,
+  offset-y: -260px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill2: (
+  name: 'Skills_XenobiaSkill2',
+  x: 676px,
+  y: 312px,
+  offset-x: -676px,
+  offset-y: -312px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill3-desaturated: (
+  name: 'Skills_XenobiaSkill3_Desaturated',
+  x: 676px,
+  y: 364px,
+  offset-x: -676px,
+  offset-y: -364px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill3: (
+  name: 'Skills_XenobiaSkill3',
+  x: 676px,
+  y: 416px,
+  offset-x: -676px,
+  offset-y: -416px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill4-desaturated: (
+  name: 'Skills_XenobiaSkill4_Desaturated',
+  x: 676px,
+  y: 468px,
+  offset-x: -676px,
+  offset-y: -468px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-xenobia-skill4: (
+  name: 'Skills_XenobiaSkill4',
+  x: 676px,
+  y: 520px,
+  offset-x: -676px,
+  offset-y: -520px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-focus-desaturated: (
+  name: 'Skills_ZandoraFocus_Desaturated',
+  x: 676px,
+  y: 572px,
+  offset-x: -676px,
+  offset-y: -572px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-focus: (
+  name: 'Skills_ZandoraFocus',
+  x: 676px,
+  y: 624px,
+  offset-x: -676px,
+  offset-y: -624px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill1-desaturated: (
+  name: 'Skills_ZandoraSkill1_Desaturated',
+  x: 0px,
+  y: 676px,
+  offset-x: 0px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill1: (
+  name: 'Skills_ZandoraSkill1',
+  x: 52px,
+  y: 676px,
+  offset-x: -52px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill2-desaturated: (
+  name: 'Skills_ZandoraSkill2_Desaturated',
+  x: 104px,
+  y: 676px,
+  offset-x: -104px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill2: (
+  name: 'Skills_ZandoraSkill2',
+  x: 156px,
+  y: 676px,
+  offset-x: -156px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill3-desaturated: (
+  name: 'Skills_ZandoraSkill3_Desaturated',
+  x: 208px,
+  y: 676px,
+  offset-x: -208px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill3: (
+  name: 'Skills_ZandoraSkill3',
+  x: 260px,
+  y: 676px,
+  offset-x: -260px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill4-desaturated: (
+  name: 'Skills_ZandoraSkill4_Desaturated',
+  x: 312px,
+  y: 676px,
+  offset-x: -312px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$-skills-zandora-skill4: (
+  name: 'Skills_ZandoraSkill4',
+  x: 364px,
+  y: 676px,
+  offset-x: -364px,
+  offset-y: -676px,
+  width: 50px,
+  height: 50px,
+  total-width: 726px,
+  total-height: 726px,
+  image: 'img/skills.png'
+);
+$skills: (
+  width: 726px,
+  height: 726px,
+  image: 'img/skills.png',
+  sprites: ($-skills-aisling-focus-desaturated, $-skills-aisling-focus, $-skills-aisling-skill1-desaturated, $-skills-aisling-skill1, $-skills-aisling-skill2-desaturated, $-skills-aisling-skill2, $-skills-aisling-skill3-desaturated, $-skills-aisling-skill3, $-skills-aisling-skill4-desaturated, $-skills-aisling-skill4, $-skills-beckett-focus-desaturated, $-skills-beckett-focus, $-skills-beckett-skill1-desaturated, $-skills-beckett-skill1, $-skills-beckett-skill2-desaturated, $-skills-beckett-skill2, $-skills-beckett-skill3-desaturated, $-skills-beckett-skill3, $-skills-beckett-skill4-desaturated, $-skills-beckett-skill4, $-skills-charnok-focus-desaturated, $-skills-charnok-focus, $-skills-charnok-skill1-desaturated, $-skills-charnok-skill1, $-skills-charnok-skill2-desaturated, $-skills-charnok-skill2, $-skills-charnok-skill3-desaturated, $-skills-charnok-skill3, $-skills-charnok-skill4-desaturated, $-skills-charnok-skill4, $-skills-griselma-focus-desaturated, $-skills-griselma-focus, $-skills-griselma-skill1-desaturated, $-skills-griselma-skill1, $-skills-griselma-skill2-desaturated, $-skills-griselma-skill2, $-skills-griselma-skill3-desaturated, $-skills-griselma-skill3, $-skills-griselma-skill4-desaturated, $-skills-griselma-skill4, $-skills-h-k-focus-desaturated, $-skills-h-k-focus, $-skills-h-k-skill1-desaturated, $-skills-h-k-skill1, $-skills-h-k-skill2-desaturated, $-skills-h-k-skill2, $-skills-h-k-skill3-desaturated, $-skills-h-k-skill3, $-skills-h-k-skill4-desaturated, $-skills-h-k-skill4, $-skills-imani-focus-desaturated, $-skills-imani-focus, $-skills-imani-skill1-desaturated, $-skills-imani-skill1, $-skills-imani-skill2-desaturated, $-skills-imani-skill2, $-skills-imani-skill3-desaturated, $-skills-imani-skill3, $-skills-imani-skill4-desaturated, $-skills-imani-skill4, $-skills-knossos-focus-desaturated, $-skills-knossos-focus, $-skills-knossos-skill1-desaturated, $-skills-knossos-skill1, $-skills-knossos-skill2-desaturated, $-skills-knossos-skill2, $-skills-knossos-skill3-desaturated, $-skills-knossos-skill3, $-skills-knossos-skill4-desaturated, $-skills-knossos-skill4, $-skills-margrave-focus-desaturated, $-skills-margrave-focus, $-skills-margrave-skill1-desaturated, $-skills-margrave-skill1, $-skills-margrave-skill2-desaturated, $-skills-margrave-skill2, $-skills-margrave-skill3-desaturated, $-skills-margrave-skill3, $-skills-margrave-skill4-desaturated, $-skills-margrave-skill4, $-skills-mozu-focus-desaturated, $-skills-mozu-focus, $-skills-mozu-skill1-desaturated, $-skills-mozu-skill1, $-skills-mozu-skill2-desaturated, $-skills-mozu-skill2, $-skills-mozu-skill3-desaturated, $-skills-mozu-skill3, $-skills-mozu-skill4-desaturated, $-skills-mozu-skill4, $-skills-pakko-focus-desaturated, $-skills-pakko-focus, $-skills-pakko-skill1-desaturated, $-skills-pakko-skill1, $-skills-pakko-skill2-desaturated, $-skills-pakko-skill2, $-skills-pakko-skill3-desaturated, $-skills-pakko-skill3, $-skills-pakko-skill4-desaturated, $-skills-pakko-skill4, $-skills-roland-focus-desaturated, $-skills-roland-focus, $-skills-roland-skill1-desaturated, $-skills-roland-skill1, $-skills-roland-skill2-desaturated, $-skills-roland-skill2, $-skills-roland-skill3-desaturated, $-skills-roland-skill3, $-skills-roland-skill4-desaturated, $-skills-roland-skill4, $-skills-sven-focus-desaturated, $-skills-sven-focus, $-skills-sven-skill1-desaturated, $-skills-sven-skill1, $-skills-sven-skill2-desaturated, $-skills-sven-skill2, $-skills-sven-skill3-desaturated, $-skills-sven-skill3, $-skills-sven-skill4-desaturated, $-skills-sven-skill4, $-skills-tripp-focus-desaturated, $-skills-tripp-focus, $-skills-tripp-skill1-desaturated, $-skills-tripp-skill1, $-skills-tripp-skill2-desaturated, $-skills-tripp-skill2, $-skills-tripp-skill3-desaturated, $-skills-tripp-skill3, $-skills-tripp-skill4-desaturated, $-skills-tripp-skill4, $-skills-tyto-focus-desaturated, $-skills-tyto-focus, $-skills-tyto-skill1-desaturated, $-skills-tyto-skill1, $-skills-tyto-skill2-desaturated, $-skills-tyto-skill2, $-skills-tyto-skill3-desaturated, $-skills-tyto-skill3, $-skills-tyto-skill4-desaturated, $-skills-tyto-skill4, $-skills-vadasi-focus-desaturated, $-skills-vadasi-focus, $-skills-vadasi-skill1-desaturated, $-skills-vadasi-skill1, $-skills-vadasi-skill2-desaturated, $-skills-vadasi-skill2, $-skills-vadasi-skill3-desaturated, $-skills-vadasi-skill3, $-skills-vadasi-skill4-desaturated, $-skills-vadasi-skill4, $-skills-voden-focus-desaturated, $-skills-voden-focus, $-skills-voden-skill1-desaturated, $-skills-voden-skill1, $-skills-voden-skill2-desaturated, $-skills-voden-skill2, $-skills-voden-skill3-desaturated, $-skills-voden-skill3, $-skills-voden-skill4-desaturated, $-skills-voden-skill4, $-skills-wu-focus-desaturated, $-skills-wu-focus, $-skills-wu-skill1-desaturated, $-skills-wu-skill1, $-skills-wu-skill2-desaturated, $-skills-wu-skill2, $-skills-wu-skill3-desaturated, $-skills-wu-skill3, $-skills-wu-skill4-desaturated, $-skills-wu-skill4, $-skills-xenobia-focus-desaturated, $-skills-xenobia-focus, $-skills-xenobia-skill1-desaturated, $-skills-xenobia-skill1, $-skills-xenobia-skill2-desaturated, $-skills-xenobia-skill2, $-skills-xenobia-skill3-desaturated, $-skills-xenobia-skill3, $-skills-xenobia-skill4-desaturated, $-skills-xenobia-skill4, $-skills-zandora-focus-desaturated, $-skills-zandora-focus, $-skills-zandora-skill1-desaturated, $-skills-zandora-skill1, $-skills-zandora-skill2-desaturated, $-skills-zandora-skill2, $-skills-zandora-skill3-desaturated, $-skills-zandora-skill3, $-skills-zandora-skill4-desaturated, $-skills-zandora-skill4, )
+);
+
+// The provided mixins are intended to be used with variables directly
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: map-get($sprite, 'width');
+}
+
+@mixin sprite-height($sprite) {
+  height: map-get($sprite, 'height');
+}
+
+@mixin sprite-position($sprite) {
+  background-position: map-get($sprite, 'offset-x') map-get($sprite, 'offset-y');
+}
+
+@mixin sprite-image($sprite) {
+  background-image: url(map-get($sprite, 'image'));
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites(map-get($spritesheet, 'sprites'));
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: map-get($sprite, 'name');
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

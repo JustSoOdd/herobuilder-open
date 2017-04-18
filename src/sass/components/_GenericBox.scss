@@ -1,0 +1,23 @@
+%generic-box {
+  background: $color-ggu-blue-2;
+  margin: 5px 5px 50px 5px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+
+  %--key {
+    color: $color-ggu-white;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 0.75rem;
+  }
+
+  %--inner {
+    background: $color-ggu-white;
+    border: 1px solid $color-ggu-blue-2;
+    border-radius: 0 0 3px 3px;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

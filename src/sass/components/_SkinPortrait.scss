@@ -1,0 +1,32 @@
+.skin-portrait {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 240px;
+  
+  &--avatar {
+    margin-bottom: 2%;
+    border: 2px solid $color-ggu-blue;
+    background: $color-ggu-blue;
+  }
+
+  &--name {
+    width: 144px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: $color-ggu-blue;
+  }
+
+  &--description {
+    display: none;
+    margin-top: -5%;
+  }
+
+  &:hover &--description {
+    display: block;
+  }
+}

@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Xenobia",
+        "de": "Xenobia",
+        "es": "Xenobia",
+        "fr": "Xenobia"
+    },
+    "shortName": "Xenobia",
+    "description": {
+        "en": "Weakens Enemies; Steal Life",
+        "de": "Schwächt Gegner. Raubt Leben.",
+        "es": "Debilita a los enemigos. Roba vida.",
+        "fr": "Affaiblit les ennemis, vole de la vie"
+    },
+    "lore": {
+        "en": "Prized pupil of Devaedra herself, Xenobia emerged from the maelstrom with her mind, her pride, and her ambition intact. The physical changes...those were merely the price of power, Xenobia mused, and perhaps they could even be appreciated in time.",
+        "de": "Xenobia, geschätzte Schülerin von Devaedra selbst, trat mit intaktem Geist, Stolz und Ehrgeiz aus dem Mahlstrom hervor. Die körperlichen Veränderungen ... waren einfach nur der Preis der Macht, sinnierte Xenobia, die sie mit der Zeit vielleicht sogar zu schätzen lernen würde.",
+        "es": "Xenobia, apreciada estudiante de la misma Devaedra, emergió del torbellino con la mente, el orgullo y la ambición intactos. Los cambios físicos... fueron solo el precio del poder, meditaba Xenobia, y quizá los aprecien con el paso del tiempo.",
+        "fr": "Élève exemplaire de Devaedra, Xenobia est ressortie du maelström avec toute sa tête, sa fierté, et son ambition. Ses changements physiques sont, selon elle, le prix à payer pour sa puissance. Et puis, ça sera peut-être à la mode, un jour."
+    },
+    "house": "Devaedra",
+    "playStyle": {
+        "en": {
+            "description": "Gaze upon her visage and despair! Xenobia strips away enemies' armor, diminishes their attacks, and slows them to a crawl.",
+            "playStyleTips": [
+                "Drain enemy life to heal yourself and improve allies' damage.",
+                "Ride your Wall of Sorrow like a wave that deals damage or deflects attacks.",
+                "Upgrade Mark of Despair so it immobilizes enemies or prevents them from healing."
+            ]
+        },
+        "de": {
+            "description": "Blicke in ihr Antlitz und verzweifle! Xenobia nimmt ihren Gegnern ihre Rüstung, schwächt deren Angriffe ab und verlangsamt sie bis hin zu einem Kriechen.",
+            "playStyleTips": [
+                "Entziehe die Lebensenergie deiner Gegner, um dich selbst zu heilen und den Schaden deiner Verbündeten zu erhöhen.",
+                "Reite auf deinem Wall des Leids wie auf einer Welle, die Schaden verursacht oder Angriffe abwehrt.",
+                "Werte dein Zeichen der Verzweiflung auf, damit es Gegner bewegungsunfähig macht oder ihre Heilung verhindert."
+            ]
+        },
+        "es": {
+            "description": "¡Contemplad su semblante y desesperad! Xenobia despoja a los enemigos de su armadura, reduce sus ataques y los ralentiza hasta que acaban arrastrándose.",
+            "playStyleTips": [
+                "Absorbe vida de los enemigos para curarte tú y mejorar el daño de los aliados.",
+                "Usa Muro del pesar como una ola que inflige daño o evita ataques.",
+                "Sube de nivel Señal de desesperación para inmovilizar enemigos e impedir que se curen."
+            ]
+        },
+        "fr": {
+            "description": "Contemplez son visage et désespérez ! Xenobia brise l'armure de ses ennemis, réduit la puissance de leurs attaques, et les ralentit considérablement.",
+            "playStyleTips": [
+                "Drainez la santé de l'ennemi pour vous guérir et améliorer les dégâts infligés par vos alliés.",
+                "Utilisez votre Mur de chagrin pour infliger des dégâts ou dévier les attaques.",
+                "Améliorez la Marque du désespoir pour immobiliser les ennemis et les empêcher de guérir."
+            ]
+        }
+    },
+    "attackStat": 40,
+    "defenseStat": 50,
+    "mobilityStat": 40,
+    "utilityStat": 100,
+    "difficulty": 7,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "GAZE OF ENVY",
+                "de": "BLICK DES NEIDS",
+                "es": "MIRADA DE ENVIDIA",
+                "fr": "REGARD ENVIEUX"
+            },
+            "description": {
+                "en": "HOLD LMB: Drain life and heal yourself.",
+                "de": "LMB GEDRÜCKT HALTEN: Leben entziehen und dich selbst heilen.",
+                "es": "MANTÉN PULSADO LMB: absorbes vida y te curas.",
+                "fr": "Maintenir LMB pour drainer la santé de l'ennemi et vous soigner."
+            },
+            "lore": {
+                "en": "None who follow Devaedra into the maelstrom emerge completely intact. The successes retain a semblance of their previous form. Not so the failures.",
+                "de": "Niemand, der Devaedra je in den Mahlstrom gefolgt ist, trat heil wieder aus ihm hervor. Jene, die von Erfolg gekrönt sind, behalten nur einen Anschein ihres vorherigen Aussehens. Denjenigen, die versagen, ergeht es ganz anders.",
+                "es": "Nadie que siga a Devaedra al torbellino emerge completamente intacto. Quienes lo logran tienen un cierto parecido con su forma previa. Los que fallan no tanto.",
+                "fr": "Aucun de ceux qui suivent Devaedra dans le maelström n'en ressortent indemnes. Les succès conservent vaguement leur saveur d'antan, mais pas les échecs."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Greedy Gaze",
+                    "de": "Gieriger Blick",
+                    "es": "Mirada codiciosa",
+                    "fr": "Regard avide"
+                },
+                "description": {
+                    "en": "You gain more health from Gaze of Envy.",
+                    "de": "Du erhältst mehr Gesundheit durch  Blick des Neids'.",
+                    "es": "Obtienes más salud de Mirada de envidia.",
+                    "fr": "Vous gagnez plus de santé avec votre Regard envieux."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Survival of the Cruelest",
+                    "de": "Überleben des Grausamsten",
+                    "es": "La supervivencia del más cruel",
+                    "fr": "Survie du plus cruel"
+                },
+                "description": {
+                    "en": "You gain 50% more health when your health is below 50%.",
+                    "de": "Du erhältst 50% mehr Gesundheit, wenn diese sich unter 50% befindet.",
+                    "es": "Ganas un 50% más de salud cuando estés por debajo del 50%.",
+                    "fr": "Vous gagnez 50 % de santé quand celle-ci est en dessous de 50 %."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Domineering Glare",
+                    "de": "Gebieterischer Blick",
+                    "es": "Mirada dominante",
+                    "fr": "Regard autoritaire"
+                },
+                "description": {
+                    "en": "When you are above 50% health, you deal more damage.",
+                    "de": "Wenn deine Gesundheit über 50% beträgt, verursachst du mehr Schaden.",
+                    "es": "Infliges más daño cuando estás por encima del 50% de salud.",
+                    "fr": "Cause plus de dégâts quand vous avez plus de 50 % de santé."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Withering Gaze",
+                    "de": "Vernichtender Blick",
+                    "es": "Mirada marchitadora",
+                    "fr": "Regard noir"
+                },
+                "description": {
+                    "en": "While attached, Gaze of Envy inflicts Weakness. (-20% damage, 1s)",
+                    "de": "Während hinzugefügt verursacht  Blick des Neids' Schwäche. (-20% Schaden, 1 Sek.)",
+                    "es": "Mientras esté unida, Mirada de envidia inflige debilidad (-20% de daño en 1 s).",
+                    "fr": "Une fois l'ennemi touché, Regard envieux inflige Faiblesse (-20 % de dégâts, 1 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Sap Strength",
+                    "de": "Entzieht Stärke",
+                    "es": "Absorción",
+                    "fr": "Sève affaiblissante"
+                },
+                "description": {
+                    "en": "Weakness from Gaze of Envy is more potent and lasts longer.  (-60% damage, 3s)",
+                    "de": "Schwäche durch  Blick des Neids  ist stärker und währt länger. (-60% Schaden, 3 Sek.)",
+                    "es": "La debilidad de Mirada de envidia es más potente y dura más (-60% de daño en 3 s).",
+                    "fr": "Faiblesse de Regard envieux est plus puissante et dure plus longtemps (-60 % de dégâts, 3 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Siphon Strength",
+                    "de": "Stärke abzapfen",
+                    "es": "Absorber fuerza",
+                    "fr": "Force de siphon"
+                },
+                "description": {
+                    "en": "Allies near your target gain +25% damage for 1s.",
+                    "de": "Verbündete in der Nähe deines Ziels erhalten für 1 Sek. 25% mehr Schaden.",
+                    "es": "Los aliados cercanos a tu objetivo obtienen +25% de daño durante 1 s.",
+                    "fr": "Les alliés proches de votre cible infligent +25 % de dégâts (1 s)."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "WORDS OF SPITE",
+                "de": "WORTE DER BOSHEIT",
+                "es": "PALABRAS RENCOROSAS",
+                "fr": "MALVEILLANCE"
+            },
+            "description": {
+                "en": "Homing projectile that breaks armor for 4s.",
+                "de": "Zielsuchendes Projektil, das für 4 Sek. Rüstung durchbricht.",
+                "es": "Proyectiles guiados que rompen armadura durante 4 s.",
+                "fr": "Projectile à tête chercheuse qui brise une armure pendant 4 s."
+            },
+            "lore": {
+                "en": "\"Words are the deadliest poison of all, for the victims repeat them and thus spread the toxin.\" —Xenobia",
+                "de": "„Worte sind die tödlichsten aller Gifte, da die Opfer sie wiederholen und so weiterverbreiten.“ – Xenobia",
+                "es": "\"Las palabras son el veneno más mortal de todos. Las víctimas las repiten, y se extiende la toxina.\" —Xenobia",
+                "fr": "« Les mots sont les poisons les plus mortels, la toxine se répand lorsque les victimes les répètent. » —Xenobia"
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Feast of Spite",
+                    "de": "Schmaus der Bosheit",
+                    "es": "Festín de odio",
+                    "fr": "Méchanceté gratuite"
+                },
+                "description": {
+                    "en": "On hit, steals 100 health from the enemy.",
+                    "de": "Raubt Gegnern bei einem Treffer 100 TP.",
+                    "es": "Al impactar, le roba 100 PV al enemigo.",
+                    "fr": "Draine 100 de santé à l'ennemi touché."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Echo of Spite",
+                    "de": "Echo der Bosheit",
+                    "es": "Eco de rencor",
+                    "fr": "Écho de méchanceté"
+                },
+                "description": {
+                    "en": "Bounces to 2 additional targets.",
+                    "de": "Springt auf 2 zusätzliche Ziele über.",
+                    "es": "Rebota a 2 objetivos adicionales.",
+                    "fr": "Touche 2 cibles supplémentaires."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Demoralizing Cry",
+                    "de": "Entmutigender Schrei",
+                    "es": "Grito desmoralizante",
+                    "fr": "Cri démoralisant"
+                },
+                "description": {
+                    "en": "On hit, also drains move speed from the enemy. (Slows enemy, haste self, 2s)",
+                    "de": "Entzieht Gegnern bei einem Treffer Bewegungsgeschwindigkeit. (Verlangsamt Gegner, eigene Hast, 2 Sek.)",
+                    "es": "Al impactar, absorbe más velocidad del enemigo (aumenta la tuya durante 2 s).",
+                    "fr": "Réduit la vitesse de déplacement de l'ennemi touché et vous donne un boost de vitesse (2 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Screaming Halt",
+                    "de": "Plötzlicher Stopp",
+                    "es": "Tiempo muerto",
+                    "fr": "Halte-là"
+                },
+                "description": {
+                    "en": "On hit, immobilizes the enemy for 2s. (+10s cooldown) ",
+                    "de": "Macht Gegner bei einem Treffer für 2 Sek. bewegungsunfähig. (+10 Sek. Abklingzeit)",
+                    "es": "Al impactar, inmoviliza al enemigo durante 2 s (recarga: 10 s).",
+                    "fr": "Immobilise l'ennemi touché pendant 2 s (temps de rechargement : +10 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Word Travels",
+                    "de": "Weite Reise",
+                    "es": "Palabras viajeras",
+                    "fr": "Bouche à oreille"
+                },
+                "description": {
+                    "en": "Words of Spite has increased range.",
+                    "de": "Worte der Bosheit  verfügt über erhöhte Reichweite.",
+                    "es": "Palabras rencorosas tiene mayor alcance.",
+                    "fr": "Augmente la portée de Malveillance."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Cutting Words",
+                    "de": "Schneidende Worte",
+                    "es": "Palabras cortantes",
+                    "fr": "Mots aiguisés"
+                },
+                "description": {
+                    "en": "If the enemy is affected by Mark of Despair E, causes bleeding. (300 over 3s)",
+                    "de": "Wenn der Gegner von  Zeichen der Verzweiflung  E betroffen ist, wird Blutung verursacht. (300 über 3 Sek.)",
+                    "es": "Los enemigos afectados por Señal de desesperación E sufren hemorragia (300 en 3 s).",
+                    "fr": "L'ennemi touché par Marque du désespoir E subit un saignement (300 pendant 3 s)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "WAVE OF SORROW",
+                "de": "WELLE DES KUMMERS",
+                "es": "OLEADA DE PESARES",
+                "fr": "VAGUE DE CHAGRIN"
+            },
+            "description": {
+                "en": "Ground based projectile: Knocks back and weakens enemies for 3s.",
+                "de": "Bodenprojektil: Wirft Gegner zurück und schwächt sie für 3 Sek.",
+                "es": "Proyectil terrestre que derriba y debilita a los enemigos durante 3 s.",
+                "fr": "Projectile au sol qui repousse et affaiblit les ennemis (3 s)."
+            },
+            "lore": {
+                "en": "When brought into the maelstrom, Xenobia remembered her family's fate: the poverty, the violence, the mourning. Never again, she swore.",
+                "de": "Als Xenobia den Mahlstrom betrat, erinnerte sie sich an das Schicksal ihrer Familie: Die Armut, die Gewalt, die Trauer. Niemals wieder, schwor sie sich.",
+                "es": "Al entrar en el torbellino, Xenobia recordó el destino de su familia: pobreza, violencia, lamento. Se juró que nunca más.",
+                "fr": "Plongée dans le maelström, Xenobia se remémora le sort de sa famille : pauvreté, violence et deuil. Plus jamais ça, se promit-elle."
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Sorrow's Wake",
+                    "de": "Totenwache des Kummers",
+                    "es": "Estela del pesar",
+                    "fr": "Sillage de chagrin"
+                },
+                "description": {
+                    "en": "Wave of Sorrow moves through enemies.",
+                    "de": "Welle des Kummers  bewegt sich durch Gegner.",
+                    "es": "Oleada de pesares atraviesa a los enemigos.",
+                    "fr": "Vague de chagrin passe à travers les ennemis."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Tears of Unfathomable Sadness",
+                    "de": "Tränen der unermesslichen Traurigkeit",
+                    "es": "Lágrimas de tristeza infinita",
+                    "fr": "Larmes de tristesse absolue"
+                },
+                "description": {
+                    "en": "Wave of Sorrow heals 75hp from each enemy hit.",
+                    "de": "Welle des Kummers  heilt 75 TP bei jedem gegnerischen Treffer.",
+                    "es": "Oleada de pesares cura 75 PV por cada enemigo impactado.",
+                    "fr": "Vague de chagrin soigne 75 PV pour chaque ennemi touché."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Intense Sorrow",
+                    "de": "Tiefer Kummer",
+                    "es": "Pesar intenso",
+                    "fr": "Intense chagrin"
+                },
+                "description": {
+                    "en": "Weakness strength is tripled, but does not push as far.",
+                    "de": "Schwäche wird verdreifacht, aber Gegner werden nicht so weit weggestoßen.",
+                    "es": "La debilidad aplicada se triplica, pero no empuja muy lejos.",
+                    "fr": "Les effets de Faiblesse sont triplés mais ne repoussent pas aussi loin."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Banishing Sorrow",
+                    "de": "Bannender Kummer",
+                    "es": "Pesar desterrado",
+                    "fr": "Chagrin propulseur"
+                },
+                "description": {
+                    "en": "Wave of Sorrow Launches on hit.",
+                    "de": "Welle des Kummers  schleudert bei einem Treffer.",
+                    "es": "Al impactar, Oleada de pesares lanza.",
+                    "fr": "Vague de chagrin propulse à l'impact."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Heightened Sorrow",
+                    "de": "Verstärkter Kummer",
+                    "es": "Pesar extremo",
+                    "fr": "Profond chagrin"
+                },
+                "description": {
+                    "en": "Launches enemies higher and further.",
+                    "de": "Schleudert Gegner höher und weiter.",
+                    "es": "Lanza a los enemigos más alto y más lejos.",
+                    "fr": "Propulse les ennemis plus haut et plus loin."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Mark of Sorrow",
+                    "de": "Zeichen des Kummers",
+                    "es": "Señal del pesar",
+                    "fr": "Marque du chagrin"
+                },
+                "description": {
+                    "en": "If the enemy is affected by Mark of Despair E, deals +200 damage.",
+                    "de": "Wenn der Gegner von  Zeichen der Verzweiflung  betroffen ist, E fügt +200 Schaden hinzu.",
+                    "es": "Los enemigos afectados por Señal de desesperación E sufren +200 de daño.",
+                    "fr": "Les ennemis touchés par Marque du désespoir E subissent +200 de dégâts."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "MARK OF DESPAIR",
+                "de": "ZEICHEN DER VERZWEIFLUNG",
+                "es": "SEÑAL DE DESESPERACIÓN",
+                "fr": "MARQUE DU DÉSESPOIR"
+            },
+            "description": {
+                "en": "Zone: Slows movement. Lasts 6s.",
+                "de": "Wirkungsbereich: Verlangsamt Bewegung. Währt 6 Sek.",
+                "es": "Zona: ralentiza los movimientos durante 6 s.",
+                "fr": "Zone : ralentit les déplacements (6 s)."
+            },
+            "lore": {
+                "en": "\"I don't want you to fail,\" Xenobia said. \"I want to you dwell on the fact that you're about to fail.\"",
+                "de": "„Ich möchte nicht, dass du versagst!“, meinte Xenobia. „Ich möchte, dass du über die Tatsache sinnierst, dass dein Scheitern bevorsteht.“",
+                "es": "\"No quiero que fracaséis\", dijo Xenobia. \"Quiero mortificaros por el hecho de que vais a fracasar.\"",
+                "fr": "« Je ne veux pas simplement vous battre. » dit Xenobia. « Je veux que vous ayez conscience de la défaite qui vous attend. »"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Depths of Despair",
+                    "de": "Tiefen der Verzweiflung",
+                    "es": "Profundidades de la desesperación",
+                    "fr": "Profondeurs du désespoir"
+                },
+                "description": {
+                    "en": "Mark of Despair affects a larger area.",
+                    "de": "Zeichen der Verzweiflung' beeinflusst ein größeres Gebiet.",
+                    "es": "Señal de desesperación afecta a una zona más amplia.",
+                    "fr": "Marque du désespoir affecte une zone plus grande."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Toxic Relationship",
+                    "de": "Giftige Beziehung",
+                    "es": "Relación tóxica",
+                    "fr": "Relation toxique"
+                },
+                "description": {
+                    "en": "Enemies within Mark of Despair cannot be healed.",
+                    "de": "Gegner im  Zeichen der Verzweiflung' können nicht geheilt werden.",
+                    "es": "Los enemigos con Señal de desesperación no pueden ser curados.",
+                    "fr": "Les ennemis pris dans Marque du désespoir ne peuvent pas être soignés."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Conduit of Despair",
+                    "de": "Leitung der Verzweiflung",
+                    "es": "Conducto de la desesperación",
+                    "fr": "Désespoir revigorant"
+                },
+                "description": {
+                    "en": "Enemies inside give more health to Xenobia from all other abilities.",
+                    "de": "Gegner im Inneren gewähren Xenobia mehr Gesundheit von allen anderen Fähigkeiten.",
+                    "es": "Los enemigos que estén dentro otorgan a Xenobia más salud de las otras capacidades.",
+                    "fr": "Les autres compétences de Xenobia drainent plus de santé quand les ennemis sont pris à l'intérieur."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Building Anguish",
+                    "de": "Aufbauende Qualen",
+                    "es": "Potenciando la angustia",
+                    "fr": "Angoisse montante"
+                },
+                "description": {
+                    "en": "1.5s delay before starting. On start, Mark of Despair deals damage.",
+                    "de": "1,5 Sekunden Verzögerung vor Beginn. Sobald  Zeichen der Verzweiflung' einsetzt, verursacht es Schaden.",
+                    "es": "1,5 s de retardo antes del inicio. Al empezar, Señal de desesperación inflige daño.",
+                    "fr": "Délai d'1,5 s avant de commencer. Marque du désespoir cause des dégâts à son lancement."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Burning Despair",
+                    "de": "Brennende Verzweiflung",
+                    "es": "Desesperación ardiente",
+                    "fr": "Désespoir enflammé"
+                },
+                "description": {
+                    "en": "Enemies inside of Mark of Despair are set on fire.",
+                    "de": "Gegner innerhalb von  Zeichen der Verzweiflung' werden in Brand gesteckt.",
+                    "es": "Se prenden fuego los enemigos que estén dentro de Señal de desesperación.",
+                    "fr": "L'ennemi à l'intérieur de Marque du désespoir prennent feu."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Revel in Anguish",
+                    "de": "Schwelge im Schmerz",
+                    "es": "Deleite en la angustia",
+                    "fr": "Angoissovore"
+                },
+                "description": {
+                    "en": "Hitting an enemy grants Xenobia +25% damage for 3s",
+                    "de": "Das Treffen eines Gegner gewährt Xenobia 25% mehr Schaden für 3 Sek.",
+                    "es": "Al impactar a un enemigo, Xenobia obtiene +25% de daño durante 3 s.",
+                    "fr": "Toucher un ennemi donne à Xenobia +25 % de dégâts (3 s)."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "CURSED SOUL",
+                "de": "VERFLUCHTE SEELE",
+                "es": "ALMA MALDITA",
+                "fr": "ÂME MAUDITE"
+            },
+            "description": {
+                "en": "Targeted: Curses enemies, siphoning their life back to you for 6s.",
+                "de": "Anvisiert: Verflucht Gegner und entzieht ihnen Leben und fügt es dir zu. (5 Sek.)",
+                "es": "Dirigido: maldice a los enemigos, absorbe su vida y te la transfiere durante 5 s.",
+                "fr": "Maudit les ennemis en récupérant leur santé (5 s)."
+            },
+            "lore": {
+                "en": "\"Why do our wounds matter if our rivals have so much life to give?\" —Xenobia",
+                "de": "„Warum sollten unsere Wunden etwas bedeuten, wenn unsere Feinde soviel Leben zu geben haben?“ – Xenobia",
+                "es": "\"¿Cuánto importan nuestras heridas si los rivales tienen tanta vida que dar?\" —Xenobia",
+                "fr": "« Pourquoi s'inquiéter de nos blessures quand nos rivaux ont tant de vie à donner ? » —Xenobia"
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Extended Curse",
+                    "de": "Längerer Fluch",
+                    "es": "Maleficio ampliado",
+                    "fr": "Malédiction prolongée"
+                },
+                "description": {
+                    "en": "Increases the duration of Cursed Soul by 2s.",
+                    "de": "Erhöht die Dauer von  Verfluchte Seele  um 2 Sek.",
+                    "es": "Aumenta la duración de Alma maldita 2 s.",
+                    "fr": "Augmente la durée d'Âme maudite de 2 s."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Insult and Injury",
+                        "de": "Schmerzende Worte",
+                        "es": "Insultos e injurias",
+                        "fr": "Insulte et blessure"
+                    },
+                    "description": {
+                        "en": "RMB: Words of Spite deals +100 damage on hit.",
+                        "de": "RMB:  Worte der Bosheit  verursacht bei einem Treffer +100 Schaden.",
+                        "es": "RMB: Al impactar, Palabras rencorosas inflige +100 de daño.",
+                        "fr": "RMB : Malveillance inflige +100 de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Reach of Despair",
+                        "de": "Reichweite der Verzweiflung",
+                        "es": "Alcance de la desesperación",
+                        "fr": "Portée du désespoir"
+                    },
+                    "description": {
+                        "en": "E: Increased targeting range for Mark of Despair.",
+                        "de": "E: Erhöhte Zielreichweite für  Zeichen der Verzweiflung'.",
+                        "es": "E: aumenta el alcance para apuntar con Señal de desesperación.",
+                        "fr": "E : portée de Marque du désespoir augmentée."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Calling the Shots",
+                        "de": "Ton angeben",
+                        "es": "Tomando decisiones",
+                        "fr": "Mener la danse"
+                    },
+                    "description": {
+                        "en": "When you debuff a foe, nearby allies gain +10% damage for 5s. (Once per 5s.)",
+                        "de": "Wenn du einen Gegner schwächst, erhalten Verbündete in der Nähe für 5 Sek. 10% mehr Schaden. (Einmal alle 5 Sek.)",
+                        "es": "Cuando debilitas a un enemigo, los aliados cercanos obtienen +10% de daño durante 5 s (una vez cada 5 s).",
+                        "fr": "Lorsque vous debuffez un ennemi, les alliés proches font +10 % de dégâts pendant 5 s (une fois toutes les 5 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Another's Keeper",
+                        "de": "Eines anderen Hüter",
+                        "es": "El guardián de otro",
+                        "fr": "Altruiste"
+                    },
+                    "description": {
+                        "en": "+10% healing power. Gain focus when you buff or heal an ally. (Once per 5s.)",
+                        "de": "10% mehr Heilkraft. Du erhältst Fokus, wenn du einen Verbündeten stärkst oder heilst. (Einmal alle 5 Sek.)",
+                        "es": "+10% de poder curativo. Ganas concentración al potenciar o curar a un aliado (una vez cada 5 s).",
+                        "fr": "Pouvoir de guérison +10 %. Vous gagnez du Focus quand vous améliorez ou que vous soignez un allié (une fois toutes les 5 s)."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Pure Escapism",
+                        "de": "Pure Weltflucht",
+                        "es": "Escapismo puro",
+                        "fr": "La grande évasion"
+                    },
+                    "description": {
+                        "en": "Lose debuffs when you dodge. (Once every 20s.)",
+                        "de": "Verliere Schwächungen, wenn du ausweichst. (Einmal alle 20 Sek.)",
+                        "es": "Pierdes las debilitaciones al esquivar (una vez cada 20 s).",
+                        "fr": "Debuffs perdus lorsque vous esquivez (une fois toutes les 20 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Easy Strider",
+                        "de": "Leichter Läufer",
+                        "es": "Paso fácil",
+                        "fr": "Coureur confirmé"
+                    },
+                    "description": {
+                        "en": "You move 10% faster and sprinting drains stamina 25% slower.",
+                        "de": "Du bewegst dich um 10% schneller und Sprinten entzieht Ausdauer 25% langsamer.",
+                        "es": "Te mueves un 10% más rápido y esprintar te absorbe resistencia un 25% más despacio.",
+                        "fr": "Vous vous déplacez 10 % plus vite et votre énergie s'épuise 25 % moins vite quand vous sprintez."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

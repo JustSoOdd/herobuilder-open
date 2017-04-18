@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Vadasi",
+        "de": "Vadasi",
+        "es": "Vadasi",
+        "fr": "Vadasi"
+    },
+    "shortName": "Vadasi",
+    "description": {
+        "en": "Healer. Sacrifices her own health.",
+        "de": "Heilerin. Opfert ihre eigene Gesundheit.",
+        "es": "Sanadora. Sacrifica su propia salud.",
+        "fr": "Guérisseuse"
+    },
+    "lore": {
+        "en": "\"I find you guilty of conspiring with the enemy, provoking a futile conflict...\" [Glowing beams transfix the fugitive.] \"...and attempted flight to avoid justice. I'd pronounce the sentence, but you're no longer in a condition to hear it.\" —Vadasi",
+        "de": "„Ich befinde dich für schuldig, gemeinsame Sache mit dem Feind gemacht sowie einen sinnlosen Konflikt heraufbeschworen zu haben ...“ [Leuchtende Strahlen durchbohren den Flüchtling.] „... und für den unternommenen Fluchtversuch, um deiner gerechten Strafe zu entkommen. Ich würde das Urteil verkünden, doch befindest du dich nicht länger in einer Verfassung, in der du es auch vernehmen könntest.“ – Vadasi",
+        "es": "\"Te declaro culpable de conspirar con el enemigo y provocar un conflicto fútil...\" [Haces brillantes cautivan al fugitivo.] \"...un intento de huida para evitar la justicia. Dictaría sentencia, pero ya no estás en condiciones de escucharla.\" —Vadasi",
+        "fr": "« Je vous déclare coupable de complot avec l'ennemi, ce qui a provoqué un conflit futile... » [Des rayons lumineux transpercent le fugitif.] « ... et de tentative de fuite pour éviter la justice. Je prononcerais bien la sentence, mais vous n'êtes déjà plus en mesure de l'entendre. » —Vadasi"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Heal your friends and smite your enemies! Vadasi's rays never miss, and she uses her own health to power her magic.",
+            "playStyleTips": [
+                "Upgrade your rays to shield your allies as you heal them.",
+                "Ride the Divine Wind to move faster and jump higher.",
+                "Your Smite can light nearby enemies on fire or melt their armor away."
+            ]
+        },
+        "de": {
+            "description": "Heile deine Freunde und peinige deine Feinde! Vadasis Strahlen verfehlen nie ihr Ziel und sie nährt ihre Magie mit ihrer eigenen Gesundheit.",
+            "playStyleTips": [
+                "Werte deine Strahlen auf, damit sie deine Verbündeten schützen, während du sie heilst.",
+                "Reite auf dem Göttlichen Wind, um dich schneller zu bewegen und höher zu springen.",
+                "Dein Fegefeuer kann Gegner in der Nähe in Brand stecken oder ihre Rüstung dahinschmelzen lassen"
+            ]
+        },
+        "es": {
+            "description": "¡Cura a tus amigos y aniquila a los enemigos! Los rayos de Vadasi nunca fallan, y usa su propia salud para potenciar su magia.",
+            "playStyleTips": [
+                "Sube el nivel de los rayos para proteger a tus aliados mientras los curas.",
+                "Usa Viento divino para moverte más rápido y saltar más alto.",
+                "Castigo puede prender fuego a los enemigos cercanos o derretir su armadura."
+            ]
+        },
+        "fr": {
+            "description": "Guérissez vos amis et abattez vos ennemis ! Les rayons de Vadasi ne ratent jamais leur cible, et elle utilise sa propre santé pour alimenter sa magie.",
+            "playStyleTips": [
+                "Améliorez vos rayons pour protéger vos alliés tout en les guérissant.",
+                "Déplacez-vous sur le Souffle divin pour aller plus vite et sauter plus haut.",
+                "Votre Punition peut mettre le feu à des ennemis proches ou faire fondre leur armure."
+            ]
+        }
+    },
+    "attackStat": 40,
+    "defenseStat": 70,
+    "mobilityStat": 40,
+    "utilityStat": 90,
+    "difficulty": 5,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "RAY OF JUDGEMENT",
+                "de": "STRAHL DES URTEILS",
+                "es": "RAYO JUSTICIERO",
+                "fr": "RAYON DU JUGEMENT"
+            },
+            "description": {
+                "en": "HOLD LMB: Beam. Hurts foes and heals allies. WITH ORBS: Uses an Orb for more power.",
+                "de": "LMB GEDRÜCKT HALTEN: Schadet Gegnern und heilt Verbündete. MIT KUGELN: Benutzt eine Kugel für mehr Energie.",
+                "es": "MANTÉN PULSADO LMB: haz. Daña a los enemigos y cura a los aliados. CON ORBES: usa un orbe para obtener más poder.",
+                "fr": "Maintenir LMB : rayon. Inflige des dégâts aux ennemis et soigne les alliés. Avec orbes : utilise un orbe pour plus de puissance."
+            },
+            "lore": {
+                "en": "\"Like judgment itself, her radiant beams never wander, never yield, and never miss their target.\" —Hierophant Jhuris, House Aurion ",
+                "de": "„Ihre leuchtenden Strahlen sind wie ein Urteil: Sie schweifen nie ab, beugen sich niemals oder verfehlen ihr Ziel.“ – Hierophantin Jhuris, Haus Aurion",
+                "es": "\"Al igual que sus sentencias, sus radiantes haces nunca se desvían, nunca ceden y siempre aciertan con el objetivo.\" —Hierofante Jhuris, Casa Aurion",
+                "fr": "« Tout comme la justice, ses rayons vont droit au but, ne faiblissent pas, et ne ratent jamais leur cible. » —Hiérophante Jhuris, Maison Aurion"
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Succour",
+                    "de": "Beistand",
+                    "es": "Auxilio",
+                    "fr": "Secours"
+                },
+                "description": {
+                    "en": "WITH ORBS: Each orb increases healing more.",
+                    "de": "MIT KUGELN: Jede Kugel erhöht die Heilung noch mehr.",
+                    "es": "CON ORBES: cada orbe aumenta más la curación.",
+                    "fr": "Avec orbes : chaque orbe augmente vos soins."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Righteous Defenses",
+                    "de": "Rechtschaffene Verteidigungen",
+                    "es": "Defensas justicieras",
+                    "fr": "Défenses du juste"
+                },
+                "description": {
+                    "en": "WITH ORBS: +20 armor for allies targeted by Ray of Judgment.",
+                    "de": "MIT KUGELN: +20 Rüstung für Verbündete, die von  Strahl des Urteils' getroffen werden.",
+                    "es": "CON ORBES: +20 de armadura a los aliados afectados por Rayo justiciero.",
+                    "fr": "Avec orbes : +20 d'armure pour les alliés visés par Rayon du jugement."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Swift Deliverance",
+                    "de": "Flinke Linderung",
+                    "es": "Entrega veloz",
+                    "fr": "Délivrance rapide"
+                },
+                "description": {
+                    "en": "+10% movement speed while healing.",
+                    "de": "10% mehr Bewegungsgeschwindigkeit beim Heilen.",
+                    "es": "+10% de velocidad de movimiento mientras curas.",
+                    "fr": "+10 % de rapidité de mouvement pendant la guérison."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Determination",
+                    "de": "Entschlossenheit",
+                    "es": "Determinación",
+                    "fr": "Détermination"
+                },
+                "description": {
+                    "en": "WITH ORBS: While hitting an enemy, you gain +25 front armor.",
+                    "de": "MIT KUGELN: Während du einen Gegner triffst, erhältst du +25 Frontalrüstung.",
+                    "es": "CON ORBES: mientras golpeas a un enemigo, obtienes +25 de armadura frontal.",
+                    "fr": "Avec orbes : +25 d'armure frontale quand vous touchez un ennemi."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Overload",
+                    "de": "Überladung",
+                    "es": "Sobrecarga",
+                    "fr": "Surcharge"
+                },
+                "description": {
+                    "en": "LMB deals extra damage vs. Burning foes.'",
+                    "de": "LMB richtet zusätzlichen Schaden gegen brennende Gegner an.",
+                    "es": "LMB inflige daño adicional contra enemigos quemados.",
+                    "fr": "LMB pour infliger des dégâts supplémentaires aux ennemis en feu."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Keen Judgment",
+                    "de": "Verwegenes Urteil",
+                    "es": "Juicio justo",
+                    "fr": "Jugement avisé"
+                },
+                "description": {
+                    "en": "20% crit damage.<br>Healing with LMB increases crit chance.",
+                    "de": "20% Chance auf einen kritischen Treffer. <br>Heilung mit LMB erhöht die Chance.",
+                    "es": "20% de daño crítico. Curar con LMB aumenta la probabilidad de golpe crítico.",
+                    "fr": "+20 % de dégâts critiques.<BR>La guérison avec LMB augmente les chances de coups critiques."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "SMITE",
+                "de": "FEGEFEUER",
+                "es": "CASTIGO",
+                "fr": "PUNITION"
+            },
+            "description": {
+                "en": "Fiery projectile. WITH ORBS: Uses an Orb and causes Burning for 4s.",
+                "de": "Feuriges Projektil. MIT KUGELN: Verbraucht eine Kugel und verursacht für 4 Sek. Brennen.",
+                "es": "Proyectil abrasador. CON ORBES: usa un orbe y causa quemadura durante 4 s.",
+                "fr": "Projectile enflammé. Avec orbes : utilise un orbe et crée une zone d'incendie (4 s)."
+            },
+            "lore": {
+                "en": "It obliterates only wickedness. Some collapse from agony, some from guilt, and some from sheer surprise when secret deeds are revealed.",
+                "de": "Es vernichtet nur Bosheit. Manche brechen vor Pein zusammen, einige aus Schuld und andere wiederum aus purer Überraschung, wenn ihre geheimen Taten offenbart werden.",
+                "es": "Solo destruye la maldad. Algunos desfallecen de agonía, algunos de culpabilidad y algunos de pura sorpresa cuando se desvelan actos secretos.",
+                "fr": "Elle anéantit seulement la méchanceté. Certains succombent d'agonie, ou sont rongés par la culpabilité, et d'autres sont sidérés de voir qu'elle connaît les plus secrets de leurs méfaits."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Flameseeker'",
+                    "de": "Flammensucher",
+                    "es": "Buscallamas",
+                    "fr": "Chercheflamme"
+                },
+                "description": {
+                    "en": "Smite fireball moves faster and has longer range.",
+                    "de": "Der Feuerball von  Fegefeuer' fliegt schneller und hat eine größere Reichweite.",
+                    "es": "La bola de fuego de Castigo se mueve más rápido y tiene un mayor alcance.",
+                    "fr": "Les boules de feu de Punition vont plus vite et ont une portée accrue."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Guilt By Association'",
+                    "de": "Schuld durch Beteiligung",
+                    "es": "Cómplices del crimen",
+                    "fr": "Coupable par association"
+                },
+                "description": {
+                    "en": "WITH ORBS: enemies near your target are also set on Fire.",
+                    "de": "MIT KUGELN: Gegner in der Nähe deines Ziels werden ebenfalls in Brand gesteckt.",
+                    "es": "CON ORBES: también se prenden fuego los enemigos que estén cerca de tu objetivo.",
+                    "fr": "Avec orbes : les ennemis près de votre cible sont aussi enflammés."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "High Heat",
+                    "de": "Extreme Hitze",
+                    "es": "Mucho calor",
+                    "fr": "Chaleur extrême"
+                },
+                "description": {
+                    "en": "WITH ORBS: deals more damage on impact.",
+                    "de": "MIT KUGELN: Fügt beim Aufprall mehr Schaden zu.",
+                    "es": "CON ORBES: al impactar, inflige más daño.",
+                    "fr": "Avec orbes : inflige plus de dégâts à l'impact."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Fan the Flames",
+                    "de": "Flammenfächer",
+                    "es": "Avivad las llamas",
+                    "fr": "Attiser les flammes"
+                },
+                "description": {
+                    "en": "Smite sends out a spread of projectiles that pass through enemies.",
+                    "de": "Fegefeuer' entsendet einen Fächer aus Projektilen, die durch Gegner hindurchgehen.",
+                    "es": "Castigo lanza una serie de proyectiles que atraviesan a los enemigos.",
+                    "fr": "Punition envoie des projectiles qui passent à travers les ennemis."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Purifying Flame",
+                    "de": "Läuternde Flamme",
+                    "es": "Llama purificadora",
+                    "fr": "Flamme purifiante"
+                },
+                "description": {
+                    "en": "WITH ORBS: Hitting Allies grants them debuff immunity. (2s)",
+                    "de": "MIT KUGELN: Verbündete zu treffen, gewährt ihnen Immunität gegen Schwächungen. (2 Sek.)",
+                    "es": "CON ORBES: al impactar a aliados les otorgas inmunidad a las debilitaciones (2 s).",
+                    "fr": "Avec orbes : octroie une immunité debuff aux alliés touchés (2 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Meltdown",
+                    "de": "Schmelze",
+                    "es": "Derretir",
+                    "fr": "Fusion"
+                },
+                "description": {
+                    "en": "WITH ORBS: Breaks struck foe's armor. (4s)",
+                    "de": "MIT KUGELN: Durchbricht Rüstung des getroffenen Gegners. (4 Sek.)",
+                    "es": "CON ORBES: rompe la armadura del enemigo impactado (4 s).",
+                    "fr": "Avec orbes : brise l'armure des ennemis (4 s)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "DIVINE WIND",
+                "de": "GÖTTLICHER WIND",
+                "es": "VIENTO DIVINO",
+                "fr": "SOUFFLE DIVIN"
+            },
+            "description": {
+                "en": "You regenerate health. WITH ORBS: Uses all Orbs. Increases regen amount.",
+                "de": "Du regenerierst Gesundheit. MIT KUGELN: Verbraucht alle Kugeln. Erhöht die regenerierte Gesundheit.",
+                "es": "Generas salud. CON ORBES: usa todos los orbes. Aumenta la cantidad de regeneración.",
+                "fr": "Régénére votre santé. Avec orbes : utilise tous les orbes pour augmenter la régénération."
+            },
+            "lore": {
+                "en": "\"You cannot defy the wind because you cannot define it. What has no beginning cannot end.\" —Vadasi",
+                "de": "„Du kannst dem Wind nicht widerstehen, da du ihn nicht definieren kannst. Was keinen Anfang hat, findet auch kein Ende.“ – Vadasi",
+                "es": "\"No puedes desafiar al viento porque no lo puedes definir. Lo que no tiene principio no puede tener final.\" —Vadasi",
+                "fr": "« Vous ne pouvez pas triompher du vent, car vous ne pouvez pas l'expliquer. Quelque chose qui n'a pas de début n'a pas de fin. » —Vadasi"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Divine Protection",
+                    "de": "Göttlicher Schutz",
+                    "es": "Protección divina",
+                    "fr": "Protection divine"
+                },
+                "description": {
+                    "en": "On use, gain +10 armor for each Spirit Orb. (6s)",
+                    "de": "Erhalte bei Benutzung +10 Rüstung pro Geistkugel. (6 Sek.)",
+                    "es": "Al usarla, obtienes +10 de armadura por cada orbe espiritual (6 s).",
+                    "fr": "+10 d'armure pour chaque Orbe d'esprit (6 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Shearing Winds",
+                    "de": "Schneidende Winde",
+                    "es": "Vientos cortantes",
+                    "fr": "Vents violents"
+                },
+                "description": {
+                    "en": "During Divine Wind, nearby enemies take damage each second.",
+                    "de": "Während  Göttlicher Wind' andauert, erleiden Gegner in der Nähe jede Sekunde Schaden.",
+                    "es": "Durante Viento divino, los enemigos cercanos sufrirán daño por segundo.",
+                    "fr": "Lors du Souffle divin, les ennemis proches subissent des dégâts à chaque seconde."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Majesty",
+                    "de": "Majestät",
+                    "es": "Majestad",
+                    "fr": "Majesté"
+                },
+                "description": {
+                    "en": "WITH ORBS: When you activate Divine Wind, nearby enemies are interrupted.",
+                    "de": "MIT KUGELN: Aktivierst du  Göttlicher Wind', werden Gegner in der Nähe unterbrochen.",
+                    "es": "CON ORBES: al activar Viento divino, todos los enemigos cercanos se ven interrumpidos.",
+                    "fr": "Avec orbes : les ennemis proches sont interrompus en activant Souffle divin."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Uplifting Chorus'",
+                    "de": "Erhebender Refrain",
+                    "es": "Coro inspirador",
+                    "fr": "Toujours plus haut"
+                },
+                "description": {
+                    "en": "WITH ORBS: Increases move speed for 3s.",
+                    "de": "MIT KUGELN: Erhöht Geschwindigkeit für 3 Sek.",
+                    "es": "CON ORBES: aumenta la velocidad de movimiento durante 3 s.",
+                    "fr": "Avec orbes : augmente la vitesse de déplacement (3 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Cleansing Wind",
+                    "de": "Reinigender Wind",
+                    "es": "Viento purificador",
+                    "fr": "Vent purificateur"
+                },
+                "description": {
+                    "en": "WITH ORBS: When you activate Divine Wind, you lose all debuffs.",
+                    "de": "MIT KUGELN: Aktivierst du  Göttlicher Wind', verlierst du alle Schwächungen.",
+                    "es": "CON ORBES: al activar Viento divino, pierdes todas las debilitaciones.",
+                    "fr": "Avec orbes : perdre tous les debuffs en activant Souffle divin."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Gust",
+                    "de": "Böe",
+                    "es": "Ráfaga",
+                    "fr": "Rafale"
+                },
+                "description": {
+                    "en": "When you activate Divine Wind, adjacent enemies are pushed away.",
+                    "de": "Aktivierst du  Göttlicher Wind', werden Gegner in der Nähe weggestoßen.",
+                    "es": "Al activar Viento divino, los enemigos adyacentes se ven empujados.",
+                    "fr": "En activant Souffle divin, les ennemis adjacents sont repoussés."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "DEVOTION",
+                "de": "HINGABE",
+                "es": "DEVOCIÓN",
+                "fr": "DÉVOTION"
+            },
+            "description": {
+                "en": "HOLD E: Create Spirit Orbs (Max 2). Orbs gradually drain health.",
+                "de": "E GEDRÜCKT HALTEN: Erzeugt Geistkugeln (Max. 2). Kugeln entziehen schrittweise Gesundheit.",
+                "es": "MANTÉN PULSADO E: creas orbes espirituales (máx. 2). Los orbes absorben salud gradualmente.",
+                "fr": "Maintenir E pour créer des orbes d'esprit (max. 2). Les orbes drainent progressivement la santé."
+            },
+            "lore": {
+                "en": "Unborn and undying is the Sphere. It ever curves, ever orbits, ever spins. What could be more righteous? —Analects of the Sphere, 1:8",
+                "de": "Die Kugel ist ungeboren und unsterblich. Sie krümmt sich auf ewig, umkreist fortwährend und wirbelt endlos herum. Was könnte rechtschaffener sein? – Analekten der Kugel, 1:8",
+                "es": "Nonata e inmortal es la Esfera. Siempre trazando curvas, siempre orbitando y siempre girando. ¿Qué podría ser más justo? —Analectas de la Esfera, 1:8",
+                "fr": "« La Sphère est éternelle. Sa forme reste toujours la même. Elle ne vous trahira jamais. » —Analectes de la Sphère, 1:8"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Burning Shame",
+                    "de": "Brennende Schande",
+                    "es": "Vergüenza ardiente",
+                    "fr": "Honte enflammée"
+                },
+                "description": {
+                    "en": "On use, enemies near you are set on fire for 4.5s.",
+                    "de": "Bei Benutzung werden Gegner in der Nähe für 4,5 Sek. in Brand gesteckt.",
+                    "es": "Al usarla, los enemigos cercanos arden durante 4,5 s.",
+                    "fr": "Les ennemis sont enflammés (4.5 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Holy Wrath",
+                    "de": "Heiliger Zorn",
+                    "es": "Ira sagrada",
+                    "fr": "Colère divine"
+                },
+                "description": {
+                    "en": "E: For 6s, allies near you have increase CRIT chance.",
+                    "de": "E: Verbündete in deiner Nähe haben für 6 Sek. eine erhöhte Chance kritische Treffer zu landen.",
+                    "es": "E: los aliados cercanos ven aumentada su probabilidad de golpe crítico durante 6 s.",
+                    "fr": "E : pendant 6 s, les alliés proches ont plus de chances d'effectuer des coups critiques."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Sanctuary",
+                    "de": "Zufluchtsstätte",
+                    "es": "Santuario",
+                    "fr": "Sanctuaire"
+                },
+                "description": {
+                    "en": "E: For 6s, allies near you gain +25 armor.",
+                    "de": "E: Verbündete in deiner Nähe erhalten für 6 Sek. +25 Rüstung.",
+                    "es": "E: los aliados cercanos obtienen +25 de armadura durante 6 s.",
+                    "fr": "E : pendant 6 s, les alliés près de vous gagnent +25 d'armure."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Purifying Ritual",
+                    "de": "Läuterndes Ritual",
+                    "es": "Ritual purificador",
+                    "fr": "Rituel purificateur"
+                },
+                "description": {
+                    "en": "On use, you lose all debuffs.",
+                    "de": "Bei Benutzung verlierst du alle Schwächungen.",
+                    "es": "Al usarla, pierdes todas las debilitaciones.",
+                    "fr": "Perdre tous vos debuffs."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Contemplate the Void",
+                    "de": "Sinniere über die Leere",
+                    "es": "Observa el Vacío",
+                    "fr": "Contemplation du vide"
+                },
+                "description": {
+                    "en": "On use, if you were below 50% health, you gain 15% focus.",
+                    "de": "Ist deine Gesundheit bei Verwendung unter 50%, erhältst du 15% Fokus.",
+                    "es": "Al usarla, ganas un 15% de concentración si tienes menos del 50% de salud.",
+                    "fr": "+15 % de Focus quand vous avez moins de 50 % de santé."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Divine Renewal",
+                    "de": "Göttliche Erneuerung",
+                    "es": "Renovación divina",
+                    "fr": "Renaissance divine"
+                },
+                "description": {
+                    "en": "-4s cooldown for Devotion.<br>WITH ORBS: Recharge Divine Wind.",
+                    "de": "Abklingzeit für  Hingabe' sinkt um 4 Sekunden.<br>MIT KUGELN: Lädt  Göttlicher Wind' wieder auf.",
+                    "es": "4 s menos de recarga para Devoción.<br>CON ORBE: recarga Viento divino.",
+                    "fr": "-4 s de temps de rechargement pour Dévotion. Avec orbes : recharge Souffle divin."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "ARMOR OF FAITH",
+                "de": "RÜSTUNG DES GLAUBENS",
+                "es": "ARMADURA DE FE",
+                "fr": "ARMURE MYSTIQUE"
+            },
+            "description": {
+                "en": "You are immune to damage. (4s/6s/8s)",
+                "de": "Du bist immun gegen Schaden. (4/6/8 Sek.)",
+                "es": "Eres inmune al daño. (4 s/6 s/8 s)",
+                "fr": "Immunise contre les dégâts (4/6/8 s)."
+            },
+            "lore": {
+                "en": "\"Faith can march ten thousand to war, then make families cheer when only one thousand march back.\" —General Vahira, House Karkaresh",
+                "de": "„Der Glaube kann Zehntausende in den Krieg ziehen und dann Familien jubeln lassen, wenn nur eintausend zurückkehren.“ – Generalin Vahira, Haus Karkaresh",
+                "es": "\"La fe puede empujar a diez mil a una guerra y luego hacer que las familias vitoreen cuando solo vuelven mil.\" —General Vahira, Casa Karkaresh",
+                "fr": "« La foi peut rassembler dix mille soldats sous une bannière, et rendre leurs familles heureuses quand seul un millier revient en vie. » —Générale Vahira, Maison Karkaresh"
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Renewal of Faith",
+                    "de": "Erneuerung des Glaubens",
+                    "es": "Fe renovada",
+                    "fr": "Foi renouvelée"
+                },
+                "description": {
+                    "en": "Activating Armor of Faith resets all your skill cooldowns.",
+                    "de": "Die Aktivierung von  Rüstung des Glaubens' setzt alle Abklingzeiten deiner Fertigkeiten zurück.",
+                    "es": "Al activar Armadura de fe se eliminan todas las recargas de habilidades.",
+                    "fr": "Réinitialiser les temps de rechargement de vos compétences en activant Armure mystique."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Who Wants to Live Forever?'",
+                    "de": "Wer möchte ewig leben?",
+                    "es": "¿Quién quiere vivir eternamente?",
+                    "fr": "Qui veut être immortel ?"
+                },
+                "description": {
+                    "en": "Armor of Faith gives you health regen.",
+                    "de": "Rüstung des Glaubens' bringt dir Gesundheitsregeneration.",
+                    "es": "Armadura de fe te otorga regeneración de salud.",
+                    "fr": "Armure mystique régénère votre santé."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Sweeping Judgment",
+                        "de": "Mitreißendes Urteil",
+                        "es": "Todos juzgados",
+                        "fr": "Jugement expéditif"
+                    },
+                    "description": {
+                        "en": "LMB can hit an ally and an enemy at the same time and has 50% armor penetration.",
+                        "de": "LMB:  Strahl des Urteils' kann Freund und Feind gleichzeitig treffen und verfügt über 50% Rüstungs-Durchdringung.",
+                        "es": "LMB puede impactar a un aliado y a un enemigo a la vez. Tiene un 50% de penetración de armadura.",
+                        "fr": "LMB peut toucher un allié et un ennemi en même temps et a une pénétration d'armure de 50 %."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Transcendence",
+                        "de": "Transzendenz",
+                        "es": "Trascendencia",
+                        "fr": "Transcendance"
+                    },
+                    "description": {
+                        "en": "E: You may have up to three orbs.",
+                        "de": "E: Du hast bis zu drei Kugeln.",
+                        "es": "E: puedes tener hasta tres orbes.",
+                        "fr": "E : vous pouvez avoir jusqu'à trois orbes."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Calling the Shots",
+                        "de": "Ton angeben",
+                        "es": "Tomando decisiones",
+                        "fr": "Mener la danse"
+                    },
+                    "description": {
+                        "en": "When you debuff a foe, nearby allies gain +10% damage for 5s. (Once per 5s.)",
+                        "de": "Wenn du einen Gegner schwächst, erhalten Verbündete in der Nähe für 5 Sek. 10% mehr Schaden. (Einmal alle 5 Sek.)",
+                        "es": "Cuando debilitas a un enemigo, los aliados cercanos obtienen +10% de daño durante 5 s (una vez cada 5 s).",
+                        "fr": "Lorsque vous debuffez un ennemi, les alliés proches font +10 % de dégâts pendant 5 s (une fois toutes les 5 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Another's Keeper",
+                        "de": "Eines anderen Hüter",
+                        "es": "El guardián de otro",
+                        "fr": "Altruiste"
+                    },
+                    "description": {
+                        "en": "+10% healing power. Gain focus when you buff or heal an ally. (Once per 5s.)",
+                        "de": "10% mehr Heilkraft. Du erhältst Fokus, wenn du einen Verbündeten stärkst oder heilst. (Einmal alle 5 Sek.)",
+                        "es": "+10% de poder curativo. Ganas concentración al potenciar o curar a un aliado (una vez cada 5 s).",
+                        "fr": "Pouvoir de guérison +10 %. Vous gagnez du Focus quand vous améliorez ou que vous soignez un allié (une fois toutes les 5 s)."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Stonewall",
+                        "de": "Steinmauer",
+                        "es": "Muro de piedra",
+                        "fr": "Mur de pierre"
+                    },
+                    "description": {
+                        "en": "You are immune to critical hits.",
+                        "de": "Du bist immun gegen kritische Treffer.",
+                        "es": "Eres inmune a los golpes críticos.",
+                        "fr": "Immunise contre les coups critiques."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hard Charger",
+                        "de": "Derber Anstürmer",
+                        "es": "Carga pesada",
+                        "fr": "Charge volontaire"
+                    },
+                    "description": {
+                        "en": "+33% max stamina. Reduced distance when pushed.",
+                        "de": "+33% max. Ausdauer. Verringerte Distanz, wenn gestoßen.",
+                        "es": "+33% de resistencia máxima. Se reduce la distancia al ser empujado.",
+                        "fr": "+33 % d'énergie max. Distance réduite lors des repoussements."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.status-bar {
+
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin: 0.25rem 1rem;
+
+  &--name {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    padding-right: 5px;
+
+    flex: 1 1 5rem;
+    width: 4rem;
+    max-width: 4rem;
+  }
+
+  &--meter {
+    height: 1.25rem;
+    background: transparentize($color-ggu-white, 0.5);
+
+    flex: 1 5;
+
+    &-value {
+      height: 100%;
+      background: $color-ggu-white !important;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.skill-box {
+  background: $color-ggu-blue-2;
+  margin: 5px 5px 50px 5px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+
+  &--key {
+    color: $color-ggu-white;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 0.75rem;
+  }
+
+  &--inner {
+    background: $color-ggu-white;
+    border: 1px solid $color-ggu-blue-2;
+    border-radius: 0 0 3px 3px;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  &--details {
+    @media screen and (max-width: $break-xs) {
+      flex: 1 1 100%;
+    }
+
+    @media screen and (min-width: $break-xs) and (max-width: $break-sm) {
+      flex: 1 1 50%;
+    }
+
+    @media screen and (min-width: $break-sm) {
+      flex: 1 1 50%;
+    }
+
+    &-name {
+      font-size: 1.5rem;
+      font-weight: 300;
+      color: $color-ggu-blue;
+      margin-bottom: 1.5rem;
+    }
+
+    &-lore {
+      color: $color-ggu-grey;
+      font-size: 0.825rem;
+      font-style: italic;
+      margin-bottom: 0.5rem;
+      line-height: 1.3rem;
+    }
+
+    &-description {
+      margin-bottom: 1.5rem;
+      line-height: 1.4rem;
+    }
+  }
+
+  &--flex {
+    flex: 1 1 50%;
+    align-self: flex-start;
+  }
+
+  &--left {
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--right {
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}

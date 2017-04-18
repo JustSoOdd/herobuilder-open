@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Charnok",
+        "de": "Charnok",
+        "es": "Charnok",
+        "fr": "Charnok"
+    },
+    "shortName": "Charnok",
+    "description": {
+        "en": "Total Burnination.",
+        "de": "Totale Verheizung.",
+        "es": "Incendiada total.",
+        "fr": "Annihilation totale"
+    },
+    "lore": {
+        "en": "For the dragons, \"altitude\" became synonymous with \"prestige.\" They abandoned the lowlands entirely, constructing mountaintop towers in a ruinous \"race to the sky.\" —Bronze Tomes of Storyteller Shao, Vol. 4",
+        "de": "„Für die Drachen wurde das Wort ‚Höhe‘ gleichbedeutend mit ‚Ansehen‘. Sie ließen die Tiefebenen gänzlich hinter sich und erbauten in einem vernichtenden ‚Wettlauf zum Himmel‘ Türme auf Bergspitzen.“ – Bronzene Folianten des Geschichtenerzählers Shao, 4. Band",
+        "es": "Para los dragones, altitud es sinónimo de prestigio. Abandonaron las tierras bajas por completo y construyeron torres en cimas montañosas en una ruinosa \"carrera hacia el cielo\". —Tomos de bronce del narrador Shao, vol. 4",
+        "fr": "Pour les dragons, l'altitude est devenue synonyme de prestige. Ils ont abandonné les basses terres pour construire des tours sur les cimes des montagnes dans une course effrénée « pour atteindre le ciel ». —Tomes de bronze du conteur Shao, vol. 4"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Fight fire with fire! Charnok is a sorcerer and a dragon—a combustible combination on the battlefield.",
+            "playStyleTips": [
+                "Breathe flame at enemies who have the audacity to approach you.",
+                "Bombard your foes with fiery meteors from the sky.",
+                "Upgrade your Detonate skill to leave fire in your wake as you propel yourself to safety."
+            ]
+        },
+        "de": {
+            "description": "Bekämpfe Feuer mit Feuer! Charnok ist ein Zauberer und ein Drache – eine brandheiße Kombination auf dem Schlachtfeld.",
+            "playStyleTips": [
+                "Speie Flammen auf Gegner, die die Dreistigkeit besitzen, sich dir zu nähern.",
+                "Bombardiere deine Gegner mit glühenden Meteoriten, die vom Himmel stürzen.",
+                "Werte deine Detonation-Fertigkeit auf, um einen Feuersturm zu hinterlassen, während du dich in Sicherheit bringst ..."
+            ]
+        },
+        "es": {
+            "description": "¡Combate el fuego con fuego! Charnok es un hechicero, una combinación explosiva en el campo de batalla.",
+            "playStyleTips": [
+                "Exhala llamas contra los enemigos que tengan la audacia de acercase a ti.",
+                "Bombardea a tus enemigos con intensos meteoritos desde el cielo.",
+                "Sube de nivel la habilidad Detonación para dejar una estela de fuego mientras te propulsas hacia un sitio seguro."
+            ]
+        },
+        "fr": {
+            "description": "Combattez le feu par le feu ! Charnok est un sorcier et un dragon, une combinaison explosive sur le champ de bataille.",
+            "playStyleTips": [
+                "Crachez des flammes sur les ennemis qui osent s'approcher de vous.",
+                "Bombardez vos adversaires avec des météores enflammés qui tombent du ciel.",
+                "Améliorez votre compétence Explosion pour laisser des flammes dans votre sillage lorsque vous vous mettez à l'abri."
+            ]
+        }
+    },
+    "attackStat": 90,
+    "defenseStat": 30,
+    "mobilityStat": 60,
+    "utilityStat": 50,
+    "difficulty": 3,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "HEAT WAVE",
+                "de": "HITZEWELLE",
+                "es": "OLA DE CALOR",
+                "fr": "ONDE DE CHALEUR"
+            },
+            "description": {
+                "en": "Projectile that deals AoE damage.<BR>HOLD LMB to power up.",
+                "de": "Ein Projektil, das Flächenschaden verursacht.<BR>LMB GEDRÜCKT HALTEN, um aufzuladen.",
+                "es": "Proyectil que inflige daño de área de efecto. MANTÉN PULSADO LMB para aumentar la potencia.",
+                "fr": "Projectile qui inflige des dégâts de zone.<BR>Maintenir LMB pour augmenter la puissance."
+            },
+            "lore": {
+                "en": "Any dragon can breathe fire, but it takes years of sorcerous training to turn fire into a precise, lethal tool.",
+                "de": "Ein jeder Drache kann Feuer speien, doch es erfordert Jahre harten Zaubertrainings, um Feuer in ein präzises, tödliches Werkzeug zu verwandeln.",
+                "es": "Cualquier dragón puede exhalar fuego, pero hacen falta años de entrenamiento como hechicero para convertir fuego en una herramienta letal y precisa.",
+                "fr": "N'importe quel dragon peut souffler du feu, mais il faut des années de sorcellerie pour faire du feu une arme aussi précise que mortelle."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Big Ball of Fire",
+                    "de": "Großer Feuerball",
+                    "es": "Gran bola de fuego",
+                    "fr": "Grosse boule de feu"
+                },
+                "description": {
+                    "en": "Now has a third charge stage.",
+                    "de": "Hat nun eine dritte Aufladungsphase.",
+                    "es": "Ola de calor tiene una tercera fase de carga.",
+                    "fr": "A désormais un troisième niveau de charge."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Bombastic",
+                    "de": "Bombastisch",
+                    "es": "Bombástico",
+                    "fr": "Bombastic"
+                },
+                "description": {
+                    "en": "When fully charged, direct hits with Heat Wave interrupt.",
+                    "de": "Bei voller Aufladung unterbrechen direkte Treffer mit  Hitzewelle'.",
+                    "es": "Al estar completamente cargada, los impactos directos con Ola de calor interrumpen.",
+                    "fr": "Une fois chargée, les coups directs de l'Onde de chaleur stoppent les ennemis."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Bigger Ball of Fire",
+                    "de": "Größerer Feuerball",
+                    "es": "Bola de fuego grandiosa",
+                    "fr": "Méga boule de feu"
+                },
+                "description": {
+                    "en": "Increases explosion damage and damage radius of Heat Wave.",
+                    "de": "Erhöht Explosionsschaden sowie den Schadensradius von  Hitzewelle'.",
+                    "es": "Aumenta el daño de la explosión y el radio de efecto de Ola de calor.",
+                    "fr": "Augmente les dégâts d'explosion et le rayon d'action de l'Onde de chaleur."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Burn Notice",
+                    "de": "Brandgefahr",
+                    "es": "Aviso de calor",
+                    "fr": "Brûlures à prévoir"
+                },
+                "description": {
+                    "en": "When fully charged, direct hits ignite foes for 3s.",
+                    "de": "Sofern voll aufgeladen, stecken direkte Treffer Gegner für 3 Sek. in Brand.",
+                    "es": "Al estar completamente cargada, los impactos directos queman a los enemigos durante 3 s.",
+                    "fr": "Une fois chargée, elle enflamme les ennemis (3 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Extended Notice",
+                    "de": "Fristverlängerung",
+                    "es": "Aviso de calor prolongado",
+                    "fr": "Brûlure sévère"
+                },
+                "description": {
+                    "en": "Increases the duration of the burn. (5s)",
+                    "de": "Verlängert die Dauer des Brennens. (5 Sek.)",
+                    "es": "Aumenta la duración de la quemadura (5 s).",
+                    "fr": "Augmente la durée de la brûlure (5 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Stoke the Fire",
+                    "de": "Schüre das Feuer",
+                    "es": "Aviva el fuego",
+                    "fr": "Alimenter le feu"
+                },
+                "description": {
+                    "en": "Hitting an enemy who is already burning deals extra damage.",
+                    "de": "Einen bereits brennenden Feind zu treffen verursacht zusätzlichen Schaden.",
+                    "es": "Impactar a un enemigo ardiendo inflige daño adicional.",
+                    "fr": "Cause des dégâts supplémentaires en frappant un ennemi qui est déjà en feu."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "DRAGON'S BREATH",
+                "de": "DRACHENODEM",
+                "es": "ALIENTO DE DRAGÓN",
+                "fr": "SOUFFLE DU DRAGON"
+            },
+            "description": {
+                "en": "HOLD RMB: Short-range cone of flame.",
+                "de": "RMB GEDRÜCKT HALTEN: Flammenkegel<br>auf kurze Distanz.",
+                "es": "MANTÉN PULSADO RMB: cono de llamas a corto alcance.",
+                "fr": "Maintenir RMB : cône de flamme à courte distance."
+            },
+            "lore": {
+                "en": "\"A dragon, like fire itself, is a dangerous servant and a fearsome master.\" —The Laughing Cowl, House Melkior",
+                "de": "„Genau wie das Feuer selbst ist ein Drache ein gefährlicher Diener und ein furchterregender Meister.“ – Die Lachende Kapuze, Haus Melkior",
+                "es": "\"Un dragón, como el mismo fuego, es un sirviente peligroso y un amo temible.\" —La capucha que ríe, Casa Melkior",
+                "fr": "« Un dragon est comme le feu, lui-même, un serviteur dangereux et un maître terrifiant. » —La Capuche hilare, Maison Melkior"
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Fire Shelter",
+                    "de": "Feuerschutz",
+                    "es": "Fuego protector",
+                    "fr": "Abri de feu"
+                },
+                "description": {
+                    "en": "Gain +40 front armor while performing Dragon's Breath.",
+                    "de": "Erhalte +40 Frontalrüstung während du  Drachenodem  benutzt.",
+                    "es": "Al usar Aliento de dragón, obtienes +40 de armadura frontal.",
+                    "fr": "+40 d'armure frontale en déclenchant Souffle du dragon."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Backdraft",
+                    "de": "Flammendurchschlag",
+                    "es": "Un pasito para atrás",
+                    "fr": "Retour de flamme"
+                },
+                "description": {
+                    "en": "Push enemies away when you release Dragon's Breath.",
+                    "de": "Stoße Gegner zur Seite, während du  Drachenodem' benutzt.",
+                    "es": "Empuja a los enemigos al usar Aliento de dragón.",
+                    "fr": "Repousse les ennemis quand vous lancez le Souffle du dragon."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Incinerate",
+                    "de": "Einäschern",
+                    "es": "Incinerar",
+                    "fr": "Incinérer"
+                },
+                "description": {
+                    "en": "Incoming projectiles are deflected by Dragon's Breath.",
+                    "de": "Eintreffende Projektile werden von  Drachenodem' zurückgeworfen.",
+                    "es": "Los proyectiles que vayan hacia ti serán desviados por Aliento de dragón.",
+                    "fr": "Les projectiles arrivant sur vous sont déviés par le Souffle du dragon."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Scorching Wave",
+                    "de": "Sengende Welle",
+                    "es": "Oleada abrasadora",
+                    "fr": "Vague enflammée"
+                },
+                "description": {
+                    "en": "RELEASE RMB: Send out a flame wave. Reduced damage with each impact.<BR>You no longer breathe fire.",
+                    "de": "RMB LOSLASSEN: Entsende eine Flammenwelle. Reduzierter Schaden mit jedem Aufprall.<BR>Du speist nicht länger Feuer.",
+                    "es": "AL SOLTAR RMB: se genera una oleada de llamas. Menos daño con cada impacto y no respiras fuego.",
+                    "fr": "Relâcher RMB pour déclencher une vague de feu. Dégâts réduits à chaque impact. Ne crache plus de feu."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Turning up the Heat",
+                    "de": "Heiß wie die Hölle",
+                    "es": "Subiendo la temperatura",
+                    "fr": "Bouffée de chaleur"
+                },
+                "description": {
+                    "en": "Full damage for each enemy hit.",
+                    "de": "Voller Schaden für jeden getroffenen Gegner.",
+                    "es": "Máximo daño por cada enemigo impactado.",
+                    "fr": "Dégâts complets pour chaque ennemi touché."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Back Burner",
+                    "de": "Nachbrenner",
+                    "es": "Fuego trasero",
+                    "fr": "Incendiaire sournois"
+                },
+                "description": {
+                    "en": "Hitting an enemy in the back ignores all armor.",
+                    "de": "Einen Gegner in den Rücken zu treffen ignoriert seine gesamte Rüstung.",
+                    "es": "Al impactar a un enemigo por la espalda, ignoras su armadura.",
+                    "fr": "Toucher un ennemi par derrière permet d'ignorer son armure."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "DETONATE",
+                "de": "DETONATION",
+                "es": "DETONACIÓN",
+                "fr": "EXPLOSION"
+            },
+            "description": {
+                "en": "Propel yourself up, forward, or back with explosive force.<BR>Damaging/Pushing nearby enemies.",
+                "de": "Stoße dich mit explosiver Kraft nach oben, nach vorne oder zurück.<BR>Schädigt Gegner in der Nähe und stößt sie weg.",
+                "es": "Te propulsas hacia arriba, adelante o atrás con una fuerza explosiva. Daño/Empuja a los enemigos cercanos.",
+                "fr": "Propulse en l'air, en avant, ou vers l'arrière avec une force explosive. Inflige des dégâts/repousse les ennemis proches."
+            },
+            "lore": {
+                "en": "Dragon society has evolved an elaborate code of etiquette...mostly because there's very little distance between insult and incineration.",
+                "de": "Die Drachengesellschaft hat ausführliche Verhaltensregeln etabliert ... hauptsächlich deshalb, weil es nur ein kleiner Sprung von einer Beleidigung zur Einäscherung ist.",
+                "es": "La sociedad de los dragones ha creado un elaborado código de etiqueta... sobre todo, porque hay muy poca distancia entre insultos e incineración.",
+                "fr": "Les dragons forment une société au code de conduite très strict... et c'est bien normal : on passe très vite de l'insulte à l'incinération."
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Blast Off",
+                    "de": "Sprengstart",
+                    "es": "Explosión total",
+                    "fr": "Déflagration"
+                },
+                "description": {
+                    "en": "Detonate deals additional damage.",
+                    "de": "Detonation' verursacht zusätzlichen Schaden.",
+                    "es": "Detonación inflige daño adicional.",
+                    "fr": "L'Explosion cause des dégâts supplémentaires."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Parting Gift",
+                    "de": "Abschiedsgeschenk",
+                    "es": "Regalo de despedida",
+                    "fr": "Cadeau explosif"
+                },
+                "description": {
+                    "en": "Detonate leaves a burning area for 3 seconds.",
+                    "de": "Detonation  hinterlässt für 3 Sek. einen brennenden Bereich.",
+                    "es": "Detonación deja una zona de fuego durante 3 s.",
+                    "fr": "Explosion laisse une zone en feu pendant 3 s."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Explosive Detonation",
+                    "de": "Explosive Detonation",
+                    "es": "Detonación explosiva",
+                    "fr": "Détonation explosive"
+                },
+                "description": {
+                    "en": "Detonate pushes enemies further.",
+                    "de": "Detonation  schleudert Gegner weiter weg.",
+                    "es": "Detonación empuja a los enemigos más lejos.",
+                    "fr": "Explosion repousse les ennemis encore plus loin."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Death from Above",
+                    "de": "Tod von oben",
+                    "es": "Muerte aérea",
+                    "fr": "Mort venue des airs"
+                },
+                "description": {
+                    "en": "Other skills can be used while airborne.",
+                    "de": "Während du dich in der Luft befindest, können andere Fertigkeiten benutzt werden.",
+                    "es": "Se pueden usar otras habilidades en el aire.",
+                    "fr": "D'autres compétences peuvent être utilisées quand vous êtes dans les airs."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Make it Rain Fire",
+                    "de": "Lass es Feuer regnen",
+                    "es": "Que llueva fuego.",
+                    "fr": "Pluie incendiaire"
+                },
+                "description": {
+                    "en": "While airborne, Heat Wave always fires fully charged projectiles.",
+                    "de": "Hitzewelle' feuert immer voll aufgeladene Projektile ab, wenn sie in der Luft ausgelöst wird.",
+                    "es": "Al estar en el aire, Ola de calor siempre disparará proyectiles completamente cargados.",
+                    "fr": "En l'air, Onde de chaleur tire toujours des projectiles complètement chargés."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Dive Bomb",
+                    "de": "Sturzbombe",
+                    "es": "Bomba en picado",
+                    "fr": "Bombe plongeante"
+                },
+                "description": {
+                    "en": "TAP Q AGAIN: Dive down. On landing, burn nearby foes. (3s)",
+                    "de": "Q ERNEUT ANTIPPEN: Stürze dich herab. Bei der Landung steckst du Gegner in der Nähe in Brand. (3 Sek.)",
+                    "es": "PULSA Q DE NUEVO: caes en picado. Al aterrizar, quemas a los enemigos cercanos (3 s).",
+                    "fr": "Appuyer à nouveau sur Q : plonger et brûler les ennemis proches en atterrissant (3 s)."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "HOT HAIL",
+                "de": "HEISSER HAGEL",
+                "es": "GRANIZO ÍGNEO",
+                "fr": "PLUIE DE FEU"
+            },
+            "description": {
+                "en": "Bombard target location with flaming rocks for 3s.",
+                "de": "Bombardiere das Zielgebiet für 3 Sek. mit flammenden Felsen.",
+                "es": "Bombardeas la ubicación objetivo con rocas ígneas durante 3 s.",
+                "fr": "Bombarde la zone ciblée avec des rochers en feu (3 s)."
+            },
+            "lore": {
+                "en": "\"Fire is not my only weapon. Let me introduce you to...gravity.\" —Charnok",
+                "de": "„Feuer ist nicht meine einzige Waffe. Darf ich vorstellen ... die Schwerkraft.“ – Charnok",
+                "es": "\"El fuego no es mi única arma. Os presento a... la gravedad.\" —Charnok",
+                "fr": "« Le feu n'est pas ma seule arme. Laissez-moi vous présenter... la pesanteur. » —Charnok"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Hot Coals",
+                    "de": "Heiße Kohlen",
+                    "es": "Carbón ardiente",
+                    "fr": "Charbons ardents"
+                },
+                "description": {
+                    "en": "Hot Hail slows enemies by 25%.",
+                    "de": "Heißer Hagel' verlangsamt Gegner um 25%.",
+                    "es": "Granizo ígneo ralentiza a los enemigos un 25%.",
+                    "fr": "Pluie de feu ralentit les ennemis de 25%."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Burnination",
+                    "de": "Einbrennung",
+                    "es": "Incendiada",
+                    "fr": "Brûlure totale"
+                },
+                "description": {
+                    "en": "Hot Hail affects a larger area.",
+                    "de": "Heißer Hagel' trifft ein größeres Gebiet.",
+                    "es": "Granizo ígneo afecta a una zona más amplia.",
+                    "fr": "Pluie de feu affecte affecte une zone plus étendue."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Hotter and Hotter",
+                    "de": "Heißer und heißer",
+                    "es": "Calor en aumento",
+                    "fr": "Encore plus chaud"
+                },
+                "description": {
+                    "en": "Hot Hail slows enemies by 50%.",
+                    "de": "Heißer Hagel' verlangsamt Gegner um 50%.",
+                    "es": "Granizo ígneo ralentiza a los enemigos un 50%.",
+                    "fr": "Pluie de feu ralentit les ennemis de 50%."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Hunka Burning Love",
+                    "de": "Brennender Liebesbrocken",
+                    "es": "Pedazo de amor ardiente",
+                    "fr": "Pluie de météores"
+                },
+                "description": {
+                    "en": "After 2s, a meteor strikes enemies in the targeted area.",
+                    "de": "Nach 2 Sek. trifft ein Meteor deine Gegner im Zielgebiet.",
+                    "es": "Tras 2 s, un meteorito caerá sobre los enemigos de la zona objetivo.",
+                    "fr": "Après 2 s, un météore frappe les ennemis sur une zone ciblée."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Crater",
+                    "de": "Krater",
+                    "es": "Cráter",
+                    "fr": "Cratère"
+                },
+                "description": {
+                    "en": "Enemies hit by the meteor are stunned.",
+                    "de": "Vom Meteoriten getroffene Gegner werden betäubt.",
+                    "es": "Los enemigos impactados por el meteorito se quedan aturdidos.",
+                    "fr": "Les ennemis touchés par le météore sont assommés."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Meteoric Fall",
+                    "de": "Meteoritenschauer",
+                    "es": "Caída meteórica",
+                    "fr": "Chute de météore"
+                },
+                "description": {
+                    "en": "Meteor no longer has a delay before falling.",
+                    "de": "Der Meteor fällt nun ohne Verzögerung.",
+                    "es": "El meteorito no tiene un retardo antes de caer.",
+                    "fr": "Le météore tombe immédiatement."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "FLAME ON",
+                "de": "FEUERWALZE",
+                "es": "LLAMARADA",
+                "fr": "EMBRASEMENT"
+            },
+            "description": {
+                "en": "Flame erupts in front of you, launching enemies and creating burning areas. (4s)",
+                "de": "Flammen brechen hervor, schleudern Gegner und erzeugen brennende Gebiete vor dir. (4 Sek.)",
+                "es": "Se desatan llamas delante de ti, lanza a los enemigos y crea una zona de fuego (4 s).",
+                "fr": "Des flammes surgissent devant vous, propulsant les ennemis et créant des zones d'incendies (4 s)."
+            },
+            "lore": {
+                "en": "The dragon language has only one word for \"fire,\" but uttering it makes the room 20 degrees hotter.",
+                "de": "Die Sprache der Drachen kennt nur ein Wort für „Feuer“, doch allein es zu flüstern macht den Raum schon um 20 Grad wärmer.",
+                "es": "El idioma de los dragones solo tiene una palabra para \"fuego\", pero pronunciarla hace que la temperatura suba 20 grados.",
+                "fr": "La langue des dragons n'a qu'un seul mot pour désigner le feu, mais le prononcer fait monter la température de la pièce de 20 degrés."
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Keep Flaming",
+                    "de": "Brandheiß",
+                    "es": "Llama incesante",
+                    "fr": "Tout feu tout flamme"
+                },
+                "description": {
+                    "en": "Extends the range of Flame On.",
+                    "de": "Vergrößert die Reichweite von  Feuerwalze .",
+                    "es": "Extiende el alcance de Llamarada.",
+                    "fr": "Embrasement a une portée accrue."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Burning Breath",
+                        "de": "Brennender Atem",
+                        "es": "Aliento ardiente",
+                        "fr": "Souffle brûlant"
+                    },
+                    "description": {
+                        "en": "RMB: Dragon's Breath sets enemies on fire.",
+                        "de": "RMB:  Drachenodem' setzt Gegner in Brand.",
+                        "es": "RMB: Aliento de dragón prende fuego a los enemigos.",
+                        "fr": "RMB : Souffle du dragon enflamme les ennemis."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hail Yes",
+                        "de": "Hagelhaft!",
+                        "es": "Lluvia de fuego",
+                        "fr": "Prêt, feu..."
+                    },
+                    "description": {
+                        "en": "E: Hot Hail has much longer range.",
+                        "de": "E:  Heißer Hagel' hat eine viel weitere Reichweite.",
+                        "es": "E: Granizo ígneo tiene mucho más alcance.",
+                        "fr": "E : Pluie de feu a une portée beaucoup plus grande."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Shredder",
+                        "de": "Schredder",
+                        "es": "Trituradora",
+                        "fr": "Broyeur"
+                    },
+                    "description": {
+                        "en": "30% armor penetration.",
+                        "de": "30% Rüstungsdurchdringung.",
+                        "es": "30% de penetración de armadura.",
+                        "fr": "30 % de pénétration d'armure."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Bloody Minded",
+                        "de": "Blutdürstig",
+                        "es": "Testarudez",
+                        "fr": "Obstination"
+                    },
+                    "description": {
+                        "en": "Immunity to Weakness. Recover from Daze twice as fast.",
+                        "de": "Immunität gegen Schwäche. Du erholst dich doppelt so schnell von Verwirrung.",
+                        "es": "Inmunidad a la debilidad. Te recuperas del atontamiento el doble de rápido.",
+                        "fr": "Immunité à Faiblesse. Se remet d'un étourdissement deux fois plus rapidement."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Ambush",
+                        "de": "Hinterhalt",
+                        "es": "Emboscada",
+                        "fr": "Embuscade"
+                    },
+                    "description": {
+                        "en": "+20% crit chance and +10% crit damage from behind.",
+                        "de": "20% größere Chance auf kritische Treffer und 10% mehr kritischer Schaden von hinten.",
+                        "es": "+20% de probabilidad de daño crítico y +10% de daño crítico por detrás.",
+                        "fr": "+20 % de chance critique et +10 % de dégâts critiques par derrière"
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Acrobatics",
+                        "de": "Akrobatik",
+                        "es": "Acrobacias",
+                        "fr": "Acrobaties"
+                    },
+                    "description": {
+                        "en": "Dodging and jumping cost 33% less stamina.",
+                        "de": "Ausweichen und Springen kosten 33% weniger Ausdauer.",
+                        "es": "Esquivar y saltar absorbe un 33% menos de resistencia.",
+                        "fr": "Esquiver et sauter requièrent 33 % d'énergie en moins."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

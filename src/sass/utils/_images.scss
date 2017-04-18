@@ -1,0 +1,31 @@
+[class^="image-"]{
+    display: inline-block;
+    overflow: hidden;
+    zoom:0.5;
+    -moz-transform: scale(0.5);
+    -moz-transform-origin: 0 0;
+}
+
+.image-large {
+    zoom: 0.8;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+}
+
+.image-medium {
+    zoom:0.60;
+    -moz-transform: scale(0.60);
+    -moz-transform-origin: 0 0;
+}
+
+.image-small {
+    zoom:0.45;
+    -moz-transform: scale(0.45);
+    -moz-transform-origin: 0 0;
+}
+
+.image-extra-small {
+    zoom:0.29;
+    -moz-transform: scale(0.29);
+    -moz-transform-origin: 0 0;
+}

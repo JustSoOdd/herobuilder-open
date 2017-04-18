@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Imani",
+        "de": "Imani",
+        "es": "Imani",
+        "fr": "Imani"
+    },
+    "shortName": "Imani",
+    "description": {
+        "en": "Sniper",
+        "de": "Scharfschützin.",
+        "es": "Francotiradora.",
+        "fr": "Sniper"
+    },
+    "lore": {
+        "en": "\"We think their sniper, Imani, is hidden on that ridge, sir.\" \"Then why are you cowering behind these rocks? She couldn't hit a barn at that dist—\" —last words of Commander Sedgwick, House Tesserus",
+        "de": "„Wir glauben, dass sich ihre Scharfschützin Imani dort oben auf der Klippe versteckt hält, Sir!“ „Warum versteckt ihr euch dann hinter diesen Felsen hier? Auf diese Distanz könnte sie nicht einmal ein Scheunentor treff-“ – Die letzten Worte von Kommandant Sedgwick, Haus Tesserus",
+        "es": "\"Creemos que esa francotiradora, Imani, se esconde en esa cordillera, señor.\" \"Entonces ¿por qué os escondéis detrás de esas rocas? No podría alcanzar a nadie a esa dist...\" —Últimas palabras del comandante Sedgwick, Casa Tesserus",
+        "fr": "« Leur sniper, Imani, est cachée sur cette crête, chef. » « Alors pourquoi êtes-vous caché derrière ces rochers ? Elle ne pourrait pas atteindre un éléphant à cette dist... » Ce furent les derniers mots du commandant Sedgwik, Maison Tesserus."
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Scope your targets, then blow them away! Imani rewards precision aim, clever positioning, and battlefield awareness.",
+            "playStyleTips": [
+                "Upgrade your crossbow's scope for extra damage on headshots.",
+                "Specialty ammo can freeze enemies or light them on fire.",
+                "Max out your Smoke Bomb to make a clean getaway."
+            ]
+        },
+        "de": {
+            "description": "Nimm deine Ziele ins Visier und niete sie dann um! Imani steht für Präzisionszielen, cleveres Positionieren sowie den taktischen Überblick auf dem Schlachtfeld.",
+            "playStyleTips": [
+                "Werte den Zielsucher deiner Armbrust für zusätzlichen Schaden bei Kopfschüssen auf.",
+                "Spezielle Munition kann Gegner einfrieren oder sie in Brand stecken.",
+                "Baue deine Rauchbombe maximal aus, um erfolgreich die Flucht zu ergreifen."
+            ]
+        },
+        "es": {
+            "description": "Apunta a los enemigos ¡y luego elimínalos! Imani premia la puntería precisa, la posición estratégica y el buen conocimiento del campo de batalla.",
+            "playStyleTips": [
+                "Sube de nivel la mira de tu ballesta para hacer daño adicional al disparar a la cabeza.",
+                "La munición especializada puede congelar a los enemigos o prenderles fuego.",
+                "Maximiza la Bomba de humo para salir limpiamente."
+            ]
+        },
+        "fr": {
+            "description": "Choisissez vos cibles, et éliminez-les ! Imani accorde beaucoup d'importance à la précision, au positionnement, et à une maîtrise totale du champ de bataille.",
+            "playStyleTips": [
+                "Améliorez la portée de votre arbalète pour infliger des dégâts supplémentaires lors des tirs en pleine tête.",
+                "Les munitions spéciales peuvent geler les ennemis ou les enflammer.",
+                "Faites bon usage de votre Fumigène pour vous échapper."
+            ]
+        }
+    },
+    "attackStat": 100,
+    "defenseStat": 20,
+    "mobilityStat": 30,
+    "utilityStat": 60,
+    "difficulty": 3,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "AUTOBOLTS",
+                "de": "AUTOMATISCHE PFEILE",
+                "es": "ARCOMÃTICO",
+                "fr": "FLÈCHES AUTOMATIQUES"
+            },
+            "description": {
+                "en": "Burst of medium ranged attacks.",
+                "de": "Eine Salve von Attacken mit mittlerer Reichweite.",
+                "es": "Ráfaga de ataques a medio alcance.",
+                "fr": "Rafale de flèches à moyenne portée."
+            },
+            "lore": {
+                "en": "\"The Records division credits her with 104 kills in the Dreytalian Incursion...and that war lasted only 19 days.\" —General Adron, House Aurion",
+                "de": "„Die Rekordmarken der Division schreiben ihr 104 Eliminierungen bei dem Dreytalianischen Überfall zu ... und dieser Krieg dauerte nur 19 Tage.“ – General Adron, Haus Aurion",
+                "es": "\"La división de archivos le acredita 104 muertes en la incursión a Dreytalian... y esa guerra duró 19 días. \" —General Adron, Casa Aurion",
+                "fr": "« Les archives lui attribuent 104 victimes lors de l'incursion dreytalienne, qui n'a pourtant duré que 19 jours. » —Général Adron, Maison Aurion"
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Drawing Power",
+                    "de": "Zugkraft",
+                    "es": "Arco potente",
+                    "fr": "Puissance de trait"
+                },
+                "description": {
+                    "en": "Your burst-fire bolts travel twice as far.",
+                    "de": "Deine  Feuerstoß-Pfeile' haben die doppelte Reichweite.",
+                    "es": "Tus flechas recorren el doble de distancia.",
+                    "fr": "La portée de vos flèches tirées en rafale est doublée."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Shaft Stabilizer",
+                    "de": "Schaftstabilisierer",
+                    "es": "Estabilizador de rayo",
+                    "fr": "Stabilisateur"
+                },
+                "description": {
+                    "en": "Your burst-fire bolts are more accurate.",
+                    "de": "Deine  Feuerstoß-Pfeile' sind präziser.",
+                    "es": "Tus disparos en ráfagas son más precisos.",
+                    "fr": "Vos tirs en rafale sont plus précis."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "In the Groove",
+                    "de": "Im Fluss",
+                    "es": "Siguiendo el ritmo",
+                    "fr": "Bonne direction"
+                },
+                "description": {
+                    "en": "Autobolts build critical hit chance faster.",
+                    "de": "Die Chance auf kritische Treffer von  Automatische Pfeile' wird schneller aufgebaut.",
+                    "es": "Arcomático genera más rápido la probabilidad de golpe crítico.",
+                    "fr": "Flèches automatiques augmentent les chances de coup critique plus rapidement."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Second Chamber",
+                    "de": "Zweite Kammer",
+                    "es": "Segunda recámara",
+                    "fr": "Deuxième chambre"
+                },
+                "description": {
+                    "en": "Each Burst fires an additional bolt.",
+                    "de": "Du verschießt mit jedem Feuerstoß einen zusätzlichen Pfeil.",
+                    "es": "Cada ráfaga dispara una flecha adicional.",
+                    "fr": "Chaque rafale tire une flèche supplémentaire."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Quick Loader",
+                    "de": "Schnelles Nachladen",
+                    "es": "Carga rápida",
+                    "fr": "Recharge rapide"
+                },
+                "description": {
+                    "en": "After a burst, you can reload and fire again 20% faster.",
+                    "de": "Nach einem Feuerstoß kannst du 20% schneller nachladen und erneut feuern.",
+                    "es": "Tras una ráfaga, podrás recargar y volver a disparar un 20% más rápido.",
+                    "fr": "Après une rafale, vous pouvez recharger et tirer à nouveau 20 % plus rapidement."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Steel-Tipped Bolts",
+                    "de": "Stahlspitzen-Pfeile",
+                    "es": "Flechas con punta de acero",
+                    "fr": "Flèches à pointes d'acier"
+                },
+                "description": {
+                    "en": "Normal bolts pierce through enemies and build focus faster.",
+                    "de": "Normale Bolzen durchdringen Gegner und bauen Fokus schneller auf.",
+                    "es": "Las flechas normales atraviesan a los enemigos y acumulas concentración más rápido.",
+                    "fr": "Les flèches normales transpercent les ennemis et permettent de gagner du focus plus rapidement."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "SILENT SCOPE",
+                "de": "STILLER SUCHER",
+                "es": "MIRA SILENCIOSA",
+                "fr": "LIGNE DE MIRE"
+            },
+            "description": {
+                "en": "Zoom in for deadly single shots.<BR>Wait for increased damage.",
+                "de": "Zoome heran für tödliche Einzelschüsse.<BR>Warte, um den Schaden zu erhöhen.",
+                "es": "Haz zoom para realizar disparos únicos mortales. Espera para infligir más daño.",
+                "fr": "Zoomer pour des tirs mortels.<BR>Attendre pour infliger plus de dégâts."
+            },
+            "lore": {
+                "en": "In winter, Imani puts snow in her mouth so her frosty breath doesn't give away her position.",
+                "de": "Im Winter nimmt Imani Schnee in den Mund, damit ihr warmer Atem nicht ihre Stellung preisgibt.",
+                "es": "En invierno, Imani se mete nieve en la boca para que su aliento helado no dé pistas de su posición.",
+                "fr": "En hiver, Imani se met de la neige dans la bouche pour que son haleine glacée ne révèle pas sa position."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "LR": {
+                "name": {
+                    "en": "On The Mark",
+                    "de": "Genau ins Schwarze",
+                    "es": "En la diana",
+                    "fr": "À vos marques"
+                },
+                "description": {
+                    "en": "After a fully charged direct hit when scoped, your damage bonus starts at 2x.",
+                    "de": "Nach einem voll aufgeladenen, direkten Treffer durch den Sucher beginnt dein Schadensbonus bei 2x.",
+                    "es": "Tras un impacto directo totalmente cargado con mira, el daño adicional empieza al doble.",
+                    "fr": "Après un tir complètement chargé en visant, votre bonus de dégâts commence à 2x."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Vital Organs",
+                    "de": "Lebenswichtige Organe",
+                    "es": "Órganos vitales",
+                    "fr": "Organes vitaux"
+                },
+                "description": {
+                    "en": "Scoped head shots deal +25% damage.",
+                    "de": "Kopfschüsse per Sucher verursachen 25% mehr Schaden.",
+                    "es": "Los tiros a la cabeza con mira infligen +25% de daño.",
+                    "fr": "Les tirs en pleine tête en visant causent +25 % de dégâts."
+                }
+            },
+            "L": {
+                "name": {
+                    "en": "Adjustable Scope",
+                    "de": "Einstellbarer Sucher",
+                    "es": "Mira ajustable",
+                    "fr": "Lunette ajustable"
+                },
+                "description": {
+                    "en": "Staying zoomed in can grant you a 3x damage bonus.",
+                    "de": "Du kannst einen Dreifach-Schadensbonus erhalten, wenn du herangezoomt bleibst.",
+                    "es": "Tener el zoom activado te otorga el triple de daño.",
+                    "fr": "En conservant le zoom, vous pouvez bénéficier d'un bonus de dégâts de 3x."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Deft Hand",
+                    "de": "Geschicktes Händchen",
+                    "es": "Mano hábil",
+                    "fr": "Main assurée"
+                },
+                "description": {
+                    "en": "After a scoped shot, you can reload and fire again 20% faster.",
+                    "de": "Nach einem Schuss mit dem Sucher kannst du 20% schneller nachladen und erneut feuern.",
+                    "es": "Tras un disparo con mira, podrás recargar y volver a disparar un 20% más rápido.",
+                    "fr": "Après un tir en visant, vous pouvez recharger et tirer de nouveau 20 % plus rapidement."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Combat Sniper",
+                    "de": "Kampf-Scharfschütze",
+                    "es": "Francotirador de combate",
+                    "fr": "Tireur d'élite"
+                },
+                "description": {
+                    "en": "Increased move speed and +10 armor vs. projectiles while scoped.",
+                    "de": "Im Zielfernrohr-Modus erhältst du erhöhte Bewegungsgeschwindigkeit und +10 Rüstung gegen Projektile.",
+                    "es": "Velocidad de movimiento aumentada y +10 de armadura contra proyectiles con mira.",
+                    "fr": "Augmente la vitesse de déplacement et octroie +10 d'armure contre les projectiles quand vous visez."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Snapshot",
+                    "de": "Gelegenheitsschuss",
+                    "es": "Instantánea",
+                    "fr": "Arrêt sur image"
+                },
+                "description": {
+                    "en": "You can fire scoped shots quicker. <BR>+30% damage for quick scoped shots.",
+                    "de": "Du kannst Schüsse im Sucher schneller abfeuern. <BR>30% mehr Schaden für schnelle Schüsse im Sucher.",
+                    "es": "Disparas apuntando más rápido. <BR>+30% de daño para los disparos con mira rápidos.",
+                    "fr": "Permet de tirer plus rapidement en visant. +30 % de dégâts pour les tirs rapides en visant."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "CYCLE AMMO",
+                "de": "MUNITIONSWECHSEL",
+                "es": "MUNICIÓN CÍCLICA",
+                "fr": "CHOIX DE MUNITIONS"
+            },
+            "description": {
+                "en": "PRESS ONCE: Boom Bolt for more damage.<BR>TWICE: Frost Bolt that slows.",
+                "de": "EINMAL DRÜCKEN: Explosionspfeil, der mehr Schaden anrichtet.<BR>ZWEIMAL: Frostpfeil, der verlangsamt.",
+                "es": "PULSA UNA VEZ: Arco explosivo para infligir más daño. DOS VECES: Arco gélido que ralentiza.",
+                "fr": "Appuyer une fois : Flèche puissante pour infliger plus de dégâts.<BR>Appuyer deux fois : Tir glacé qui ralentit."
+            },
+            "lore": {
+                "en": "\"My craft is endless improvisation, for no two targets are alike.\" —Imani",
+                "de": "„Mein Handwerk ist ständige Improvisation, da keine zwei Ziele identisch sind.“ – Imani",
+                "es": "\"Mi destreza es la improvisación infinita, ya que no hay dos objetivos iguales.\" —Imani",
+                "fr": "« Mon art est une pure improvisation, car les cibles sont toutes différentes. » —Imani"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Blast Radius",
+                    "de": "Explosionsradius",
+                    "es": "Radio de explosión",
+                    "fr": "Rayon d'explosion"
+                },
+                "description": {
+                    "en": "Boom Bolts explosion radius is bigger if they hit an enemy.",
+                    "de": "Der Explosionsradius von  Explosionspfeil  ist größer, wenn ein Gegner getroffen wird.",
+                    "es": "El radio de explosión de Arco explosivo es más amplio si impacta a un enemigo.",
+                    "fr": "Le rayon d'explosion de Flèche puissante est plus grand si l'ennemi est touché."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Die in a Fire",
+                    "de": "Stirb im Feuer",
+                    "es": "Muerte entre las llamas",
+                    "fr": "Feu mortel"
+                },
+                "description": {
+                    "en": "Boom Bolts set enemies on fire. (3s)",
+                    "de": "Explosionspfeil  steckt Gegner in Brand. (3 Sek.)",
+                    "es": "Arco explosivo prende fuego a los enemigos (3 s).",
+                    "fr": "Les Flèches puissantes mettent feu aux ennemis (3 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "All In",
+                    "de": "Alles oder nichts",
+                    "es": "Todo o nada",
+                    "fr": "Tout ou rien"
+                },
+                "description": {
+                    "en": "You get only one Boom Bolt, but it launches enemies on hit.",
+                    "de": "Du erhältst nur einen  Explosionspfeil', doch schleudert dieser Gegner bei einem Treffer in die Luft.",
+                    "es": "Solo tienes un Arco explosivo, pero lanza a los enemigos impactados.",
+                    "fr": "Vous n'avez qu'une Flèche puissante, mais elle propulse les ennemis."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Deep Freeze",
+                    "de": "Tiefgefroren",
+                    "es": "Frío intenso",
+                    "fr": "Froid intense"
+                },
+                "description": {
+                    "en": "Frost Bolts leave a freezing area effect for 2s.",
+                    "de": "Frostpfeile' hinterlässt für 2 Sek. einen einfrierenden Wirkungsbereich.",
+                    "es": "Arco gélido deja un área de efecto de congelación durante 2 s.",
+                    "fr": "Les Flèches glacées laissent une zone gelée (2 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Chill to the Bone",
+                    "de": "Kalt bis auf die Knochen",
+                    "es": "Calado hasta los huesos",
+                    "fr": "Frisson glacé"
+                },
+                "description": {
+                    "en": "Frozen effect lasts 2s longer but deals less damage.",
+                    "de": "Der Einfrierungseffekt währt 2 Sekunden länger, verursacht aber weniger Schaden.",
+                    "es": "El efecto de congelación dura 2 s más, pero inflige menos daño.",
+                    "fr": "Les ennemis sont gelés 2 s de plus mais subissent moins de dégâts."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Ice Ice Maybe",
+                    "de": "Eis für zwei",
+                    "es": "Hielo, por favor",
+                    "fr": "Traits de glace"
+                },
+                "description": {
+                    "en": "Double shots for Frost Bolts.",
+                    "de": "Doppelschuss für  Frostpfeile'.",
+                    "es": "Arco gélido cuenta con disparos dobles.",
+                    "fr": "Les Flèches glacées sont tirées par paire."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "SMOKE BOMB",
+                "de": "RAUCHBOMBE",
+                "es": "BOMBA DE HUMO",
+                "fr": "FUMIGÈNE"
+            },
+            "description": {
+                "en": "Lobbed projectile: Creates a cloud that hides allies and weakens enemies.",
+                "de": "Geschleudertes Projektil: Erzeugt eine Wolke, die Verbündete versteckt und Gegner schwächt.",
+                "es": "Proyectil en trayectoria elevada: crea una nube que esconde a los aliados y debilita a los enemigos.",
+                "fr": "Projectile qui crée un nuage cachant les alliés et affaiblissant les ennemis."
+            },
+            "lore": {
+                "en": "She was so well hidden that the Drey soldiers gave up on return fire. Instead, they launched artillery salvos. —Gruth's Tales of War, Vol. 3",
+                "de": "Sie war derart gut versteckt, dass die Soldaten der Drey damit aufhörten, das Feuer zu erwidern. Stattdessen begannen sie, schwere Artillerie abzufeuern. – Gruths Geschichten vom Krieg, 3. Band",
+                "es": "Estaba tan bien escondida que los soldados de Drey desistieron de devolverle el fuego y lanzaron salvas de artillería en su lugar. —Historias de guerra de Gruth, vol. 3",
+                "fr": "Elle était tellement bien cachée que les soldats de Drey ont abandonné l'idée de riposter. Ils se sont alors contentés de lancer des tirs d'artillerie. —Récits de guerre de Gruth, vol. 3"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Choking Gas",
+                    "de": "Beißendes Gas",
+                    "es": "Gas asfixiante",
+                    "fr": "Gaz toxique"
+                },
+                "description": {
+                    "en": "Enemies hit directly by Smoke Bomb are stunned.",
+                    "de": "Gegner, die direkt von  Rauchbombe' getroffen werden, sind betäubt.",
+                    "es": "Los enemigos impactados directamente por Bomba de humo se quedan aturdidos.",
+                    "fr": "Les ennemis directement touchés par un Fumigène sont assommés."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Debilitating Haze",
+                    "de": "Schwächender Dunst",
+                    "es": "Niebla debilitadora",
+                    "fr": "Brume affaiblissante"
+                },
+                "description": {
+                    "en": "Weakness is even stronger, reducing damage 50%.",
+                    "de": "Die Schwächung ist noch stärker, der Schaden wird um 50% reduziert.",
+                    "es": "La debilitación es todavía más fuerte. Reduce el daño un 50%.",
+                    "fr": "La Faiblesse est encore plus puissante, ce qui réduit les dégâts de 50 %."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Smoke Screen",
+                    "de": "Rauchschleier",
+                    "es": "Pantalla de humo",
+                    "fr": "Écran de fumée"
+                },
+                "description": {
+                    "en": "Allies inside the cloud have increased crit chance.",
+                    "de": "Verbündete in der Wolke haben eine erhöhte Chance, kritische Treffer zu landen.",
+                    "es": "Los aliados que estén dentro de la nube tienen mayor probabilidad de asestar golpes críticos.",
+                    "fr": "Les alliés à l'intérieur du nuage ont plus de chances d'effectuer des coups critiques."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Acrobatics",
+                    "de": "Akrobatik",
+                    "es": "Acrobacias",
+                    "fr": "Acrobaties"
+                },
+                "description": {
+                    "en": "E WHILE IN AIR: Launch yourself into the air.",
+                    "de": "E WÄHREND IN DER LUFT: Schleuder dich in die Luft.",
+                    "es": "E EN EL AIRE: te lanzas a ti mismo por los aires.",
+                    "fr": "E Dans les airs : se propulser dans les airs."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Time to Bounce",
+                    "de": "Zeit für Luftsprünge",
+                    "es": "Hora de rebotar",
+                    "fr": "Le grand saut"
+                },
+                "description": {
+                    "en": "You launch farther and stay invisible longer. (4s)",
+                    "de": "Du springst weiter und bleibst länger unsichtbar. (4 Sek.)",
+                    "es": "Lanzas más lejos y eres invisible más tiempo (4 s).",
+                    "fr": "Propulse plus loin et rend invisible plus longtemps (4 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Adrenaline Rush",
+                    "de": "Adrenalinrausch",
+                    "es": "Impulso de adrenalina",
+                    "fr": "Montée d'adrénaline"
+                },
+                "description": {
+                    "en": "Launching yourself gives you +50% move speed for 3s.",
+                    "de": "Dich selbst hochzuschleudern verleiht dir für 3 Sek. 50% zusätzliche Bewegungsgeschwindigkeit.",
+                    "es": "Lanzarte a ti mismo te otorga +50% de velocidad de movimiento durante 3 s.",
+                    "fr": "+50 % de rapidité de mouvement (3 s) en vous propulsant."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "KILL SHOT",
+                "de": "ELIMINIERUNGSSCHUSS",
+                "es": "DISPARO MORTAL",
+                "fr": "TIR MEURTRIER"
+            },
+            "description": {
+                "en": "Ready a powerful single shot. LMB to fire. F again to cancel. ",
+                "de": "Mächtiger Einzelschuss. LMB, um zu feuern. F erneut antippen, um abzubrechen.",
+                "es": "Prepara un disparo poderoso. LMB para disparar. F de nuevo para cancelar.",
+                "fr": "Appuyer sur F pour déclencher un tir surpuissant et sur F à nouveau pour annuler."
+            },
+            "lore": {
+                "en": "\"I swear Imani can see through both eyes. She just wears the eyepatch to preserve her sharp vision for 'special targets.'\" —Roland",
+                "de": "„Ich bin absolut davon überzeugt, dass Imani mit beiden Augen sehen kann. Sie trägt die Augenklappe nur, um ihren scharfen Blick für ganz ,besondere Ziele‘ aufzusparen.“ – Roland",
+                "es": "\"Os aseguro que Imani ve por los dos ojos. Solo se pone el parche para tener una visión más nítida para los 'objetivos especiales'.\" —Roland",
+                "fr": "« Je vous jure qu'Imani peut voir avec les deux yeux. Son cache-œil ne sert qu'à préserver sa vision pour des cibles spéciales. » —Roland"
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "In the Zone",
+                    "de": "Fokussiert",
+                    "es": "Enfoque",
+                    "fr": "Tir surpuissant"
+                },
+                "description": {
+                    "en": "On hit, raise your crit chance to 100%.",
+                    "de": "Bei einem Treffer erhöht sich die Chance auf kritische Treffer auf 100%.",
+                    "es": "Al impactar, aumenta al 100% la probabilidad de golpe crítico.",
+                    "fr": "Augmente votre chance critique de 100 %."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Secret Stash",
+                        "de": "Geheimer Vorrat",
+                        "es": "Polvorín secreto",
+                        "fr": "Chargeur secret"
+                    },
+                    "description": {
+                        "en": "Q: You can Cycle Ammo more often.",
+                        "de": "Q: Du kannst  Munitionswechsel' öfters durchführen.",
+                        "es": "Q: puedes usar Munición cíclica más a menudo.",
+                        "fr": "Q : utiliser Choix de munitions plus souvent."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Fog of War",
+                        "de": "Nebel des Krieges",
+                        "es": "Niebla de guerra",
+                        "fr": "Brouillard de guerre"
+                    },
+                    "description": {
+                        "en": "E: You can use Smoke Bomb more often.",
+                        "de": "E: Du kannst  Rauchbombe' öfters benutzen.",
+                        "es": "E: puedes usar Bomba de humo más a menudo.",
+                        "fr": "E : utiliser Fumigène plus souvent."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Ambush",
+                        "de": "Hinterhalt",
+                        "es": "Emboscada",
+                        "fr": "Embuscade"
+                    },
+                    "description": {
+                        "en": "+20% crit chance and +10% crit damage from behind.",
+                        "de": "20% größere Chance auf kritische Treffer und 10% mehr kritischer Schaden von hinten.",
+                        "es": "+20% de probabilidad de daño crítico y +10% de daño crítico por detrás.",
+                        "fr": "+20 % de chance critique et +10 % de dégâts critiques par derrière"
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Acrobatics",
+                        "de": "Akrobatik",
+                        "es": "Acrobacias",
+                        "fr": "Acrobaties"
+                    },
+                    "description": {
+                        "en": "Dodging and jumping cost 33% less stamina.",
+                        "de": "Ausweichen und Springen kosten 33% weniger Ausdauer.",
+                        "es": "Esquivar y saltar absorbe un 33% menos de resistencia.",
+                        "fr": "Esquiver et sauter requièrent 33 % d'énergie en moins."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Shredder",
+                        "de": "Schredder",
+                        "es": "Trituradora",
+                        "fr": "Broyeur"
+                    },
+                    "description": {
+                        "en": "30% armor penetration.",
+                        "de": "30% Rüstungsdurchdringung.",
+                        "es": "30% de penetración de armadura.",
+                        "fr": "30 % de pénétration d'armure."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Bloody Minded",
+                        "de": "Blutdürstig",
+                        "es": "Testarudez",
+                        "fr": "Obstination"
+                    },
+                    "description": {
+                        "en": "Immunity to Weakness. Recover from Daze twice as fast.",
+                        "de": "Immunität gegen Schwäche. Du erholst dich doppelt so schnell von Verwirrung.",
+                        "es": "Inmunidad a la debilidad. Te recuperas del atontamiento el doble de rápido.",
+                        "fr": "Immunité à Faiblesse. Se remet d'un étourdissement deux fois plus rapidement."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

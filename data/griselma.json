@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Griselma",
+        "de": "Griselma",
+        "es": "Griselma",
+        "fr": "Griselma"
+    },
+    "shortName": "Griselma",
+    "description": {
+        "en": "Summons Turrets",
+        "de": "Beschwört Geschütze.",
+        "es": "Congrega torretas.",
+        "fr": "Invoque des tourelles"
+    },
+    "lore": {
+        "en": "\"You know the truth: when she was among us, she was stubborn, caustic, and quick to take offense at the slightest criticism. Yet I shudder to think of the secrets she kept when she left us.\" —The Silent Singer, House Melkior",
+        "de": "„Ihr kennt die Wahrheit: Als sie noch bei uns war, war sie stur, schnippisch und nahm einem selbst die leiseste Kritik übel. Dennoch schaudert es mich, wenn ich an all die Geheimnisse denke, die sie für immer mit sich genommen hat.“ – Der Stumme Sänger, Haus Melkior",
+        "es": "\"Ya sabéis la verdad: cuando estaba entre nosotros, era tozuda, sarcástica y se ofendía por cualquier mínima crítica. Aun así, tiemblo al pensar en los secretos que escondía cuando nos dejó.\" —El cantante silencioso, Casa Melkior",
+        "fr": "« Vous connaissez la vérité : quand elle était parmi nous, elle était têtue, moqueuse, et très susceptible. J'ai des frissons en pensant à tous les secrets qu'elle a gardés quand elle nous a quittés... » —Le Chanteur silencieux, Maison Melkior"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Claim the battlefield! Griselma conjures portal beasts that guard points on the map, and she lays traps for unwary enemies.",
+            "playStyleTips": [
+                "Upgrade your portal beasts to reveal hidden enemies or consume negative magic.",
+                "Create an invisible trap that launches enemies when they step on it.",
+                "Escape a bad situation by fleeing into another dimension, safe from harm."
+            ]
+        },
+        "de": {
+            "description": "Erhebe Anspruch auf das Schlachtfeld! Griselma beschwört Portalbestien, die Positionen auf der Karte bewachen, und stellt Fallen auf, in die unachtsame Gegner tappen können.",
+            "playStyleTips": [
+                "Werte deine Portalbestien auf, um versteckte Gegner zu entdecken oder negative Magie zu verschlingen.",
+                "Erschaffe eine unsichtbare Falle, die Gegner in die Luft schleudert, wenn sie sie auslösen.",
+                "Entfliehe brenzligen Situationen und bringe dich in Sicherheit, indem du eine andere Dimension betrittst."
+            ]
+        },
+        "es": {
+            "description": "¡Hazte con el campo de batalla! Griselma conjura bestias de portal que salvaguardan puntos del mapa y pone trampas para enemigos despistados.",
+            "playStyleTips": [
+                "Sube de nivel las bestias de portal para ver enemigos escondidos o consumir magia negativa.",
+                "Crea una trampa invisible que lanza a los enemigos cuando la pisan.",
+                "Huye a otra dimensión para escapar de una situación difícil y ponerte fuera de peligro."
+            ]
+        },
+        "fr": {
+            "description": "Le champ de bataille est à vous ! Griselma fait apparaître des créatures de portail sur des zones de la carte, et elle pose des pièges destinés aux ennemis les moins méfiants.",
+            "playStyleTips": [
+                "Améliorez vos créatures de portail pour découvrir des ennemis cachés ou pour dissiper les magies néfastes.",
+                "Créez un piège invisible qui projette les ennemis qui posent le pied dessus.",
+                "Échappez-vous d'un combat mal engagé en vous réfugiant dans une autre dimension où il ne peut rien vous arriver."
+            ]
+        }
+    },
+    "attackStat": 70,
+    "defenseStat": 70,
+    "mobilityStat": 20,
+    "utilityStat": 50,
+    "difficulty": 7,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "REACH OUT",
+                "de": "HANDLANGER",
+                "es": "ALARGAR LA MANO",
+                "fr": "BRAS LONG"
+            },
+            "description": {
+                "en": "Attack combo with extended reach.",
+                "de": "Angriffscombo mit erhöhter Reichweite.",
+                "es": "Combinación de ataque con un mayor alcance.",
+                "fr": "Attaque combo avec une portée accrue."
+            },
+            "lore": {
+                "en": "Griselma's staff has a mind of its own, but it's learned to keep its thoughts to itself.",
+                "de": "Griselmas Stab hat seinen eigenen Willen – doch hat er gelernt, seine Gedanken für sich zu behalten.",
+                "es": "El báculo de Griselma tiene personalidad propia, pero ha aprendido a callarse sus ideas.",
+                "fr": "Le bâton de Griselma a sa propre pensée, mais il a appris à ne pas la divulguer."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Mark of the Master",
+                    "de": "Zeichen des Meisters",
+                    "es": "Marca del maestro",
+                    "fr": "Marque du maître"
+                },
+                "description": {
+                    "en": "Your pets prioritize your target and slow enemies on hit. (2s)",
+                    "de": "Deine Bestien konzentrieren sich auf dein Ziel und verlangsamen Gegner bei einem Treffer. (2 Sek.)",
+                    "es": "Tus bestias priorizan a tu objetivo y ralentizan a los enemigos al impactar (2 s).",
+                    "fr": "Vos bêtes sélectionnent votre cible et ralentissent les ennemis en les touchant (2 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Spanked",
+                    "de": "Tracht Prügel",
+                    "es": "Azotado",
+                    "fr": "Correction"
+                },
+                "description": {
+                    "en": "You deal extra damage against Slowed enemies.",
+                    "de": "Du verursachst zusätzlichen Schaden bei verlangsamten Gegnern.",
+                    "es": "Infliges daño adicional a los enemigos ralentizados.",
+                    "fr": "Cause des dégâts supplémentaires aux ennemis ralentis."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Mark of Survival",
+                    "de": "Zeichen des Überlebens",
+                    "es": "Marca de supervivencia",
+                    "fr": "Marque de survie"
+                },
+                "description": {
+                    "en": "Gain health and armor when you strike Slowed enemies.",
+                    "de": "Du erhältst Gesundheit und Rüstung, wenn du verlangsamte Gegner angreifst.",
+                    "es": "Obtienes salud y armadura al golpear a enemigos ralentizados.",
+                    "fr": "Gagner de la santé et de l'armure en attaquant les ennemis ralentis."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Touch of the Master",
+                    "de": "Berührung des Meisters",
+                    "es": "Toque del maestro",
+                    "fr": "Coup de maître"
+                },
+                "description": {
+                    "en": "Targeting your pets heals it (100 hp/s) and boosts its damage 50%. (4s)",
+                    "de": "Ziele auf deine Bestien, um sie zu heilen (100 TP/Sek.) und ihren Schaden um 50% zu erhöhen. (4 Sek.)",
+                    "es": "Si apuntas a tus bestias, las curas (100 PV por segundo) y potencias su daño un 50% (4 s).",
+                    "fr": "Viser vos bêtes les soigne (100 PV/s) et améliore leurs dégâts de 50 % (4 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Shielding Touch",
+                    "de": "Abschirmende Berührung",
+                    "es": "Toque de escudo",
+                    "fr": "Toucher de protection"
+                },
+                "description": {
+                    "en": "After heal, you and your pet gain +25 armor. (4s)",
+                    "de": "Nach der Heilung erhalten du und deine Bestie +25 Rüstung. (4 Sek.)",
+                    "es": "Tras curar, tu bestia y tú obtenéis +25 de armadura (4 s).",
+                    "fr": "Après guérison, vous et votre bête gagnez +25 d'armure (4 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Empowering Touch",
+                    "de": "Ermächtigende Berührung",
+                    "es": "Toque potenciador",
+                    "fr": "Toucher d'encouragement"
+                },
+                "description": {
+                    "en": "After heal, you and your pet deal double damage. (4s)",
+                    "de": "Nach Heilung verursachen du und deine Bestie doppelten Schaden. (4 Sek.)",
+                    "es": "Tras curar, tu bestia y tú infligís el doble de daño (4 s).",
+                    "fr": "Après guérison, vous et votre bête causez le double de dégâts (4 s)."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "PORTAL BEAST",
+                "de": "PORTALBESTIE",
+                "es": "BESTIA DE PORTAL",
+                "fr": "CRÉATURE DE PORTAIL"
+            },
+            "description": {
+                "en": "Conjure a portal beast to fight for you.<br>HOLD RMB: Delay creating the beast.",
+                "de": "Beschwöre eine Portalbestie, die für dich kämpft. RMB GEDRÜCKT HALTEN: Die Erschaffung der Bestie verzögern.",
+                "es": "Conjura una bestia de portal para que luche por ti. MANTÉN PULSADO RMB: retardo para crear la bestia.",
+                "fr": "Invoque une créature de portail qui se bat pour vous. Maintenir RMB pour retarder la création de créature."
+            },
+            "lore": {
+                "en": "Her students whisper that each portal beast was a former pupil who annoyed Griselma one too many times.",
+                "de": "Ihre Schüler erzählen sich flüsternd, dass eine jede Portalbestie ein ehemaliger Lehrling gewesen ist, der Griselma zu oft auf die Nerven ging.",
+                "es": "Se rumorea entre sus estudiantes que cada bestia de portal era un antiguo alumno de Griselma que la molestó demasiadas veces.",
+                "fr": "Ses disciples murmurent que chaque créature de portail est un ancien élève qui a trop souvent agacé Griselma."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Ambush Hands",
+                    "de": "Hinterhältige Hände",
+                    "es": "Manos de emboscada",
+                    "fr": "Mains cachées"
+                },
+                "description": {
+                    "en": "Your beasts are invisible while idle and reveal enemies on the map.",
+                    "de": "Während sie untätig sind, sind deine Bestien unsichtbar und decken Gegner auf der Karte auf.",
+                    "es": "Tus bestias se vuelven invisibles al estar quietas y revelan a los enemigos del mapa.",
+                    "fr": "Vos bêtes sont invisibles quand elles sont inactives et révèlent les ennemis sur la carte."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Grasping Hands",
+                    "de": "Zupackende Hände",
+                    "es": "Manos atrapadoras",
+                    "fr": "Mains empoignantes"
+                },
+                "description": {
+                    "en": "Your beasts perform a life-stealing attack after appearing.",
+                    "de": "Deine Bestien führen nach dem Erscheinen einen lebensraubenden Angriff aus.",
+                    "es": "Tus bestias realizan un ataque que absorbe vida tras aparecer.",
+                    "fr": "Vos bêtes déclenchent une attaque draineuse de vie dès leur apparition."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Smashing Hands",
+                    "de": "Schmetternde Hände",
+                    "es": "Manos aplastantes",
+                    "fr": "Mains écrasantes"
+                },
+                "description": {
+                    "en": "Your beasts perform an armor-breaking attack after appearing. (5s)",
+                    "de": "Deine Bestien führen nach dem Erscheinen einen Rüstungen durchbrechenden Angriff aus. (5 Sek.)",
+                    "es": "Tus bestias realizan un ataque que rompe armaduras tras aparecer (5 s).",
+                    "fr": "Vos bêtes exécutent une attaque brise-armure après leur apparition (5 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Bestial Aura",
+                    "de": "Bestialische Aura",
+                    "es": "Aura bestial",
+                    "fr": "Aura bestiale"
+                },
+                "description": {
+                    "en": "Allies near your beasts gain +10% damage and +10 armor.",
+                    "de": "Verbündete in der Nähe deiner Bestien verursachen 10% mehr Schaden und erhalten +10 Rüstung.",
+                    "es": "Los aliados cercanos a tus bestias obtienen +10% de daño y +10 de armadura.",
+                    "fr": "Les alliés proches de vos bêtes gagnent +10 % de dégâts et +10  d'armure."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Bestial Attunement",
+                    "de": "Bestialische Einstimmung",
+                    "es": "Ajuste bestial",
+                    "fr": "Harmonie sauvage"
+                },
+                "description": {
+                    "en": "Damage and armor bonuses are +25%/+25 and last longer. (6s)",
+                    "de": "Schadens- und Rüstungsboni betragen +25%/+25 und währen länger. (6 Sek.)",
+                    "es": "Las bonificaciones de daño y armadura son +25% y +25, y duran más tiempo (6 s).",
+                    "fr": "Les bonus de dégâts et d'armure sont de +25 %/+25 et durent plus longtemps (6 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Bestial Feast",
+                    "de": "Bestialischer Schmaus",
+                    "es": "Festín bestial",
+                    "fr": "Festin bestial"
+                },
+                "description": {
+                    "en": "Every 6s, your Beasts eat all debuffs from a nearby ally and heal them.",
+                    "de": "Deine Bestien verzehren alle 6 Sek. alle Schwächungen eines Verbündeten in der Nähe und heilen diesen zusätzlich.",
+                    "es": "Cada 6 s, las bestias se comen todas las debilitaciones de un aliado cercano y lo curan.",
+                    "fr": "Toutes les 6 s, vos bêtes suppriment tous les debuffs d'un allié proche et les guérissent."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "PORTAL CALL",
+                "de": "PORTAL-RUF",
+                "es": "LLAMADA AL PORTAL",
+                "fr": "RETOUR DU PORTAIL"
+            },
+            "description": {
+                "en": "Bring your farthest portal beast to your current location.",
+                "de": "Bringe deine weitentfernteste Portalbestie zu deiner gegenwärtigen Position.",
+                "es": "Trae a las bestias de portal a tu ubicación actual.",
+                "fr": "Ramène votre créature de portail la plus éloignée vers vous."
+            },
+            "lore": {
+                "en": "\"The worst part was that before the hand grabbed me, I'd swear it winked!\" —Sergeant Koltroon, House Aurion",
+                "de": "„Das Schlimmste war, dass die Hand, das schwöre ich, mir zugezwinkert hat, bevor sie mich umschloss!“ – Sergeant Koltroon, Haus Aurion",
+                "es": "\"Lo peor es que antes de que la mano me agarrara, ¡juraría que me guiñó!\" —Sargento Koltroon, Casa Aurion",
+                "fr": "« Le pire c'est que juste avant que la main ne m'attrape, elle m'a fait un clin œil ! » —Sergent Koltroon, Maison Aurion"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Quick Change",
+                    "de": "Schneller Wechsel",
+                    "es": "Carga rápida",
+                    "fr": "Changement rapide"
+                },
+                "description": {
+                    "en": "Q completes faster.",
+                    "de": "Q vervollständigt schneller.",
+                    "es": "Q se completa más rápido.",
+                    "fr": "Q s'exécute plus rapidement."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Soothing Journey",
+                    "de": "Wohltuende Reise",
+                    "es": "Viaje relajante",
+                    "fr": "Voyage rafraîchissant"
+                },
+                "description": {
+                    "en": "Your pet is healed when it relocates.",
+                    "de": "Deine Bestie wird nach dem Teleport geheilt.",
+                    "es": "Tu bestia se cura al reubicarse.",
+                    "fr": "Votre créature de portail se soigne quand elle change de position."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Element of Surprise",
+                    "de": "Überraschungsmoment",
+                    "es": "Elemento sorpresa",
+                    "fr": "Élément de surprise"
+                },
+                "description": {
+                    "en": "Your pet deal 50% more damage for 4s after relocating.",
+                    "de": "Nach dem Teleport verursacht deine Bestie 4 Sek. lang 50% mehr Schaden.",
+                    "es": "Tras reubicarse, tu bestia inflige un 50% más de daño durante 4 s.",
+                    "fr": "Votre bête cause +50 % de dégâts (4 s) après avoir changé de position."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Portal Trap",
+                    "de": "Portalfalle",
+                    "es": "Portal trampa",
+                    "fr": "Piège de portail"
+                },
+                "description": {
+                    "en": "Q, Q: Create a portal trap.<BR>When triggered, your farthest pet relocates.",
+                    "de": "Tippe Q, um eine Falle aufzustellen.<BR>Wenn ausgelöst wird deine weitentfernteste Bestie versetzt.",
+                    "es": "Q, Q: crea una trampa de portal. Al activarla, la bestia más lejana se recoloca.",
+                    "fr": "Q, Q pour créer un Piège de portail. Une fois activé, votre bête la plus éloignée change de position."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Stumbling Block",
+                    "de": "Stolperfalle",
+                    "es": "Bloqueo molesto",
+                    "fr": "Entrave"
+                },
+                "description": {
+                    "en": "Your trap also slows enemies for 5s.",
+                    "de": "Deine Falle verlangsamt Gegner zusätzlich für 5 Sek.",
+                    "es": "Tu trampa también ralentiza a los enemigos durante 5 s.",
+                    "fr": "Votre piège ralentit aussi les ennemis (5 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Slap Shot",
+                    "de": "Klatscher",
+                    "es": "Tiro justo",
+                    "fr": "Siège éjectable"
+                },
+                "description": {
+                    "en": "Your trap also launches enemies.",
+                    "de": "Deine Fallen schleudern Gegner zusätzlich.",
+                    "es": "Tu trampa también lanza a los enemigos.",
+                    "fr": "Votre piège propulse aussi les ennemis."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "DISPLACEMENT",
+                "de": "DISLOKATION",
+                "es": "DESPLAZAMIENTO",
+                "fr": "DISPARITION"
+            },
+            "description": {
+                "en": "Disappear into a portal and regen health.<br>TAP E AGAIN: Exit the portal early.",
+                "de": "Verschwinde in einem Portal und regeneriere Gesundheit. E ERNEUT TIPPEN: Verlasse das Portal frühzeitig.",
+                "es": "Desapareces en un portal y se regenera la salud. PULSA E DE NUEVO: sales antes del portal.",
+                "fr": "Disparaître dans un portail et régénérer votre santé. Appuyer à nouveau sur E pour quitter le portail prématurément."
+            },
+            "lore": {
+                "en": "Over the decades, dozens have willingly stepped into Griselma's portals. But only Griselma has ever emerged again.",
+                "de": "Über Jahrzehnte hinweg haben Dutzende Freiwillige Griselmas Portale betreten. Doch nur Griselma selbst ist je wieder aus ihnen erschienen.",
+                "es": "A lo largo de las décadas, muchos han accedido a entrar en los portales de Griselma. Pero ella es la única que ha salido de ellos.",
+                "fr": "Au cours des décennies, des dizaines de personnes ont traversé les portails de Griselma, mais seule cette dernière peut en ressortir."
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Conservation of Energy",
+                    "de": "Energiesparen",
+                    "es": "Conservación de energía",
+                    "fr": "Conservation d'énergie"
+                },
+                "description": {
+                    "en": "While you hide, nearby Beasts deal more damage and take less damage.",
+                    "de": "Während du dich versteckst, verursachen Bestien in der Nähe mehr Schaden und erleiden gleichzeitig weniger.",
+                    "es": "Mientras te escondas, las bestias cercanas infligirán más daño y recibirán menos.",
+                    "fr": "Quand vous êtes caché, les créatures proches causent plus de dégâts et en subissent moins."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Gift of Preservation",
+                    "de": "Geschenk der Erhaltung",
+                    "es": "Don de la conservación",
+                    "fr": "Préservation"
+                },
+                "description": {
+                    "en": "While in your portal, your Portal Beasts are healed.",
+                    "de": "Während du in deinem Portal bist, werden deine Portalbestien geheilt.",
+                    "es": "Las bestias de portal se curan mientras estés en tu portal.",
+                    "fr": "Quand vous êtes dans votre portail, vos Créatures de portail sont soignées."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Gift of Annihilation",
+                    "de": "Geschenk der Auslöschung",
+                    "es": "Don de aniquilación",
+                    "fr": "Annihilation"
+                },
+                "description": {
+                    "en": "While in your portal, your Portal Beasts attack wildly.",
+                    "de": "Während du in deinem Portal bist, greifen deine Portalbestien wie wild an.",
+                    "es": "Tus bestias de portal atacan con violencia mientras estés en tu portal.",
+                    "fr": "Une fois dans le portail, vos Créatures de portail attaquent frénétiquement."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Portal Collapse",
+                    "de": "Portalkollaps",
+                    "es": "Fin del portal",
+                    "fr": "Chute de portail"
+                },
+                "description": {
+                    "en": "When your portal ends, nearby enemies are stunned for 1.5s.",
+                    "de": "Löst sich dein Portal auf, werden Gegner in der Nähe für 1,5 Sek. betäubt.",
+                    "es": "Cuando se acabe el portal, los enemigos cercanos quedan aturdidos durante 1,5 s.",
+                    "fr": "Quand votre portail est terminé, les ennemis proches sont assommés (1,5 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Exit Strategy",
+                    "de": "Fluchtstrategie",
+                    "es": "Estrategia de salida",
+                    "fr": "Stratégie de fuite"
+                },
+                "description": {
+                    "en": "Tap 'E' again to teleport to your nearest trap. If no traps, teleport forward.",
+                    "de": "Tippe E erneut, um dich zu deiner nächstliegenden Falle zu teleportieren. Sind keine Fallen vorhanden, teleportierst du dich vorwärts.",
+                    "es": "PULSA E DE NUEVO: te teletransportas a la trampa más cercana o más adelante si no hay.",
+                    "fr": "Appuyez sur E à nouveau pour rejoindre votre portail le plus proche. S'il n'y a pas de pièges, cela vous téléporte vers l'avant."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Time Dilation",
+                    "de": "Zeitdilatation",
+                    "es": "Dilatación temporal",
+                    "fr": "Dilatation du temps"
+                },
+                "description": {
+                    "en": "Displacement can be used every 12s, but its duration is reduced by 50%.",
+                    "de": "Dislokation' kann alle 12 Sek. angewendet werden, doch ist die Dauer um 50% reduziert.",
+                    "es": "Permite usar Desplazamiento cada 12 s, pero se reduce al 50% su duración.",
+                    "fr": "Disparition peut être utilisée toutes les 12 s mais sa durée est réduite de 50 %."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "THE ABYSS",
+                "de": "DER SCHLUND",
+                "es": "EL ABISMO",
+                "fr": "L'ABYSSE"
+            },
+            "description": {
+                "en": "Create a trap that Stuns then Launches. (30s lifetime) Deals 375/575/900 damage.",
+                "de": "Erzeugt eine Falle, die betäubt und dann schleudert (30 Sek.). Verursacht 375/575/900 Schaden.",
+                "es": "Crea una trampa que aturde y luego lanza. 30 s de duración. Inflige 375/575/900 de daño.",
+                "fr": "Crée un piège qui assomme puis propulse (durée de vie : 30 s). Cause 375/575/900 de dégâts."
+            },
+            "lore": {
+                "en": "For a time, noble families with \"willful\" children could contact House Melkior, who would send Griselma to be the last nanny they'd ever need.",
+                "de": "Es gab eine Zeit, in der edle Familien mit „halsstarrigen“ Kindern das Haus Melkior kontaktieren konnten, welches ihnen Griselma schickte – das letzte Kindermädchen, deren Dienste sie jemals in Anspruch nehmen mussten.",
+                "es": "Durante un tiempo, las familias nobles con hijos \"voluntariosos\" contactaban con la Casa Melkior, que les enviaba a Griselma como la última niñera que jamás les haría falta.",
+                "fr": "Il fut un temps où des familles nobles avec des enfants turbulents contactaient la Maison Melkior qui leur envoyait une certaine nourrice... Griselma !"
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Renewed Focus",
+                    "de": "Erneuerte Konzentration",
+                    "es": "Concentración renovada",
+                    "fr": "Récupération de Focus"
+                },
+                "description": {
+                    "en": "On use, resets all your skill cooldowns.",
+                    "de": "All deine Abklingzeiten werden bei Benutzung zurückgesetzt.",
+                    "es": "Al usarla, se reinician todas las recargas de habilidad.",
+                    "fr": "Réinitialise les temps de rechargement de toutes vos compétences."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hand Out",
+                        "de": "Austeilen",
+                        "es": "Manos largas",
+                        "fr": "Distribution"
+                    },
+                    "description": {
+                        "en": "LMB: Smack enemies from 50% further away.",
+                        "de": "LMB: Verpasse Gegnern eins von 50% weiter weg.",
+                        "es": "LMB: golpea a los enemigos desde un 50% más lejos.",
+                        "fr": "LMB : atteint les ennemis 50 % plus éloignés."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Heed the Call",
+                        "de": "Folge dem Ruf",
+                        "es": "Escucha la llamada",
+                        "fr": "Invocation"
+                    },
+                    "description": {
+                        "en": "Q: You can use Portal Call more often.",
+                        "de": "Q: Du kannst  Portal-Ruf' öfters benutzen.",
+                        "es": "Q: puedes usar Llamada al portal más a menudo.",
+                        "fr": "Q : utiliser Retour du portail plus souvent."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Calling the Shots",
+                        "de": "Ton angeben",
+                        "es": "Tomando decisiones",
+                        "fr": "Mener la danse"
+                    },
+                    "description": {
+                        "en": "When you debuff a foe, nearby allies gain +10% damage for 5s. (Once per 5s.)",
+                        "de": "Wenn du einen Gegner schwächst, erhalten Verbündete in der Nähe für 5 Sek. 10% mehr Schaden. (Einmal alle 5 Sek.)",
+                        "es": "Cuando debilitas a un enemigo, los aliados cercanos obtienen +10% de daño durante 5 s (una vez cada 5 s).",
+                        "fr": "Lorsque vous debuffez un ennemi, les alliés proches font +10 % de dégâts pendant 5 s (une fois toutes les 5 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Another's Keeper",
+                        "de": "Eines anderen Hüter",
+                        "es": "El guardián de otro",
+                        "fr": "Altruiste"
+                    },
+                    "description": {
+                        "en": "+10% healing power. Gain focus when you buff or heal an ally. (Once per 5s.)",
+                        "de": "10% mehr Heilkraft. Du erhältst Fokus, wenn du einen Verbündeten stärkst oder heilst. (Einmal alle 5 Sek.)",
+                        "es": "+10% de poder curativo. Ganas concentración al potenciar o curar a un aliado (una vez cada 5 s).",
+                        "fr": "Pouvoir de guérison +10 %. Vous gagnez du Focus quand vous améliorez ou que vous soignez un allié (une fois toutes les 5 s)."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Fringe Benefits",
+                        "de": "Nebenleistungen",
+                        "es": "Beneficios extraoficiales",
+                        "fr": "Avantages en nature"
+                    },
+                    "description": {
+                        "en": "+10 armor vs. Projectiles and Splash damage.",
+                        "de": "+10 Rüstung gegen Projektile und Bereichsschaden.",
+                        "es": "+10 de armadura contra proyectiles y daño de salpicadura.",
+                        "fr": "+10 d'armure avec les projectiles et les dégâts de zone d'effet."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Sustained Abilities",
+                        "de": "Ausdauernde Fähigkeiten",
+                        "es": "Habilidades sostenidas",
+                        "fr": "Capacités maintenues"
+                    },
+                    "description": {
+                        "en": "Your skills cost less stamina.",
+                        "de": "Deine Fertigkeiten kosten dich weniger Ausdauer.",
+                        "es": "Tus habilidades consumen menos resistencia.",
+                        "fr": "Vos compétences nécessitent moins d'énergie."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

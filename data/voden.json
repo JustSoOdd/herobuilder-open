@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Voden",
+        "de": "Voden",
+        "es": "Voden",
+        "fr": "Voden"
+    },
+    "shortName": "Voden",
+    "description": {
+        "en": "Trickster Archer.",
+        "de": "Trickreicher Bogenschütze.",
+        "es": "Arquero embaucador.",
+        "fr": "Archer farceur"
+    },
+    "lore": {
+        "en": "The forest-lord Voden is as old as the ancient banyan, yet as new as the morning dew. He lives for the wild hunt, and his prey is anything that would despoil the wilderness.",
+        "de": "Der Waldfürst Voden ist so alt wie der uralte Banyanbaum und doch so frisch wie Morgentau. Er lebt für die wilde Jagd und seine Beute ist alles, was die Natur ausplündert.",
+        "es": "Voden, el señor del bosque, es tan anciano como el viejo baniano, pero tan nuevo como el rocío de la mañana. Vive por la caza salvaje, y cualquier cosa que intente devastar la naturaleza se convierte en su presa.",
+        "fr": "Voden, le roi de la forêt, est aussi vieux que les anciens banians, et aussi frais que la rosée matinale. La chasse sauvage est sa raison de vivre, et il traque tous ceux qui s'en prennent à la nature."
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Healing waters, poison arrows! Voden combines effective ranged attacks with the ability to heal nearby allies—and like any hunter, he's got some cunning tricks.",
+            "playStyleTips": [
+                "Fool your enemies with a decoy copy of yourself.",
+                "Shoot arrows through a cloud of Poison Spores.",
+                "Heal up with a Hidden Spring, which also acts as a launch pad for super jumps."
+            ]
+        },
+        "de": {
+            "description": "Heilwasser und vergiftete Pfeile! Voden kombiniert effektive Fernkampfangriffe mit der Fertigkeit, Verbündete in der Nähe zu heilen – und wie jeder Jäger hat er ein paar clevere Tricks auf Lager.",
+            "playStyleTips": [
+                "Führe deine Gegner mit einem Trugbild deiner selbst an der Nase herum.",
+                "Schieße Pfeile durch eine Giftsporenwolke.",
+                "Heile dich mithilfe einer Versteckten Quelle, die gleichzeitig als Sprungbrett für Supersprünge dient."
+            ]
+        },
+        "es": {
+            "description": "¡Aguas curativas, flechas envenenadas! Voden combina ataques efectivos a distancia con la capacidad de curar a aliados cercanos, y, como cualquier cazador, tiene sus artimañas.",
+            "playStyleTips": [
+                "Engaña a los enemigos con una copia trampa de ti mismo.",
+                "Dispara flechas a través de una nube de Esporas tóxicas.",
+                "Cúrate con Primavera incógnita, que también sirve de plataforma de lanzamiento para dar supersaltos."
+            ]
+        },
+        "fr": {
+            "description": "Des Eaux apaisantes et des flèches empoisonnées ! Voden peut attaquer efficacement à distance tout en guérissant les alliés proches, et comme tous les chasseurs, il a plus d'un tour dans son sac.",
+            "playStyleTips": [
+                "Leurrez vos ennemis en créant un clone de vous-même.",
+                "Tirez des flèches à travers un nuage de Spores toxiques.",
+                "Guérissez-vous avec une Source cachée qui sert aussi de plateforme pour effectuer des sauts prodigieux."
+            ]
+        }
+    },
+    "attackStat": 50,
+    "defenseStat": 50,
+    "mobilityStat": 70,
+    "utilityStat": 70,
+    "difficulty": 4,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "ARROWED",
+                "de": "DURCHBOHRT!",
+                "es": "FLECHADO",
+                "fr": "FLÈCHE"
+            },
+            "description": {
+                "en": "Fire an arrow.<BR>HOLD LMB to power up.",
+                "de": "Schieße einen Pfeil ab.<BR>LMB GEDRÜCKT HALTEN, um aufzuladen.",
+                "es": "Disparas una flecha. PULSA LMB para aumentar tu potencia.",
+                "fr": "Tir de flèche.<BR>Maintenir LMB pour augmenter la puissance."
+            },
+            "lore": {
+                "en": "Once loosed from the bow, the arrow is beyond the control of either archer or target.",
+                "de": "Ist der Pfeil erst einmal vom Bogen geschnellt, kann er nicht mehr vom Schützen oder Ziel beeinflusst werden.",
+                "es": "Una vez desprendida del arco, la flecha está fuera del control del arquero y del objetivo.",
+                "fr": "Une fois la flèche libérée de l'arc, l'archer, comme la cible, n'ont plus le moindre contrôle."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Dead Eye",
+                    "de": "Volltreffer",
+                    "es": "Tiro certero",
+                    "fr": "Ril de mort"
+                },
+                "description": {
+                    "en": "When powered up, your shots deal extra damage.",
+                    "de": "Wenn aufgeladen, verursachen deine Schüsse zusätzlichen Schaden.",
+                    "es": "Al potenciarlo, tus disparos infligen daño adicional.",
+                    "fr": "Si votre tir est chargé, inflige des dégâts supplémentaires."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Bow Flex",
+                    "de": "Bogendehnung",
+                    "es": "Flexión de arco",
+                    "fr": "Arc flexible"
+                },
+                "description": {
+                    "en": "Your shots power up faster.",
+                    "de": "Deine Schüsse laden schneller auf.",
+                    "es": "Aumenta la potencia de tus disparos más rápido.",
+                    "fr": "Charge vos tirs plus rapidement."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Splintering Arrows",
+                    "de": "Splitternde Pfeile",
+                    "es": "Flechas divididas",
+                    "fr": "Flèches à fragmentation"
+                },
+                "description": {
+                    "en": "When powered up, inflicts bleed on hit, even if target is deflecting (5 damage/s, 8s)",
+                    "de": "Wenn aufgeladen, wird bei einem Treffer Blutung zugefügt - selbst wenn das Ziel Projektile umlenkt.",
+                    "es": "Al potenciarlo, inflige hemorragia al impactar aunque el objetivo lo esté desviando (8 s).",
+                    "fr": "Si le tir est chargé, inflige un saignement, même si votre cible le dévie (5 dégâts/s, 8 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Triple Threat",
+                    "de": "Dreifache Bedrohung",
+                    "es": "Triple amenaza",
+                    "fr": "Triple menace"
+                },
+                "description": {
+                    "en": "Fire additional arrows if you power up your shot.",
+                    "de": "Feuere zusätzliche Pfeile ab, wenn dein Schuss aufgeladen ist.",
+                    "es": "Si potencias el tiro, lanzarás flechas adicionales.",
+                    "fr": "Tirer des flèches additionnelles en chargeant votre tir."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Ambush",
+                    "de": "Hinterhalt",
+                    "es": "Emboscada",
+                    "fr": "Embuscade"
+                },
+                "description": {
+                    "en": "Powered up shots that hit enemies in the back/side applies Slow. (3s)",
+                    "de": "Aufgeladene Schüsse, die Gegner von hinten oder von der Seite treffen, verlangsamen diese. (3 Sek.)",
+                    "es": "Los disparos potenciados que impactan por detrás o el lateral ralentizan 3 s.",
+                    "fr": "Toucher des ennemis par derrière et sur le côté avec des tirs chargés pour les ralentir (3 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Piercing Arrows",
+                    "de": "Durchbrechende Pfeile",
+                    "es": "Flechas perforantes",
+                    "fr": "Flèches perçantes"
+                },
+                "description": {
+                    "en": "Powered up shots pierce through enemies.",
+                    "de": "Aufgeladene Schüsse dringen durch Gegner hindurch.",
+                    "es": "Los disparos potenciados atraviesan a los enemigos.",
+                    "fr": "Les tirs chargés transpercent les ennemis."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "POISON SPORES",
+                "de": "GIFTSPOREN",
+                "es": "ESPORAS TÓXICAS",
+                "fr": "SPORES TOXIQUES"
+            },
+            "description": {
+                "en": "Create a poison cloud which lasts 8s.<BR>Stand in the cloud to fire poisonous arrows.",
+                "de": "Erzeugt eine giftige Wolke, die 8. Sek währt.<BR>Stell dich in die Wolke, um giftige Pfeile abzuschießen.",
+                "es": "Crea una nube de veneno que dura 8 s. Ponte en la nube para disparar flechas venenosas.",
+                "fr": "Nuage toxique d'une durée de 8 s. Tirer des flèches empoisonnées depuis le nuage."
+            },
+            "lore": {
+                "en": "\"Initial studies indicate the toxin is self-sustaining. And I say 'initial' because it keeps killing my assistants.\" —Yarrick, House Tesserus",
+                "de": "„Anfängliche Studien zeigen, dass das Gift sich selbst erhält. Und ich sage ‚Anfängliche‘, da es kontinuierlich meine Assistenten dahinrafft.“ – Yarrick, Haus Tesserus",
+                "es": "\"Los estudios iniciales indican que la toxina es autosuficiente. Y digo 'iniciales' porque no para de eliminar a mis asistentes.\" —Yarrick, Casa Tesserus",
+                "fr": "« Les premières études montrent que la toxine se développe toute seule, et si nous n'en savons pas plus, c'est parce qu'elle n'arrête pas de tuer mes assistants. » —Yarrick, Maison Tesserus"
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "More Spores",
+                    "de": "Mehr Sporen",
+                    "es": "Más esporas",
+                    "fr": "Plus de spores"
+                },
+                "description": {
+                    "en": "Poison cloud lasts longer (10s) and covers a larger area.",
+                    "de": "Giftwolke währt länger (10 Sek.) und bedeckt ein größeres Gebiet.",
+                    "es": "La nube de veneno dura más tiempo (10 s) y cubre una zona más amplia.",
+                    "fr": "Le nuage de poison dure plus longtemps (10 s) et couvre une zone plus étendue."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Virulence",
+                    "de": "Virulenz",
+                    "es": "Virulencia",
+                    "fr": "Virulence"
+                },
+                "description": {
+                    "en": "Poison deals more damage to enemies inside your poison cloud.",
+                    "de": "Gift verursacht bei Gegnern innerhalb deiner Giftwolke mehr Schaden.",
+                    "es": "El veneno inflige más daño a los enemigos que estén dentro de tu nube de veneno.",
+                    "fr": "Le poison cause plus de dégâts aux ennemis qui sont à l'intérieur du nuage de poison."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Contagion",
+                    "de": "Ansteckung",
+                    "es": "Contagio",
+                    "fr": "Contagion"
+                },
+                "description": {
+                    "en": "Poisoned enemies infect their allies with poison.",
+                    "de": "Vergiftete Gegner infizieren ihre Verbündeten ebenfalls mit Gift.",
+                    "es": "Los enemigos envenenados infectan a sus aliados con veneno.",
+                    "fr": "Les ennemis empoisonnés infectent leurs alliés avec le poison."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Seeking Spores",
+                    "de": "Suchersporen",
+                    "es": "Esporas buscadoras",
+                    "fr": "Spores mobiles"
+                },
+                "description": {
+                    "en": "Your poison cloud flies forward, exploding on impact and poisoning enemies hit. (4s)",
+                    "de": "Deine Giftwolke fliegt vorwärts und explodiert beim Aufprall und vergiftet Gegner mit einem Treffer. (4 Sek.)",
+                    "es": "La nube de veneno vuela, explota al impactar y envenena a los enemigos impactados (4 s).",
+                    "fr": "Votre nuage empoisonné avance, explosant et empoisonnant les ennemis touchés (4 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Hungry Spores",
+                    "de": "Hungrige Sporen",
+                    "es": "Esporas hambrientas",
+                    "fr": "Spores affamés"
+                },
+                "description": {
+                    "en": "Your poison cloud moves faster and chases enemies.",
+                    "de": "Deine Giftwolke bewegt sich schneller und verfolgt Gegner.",
+                    "es": "Tu nube de veneno avanza más rápido y persigue a los enemigos.",
+                    "fr": "Votre nuage de poison se déplace plus rapidement et poursuit les ennemis."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Acute Poison",
+                    "de": "Akutes Gift",
+                    "es": "Veneno crucial",
+                    "fr": "Poison virulent"
+                },
+                "description": {
+                    "en": "Direct hits deal increased damage on hit. (+150)",
+                    "de": "Direkte Treffer verursachen erhöhten Schaden beim Auftreffen. (+150)",
+                    "es": "Los impactos directos aumentan el daño al impactar (+150).",
+                    "fr": "Les coups directs infligent plus de dégâts (+150)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "GREEN MAN",
+                "de": "DOPPELGÄNGER",
+                "es": "HOMBRE VERDE",
+                "fr": "CLONE"
+            },
+            "description": {
+                "en": "Create a decoy copy of yourself that attacks enemies with Arrowed. (30% damage)",
+                "de": "Erzeuge ein Trugbild von dir selbst, das Gegner mit  Durchbohrt!  angreift. (30% Schaden)",
+                "es": "Creas una copia trampa de ti mismo que ataca a los enemigos con Flechado (30% de daño).",
+                "fr": "Crée un leurre à votre image qui attaque les ennemis avec Flèche (30% de dégâts)."
+            },
+            "lore": {
+                "en": "The third rule of warfare is to reach the critical point while your enemy is elsewhere, busy being irrelevant. —Maxims of General Claudio",
+                "de": "Die dritte Regel der Kriegsführung besagt, dass man den kritischen Punkt erreichen muss, an dem der Gegner sich woanders befindet und damit beschäftigt ist, von nur geringer Bedeutung zu sein. – Maximen des Generals Claudio",
+                "es": "La tercera regla del combate es alcanzar el punto crítico mientras el enemigo está en otro sitio, ocupado de forma irrelevante. —Lemas del General Claudio",
+                "fr": "« La troisième règle de la guerre est d'arriver au moment fatidique tandis que l'ennemi se concentre sur autre chose. » —Maximes du Général Claudio"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Companion's Boon",
+                    "de": "Gunst des Gefährten",
+                    "es": "Bendición del compañero",
+                    "fr": "Clone puissant"
+                },
+                "description": {
+                    "en": "Your decoy deals double damage.",
+                    "de": "Dein Trugbild verursacht doppelten Schaden.",
+                    "es": "Tu copia trampa inflige el doble de daño.",
+                    "fr": "Votre clone cause le double de dégâts."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Spore Imitation",
+                    "de": "Sporenimitation",
+                    "es": "Esporas imitadas",
+                    "fr": "Imitation de spores"
+                },
+                "description": {
+                    "en": "Your decoy will also fire homing poison clouds at your enemies.",
+                    "de": "Dein Trugbild feuert ebenfalls zielsuchende Giftwolken auf deine Gegner ab.",
+                    "es": "Tu copia trampa también disparará nubes de veneno guiadas que seguirán a los enemigos.",
+                    "fr": "Votre clone tirera aussi des nuages empoisonnés à tête chercheuse."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Spring to Life",
+                    "de": "Lebensquell",
+                    "es": "Fuente de la vida",
+                    "fr": "Source de vie"
+                },
+                "description": {
+                    "en": "Your decoy will also create healing springs at its feet.",
+                    "de": "Dein Trugbild erzeugt zu seinen Füßen ebenfalls heilende Quellen.",
+                    "es": "Tu copia trampa también creará fuentes curativas a sus pies.",
+                    "fr": "Votre clone créera aussi des sources de guérison à ses pieds."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "A Ways Away",
+                    "de": "In weiter Ferne",
+                    "es": "A lo lejos",
+                    "fr": "Un peu plus loin"
+                },
+                "description": {
+                    "en": "Create your decoy at target location (up to 20m away).",
+                    "de": "Beschwöre dein Trugbild an einem Zielort (bis zu 20 Meter entfernt).",
+                    "es": "Crea tu copia trampa en la posición objetivo (hasta 20 m de distancia).",
+                    "fr": "Crée votre clone sur une zone ciblée (jusqu'à 20 m de distance)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Alternate Root",
+                    "de": "Wechselwurzel",
+                    "es": "Raíz alternativa",
+                    "fr": "Changement de place"
+                },
+                "description": {
+                    "en": "After 3 seconds, Q again to swap positions with your decoy (Up to 25m away).",
+                    "de": "Drücke nach 3 Sek. Q erneut, um die Position mit deinem Trugbild zu wechseln. (Bis zu 25 m weit entfernt.)",
+                    "es": "Tras 3 s, PULSA Q DE NUEVO para intercambiar tu posición con la de tu copia trampa (en 25 m).",
+                    "fr": "Q à nouveau après 3 s pour échanger votre position avec celle de votre clone (25 m max.)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Leaf No Trace",
+                    "de": "Keine Spur",
+                    "es": "Sin dejar rastro",
+                    "fr": "Pas de trace"
+                },
+                "description": {
+                    "en": "On use, you become invisible for 2s.",
+                    "de": "Du wirst bei Benutzung für 2 Sek. unsichtbar.",
+                    "es": "Al usarla, te vuelves invisible durante 2 s.",
+                    "fr": "Rend invisible pendant 2 s."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "HIDDEN SPRING",
+                "de": "VERBORGENE QUELLE",
+                "es": "MANANTIAL INCÓGNITO",
+                "fr": "SOURCE CACHÉE"
+            },
+            "description": {
+                "en": "Zone: Gives health regeneration to allies. Lasts 6s.",
+                "de": "Wirkungsbereich: Verleiht Verbündeten Gesundheitsregeneration. Währt 6 Sek.",
+                "es": "Zona: otorga regeneración de salud a los aliados. Dura 6 s.",
+                "fr": "Régénère la santé des alliés (6 s)."
+            },
+            "lore": {
+                "en": "Water poured from the earth, bubbling and rippling. Around it blossoms flowered, and Voden allowed himself a faint smile.",
+                "de": "Wasser strömte aus der Erde, blubbernd und sich kräuselnd. Darum herum erblühten Blumen und Voden selbst erlaubte sich ein schwaches Lächeln.",
+                "es": "El agua cayó de la tierra, burbujeando y ondeando. A su alrededor florecieron los capullos, y Voden se permitió una leve sonrisa.",
+                "fr": "De l'eau claire et fraîche. Les plantes à proximité fleurissent et Voden s'autorise un léger sourire."
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Well Wishes",
+                    "de": "Brunnenwünsche",
+                    "es": "Mejores deseos",
+                    "fr": "VSux de rétablissement"
+                },
+                "description": {
+                    "en": "On use, create a second Spring at target location. Spring heals for 50% more.",
+                    "de": "Erschafft bei Benutzung eine zweite Quelle am Zielort. Die Quelle heilt 50% mehr.",
+                    "es": "Al usarla, creas un segundo manantial en la ubicación objetivo que cura un 50% más.",
+                    "fr": "Crée une deuxième source sur la destination cible qui soigne au moins 50 %."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Recovery Time",
+                    "de": "Erholungszeit",
+                    "es": "Tiempo de recuperación",
+                    "fr": "Soin intensif"
+                },
+                "description": {
+                    "en": "Healing from the Spring lasts for an extra 3s.",
+                    "de": "Die Heilung von der Quelle wirkt zusätzliche 3 Sek.",
+                    "es": "La curación del manantial dura 3 s más.",
+                    "fr": "La source soigne pendant 3 s de plus."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Spring Cleaning",
+                    "de": "Reinstes Wasser",
+                    "es": "Limpieza primaveral",
+                    "fr": "Rangement de printemps"
+                },
+                "description": {
+                    "en": "Spring removes conditions on start.",
+                    "de": "Die Quelle entfernt zu Beginn Zustände.",
+                    "es": "Manantial incógnito elimina las condiciones al comienzo.",
+                    "fr": "La source supprime les altérations d'état dès le début."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Geyser",
+                    "de": "Geysir",
+                    "es": "Géiser",
+                    "fr": "Geyser"
+                },
+                "description": {
+                    "en": "Allies in the spring gain super jump.",
+                    "de": "Verbündete in der Quelle erhalten Supersprung.",
+                    "es": "Los aliados obtienen supersalto en el manantial.",
+                    "fr": "Permet aux alliés passant dessus de faire un super saut."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Burst Forth",
+                    "de": "Hervorbrechen",
+                    "es": "Impulso adelante",
+                    "fr": "Jaillissement"
+                },
+                "description": {
+                    "en": "Slows enemies who enter the spring, launches enemies on start.",
+                    "de": "Verlangsamt Gegner, die die Quelle betreten, und schleudert Gegner zu Beginn.",
+                    "es": "Ralentiza a los enemigos que entren en la fuente y lanza a los enemigos al inicio.",
+                    "fr": "Ralentit les ennemis qui passent sur la source et les propulse dès le début."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Refreshment",
+                    "de": "Erneuerung",
+                    "es": "Revitalizante",
+                    "fr": "Rafraîchissement"
+                },
+                "description": {
+                    "en": "On use, you gain 50 stamina.",
+                    "de": "Bei Benutzung erhältst du 50 Ausdauer.",
+                    "es": "Al usarla, obtienes 50 de resistencia.",
+                    "fr": "+50 d'énergie."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "NATURAL ROOTS",
+                "de": "NATÜRLICHE WURZELN",
+                "es": "RAÍCES NATURALES",
+                "fr": "RACINES NATURELLES"
+            },
+            "description": {
+                "en": "Fire an arrow that immobilizes all foes in the area. (3s/4s/5s)",
+                "de": "Schieße einen Pfeil ab, der alle Gegner im Wirkungsbereich bewegungsunfähig macht. (3/4/5 Sek.)",
+                "es": "Dispara una flecha que inmoviliza a todos los enemigos de la zona (3 s/4 s/5 s).",
+                "fr": "Tir de flèche immobilisant tous les ennemis de la zone (3/4/5 s)."
+            },
+            "lore": {
+                "en": "Voden pointed at toppled columns amid the trees, and crumbling walls covered in vines. \"Thus always to empires,\" he growled.",
+                "de": "Voden deutete auf verfallene Säulen inmitten der Bäume sowie auf die bröckelnde Fassade, die mit Ranken bedeckt war. „Das Schicksal aller Imperien“, brummte er.",
+                "es": "Voden señaló a las columnas derribadas entre los árboles y paredes derruidas cubiertas de parras. \"Siempre les ocurre a los imperios\", gruñó.",
+                "fr": "Voden désigna des ruines perdues dans la végétation et recouvertes de plantes grimpantes. « Tous les empires finissent comme cela. » grogna-t-il."
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Nature's Wrath",
+                    "de": "Zorn der Natur",
+                    "es": "Ira de la naturaleza",
+                    "fr": "Colère naturelle"
+                },
+                "description": {
+                    "en": "Also breaks target's armor. 20/35/50",
+                    "de": "Durchbricht zusätzlich die Rüstung des Ziels. (20/35/50)",
+                    "es": "También rompe la armadura del objetivo (20/35/50).",
+                    "fr": "Brise aussi l'armure de la cible (20/35/50)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Renewed Focus",
+                    "de": "Erneuerte Konzentration",
+                    "es": "Concentración renovada",
+                    "fr": "Récupération de Focus"
+                },
+                "description": {
+                    "en": "On use, resets all your skill cooldowns.",
+                    "de": "All deine Abklingzeiten werden bei Benutzung zurückgesetzt.",
+                    "es": "Al usarla, se reinician todas las recargas de habilidad.",
+                    "fr": "Réinitialise les temps de rechargement de toutes vos compétences."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Toxin",
+                        "de": "Giftstoff",
+                        "es": "Toxina",
+                        "fr": "Toxine"
+                    },
+                    "description": {
+                        "en": "RMB: Your poison affects enemies longer.",
+                        "de": "RMB: Dein Gift beeinflusst Gegner länger.",
+                        "es": "RMB: tu veneno afecta al enemigo durante más tiempo.",
+                        "fr": "RMB : votre poison affecte les ennemis plus longtemps."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Spring Back",
+                        "de": "Quellenfinder",
+                        "es": "Recuperación",
+                        "fr": "Lac ancestral"
+                    },
+                    "description": {
+                        "en": "E: You may use Hidden Spring more often.",
+                        "de": "E: Du kannst  Verborgene Quelle' öfters benutzen.",
+                        "es": "E: puedes usar Manantial incógnito más a menudo.",
+                        "fr": "E : utiliser Source cachée plus souvent."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Pure Escapism",
+                        "de": "Pure Weltflucht",
+                        "es": "Escapismo puro",
+                        "fr": "La grande évasion"
+                    },
+                    "description": {
+                        "en": "Lose debuffs when you dodge. (Once every 20s.)",
+                        "de": "Verliere Schwächungen, wenn du ausweichst. (Einmal alle 20 Sek.)",
+                        "es": "Pierdes las debilitaciones al esquivar (una vez cada 20 s).",
+                        "fr": "Debuffs perdus lorsque vous esquivez (une fois toutes les 20 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Easy Strider",
+                        "de": "Leichter Läufer",
+                        "es": "Paso fácil",
+                        "fr": "Coureur confirmé"
+                    },
+                    "description": {
+                        "en": "You move 10% faster and sprinting drains stamina 25% slower.",
+                        "de": "Du bewegst dich um 10% schneller und Sprinten entzieht Ausdauer 25% langsamer.",
+                        "es": "Te mueves un 10% más rápido y esprintar te absorbe resistencia un 25% más despacio.",
+                        "fr": "Vous vous déplacez 10 % plus vite et votre énergie s'épuise 25 % moins vite quand vous sprintez."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Calling the Shots",
+                        "de": "Ton angeben",
+                        "es": "Tomando decisiones",
+                        "fr": "Mener la danse"
+                    },
+                    "description": {
+                        "en": "When you debuff a foe, nearby allies gain +10% damage for 5s. (Once per 5s.)",
+                        "de": "Wenn du einen Gegner schwächst, erhalten Verbündete in der Nähe für 5 Sek. 10% mehr Schaden. (Einmal alle 5 Sek.)",
+                        "es": "Cuando debilitas a un enemigo, los aliados cercanos obtienen +10% de daño durante 5 s (una vez cada 5 s).",
+                        "fr": "Lorsque vous debuffez un ennemi, les alliés proches font +10 % de dégâts pendant 5 s (une fois toutes les 5 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Another's Keeper",
+                        "de": "Eines anderen Hüter",
+                        "es": "El guardián de otro",
+                        "fr": "Altruiste"
+                    },
+                    "description": {
+                        "en": "+10% healing power. Gain focus when you buff or heal an ally. (Once per 5s.)",
+                        "de": "10% mehr Heilkraft. Du erhältst Fokus, wenn du einen Verbündeten stärkst oder heilst. (Einmal alle 5 Sek.)",
+                        "es": "+10% de poder curativo. Ganas concentración al potenciar o curar a un aliado (una vez cada 5 s).",
+                        "fr": "Pouvoir de guérison +10 %. Vous gagnez du Focus quand vous améliorez ou que vous soignez un allié (une fois toutes les 5 s)."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

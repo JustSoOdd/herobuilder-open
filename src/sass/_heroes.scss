@@ -1,0 +1,301 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: map-get($icon-home, 'width');
+// }
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+$-heroes-aisling: (
+  name: 'Heroes_Aisling',
+  x: 146px,
+  y: 0px,
+  offset-x: -146px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-beckett: (
+  name: 'Heroes_Beckett',
+  x: 584px,
+  y: 202px,
+  offset-x: -584px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-charnok: (
+  name: 'Heroes_Charnok',
+  x: 292px,
+  y: 0px,
+  offset-x: -292px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-griselma: (
+  name: 'Heroes_Griselma',
+  x: 0px,
+  y: 202px,
+  offset-x: 0px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-h-k: (
+  name: 'Heroes_HK',
+  x: 146px,
+  y: 202px,
+  offset-x: -146px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-imani: (
+  name: 'Heroes_Imani',
+  x: 292px,
+  y: 202px,
+  offset-x: -292px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-knossos: (
+  name: 'Heroes_Knossos',
+  x: 438px,
+  y: 0px,
+  offset-x: -438px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-margrave: (
+  name: 'Heroes_Margrave',
+  x: 438px,
+  y: 202px,
+  offset-x: -438px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-mozu: (
+  name: 'Heroes_Mozu',
+  x: 584px,
+  y: 0px,
+  offset-x: -584px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-pakko: (
+  name: 'Heroes_Pakko',
+  x: 0px,
+  y: 0px,
+  offset-x: 0px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-roland: (
+  name: 'Heroes_Roland',
+  x: 0px,
+  y: 404px,
+  offset-x: 0px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-sven: (
+  name: 'Heroes_Sven',
+  x: 146px,
+  y: 404px,
+  offset-x: -146px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-tripp: (
+  name: 'Heroes_Tripp',
+  x: 292px,
+  y: 404px,
+  offset-x: -292px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-tyto: (
+  name: 'Heroes_Tyto',
+  x: 438px,
+  y: 404px,
+  offset-x: -438px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-vadasi: (
+  name: 'Heroes_Vadasi',
+  x: 584px,
+  y: 404px,
+  offset-x: -584px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-voden: (
+  name: 'Heroes_Voden',
+  x: 730px,
+  y: 0px,
+  offset-x: -730px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-wu: (
+  name: 'Heroes_Wu',
+  x: 730px,
+  y: 202px,
+  offset-x: -730px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-xenobia: (
+  name: 'Heroes_Xenobia',
+  x: 730px,
+  y: 404px,
+  offset-x: -730px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$-heroes-zandora: (
+  name: 'Heroes_Zandora',
+  x: 0px,
+  y: 606px,
+  offset-x: 0px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 874px,
+  total-height: 806px,
+  image: 'img/heroes.png'
+);
+$heroes: (
+  width: 874px,
+  height: 806px,
+  image: 'img/heroes.png',
+  sprites: ($-heroes-aisling, $-heroes-beckett, $-heroes-charnok, $-heroes-griselma, $-heroes-h-k, $-heroes-imani, $-heroes-knossos, $-heroes-margrave, $-heroes-mozu, $-heroes-pakko, $-heroes-roland, $-heroes-sven, $-heroes-tripp, $-heroes-tyto, $-heroes-vadasi, $-heroes-voden, $-heroes-wu, $-heroes-xenobia, $-heroes-zandora, )
+);
+
+// The provided mixins are intended to be used with variables directly
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: map-get($sprite, 'width');
+}
+
+@mixin sprite-height($sprite) {
+  height: map-get($sprite, 'height');
+}
+
+@mixin sprite-position($sprite) {
+  background-position: map-get($sprite, 'offset-x') map-get($sprite, 'offset-y');
+}
+
+@mixin sprite-image($sprite) {
+  background-image: url(map-get($sprite, 'image'));
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites(map-get($spritesheet, 'sprites'));
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: map-get($sprite, 'name');
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

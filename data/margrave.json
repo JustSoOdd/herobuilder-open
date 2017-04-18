@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "The Margrave",
+        "de": "Der Markgraf",
+        "es": "El Margrave",
+        "fr": "Le Margrave"
+    },
+    "shortName": "Margrave",
+    "description": {
+        "en": "Heavy Armor. Melee Only.",
+        "de": "Schwere Rüstung. Nur Nahkampf.",
+        "es": "Armadura pesada. Solo cuerpo a cuerpo.",
+        "fr": "Armure lourde. Mêlée seulement."
+    },
+    "lore": {
+        "en": "They cheered the Margrave's victory over the demon, but the cheers turned to gasps when they saw the Margrave's missing hand. Then the gasps turned to cries of horror as the Margrave ripped the forearm from the demon's corpse and grafted it into place.",
+        "de": "Sie jubelten dem Markgrafen für seinen Sieg über den Dämonen zu, jedoch wurde aus ihrem Rufen abrupt entsetztes Keuchen, als sie die fehlende Hand des Markgrafen bemerkten. Dann verwandelte sich das Keuchen in grauenhafte Schreie, als der Markgraf den Unterarm des Dämonen herausriss, um diesen an seinem verbliebenen Stumpf anzubringen.",
+        "es": "Aclamaban la victoria del Margrave contra el demonio, pero los vítores se convirtieron en gritos de asombro al ver que al Margrave le faltaba una mano. Luego los gritos de asombro se convirtieron en gritos de horror cuando el Margrave arrancó el antebrazo del cuerpo del demonio y se lo injertó él mismo en su sitio.",
+        "fr": "Ils acclamèrent la victoire du Margrave sur le démon, puis le silence fit place aux acclamations quand ils se rendirent compte qu'il lui manquait une main. Ce silence s'emplit ensuite de cris d'horreur quand le Margrave arracha l'avant-bras du démon pour se le greffer."
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Kill, crush, destroy! The Margrave is an unstoppable juggernaut, capable of taking more punishment than lesser heroes.",
+            "playStyleTips": [
+                "Upgrade your Charge Forth skill so it tosses enemies behind you.",
+                "Surprise enemies with Hellburst, which reflects projectiles back where they came from.",
+                "Stun enemies with a high-flying Staggering Leap."
+            ]
+        },
+        "de": {
+            "description": "Töten, zermalmen, zerstören! Der Markgraf ist ein unaufhaltsamer Moloch und in der Lage, mehr Schaden als geringere Helden einzustecken.",
+            "playStyleTips": [
+                "Werte deine Fertigkeit Voranstürmen auf, damit diese Gegner hinter dich wirft.",
+                "Überrasche Gegner mit einer Feuersbrunst, die Projektile dahin reflektiert, wo sie hergekommen sind.",
+                "Betäube Gegner mit dem einzigartigen Atemberaubenden Sprung."
+            ]
+        },
+        "es": {
+            "description": "¡Eliminar, machacar y destruir! El Margrave es una fuerza imparable, capaz de soportar más castigo que otros héroes inferiores.",
+            "playStyleTips": [
+                "Sube de nivel la habilidad Embestida delantera que lanza a los enemigos a tus espaldas.",
+                "Sorprende a los enemigos con Explosivo infernal, que devuelve los proyectiles.",
+                "Aturde a los enemigos con un Salto asombroso de gran altura."
+            ]
+        },
+        "fr": {
+            "description": "Tuez, écrasez, détruisez ! Le Margrave est une force destructrice inexpugnable, capable d'endurer bien plus de dégâts que d'autres héros.",
+            "playStyleTips": [
+                "Améliorez votre capacité de Charge afin de projeter les ennemis derrière vous.",
+                "Surprenez vos ennemis avec l'Éclat démoniaque, qui renvoie les projectiles à leur envoyeur.",
+                "Assommez vos ennemis avec un Bondissement stupéfiant de hauteur."
+            ]
+        }
+    },
+    "attackStat": 50,
+    "defenseStat": 100,
+    "mobilityStat": 50,
+    "utilityStat": 40,
+    "difficulty": 6,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "DEMON FIST",
+                "de": "DÄMONENFAUST",
+                "es": "PUÑO DEL DEMONIO",
+                "fr": "MAIN DU DÉMON"
+            },
+            "description": {
+                "en": "Powerful melee attack combo.",
+                "de": "Mächtige Nahkampf-Angriffscombo.",
+                "es": "Una poderosa combinación de ataques cuerpo a cuerpo.",
+                "fr": "Combo d'attaques de mêlée puissant."
+            },
+            "lore": {
+                "en": "\"I'm tired of hearing that the demon hand corrupted the Margrave. He wasn't exactly a saint before that battle.\" —Adjudicator Trellesa, House Aurion",
+                "de": "„Ich habe es satt, immer wieder zu hören, wie die Dämonenhand den Markgrafen korrumpiert haben soll. Auch vor jener Schlacht war er nicht gerade ein Heiliger.“ – Kampfrichterin Trellesa, Haus Aurion",
+                "es": "\"Estoy cansado de escuchar que la mano del demonio corrompió al Margrave. Antes de esa batalla, no era precisamente un santo.\" —Adjudicadora Trellesa, Casa Aurion",
+                "fr": "« J'en ai assez d'entendre que la main du démon a corrompu le Margrave. Il n'était pas un saint non plus avant cette bataille. » —Juge Trellesa, Maison Aurion"
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Doom Strike",
+                    "de": "Schlag des Untergangs",
+                    "es": "Golpe fatal",
+                    "fr": "Attaque mortelle"
+                },
+                "description": {
+                    "en": "LMB combo ends with a powerful final attack.",
+                    "de": "LMB-Combo endet mit einem mächtigen finalen Angriff.",
+                    "es": "La combinación con LMB termina con un potente ataque final.",
+                    "fr": "LMB combo se termine avec une attaque finale puissante."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Demon's Reach",
+                    "de": "Dämonengriff",
+                    "es": "Alcance demoníaco",
+                    "fr": "Portée maléfique"
+                },
+                "description": {
+                    "en": "Final attack hits a larger area and deals more damage when hitting multiple targets.",
+                    "de": "Der finale Angriff triff ein größeres Gebiet und verursacht mehr Schaden, je mehr Ziele er trifft.",
+                    "es": "El ataque final alcanza un área más amplia e inflige más daño si impacta a varios objetivos.",
+                    "fr": "L'attaque finale frappe une zone plus large et cause plus de dégâts quand elle touche plusieurs cibles."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Critical Blow",
+                    "de": "Kritischer Schlag",
+                    "es": "Golpe crítico",
+                    "fr": "Coup fatal"
+                },
+                "description": {
+                    "en": "Final hit crit damage increased by 20%.",
+                    "de": "Bei einem finalen Treffer erhöht sich der kritische Schaden um 20%.",
+                    "es": "El impacto final aumenta el daño crítico un 20%.",
+                    "fr": "L'attaque finale fait augmenter vos chances de coups critiques de 20 %."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Counter",
+                    "de": "Konter",
+                    "es": "Represalia",
+                    "fr": "Réplique"
+                },
+                "description": {
+                    "en": "LMB+DOWN: Interrupt and weaken attacking enemies if you have stamina.",
+                    "de": "LMB + RUNTER: Unterbricht und schwächt angreifende Gegner, sofern du über Ausdauer verfügst.",
+                    "es": "LMB + ABAJO: si tienes resistencia, interrumpe y debilita a los enemigos que te ataquen.",
+                    "fr": "LMB+BAS : stoppe et affaiblit les ennemis qui attaquent si vous avez de l'énergie."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Resounding Counter",
+                    "de": "Schallender Konter",
+                    "es": "Represalia sonada",
+                    "fr": "Réplique éclatante"
+                },
+                "description": {
+                    "en": "All nearby enemies are interrupted and weakened if Counter succeeds.",
+                    "de": "Alle Gegner in der Nähe werden unterbrochen und geschwächt, sofern  Konter' erfolgreich ist.",
+                    "es": "Si el contraataque tiene éxito, los enemigos cercanos se ven interrumpidos y debilitados.",
+                    "fr": "Tous les ennemis proches sont stoppés et affaiblis si la Réplique fonctionne."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Debilitating Blows",
+                    "de": "Schwächende Schläge",
+                    "es": "Golpes debilitantes",
+                    "fr": "Coups débilitants"
+                },
+                "description": {
+                    "en": "After Countering, LMB hits extend weakness duration (2s).",
+                    "de": "Nach einem Konter verlängern LMB-Treffer die Schwächungsdauer für 2 Sek.",
+                    "es": "Tras un contraataque, los impactos con LMB aumentan la duración de la debilidad (2 s).",
+                    "fr": "Après avoir répliqué, LMB étend la durée de la faiblesse (2 s)."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "HELLBURST",
+                "de": "FEUERSBRUNST",
+                "es": "EXPLOSIÓN INFERNAL",
+                "fr": "ÉCLAT DÉMONIAQUE"
+            },
+            "description": {
+                "en": "HOLD RMB: Rapid attack; deflects projectiles from front. Slows your movement.",
+                "de": "RMB GEDRÜCKT HALTEN: Schneller Angriff; lenkt Projektile von vorne um. Verlangsamt deine Bewegung.",
+                "es": "PULSA RMB: ataque rápido; desvía proyectiles frontales. Te ralentiza.",
+                "fr": "Maintenir RMB : attaque rapide qui dévie les projectiles venant de devant et ralentit vos déplacements."
+            },
+            "lore": {
+                "en": "\"Demonic conflagrations like the Highland Scouring are quite rare. Now, if they could be predicted...or manipulated...\" —The Ebon Songbird, House Melkior",
+                "de": "„Eine dämonische Feuersbrunst wie bei der Hochlandläuterung ist ziemlich selten. Wenn sie allerdings vorhergesagt werden könnten ... oder gar manipuliert ...“ – Der Ebenholz-Singvogel, Haus Melkior",
+                "es": "\"Algunas conflagraciones demoníacas, como el Hundimiento de las Tierras Altas, son excepcionales. Ahora bien, si se pudieran predecir… o manipular...\" —El pájaro cantor de ébano, Casa Melkior",
+                "fr": "« Les conflagrations démoniaques comme le Massacre des Hautes-Terres sont assez rares. Mais, si on pouvait les prédire, ou les contrôler... » —L'Oiseau chanteur d'Ebon, Maison Melkior"
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Eternal Flame",
+                    "de": "Ewige Flamme",
+                    "es": "Llama eterna",
+                    "fr": "Flamme éternelle"
+                },
+                "description": {
+                    "en": "You can Hellburst for twice as long. (6s)",
+                    "de": "Du kannst  Feuersbrunst' doppelt so lange benutzen. (6 Sek.)",
+                    "es": "Puedes usar Explosión infernal durante el doble de tiempo (6 s).",
+                    "fr": "Utiliser Éclat démoniaque deux fois plus longtemps (6 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Give Em Hell",
+                    "de": "Mach ihnen die Hölle heiß",
+                    "es": "Que sufran",
+                    "fr": "Réplique infernale"
+                },
+                "description": {
+                    "en": "Reflect projectiles back at their source. Gain focus when you reflect.",
+                    "de": "Wirf Projektile zu ihrem Ursprung zurück. Erhalte beim Zurückwerfen Fokus.",
+                    "es": "Devuelve los proyectiles a su origen. Ganas concentración al hacerlo.",
+                    "fr": "Renvoit les projectiles sur l'attaquant. Vous gagnez du Focus quand vous les déviez."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Impenetrable Flame",
+                    "de": "Undurchdringliche Flamme",
+                    "es": "Llama impenetrable",
+                    "fr": "Flamme impénétrable"
+                },
+                "description": {
+                    "en": "Armor vs Melee.",
+                    "de": "Rüstung vs. Nahkampf",
+                    "es": "Armadura contra cuerpo a cuerpo.",
+                    "fr": "Armure vs Mêlée"
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Burst of Damage",
+                    "de": "Schadensexplosion",
+                    "es": "Oleada de daño",
+                    "fr": "Rafale de dégâts"
+                },
+                "description": {
+                    "en": "Hellburst does not slow you down and deals more damage. No longer deflects.",
+                    "de": "Feuersbrunst' verlangsamt dich nicht und verursacht mehr Schaden. Wehrt nicht mehr ab.",
+                    "es": "Explosión infernal inflige más daño, no te ralentiza ni desvía.",
+                    "fr": "Éclat démoniaque ne vous ralentit pas et cause davantage de dégâts. Pas de déviation."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Mayhem",
+                    "de": "Chaos",
+                    "es": "Caos",
+                    "fr": "Désordre"
+                },
+                "description": {
+                    "en": "Hellburst dramatically increases Crit chance.",
+                    "de": "Feuerbrunst  erhöht die Chance gewaltig, einen kritischen Treffer zu landen.",
+                    "es": "Explosión infernal aumenta drásticamente el daño crítico.",
+                    "fr": "Éclat démoniaque augmente radicalement vos chances de coups critiques."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Nowhere to Run",
+                    "de": "Kein Ausweg",
+                    "es": "No hay escapatoria",
+                    "fr": "Fuite impossible"
+                },
+                "description": {
+                    "en": "Slows enemies hit in the back.",
+                    "de": "Verlangsamt Gegner, die in den Rücken getroffen werden.",
+                    "es": "Ralentiza a los enemigos impactados por la espalda.",
+                    "fr": "Ralentit les ennemis touchés par derrière."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "CHARGE FORTH",
+                "de": "VORANSTÜRMEN",
+                "es": "EMBESTIDA DELANTERA",
+                "fr": "À L'ATTAQUE"
+            },
+            "description": {
+                "en": "Rush forward quickly, interrupting enemies you hit.",
+                "de": "Stürme schnell nach vorne und unterbrich getroffene Gegner.",
+                "es": "Avanzas rápido interrumpiendo a los enemigos a los que alcanzas.",
+                "fr": "Attaque rapide vers l'avant qui stoppe les ennemis touchés."
+            },
+            "lore": {
+                "en": "The Margrave always led from the front, heedless of whether his allies were brave enough to follow him.",
+                "de": "Der Markgraf hat stets die Front angeführt, unabhängig davon, ob seine Verbündeten den Mut besaßen, ihm zu folgen.",
+                "es": "El Margrave siempre lidera por delante, sin preocuparse de la valentía de sus aliados para seguirle.",
+                "fr": "Le Margrave est toujours en première ligne, sans se soucier de savoir si ses alliés sont assez courageux pour le suivre."
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Rush In Attack",
+                    "de": "Sturmangriff",
+                    "es": "Ataque a la carrera",
+                    "fr": "Attaque rapide"
+                },
+                "description": {
+                    "en": "Press Q again for a strike that interrupts.",
+                    "de": "Drücke Q erneut, um einen Schlag auszuführen, der unterbricht.",
+                    "es": "PULSA Q DE NUEVO: ataque que interrumpe.",
+                    "fr": "Appuyer sur Q à nouveau pour une attaque qui stoppe les ennemis."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Throwback Attack",
+                    "de": "Rückwerfender Angriff",
+                    "es": "Ataque nostálgico",
+                    "fr": "Attaque en vrac"
+                },
+                "description": {
+                    "en": "Rush In Attack tosses enemies behind you if it hits.",
+                    "de": "Sturmangriff' wirft deine Gegner hinter dich, wenn du sie triffst.",
+                    "es": "Si Ataque a la carrera impacta al enemigo, lo lanza a tu espalda.",
+                    "fr": "Attaque rapide projette les ennemis derrière vous s'il touche ses cibles."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Flaming Fist",
+                    "de": "Flammenfaust",
+                    "es": "Puño ígneo",
+                    "fr": "Poing enflammé"
+                },
+                "description": {
+                    "en": "Rush In Attack also creates a cone of flame that ignites enemies.",
+                    "de": "Sturmangriff  erschafft außerdem einen Flammenkegel, der Gegner entzündet.",
+                    "es": "Ataque a la carrera crea un cono de llamas que prende fuego a los enemigos.",
+                    "fr": "Se ruer à l'attaque crée aussi un cône de feu qui enflamme les ennemis."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Relentless",
+                    "de": "Unerbittlich",
+                    "es": "Incansable",
+                    "fr": "Impitoyable"
+                },
+                "description": {
+                    "en": "Press Q again to rush forward a second time.<BR>2x Cooldown",
+                    "de": "Drücke Q, um ein zweites Mal vorzustürmen.<BR>Abklingzeit verdoppelt.",
+                    "es": "PULSA Q DE NUEVO: avanzas rápido una segunda vez (recarga: x2).",
+                    "fr": "Appuyer sur Q à nouveau pour vous ruer vers l'avant une 2e fois. Temps de rechargement x2."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Pure Aggression",
+                    "de": "Pure Aggression",
+                    "es": "Agresión pura",
+                    "fr": "Agression pure"
+                },
+                "description": {
+                    "en": "Remove debuffs from yourself and nearby allies when you activate Charge Forth.",
+                    "de": "Entferne Schwächungen von dir und Verbündeten in der Nähe, wenn du  Voranstürmen  aktivierst.",
+                    "es": "Al activar Embestida delantera, eliminas tus debilitaciones y las de los aliados cercanos.",
+                    "fr": "Retire vos debuffs et ceux de vos alliés quand vous activez À l'attaque."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Irresistible Charge",
+                    "de": "Unwiderstehlicher Ansturm",
+                    "es": "Carga irresistible",
+                    "fr": "Charge assurée"
+                },
+                "description": {
+                    "en": "Increased armor. Cannot be pushed, interrupted, or stunned.",
+                    "de": "Verbesserte Rüstung. Kann nicht gestoßen, unterbrochen oder betäubt werden.",
+                    "es": "Aumento de armadura. No se puede empujar, interrumpir ni aturdir.",
+                    "fr": "Armure augmentée. Ne peut pas être repoussé, stoppé, ou assommé."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "STAGGERING LEAP",
+                "de": "ATEMBERAUBENDER SPRUNG",
+                "es": "SALTO ASOMBROSO",
+                "fr": "SAUT STUPÉFIANT"
+            },
+            "description": {
+                "en": "Leaping attack that interrupts.",
+                "de": "Sprungangriff, der unterbricht.",
+                "es": "Ataque de salto que interrumpe.",
+                "fr": "Attaque sautée qui stoppe l'ennemi."
+            },
+            "lore": {
+                "en": "\"Death from above!\" roared the Margrave, but his foes rarely heard the battle-cry over the din of war.",
+                "de": "„Tod von oben!“, brüllte der Markgraf – doch seine Feinde konnten ihn im Schlachtlärm nur selten hören.",
+                "es": "\"¡Muerte desde lo alto!\", rugía El Margrave, pero sus enemigos rara vez escuchaban el grito de batalla entre el estruendo.",
+                "fr": "« La mort arrive ! » criait le Margrave, mais ses ennemis ont rarement entendu le cri de guerre dans le vacarme de la bataille."
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Blunt Trauma",
+                    "de": "Stumpfes Trauma",
+                    "es": "Trauma intenso",
+                    "fr": "Traumatisme"
+                },
+                "description": {
+                    "en": "Enemies hit by leap are stunned.",
+                    "de": "Von  Sprung' getroffen Gegner werden betäubt.",
+                    "es": "Salto aturde a los enemigos afectados.",
+                    "fr": "Les ennemis touchés par le bondissement sont assommés."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Shake, Rattle, and Roll",
+                    "de": "Schütteln, Klappern, Rollen",
+                    "es": "Agitar, traquetear y rodar",
+                    "fr": "Catastrophe sismique"
+                },
+                "description": {
+                    "en": "Enemies struck by your Leap attack are also slowed for 5s.",
+                    "de": "Von  Sprung' getroffene Gegner werden für 5 Sek. verlangsamt.",
+                    "es": "Salto ralentiza a los enemigos afectados durante 5 s.",
+                    "fr": "Les ennemis touchés par Bondissement sont aussi ralentis (5 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Bonecrusher",
+                    "de": "Knochenbrecher",
+                    "es": "Quebrantahuesos",
+                    "fr": "Broyeur d'os"
+                },
+                "description": {
+                    "en": "Stun lasts longer, but you are Weakened for 3s.",
+                    "de": "Betäubung hält länger an, aber du bist für 3 Sek. geschwächt.",
+                    "es": "Aturdir dura más tiempo, pero te debilita durante 3 s.",
+                    "fr": "Les ennemis restent assommés longtemps mais vous êtes affaiblis (3 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Chopper",
+                    "de": "Häcksler",
+                    "es": "Helicóptero",
+                    "fr": "Hélicoptère"
+                },
+                "description": {
+                    "en": "Leap travels farther and deals more damage.",
+                    "de": "Sprung' reicht weiter und verursacht mehr Schaden.",
+                    "es": "Al usar Salto, llegarás más lejos e infligirás más daño.",
+                    "fr": "Bondissement va plus loin et cause plus de dégâts."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Leap Before You Look",
+                    "de": "Erst springen, dann schauen",
+                    "es": "Salta sin mirar",
+                    "fr": "Bondissement soudain"
+                },
+                "description": {
+                    "en": "You can use Leap more often. (Cooldown -8s)",
+                    "de": "Du kannst  Sprung' öfter benutzen. (-8 Sek. Abklingzeit)",
+                    "es": "Puedes usar Salto más a menudo (recarga: -8 s).",
+                    "fr": "Utiliser Bondissement plus souvent (temps de rechargement : 8 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Battle Cry",
+                    "de": "Schlachtruf",
+                    "es": "Grito de batalla",
+                    "fr": "Cri de guerre"
+                },
+                "description": {
+                    "en": "Leaping gives you +50 armor for 5s.",
+                    "de": "Sprung  verleiht dir für 5 Sek. +50 Rüstung.",
+                    "es": "Saltar te otorga +50 de armadura durante 5 s.",
+                    "fr": "Sauter vous donne +50 d'armure (5 s)."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "GROUND AND POUND",
+                "de": "SCHMETTERSCHLAG",
+                "es": "DERRIBAR",
+                "fr": "FRACAS"
+            },
+            "description": {
+                "en": "Create a shockwave that launches enemies upward.",
+                "de": "Erzeugt eine Schockwelle, die Gegner schleudert.",
+                "es": "Generas una onda expansiva que lanza a los enemigos hacia arriba.",
+                "fr": "Génére une onde de choc qui propulse les ennemis en l'air."
+            },
+            "lore": {
+                "en": "\"As we hid, we could feel the ground quiver with each step, as if it too were frightened of the Margrave.\" —Sergeant Valri, House Aurion",
+                "de": "„Als wir uns versteckten, konnten wir fühlen, wie der Boden mit jedem seiner Schritte erzitterte. Es war fast so, als ob selbst dieser Angst vor dem Markgrafen hätte.“ – Sergeant Valri, Haus Aurion",
+                "es": "\"Mientras nos escondíamos, sentíamos la tierra temblar con cada paso, como si también temiera al Margrave.\" —Sargento Valri, Casa Aurion",
+                "fr": "« Alors que nous nous cachions, nous pouvions sentir le sol trembler à chaque pas, comme si la terre elle-même était terrifiée par le Margrave. » —Sergent Valri, Maison Aurion"
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Pound of Armor",
+                    "de": "Schmetterschlag-Rüstung",
+                    "es": "Armadura a espuertas",
+                    "fr": "Armure royale"
+                },
+                "description": {
+                    "en": "For each enemy hit, gain +20 armor for 5s.",
+                    "de": "Für jeden getroffenen Gegner erhältst du für 5 Sek. +20 Rüstung.",
+                    "es": "Por cada enemigo impactado, obtienes +20 de armadura durante 5 s.",
+                    "fr": "Pour chaque ennemi touché, obtenez +20 d'armure (5 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Warrior's Toughness",
+                        "de": "Zähigkeit des Kriegers",
+                        "es": "La dureza del guerrero",
+                        "fr": "Endurance de guerrier"
+                    },
+                    "description": {
+                        "en": "LMB: On hit, you have +10 front armor for 3s.",
+                        "de": "LMB: Bei einem Treffer erhältst du +10 Frontalrüstung für 3 Sek.",
+                        "es": "LMB: al impactar, tienes +10 de armadura frontal durante 3 s.",
+                        "fr": "LMB : après un coup, vous avez +10 d'armure frontale (3 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Quick to Anger",
+                        "de": "Hitzkopf",
+                        "es": "Enfado fácil",
+                        "fr": "Prompt à s'énerver"
+                    },
+                    "description": {
+                        "en": "RMB: Lowers base cooldown to 4s. (Holding RMB longer still increases its cooldown.)",
+                        "de": "RMB: Verringert die grundlegende Abklingzeit auf 4 Sek. (RMB länger gedrückt halten, erhöht die Abklingzeit immer noch.)",
+                        "es": "RMB: reduce la recarga base a 4 s. (Mantener pulsado RMB más tiempo aumenta la recarga).",
+                        "fr": "RMB : réduit les temps de rechargement de base à 4 s. Maintenir RMB plus longtemps augmente toujours le temps de rechargement."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Stonewall",
+                        "de": "Steinmauer",
+                        "es": "Muro de piedra",
+                        "fr": "Mur de pierre"
+                    },
+                    "description": {
+                        "en": "You are immune to critical hits.",
+                        "de": "Du bist immun gegen kritische Treffer.",
+                        "es": "Eres inmune a los golpes críticos.",
+                        "fr": "Immunise contre les coups critiques."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hard Charger",
+                        "de": "Derber Anstürmer",
+                        "es": "Carga pesada",
+                        "fr": "Charge volontaire"
+                    },
+                    "description": {
+                        "en": "+33% max stamina. Reduced distance when pushed.",
+                        "de": "+33% max. Ausdauer. Verringerte Distanz, wenn gestoßen.",
+                        "es": "+33% de resistencia máxima. Se reduce la distancia al ser empujado.",
+                        "fr": "+33 % d'énergie max. Distance réduite lors des repoussements."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Fringe Benefits",
+                        "de": "Nebenleistungen",
+                        "es": "Suplementos adicionales",
+                        "fr": "Avantages en nature"
+                    },
+                    "description": {
+                        "en": "+10 armor vs. Projectiles and Splash damage.",
+                        "de": "+10 Rüstung gegen Projektile und Bereichsschaden.",
+                        "es": "+10 de armadura contra proyectiles y daño de salpicadura.",
+                        "fr": "+10 d'armure avec les projectiles et les dégâts de zone d'effet."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Sustained Abilities",
+                        "de": "Ausdauernde Fähigkeiten",
+                        "es": "Habilidades sostenidas",
+                        "fr": "Capacités maintenues"
+                    },
+                    "description": {
+                        "en": "Your skills cost less stamina.",
+                        "de": "Deine Fertigkeiten kosten dich weniger Ausdauer.",
+                        "es": "Tus habilidades consumen menos resistencia.",
+                        "fr": "Vos compétences nécessitent moins d'énergie."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

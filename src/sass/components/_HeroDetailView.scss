@@ -1,0 +1,56 @@
+.hero-detail-view {
+  position: relative;
+
+  &--center {
+    margin: 0 auto 0 auto;
+    width: auto;
+    max-width: 960px;
+    background-color: $color-ggu-blue;
+    padding: 20px 10px 10px;
+  }
+
+  &--talents {
+    display: flex;
+
+    @media screen and (max-width: $break-xs) {
+      flex-direction: column;
+    }
+  }
+
+  &--link, &--link a, &--link a:visited {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.5em;
+    cursor: pointer;
+    color: $color-ggu-white;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-ggu-white-darker;
+    }
+
+    &-share {
+
+    }
+
+    &-reset {
+
+    }
+  }
+
+  &--back-to-top {
+    display: none;
+  }
+}
+
+.sticky {
+  .hero-detail-view--back-to-top {
+    display: block;
+    float: right;
+    background: $color-ggu-grey;
+    text-transform: uppercase;
+    padding: 0.4em;
+    font-size: 0.75rem;
+  }
+}

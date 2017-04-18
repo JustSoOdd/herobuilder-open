@@ -1,0 +1,71 @@
+.hero-list-view-container{
+  margin: 0 auto;
+  max-width: 960px;
+  background-color: $color-ggu-blue;
+  padding: 20px 0 10px 10px;
+
+  .builder-link {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 0.5em;
+    cursor: pointer;
+    color: $color-ggu-white;
+  }
+
+  .hero-list-view {
+    width: 98%;
+    margin: 0 auto;
+
+    &--hero {
+      display: inline-block;
+      margin: 5px;
+
+      &-image {
+        display: block;
+        //width:  100px;
+        //height: 152px;
+        box-shadow: none;
+        transition: 0.25s box-shadow ease-in;
+      }
+
+      &-link {
+        text-decoration: none;
+      }
+
+      &-name {
+
+        display: block;
+        background: $color-ggu-blue;
+        color: white;
+        font-size: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 0;
+        margin: 0 auto;
+        margin-top: 5px;
+        border: 1px solid white;
+        transform: skew(-8deg);
+        width: 92%;
+        transition: 0.3s background ease, 0.3s border ease;
+        white-space: nowrap;
+      }
+
+      &:hover {
+        .hero-list-view--hero-image {
+          box-shadow: -3px -1px 15px black;
+        }
+        .hero-list-view--hero-name {
+          background-color: $color-ggu-orange;;
+          border-color: $color-ggu-orange;
+        }
+      }
+
+    }
+
+  }
+
+  @media(max-width: $break-sm) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,469 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: map-get($icon-home, 'width');
+// }
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+$-skins-hero-skin-aisling-default-c-v00: (
+  name: 'Skins_HeroSkin_Aisling_Default_CV00',
+  x: 146px,
+  y: 0px,
+  offset-x: -146px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-aisling-noble-c-v00: (
+  name: 'Skins_HeroSkin_Aisling_Noble_CV00',
+  x: 730px,
+  y: 202px,
+  offset-x: -730px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-beckett-baroness-c-v00: (
+  name: 'Skins_HeroSkin_Beckett_Baroness_CV00',
+  x: 292px,
+  y: 0px,
+  offset-x: -292px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-beckett-cloud-racer-c-v00: (
+  name: 'Skins_HeroSkin_Beckett_CloudRacer_CV00',
+  x: 0px,
+  y: 202px,
+  offset-x: 0px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-beckett-default-c-v00: (
+  name: 'Skins_HeroSkin_Beckett_Default_CV00',
+  x: 146px,
+  y: 202px,
+  offset-x: -146px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-charnok-default-c-v00: (
+  name: 'Skins_HeroSkin_Charnok_Default_CV00',
+  x: 292px,
+  y: 202px,
+  offset-x: -292px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-charnok-shaman-c-v00: (
+  name: 'Skins_HeroSkin_Charnok_Shaman_CV00',
+  x: 438px,
+  y: 0px,
+  offset-x: -438px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-griselma-default-c-v00: (
+  name: 'Skins_HeroSkin_Griselma_Default_CV00',
+  x: 438px,
+  y: 202px,
+  offset-x: -438px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-griselma-yeti-c-v00: (
+  name: 'Skins_HeroSkin_Griselma_Yeti_CV00',
+  x: 584px,
+  y: 0px,
+  offset-x: -584px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-h-k-default-c-v00: (
+  name: 'Skins_HeroSkin_HK_Default_CV00',
+  x: 584px,
+  y: 202px,
+  offset-x: -584px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-h-k-eswat-c-v00: (
+  name: 'Skins_HeroSkin_HK_Eswat_CV00',
+  x: 0px,
+  y: 404px,
+  offset-x: 0px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-imani-default-c-v00: (
+  name: 'Skins_HeroSkin_Imani_Default_CV00',
+  x: 146px,
+  y: 404px,
+  offset-x: -146px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-knossos-chief-c-v00: (
+  name: 'Skins_HeroSkin_Knossos_Chief_CV00',
+  x: 292px,
+  y: 404px,
+  offset-x: -292px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-knossos-default-c-v00: (
+  name: 'Skins_HeroSkin_Knossos_Default_CV00',
+  x: 438px,
+  y: 404px,
+  offset-x: -438px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-margrave-default-c-v00: (
+  name: 'Skins_HeroSkin_Margrave_Default_CV00',
+  x: 584px,
+  y: 404px,
+  offset-x: -584px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-mozu-default-c-v00: (
+  name: 'Skins_HeroSkin_Mozu_Default_CV00',
+  x: 730px,
+  y: 0px,
+  offset-x: -730px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-pakko-default-c-v00: (
+  name: 'Skins_HeroSkin_Pakko_Default_CV00',
+  x: 0px,
+  y: 0px,
+  offset-x: 0px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-sven-crackpot-c-v00: (
+  name: 'Skins_HeroSkin_Sven_Crackpot_CV00',
+  x: 730px,
+  y: 404px,
+  offset-x: -730px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-sven-default-c-v00: (
+  name: 'Skins_HeroSkin_Sven_Default_CV00',
+  x: 0px,
+  y: 606px,
+  offset-x: 0px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-sven-scientist-c-v00: (
+  name: 'Skins_HeroSkin_Sven_Scientist_CV00',
+  x: 146px,
+  y: 606px,
+  offset-x: -146px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-tripp-default-c-v00: (
+  name: 'Skins_HeroSkin_Tripp_Default_CV00',
+  x: 292px,
+  y: 606px,
+  offset-x: -292px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-tripp-urban-c-v00: (
+  name: 'Skins_HeroSkin_Tripp_Urban_CV00',
+  x: 438px,
+  y: 606px,
+  offset-x: -438px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-tyto-default-c-v00: (
+  name: 'Skins_HeroSkin_Tyto_Default_CV00',
+  x: 584px,
+  y: 606px,
+  offset-x: -584px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-tyto-polar-c-v00: (
+  name: 'Skins_HeroSkin_Tyto_Polar_CV00',
+  x: 730px,
+  y: 606px,
+  offset-x: -730px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-vadasi-default-c-v00: (
+  name: 'Skins_HeroSkin_Vadasi_Default_CV00',
+  x: 876px,
+  y: 0px,
+  offset-x: -876px,
+  offset-y: 0px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-vadasi-winged-c-v00: (
+  name: 'Skins_HeroSkin_Vadasi_Winged_CV00',
+  x: 876px,
+  y: 202px,
+  offset-x: -876px,
+  offset-y: -202px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-voden-default-c-v00: (
+  name: 'Skins_HeroSkin_Voden_Default_CV00',
+  x: 876px,
+  y: 404px,
+  offset-x: -876px,
+  offset-y: -404px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-voden-elder-c-v00: (
+  name: 'Skins_HeroSkin_Voden_Elder_CV00',
+  x: 876px,
+  y: 606px,
+  offset-x: -876px,
+  offset-y: -606px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-wu-default-c-v00: (
+  name: 'Skins_HeroSkin_Wu_Default_CV00',
+  x: 0px,
+  y: 808px,
+  offset-x: 0px,
+  offset-y: -808px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-wu-punk-c-v00: (
+  name: 'Skins_HeroSkin_Wu_Punk_CV00',
+  x: 146px,
+  y: 808px,
+  offset-x: -146px,
+  offset-y: -808px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-xenobia-bloodwitch-c-v00: (
+  name: 'Skins_HeroSkin_Xenobia_Bloodwitch_CV00',
+  x: 292px,
+  y: 808px,
+  offset-x: -292px,
+  offset-y: -808px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-xenobia-default-c-v00: (
+  name: 'Skins_HeroSkin_Xenobia_Default_CV00',
+  x: 438px,
+  y: 808px,
+  offset-x: -438px,
+  offset-y: -808px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$-skins-hero-skin-zandora-default-c-v00: (
+  name: 'Skins_HeroSkin_Zandora_Default_CV00',
+  x: 584px,
+  y: 808px,
+  offset-x: -584px,
+  offset-y: -808px,
+  width: 144px,
+  height: 200px,
+  total-width: 1020px,
+  total-height: 1008px,
+  image: 'img/skins.png'
+);
+$skins: (
+  width: 1020px,
+  height: 1008px,
+  image: 'img/skins.png',
+  sprites: ($-skins-hero-skin-aisling-default-c-v00, $-skins-hero-skin-aisling-noble-c-v00, $-skins-hero-skin-beckett-baroness-c-v00, $-skins-hero-skin-beckett-cloud-racer-c-v00, $-skins-hero-skin-beckett-default-c-v00, $-skins-hero-skin-charnok-default-c-v00, $-skins-hero-skin-charnok-shaman-c-v00, $-skins-hero-skin-griselma-default-c-v00, $-skins-hero-skin-griselma-yeti-c-v00, $-skins-hero-skin-h-k-default-c-v00, $-skins-hero-skin-h-k-eswat-c-v00, $-skins-hero-skin-imani-default-c-v00, $-skins-hero-skin-knossos-chief-c-v00, $-skins-hero-skin-knossos-default-c-v00, $-skins-hero-skin-margrave-default-c-v00, $-skins-hero-skin-mozu-default-c-v00, $-skins-hero-skin-pakko-default-c-v00, $-skins-hero-skin-sven-crackpot-c-v00, $-skins-hero-skin-sven-default-c-v00, $-skins-hero-skin-sven-scientist-c-v00, $-skins-hero-skin-tripp-default-c-v00, $-skins-hero-skin-tripp-urban-c-v00, $-skins-hero-skin-tyto-default-c-v00, $-skins-hero-skin-tyto-polar-c-v00, $-skins-hero-skin-vadasi-default-c-v00, $-skins-hero-skin-vadasi-winged-c-v00, $-skins-hero-skin-voden-default-c-v00, $-skins-hero-skin-voden-elder-c-v00, $-skins-hero-skin-wu-default-c-v00, $-skins-hero-skin-wu-punk-c-v00, $-skins-hero-skin-xenobia-bloodwitch-c-v00, $-skins-hero-skin-xenobia-default-c-v00, $-skins-hero-skin-zandora-default-c-v00, )
+);
+
+// The provided mixins are intended to be used with variables directly
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: map-get($sprite, 'width');
+}
+
+@mixin sprite-height($sprite) {
+  height: map-get($sprite, 'height');
+}
+
+@mixin sprite-position($sprite) {
+  background-position: map-get($sprite, 'offset-x') map-get($sprite, 'offset-y');
+}
+
+@mixin sprite-image($sprite) {
+  background-image: url(map-get($sprite, 'image'));
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites(map-get($spritesheet, 'sprites'));
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: map-get($sprite, 'name');
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

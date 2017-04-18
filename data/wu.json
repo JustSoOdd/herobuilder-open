@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Wu",
+        "de": "Wu",
+        "es": "Wu",
+        "fr": "Wu"
+    },
+    "shortName": "Wu",
+    "description": {
+        "en": "Acrobatic Martial Artist.",
+        "de": "Akrobatischer Kampfkünstler.",
+        "es": "Maestro de las artes marciales.",
+        "fr": "Expert acrobatique en arts martiaux"
+    },
+    "lore": {
+        "en": "\"At the juncture of brashness and serenity, passion and calm, fury and skill...there is Wu. His training encourages him to leave emotions behind, but he treats every battle as a joyous celebration.\" —Blau-Grau of the 12 Monks",
+        "de": "„Zwischen Frechheit und Gelassenheit, Leidenschaft und Ruhe, Zorn und Talent ... befindet sich Wu. Sein Training befähigt ihn, Emotionen keine Beachtung zu schenken, und doch ist für ihn jede Schlacht ein Grund zum Feiern.“ – Meister Blau-Grau von den 12 Mönchen",
+        "es": "\"En la intersección entre presunción y serenidad, pasión y calma, furia y habilidad... está Wu. Está entrenado para dejar atrás las emociones, pero para él cada batalla es una feliz celebración.\" —Blau-Grau, de los 12 monjes",
+        "fr": "« Entre effronterie et sérénité, passion et retenue, furie et discipline... il y a Wu. Sa formation l'invite à laisser les émotions derrière lui, mais chaque bataille est une véritable fête. » —Blau-Grau des 12 moines"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Ki-yaah! Wu combines chains of punches, kicks, and blocks to deliver devastating combo attacks. And watch out for his tongue...",
+            "playStyleTips": [
+                "Deliver attacks that stun, weaken, and launch enemies into midair.",
+                "Upgrade Rain of Blows for special attacks after dodges and sprints.",
+                "Yank enemies into range with a 20-foot tongue."
+            ]
+        },
+        "de": {
+            "description": "Ki-yaah! Wu kombiniert eine Serie von Schlägen, Kicks und Blocks, um verheerende Combo-Angriffe auszuführen. Man sollte auch gut auf seine Zunge aufpassen ...",
+            "playStyleTips": [
+                "Führe Angriffe aus, die betäuben, schwächen und Gegner in die Luft schleudern.",
+                "Werte Hagel von Schlägen auf, um spezielle Angriffe nach dem Ausweichen und nach Sprints freizuschalten.",
+                "Zerre Gegner mit einer 7 Meter langen Zunge in Reichweite."
+            ]
+        },
+        "es": {
+            "description": "¡Kia! Wu combina puñetazos, patadas y bloqueos en cadena para atacar con combinaciones devastadoras. Y cuidado con su lengua...",
+            "playStyleTips": [
+                "Ataca para infligir aturdimiento, debilidad y lanzar a los enemigos al aire.",
+                "Sube de nivel Lluvia de golpes para llevar a cabo ataques especiales después de esquivar o una carrera corta.",
+                "Usa la lengua de 6 metros para tirar de los enemigos y ponerlos a tu alcance."
+            ]
+        },
+        "fr": {
+            "description": "Ki-yaah ! Wu enchaîne des attaques combo dévastatrices faites de coups de poing, de coups de pied et de parades. Et faites attention à sa langue...",
+            "playStyleTips": [
+                "Exécutez des attaques qui assomment, affaiblissent, ou propulsent les ennemis dans les airs.",
+                "Améliorez la Pluie de coups pour exécuter des attaques spéciales après des esquives et des sprints.",
+                "Attirez les ennemis vers vous avec votre langue de 5 mètres."
+            ]
+        }
+    },
+    "attackStat": 70,
+    "defenseStat": 50,
+    "mobilityStat": 80,
+    "utilityStat": 40,
+    "difficulty": 8,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "RAIN OF BLOWS",
+                "de": "HAGEL AUS SCHLÄGEN",
+                "es": "LLUVIA DE GOLPES",
+                "fr": "PLUIE DE COUPS"
+            },
+            "description": {
+                "en": "Rapid melee attack combo.",
+                "de": "Schnelle Nahkampf-Angriffscombo.",
+                "es": "Una rápida combinación de ataques cuerpo a cuerpo.",
+                "fr": "Combo d'attaques de mêlée rapides."
+            },
+            "lore": {
+                "en": "For 100 days, Wu pestered the monastery guards until they beat him senseless. On day 101, Wu became a disciple, and the monastery hired new guards.",
+                "de": "Wu bedrängte die Wachen des Klosters 100 Tage lang, bis sie ihn windelweich schlugen. Am 101. Tag wurde Wu ein Schüler und das Kloster heuerte neue Wachen an.",
+                "es": "Durante 100 días, Wu estuvo fastidiando a los guardias del monasterio hasta que le dejaron inconsciente de una paliza. El 101.er día, Wu pasó a ser un discípulo, y el monasterio contrató a nuevos guardias.",
+                "fr": "Pendant 100 jours, Wu a harcelé les gardes du monastère, jusqu'à ce qu'ils lui infligent une correction sans précédent. Le 101e jour, Wu devint un disciple, et le monastère embaucha des nouveaux gardes."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Flowing Fist",
+                    "de": "Fließende Faust",
+                    "es": "Puño fluido",
+                    "fr": "Combo du poing"
+                },
+                "description": {
+                    "en": "Deals more damage after hitting with any other skill.",
+                    "de": "Verursacht mehr Schaden, nachdem du mit einer beliebigen anderen Fertigkeit getroffen hast.",
+                    "es": "Inflige más daño tras golpear con cualquier otra habilidad.",
+                    "fr": "Cause encore plus de dégâts s'il est utilisé après une autre compétence."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Rupture",
+                    "de": "Ruptur",
+                    "es": "Ruptura",
+                    "fr": "Rupture"
+                },
+                "description": {
+                    "en": "Inflict bleeding vs. stunned, launched, dazed, or interrupted foes. (4s)",
+                    "de": "Verursacht Blutung bei betäubten, geschleuderten, verwirrten oder unterbrochenen Gegnern. (4 Sek.)",
+                    "es": "Inflige hemorragia a los enemigos aturdidos, lanzados, atontados o interrumpidos (4 s).",
+                    "fr": "Inflige un saignement quand un ennemi est assommé, propulsé, étourdi ou stoppé (4 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Flowing Stance",
+                    "de": "Fließende Haltung",
+                    "es": "Posición fluida",
+                    "fr": "Posture d'enchaînement"
+                },
+                "description": {
+                    "en": "After Flowing Fist, each strike gives you +10 armor. (3s, stacks up to 3 times)",
+                    "de": "Nach  Fließender Faust  gibt dir jeder Schlag +10 Rüstung. (3 Sek., kumuliert bis zu 3 Mal)",
+                    "es": "Tras Puño fluido, cada impacto te otorga +10 de armadura (3 s, se acumula hasta 3 veces).",
+                    "fr": "Après Coup de poing flottant, chaque attaque donne +10 d'armure (3 s, cumulable 3 fois max.)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Triple Tiger Kick",
+                    "de": "Dreifacher Tigertritt",
+                    "es": "Triple patada del tigre",
+                    "fr": "Triple coup de pied"
+                },
+                "description": {
+                    "en": "After sprinting, your third attack LMB,LMB,LMB interrupts.",
+                    "de": "Nach einem Sprint unterbricht dein dritter Angriff LMB,LMB,LMB.",
+                    "es": "Tras esprintar, el tercer ataque LMB,LMB,LMB interrumpe.",
+                    "fr": "Après un sprint, votre troisième attaque LMB,LMB,LMB stoppe l'ennemi."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Hop To It",
+                    "de": "Auf dem Sprung",
+                    "es": "A por ello",
+                    "fr": "Ceinture marron"
+                },
+                "description": {
+                    "en": "After dodging, you may perform Triple Tiger Kick LMB,LMB,LMB.",
+                    "de": "Nach Ausweichen kannst du  Dreifacher Tigertritt' ausführen LMB,LMB,LMB.",
+                    "es": "Tras esquivar, puedes hacer Triple patada del tigre LMB,LMB,LMB.",
+                    "fr": "Après une esquive, vous pouvez déclencher Triple coup de pied avec LMB,LMB,LMB."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Kick It Up a Notch",
+                    "de": "Nachtreten",
+                    "es": "Subiendo el ritmo",
+                    "fr": "Ceinture noire"
+                },
+                "description": {
+                    "en": "After Splash Kick RMB, you may perform Triple Tiger Kick LMB,LMB,LMB.",
+                    "de": "Nach  Spritz-Kick' RMB kannst du  Dreifacher Tigertritt' ausführen LMB,LMB,LMB.",
+                    "es": "Tras Patada con efecto RMB, puedes hacer Triple patada del tigre LMB,LMB,LMB.",
+                    "fr": "Après Coup de pied plongé RMB, vous pouvez déclencher Triple coup de pied LMB,LMB,LMB."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "SPLASH KICK",
+                "de": "SPRITZ-KICK",
+                "es": "PATADA CON EFECTO",
+                "fr": "COUP DE PIED PLONGÉ"
+            },
+            "description": {
+                "en": "Rising kick that pushes enemies.<br>RMB AGAIN: Powerful downward kick.",
+                "de": "Aufwärtskick, der Gegner wegstößt.<br>RMB ERNEUT TIPPEN: Mächtiger Abwärtskick.",
+                "es": "Patada hacia arriba que empuja a los enemigos. RMB DE NUEVO: potente patada descendente.",
+                "fr": "Coup de pied ascendant qui pousse les ennemis. RMB à nouveau : coup de pied puissant vers le bas."
+            },
+            "lore": {
+                "en": "\"Go soak in this,\" said Wu as the gang of ruffians approached.",
+                "de": "„Weicht euch hiermit ein!“, sagte Wu, als die Bande von Grobianen näher kam.",
+                "es": "\"Allí lleváis esto\", dijo Wu mientras se aproximaba la banda de rufianes.",
+                "fr": "« Prêt pour le grand plongeon ? » demanda Wu alors qu'un gang de voyous approchait."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Splashdown",
+                    "de": "Wasserlandung",
+                    "es": "Amaraje",
+                    "fr": "Amerrissage"
+                },
+                "description": {
+                    "en": "Downward Kick RMB,RMB slows your target. (3s)",
+                    "de": "Abwärts-Kick  RMB, RMB verlangsamt dein Ziel. (3 Sek.)",
+                    "es": "Patada descendente RMB,RMB ralentiza al objetivo (3 s).",
+                    "fr": "Coup de pied bas RMB,RMB ralentit votre cible (3 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Burst the Dam",
+                    "de": "Dammbruch",
+                    "es": "Revienta la presa",
+                    "fr": "Rupture du barrage"
+                },
+                "description": {
+                    "en": "Downward Kick RMB,RMB breaks target's armor. (4s)",
+                    "de": "Abwärts-Kick RMB,RMB durchbricht die Rüstung des Ziels. (4 Sek.)",
+                    "es": "Patada descendente RMB,RMB rompe la armadura del objetivo (4 s).",
+                    "fr": "Coup de pied bas RMB,RMB brise l'armure de la cible (4 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Forceful Current",
+                    "de": "Mächtige Strömung",
+                    "es": "Corriente forzada",
+                    "fr": "Courant puissant"
+                },
+                "description": {
+                    "en": "Downward Kick RMB,RMB interrupts on hit.",
+                    "de": "Abwärts-Kick RMB,RMB unterbricht bei Treffer.",
+                    "es": "Patada descendiente RMB,RMB interrumpe al impactar.",
+                    "fr": "Coup de pied bas RMB,RMB stoppe l'ennemi, à l'impact."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Boundless Energy",
+                    "de": "Grenzenlose Energie",
+                    "es": "Energía sin límites",
+                    "fr": "Réserve d'énergie"
+                },
+                "description": {
+                    "en": "When you land, cooldown is reduced to 1s if you have stamina.",
+                    "de": "Landest du, ist deine Abklingzeit auf 1 Sek. reduziert, sofern du über Ausdauer verfügst.",
+                    "es": "Cuando aterrizas, la recarga se reduce a 1 s si tienes resistencia.",
+                    "fr": "1 s de temps de rechargement si vous avez de l'énergie à votre atterissage."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Rising Tide",
+                    "de": "Steigende Flut",
+                    "es": "Sube la marea",
+                    "fr": "Marée montante"
+                },
+                "description": {
+                    "en": "After Crashing Waves Q, Splash Kick launches foes.",
+                    "de": "Nach  Krachende Wellen' Q, schleudert  Spritz-Kick' Gegner in die Höhe.",
+                    "es": "Tras Rompeolas Q, Patada con efecto lanza a los enemigos.",
+                    "fr": "Après Vagues écrasantes Q, Coup de pied plongé propulse les ennemis."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Ride the Rapids",
+                    "de": "Stromschnellenritt",
+                    "es": "Viaje por los rápidos",
+                    "fr": "Dans les rapides"
+                },
+                "description": {
+                    "en": "After Tonguelash E, Splash Kick grants deflection (3s) and speed boost (5s).",
+                    "de": "Nach  Zungenschlag' E gewährt  Spritz-Kick' Umlenkung (3 Sek.) und einen Geschwindigkeits-Boost (5 Sek.).",
+                    "es": "Tras Lengüetazo E, Patada con efecto otorga desvío (3 s) y aumento de velocidad (5 s).",
+                    "fr": "Après Langue grappin E, Coup de pied plongé vous permet d'esquiver les attaques (3 s) et octroie un boost de rapidité (5 s)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "CRASHING WAVES",
+                "de": "KRACHENDE WELLEN",
+                "es": "ROMPEOLAS",
+                "fr": "VAGUES ÉCRASANTES"
+            },
+            "description": {
+                "en": "Two attacks. Second attack interrupts.",
+                "de": "Zwei Angriffe. Der zweite Angriff unterbricht.",
+                "es": "Dos ataques. El ataque secundario interrumpe.",
+                "fr": "Deux attaques. La deuxième attaque stoppe les ennemis."
+            },
+            "lore": {
+                "en": "\"Water is formless, yet no form—not cliff nor castle—can stand against it.\" —Vuna-Theka of the 12 Monks",
+                "de": "„Wasser hat keine Form! Und doch kann ihm keine Form Widerstand leisten – weder Klippe noch Burg.“ – Vuna-Theka von den 12 Mönchen",
+                "es": "\"El agua no tiene forma, y ninguna forma, sea un precipicio o un castillo, puede hacerle frente.\" —Vuna-Theka, de los 12 monjes",
+                "fr": "« L'eau n'est pas solide, et pourtant, rien ne peut lui résister, pas même le plus solide des châteaux » —Vuna-Theka des 12 moines"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Intercepting Fist",
+                    "de": "Abfangende Faust",
+                    "es": "Puño interceptor",
+                    "fr": "Poing d'interception"
+                },
+                "description": {
+                    "en": "Weaken enemies on hit (50% damage for 5s).",
+                    "de": "Gegner werden bei einem Treffer geschwächt. (50% Schaden für 5 Sek.)",
+                    "es": "Debilita a los enemigos al impactar (50% de daño durante 5 s).",
+                    "fr": "Affaiblit les ennemis à l'impact (50% de dégâts pendant 5 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Temple Strike",
+                    "de": "Schläfenschlag",
+                    "es": "Golpe con temple",
+                    "fr": "Frappe à la tempe"
+                },
+                "description": {
+                    "en": "Second strike Stuns. (+4s cooldown.)",
+                    "de": "Zweiter Schlag betäubt. (+4 Sek. Abklingzeit)",
+                    "es": "El segundo ataque aturde (recarga: +4 s).",
+                    "fr": "La deuxième attaque assomme (temps de rechargement : +4 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Dim Mak",
+                    "de": "Dim Mak",
+                    "es": "Manipulación",
+                    "fr": "Dim Mak"
+                },
+                "description": {
+                    "en": "Hitting raises your crit chance to 100%.",
+                    "de": "Treffer erhöhen die Chance auf kritische Treffer auf 100%.",
+                    "es": "Los golpes aumentan al 100% la probabilidad de golpe crítico.",
+                    "fr": "Toucher les ennemis augmente vos chances de coup critique de 100 %."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Rushing Water",
+                    "de": "Rauschendes Wasser",
+                    "es": "Aguas revueltas",
+                    "fr": "Eaux vives"
+                },
+                "description": {
+                    "en": "Second attack is replaced with a roll forward.<BR>Pushes enemies on bump.",
+                    "de": "Der zweite Angriff wird mit einer Rolle vorwärts ersetzt.<BR>Stößt Gegner beim Aufprall weg.",
+                    "es": "En lugar de realizar el segundo ataque, ruedas adelante. Empuja a los enemigos al impactarlos.",
+                    "fr": "La deuxième attaque est remplacée par une roulade avant. Repousse les ennemis à l'impact."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Splash of Least Resistance",
+                    "de": "Spritzer des geringsten Widerstands",
+                    "es": "Resistencia mínima",
+                    "fr": "Effet garanti"
+                },
+                "description": {
+                    "en": "Recharges Splash Kick RMB if Crashing Waves does not bump an enemy.",
+                    "de": "Lädt  Spritz-Kick  RMB wieder auf, wenn  Krachende Wellen  keinen Gegner wegstoßen.",
+                    "es": "Recarga Patada con efecto RMB si Rompeolas no impacta a ningún enemigo.",
+                    "fr": "Recharge Coup de pied plongé RMB si Vagues écrasantes ne touchent aucun ennemi."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Fluid Reactions",
+                    "de": "Flüssige Reaktionen",
+                    "es": "Reacciones fluidas",
+                    "fr": "Vivifiant"
+                },
+                "description": {
+                    "en": "During Crashing Waves, you have projectiles deflection and 80 armor, but move slower.",
+                    "de": "Während  Krachende Wellen  verfügst du über Projektil-Abwehr und 80 Rüstung. Deine Bewegung ist jedoch verlangsamt.",
+                    "es": "Durante Rompeolas, desvías proyectiles y obtienes 80 de armadura, pero te mueves más despacio.",
+                    "fr": "Pendant Vagues écrasantes, dévie les projectiles et donne +80 d'armure, mais ralentit."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "TONGUE LASHING",
+                "de": "ZUNGENSCHLAG",
+                "es": "LENGÜETAZO",
+                "fr": "LANGUE GRAPPIN"
+            },
+            "description": {
+                "en": "Pull one enemy toward you.",
+                "de": "Ziehe einen Gegner an dich heran.",
+                "es": "Atrae a un enemigo hacia ti.",
+                "fr": "Tire un ennemi vers vous."
+            },
+            "lore": {
+                "en": "\"In truth, fellow masters, I taught him this technique only to shut up his endless questions.\" —Blau-Grau of the 12 Monks",
+                "de": "„In Wahrheit, werte Kollegen, habe ich ihm diese Technik nur beigebracht, um seiner ewigen Fragerei ein Ende zu bereiten.“ – Meister Blau-Grau von den 12 Mönchen",
+                "es": "\"En realidad, compañeros maestros, solo le enseñé esta técnica para que dejara de preguntar tanto.\" —Blau-Grau de los 12 monjes",
+                "fr": "« Pour dire la vérité, mes chers maîtres, je l'ai formé uniquement pour mettre un terme à ses questions incessantes. » —Blau-Grau des 12 moines"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Barbed Tongue",
+                    "de": "Scharfzüngig",
+                    "es": "Lengua de espino",
+                    "fr": "Langue barbelée"
+                },
+                "description": {
+                    "en": "Tonguelash deals triple damage and raises your crit chance.",
+                    "de": "Zungenschlag' verursacht dreifachen Schaden und erhöht deine Chance auf kritische Treffer.",
+                    "es": "Lengüetazo inflige el triple de daño y aumenta la probabilidad de golpe crítico.",
+                    "fr": "Langue grappin cause le triple de dégâts et augmente vos chances de coup critique."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Poisoned Tongue",
+                    "de": "Giftzunge",
+                    "es": "Lengua envenenada",
+                    "fr": "Langue empoisonnée"
+                },
+                "description": {
+                    "en": "Enemies struck by Tonguelash are poisoned. (5s)",
+                    "de": "Von  Zungenschlag' getroffene Gegner werden vergiftet. (5 Sek.)",
+                    "es": "Envenena a los enemigos impactados con Lengüetazo (5 s).",
+                    "fr": "Les ennemis touchés par Langue grappin sont empoisonnés (5 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Taste for Blood",
+                    "de": "Blut lecken",
+                    "es": "Gusto por la sangre",
+                    "fr": "Soif de sang"
+                },
+                "description": {
+                    "en": "Hitting with Tonguelash gives health regeneration.",
+                    "de": "Triffst du mit  Zungenschlag', regeneriert sich deine Gesundheit.",
+                    "es": "Golpear con Lengüetazo otorga regeneración de salud.",
+                    "fr": "Toucher avec Langue grappin permet de régénérer votre santé."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Whet Your Appetite",
+                    "de": "Appetit anregen",
+                    "es": "Sacia el hambre",
+                    "fr": "Amuse-gueule"
+                },
+                "description": {
+                    "en": "On hit, Splash Kick RMB and Crashing Waves Q recharge. (+10s Tonguelash cooldown)",
+                    "de": "Bei einem Treffer laden  Spritz-Kick  RMB und  Krachende Wellen  Q wieder auf. (+10 Sek. Abklingzeit für  Zungenschlag )",
+                    "es": "Al impactar, se recargan Patada con efecto RMB y Rompeolas Q (recarga de Lengüetazo: +10 s).",
+                    "fr": "Coup de pied plongé RMB et Vagues écrasantes Q se rechargent. +10 s de temps de rechargement de Langue grappin."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Whiplash",
+                    "de": "Peitschenhieb",
+                    "es": "Latigazo",
+                    "fr": "Coup de fouet"
+                },
+                "description": {
+                    "en": "E, RMB: Splash Kick RMB dazes for 2s.",
+                    "de": "E, RMB:  Spritz-Kick' RMB verwirrt für 2 Sek.",
+                    "es": "E, RMB: Patada con efecto RMB atonta durante 2 s.",
+                    "fr": "E,RMB : Coup de pied plongé RMB étourdit les ennemis (2 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Wave Goodbye",
+                    "de": "Wink zum Abschied",
+                    "es": "Ola y adiós",
+                    "fr": "Vague d'adieu"
+                },
+                "description": {
+                    "en": "E, Q: Crashing Waves' Q first strike launches. (+6s Q cooldown.)",
+                    "de": "E, Q: Der erste Schlag von  Krachende Wellen' Q schleudert. (+6 Sek. Q Abklingzeit.)",
+                    "es": "E, Q: el primer impacto de Rompeolas Q lanza (recarga Q: +6 s).",
+                    "fr": "E, Q : la première attaque des Vagues écrasantes propulse les ennemis (rechargement : +6 s)"
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "TYPHOON'S FURY",
+                "de": "TAIFUNWUT",
+                "es": "FURIA DE TIFÓN",
+                "fr": "CYCLONE EN FURIE"
+            },
+            "description": {
+                "en": "Charging uppercut that launches and deals high damage.",
+                "de": "Anstürmender Aufwärtshaken, der Gegner schleudert und hohen Schaden verursacht.",
+                "es": "Cargas un golpe bajo que lanza a los enemigos y les inflige mucho daño.",
+                "fr": "Un uppercut chargeable qui propulse et cause beaucoup de dégâts."
+            },
+            "lore": {
+                "en": "Just as with an actual typhoon, the wise course of action is to evacuate the area and seek higher ground.",
+                "de": "Genau wie bei einem tatsächlichen Taifun ist die korrekte Vorgehensweise, das Gebiet zu evakuieren und das Weite zu suchen.",
+                "es": "Al igual que con un tifón de verdad, lo más inteligente es evacuar la zona y buscar un sitio elevado.",
+                "fr": "Comme lors d'un vrai cyclone, il est préférable d'évacuer la zone et de se réfugier dans les hauteurs."
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Nigh Invulnerable",
+                    "de": "Nahezu unverwundbar",
+                    "es": "Casi invulnerable",
+                    "fr": "Presque invulnérable"
+                },
+                "description": {
+                    "en": "You take 90% less damage while performing F.",
+                    "de": "Du erleidest 90% weniger Schaden, während du F ausführst.",
+                    "es": "Al usar F, recibes un 90% menos de daño.",
+                    "fr": "90 % de dégâts en moins en appuyant sur F."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Splash Zone",
+                        "de": "Spritzbereich",
+                        "es": "Zona de salpicadura",
+                        "fr": "Zone d'effet"
+                    },
+                    "description": {
+                        "en": "RMB,RMB hits a larger area and can hit multiple foes.",
+                        "de": "RMB, RMB trifft ein größeres Gebiet und kann mehrere Gegner treffen.",
+                        "es": "RMB,RMB impacta en una zona más amplia y puede impactar a varios enemigos.",
+                        "fr": "RMB,RMB couvre une zone plus étendue et peut toucher plusieurs ennemis."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Wave Pattern",
+                        "de": "Wellenmuster",
+                        "es": "Patrón de las olas",
+                        "fr": "Motif ondulatoire"
+                    },
+                    "description": {
+                        "en": "Q has shorter cooldown.",
+                        "de": "Q verfügt über eine kürzere Abklingzeit.",
+                        "es": "Q tiene una recarga más corta.",
+                        "fr": "Q a un temps de rechargement plus court."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Precision",
+                        "de": "Präzision",
+                        "es": "Precisión",
+                        "fr": "Précision"
+                    },
+                    "description": {
+                        "en": "Crit chance builds faster.",
+                        "de": "Chance auf kritische Treffer baut sich schneller auf.",
+                        "es": "Aumenta más rápido la probabilidad de golpe crítico.",
+                        "fr": "Vos chances de coups critiques augmentent plus rapidement."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "En Garde",
+                        "de": "En Garde",
+                        "es": "En Garde",
+                        "fr": "En garde"
+                    },
+                    "description": {
+                        "en": "+10 front armor, +20 while attacking.",
+                        "de": "+10 Frontalrüstung, +20, während du angreifst.",
+                        "es": "+10 de armadura frontal, +20 al atacar.",
+                        "fr": "+10 d'armure frontale, +20 en attaquant."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Shredder",
+                        "de": "Schredder",
+                        "es": "Trituradora",
+                        "fr": "Broyeur"
+                    },
+                    "description": {
+                        "en": "30% armor penetration.",
+                        "de": "30% Rüstungsdurchdringung.",
+                        "es": "30% de penetración de armadura.",
+                        "fr": "30 % de pénétration d'armure."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Bloody Minded",
+                        "de": "Blutdürstig",
+                        "es": "Testarudez",
+                        "fr": "Obstination"
+                    },
+                    "description": {
+                        "en": "Immunity to Weakness. Recover from Daze twice as fast.",
+                        "de": "Immunität gegen Schwäche. Du erholst dich doppelt so schnell von Verwirrung.",
+                        "es": "Inmunidad a la debilidad. Te recuperas del atontamiento el doble de rápido.",
+                        "fr": "Immunité à Faiblesse. Se remet d'un étourdissement deux fois plus rapidement."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

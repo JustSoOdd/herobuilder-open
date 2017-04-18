@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Uncle Sven",
+        "de": "Onkel Sven",
+        "es": "Tío Sven",
+        "fr": "Onle Sven"
+    },
+    "shortName": "Sven",
+    "description": {
+        "en": "Potions and Healing.",
+        "de": "Zaubertränke und Heilung.",
+        "es": "Pociones y curación.",
+        "fr": "Potions et guérison"
+    },
+    "lore": {
+        "en": "\"We've granted Uncle Sven laboratory access four times, and we've exiled him four times. You don't need to be a scientist to figure out that pattern.\" —Senior Researcher Ghautiri, House Tesserus",
+        "de": "„Wir haben Onkel Sven vier Mal Zugang zu unserem Laboratorium gewährt und ihn vier Mal daraus verbannt. Man muss kein Wissenschaftler sein, um hier ein Muster zu erkennen.“ – Leitende Forscherin Ghautiri, Haus Tesserus",
+        "es": "\"Al Tío Sven se le ha dado acceso al laboratorio cuatro veces y se le ha exiliado cuatro veces. No hace falta ser científico para darse cuenta de lo que está ocurriendo.\" —Investigadora sénior Ghautiri, Casa Tesserus",
+        "fr": "« Par quatre fois, nous avons autorisé oncle Sven à accéder au laboratoire, et par quatre fois, il en a été banni. Pas besoin d'être scientifique pour tirer des leçons. » —Chercheuse en chef Ghautiri, Maison Tesserus"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+            "description": "Let's go crazy! Uncle Sven brings chemistry and chaos to every battle, burning enemies with fire and acid—and healing allies by hurling magic potions their way.",
+            "playStyleTips": [
+                "Upgrade your Healing Waters to wipe away negative effects or for extra healing on badly wounded allies.",
+                "Humiliate your enemies by turning them into tiny, harmless lizards.",
+                "Give your team a super-jump by throwing down some Elastic Ooze."
+            ]
+        },
+        "de": {
+            "description": "Jetzt wird‘s verrückt! Onkel Sven versorgt jede Schlacht mit Chemie und Chaos, indem er Gegner in Brand setzt oder verätzt und Verbündete durch das Entgegenschleudern magischer Tränke heilt.",
+            "playStyleTips": [
+                "Werte deine Heilwasser auf, um negative Effekte zu entfernen oder schwer verwundeten Verbündeten Extra-Heilung zukommen zu lassen.",
+                "Demütige deine Gegner, indem du sie in kleine, harmlose Echsen verwandelst.",
+                "Ermögliche deinem Team einen Supersprung, indem du Elastikschleim wirfst."
+            ]
+        },
+        "es": {
+            "description": "¡Esto es de locos! El Tío Sven trae química y caos a cada batalla, quema enemigos con fuego y ácido, y cura a los aliados lanzándoles pociones mágicas.",
+            "playStyleTips": [
+                "Sube de nivel las Aguas curativas para eliminar efectos negativos o para aplicar curación adicional a enemigos gravemente heridos.",
+                "Convierte a los enemigos en lagartijas minúsculas e inofensivas para humillarlos.",
+                "Dale a tu equipo un supersalto con Légamo elástico."
+            ]
+        },
+        "fr": {
+            "description": "Un cocktail explosif ! Oncle Sven apporte une bonne dose d'alchimie et de chaos à chaque bataille en brûlant les ennemis avec du feu et de l'acide, et en guérissant les alliés en leur lançant des potions magiques.",
+            "playStyleTips": [
+                "Améliorez vos Eaux apaisantes pour dissiper les effets négatifs ou pour accélérer la guérison d'un allié sérieusement blessé.",
+                "Humiliez vos ennemis en les transformant en de minuscules lézards inoffensifs.",
+                "Offrez à votre équipe un super trampoline en posant une Flaque magique."
+            ]
+        }
+    },
+    "attackStat": 50,
+    "defenseStat": 40,
+    "mobilityStat": 50,
+    "utilityStat": 100,
+    "difficulty": 3,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "FIRE FLASK",
+                "de": "FEUERKOLBEN",
+                "es": "MATRAZ DE FUEGO",
+                "fr": "FIOLE DE FEU"
+            },
+            "description": {
+                "en": "Lobbed projectile: Damages enemies with fire.",
+                "de": "Geschleudertes Projektil: Schadet Gegnern durch Feuer.",
+                "es": "Proyectil en trayectoria elevada: daña a los enemigos con fuego.",
+                "fr": "Inflige des dégâts incendiaires aux ennemis."
+            },
+            "lore": {
+                "en": "The first rule Uncle Sven teaches new lab assistants: stop, drop, and roll.",
+                "de": "Die erste Regel, die Onkel Sven neuen Laborassistenten beibringt, lautet: Aufhören, fallen lassen und wegrollen!",
+                "es": "La primera norma que el Tío Sven enseña a los nuevos asistentes en el laboratorio: dejad lo que estéis haciendo, agachaos y salid gateando.",
+                "fr": "La première règle qu'oncle Sven inculque à ses nouveaux assistants est la suivante : arrête-toi, jette la fiole, cours."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "3, 2, 1, Contact",
+                    "de": "3, 2, 1 ... Kontakt",
+                    "es": "3, 2, 1, contacto",
+                    "fr": "3, 2, 1, Contact"
+                },
+                "description": {
+                    "en": "Fire Flask deal +30% damage on impact.",
+                    "de": "Feuerkolben' verursacht bei Aufprall 30% mehr Schaden.",
+                    "es": "Matraz de fuego inflige +30% de daño al impactar.",
+                    "fr": "Fiole de feu provoque +30 % de dégâts à l'impact."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Igniter Fluid",
+                    "de": "Zünderflüssigkeit",
+                    "es": "Fluido inflamable",
+                    "fr": "Liquide inflammable"
+                },
+                "description": {
+                    "en": "Fire Flask inflicts burning for 3s.",
+                    "de": "Feuerkolben' verursacht Brennen für 3 Sek.",
+                    "es": "Matraz de fuego inflige quemaduras durante 3 s.",
+                    "fr": "Fiole de feu inflige des brûlures (3 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Encase A Fire",
+                    "de": "Springfeuer",
+                    "es": "Fuego insistente",
+                    "fr": "Kit d'incendie"
+                },
+                "description": {
+                    "en": "Fire Flask bounces if it hits the ground.",
+                    "de": "Feuerkolben' prallt beim Auftreffen vom Boden ab.",
+                    "es": "Matraz de fuego rebota si cae en el suelo.",
+                    "fr": "Fiole de feu rebondit si elle touche le sol."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Flame Out",
+                    "de": "Flächenbrand",
+                    "es": "En llamas",
+                    "fr": "Tout feu tout flamme"
+                },
+                "description": {
+                    "en": "Fire Flask hits a larger area, but takes longer to throw.",
+                    "de": "Feuerkolben' trifft eine größere Fläche, benötigt jedoch mehr Zeit zum Werfen.",
+                    "es": "Matraz de fuego afecta a una zona más amplia, pero se tarda más en lanzar.",
+                    "fr": "Fiole de feu touche une zone plus étendue mais il faut plus de temps pour la lancer."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Geek Fire",
+                    "de": "Freakisches Feuer",
+                    "es": "Alfombra de fuego",
+                    "fr": "Zone enflammée"
+                },
+                "description": {
+                    "en": "Fire Flask leaves a flaming area. (First attack every 6s.)",
+                    "de": "Feuerkolben  hinterlässt ein brennendes Gebiet. (Erster Angriff alle 6 Sek.)",
+                    "es": "Matraz de fuego deja una zona de fuego (primer ataque cada 6 s).",
+                    "fr": "Fiole de feu enflamme une zone si la compétence n'a pas été utilisée depuis 6 s."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Slow Roasted",
+                    "de": "Langsam gebraten",
+                    "es": "A fuego lento",
+                    "fr": "À petit feu"
+                },
+                "description": {
+                    "en": "Fire Flask inflicts weak burning for 9s.",
+                    "de": "Feuerkolben' verursacht schwaches Brennen für 9 Sek.",
+                    "es": "Matraz de fuego inflige quemaduras debilitantes durante 9 s.",
+                    "fr": "Fiole de feu inflige des brûlures (9 s)."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "ACID FLASK",
+                "de": "SÄUREKOLBEN",
+                "es": "MATRAZ DE ÃCIDO",
+                "fr": "FIOLE D'ACIDE"
+            },
+            "description": {
+                "en": "Lobbed projectile: Creates a pool of acid that breaks foes' armor.",
+                "de": "Geschleudertes Projektil: Erzeugt eine Säurepfütze, die die Rüstung von Gegnern durchbricht.",
+                "es": "Proyectil en trayectoria elevada: crea un charco de ácido que rompe la armadura de los enemigos.",
+                "fr": "Crée une flaque d'acide qui brise l'armure des ennemis."
+            },
+            "lore": {
+                "en": "\"Making potent acid is easy. Making a container for it...now there's a problem.\" —Uncle Sven",
+                "de": "„Es ist einfach, konzentrierte Säure herzustellen. Aber dafür einen Behälter herzustellen ... ist weitaus problematischer.“ – Onkel Sven",
+                "es": "\"Hacer un ácido potente es fácil. Hacer un recipiente para el ácido... sí que es un problema.\" —Tío Sven",
+                "fr": "« Préparer un acide puissant est facile, mais les choses se compliquent quand il faut fabriquer un récipient pour le transporter... » —Oncle Sven"
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Longevity Catalyst",
+                    "de": "Langlebiger Katalysator",
+                    "es": "Catalizador de longevidad",
+                    "fr": "Acidité prolongée"
+                },
+                "description": {
+                    "en": "Acid pools duration doubled. (12s)",
+                    "de": "Dauer der Säuretümpel ist verdoppelt. (12 Sek.)",
+                    "es": "Se dobla la duración de los charcos de ácido (12 s).",
+                    "fr": "La durée des flaques d'acide est doublée (12 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Chemical Burn",
+                    "de": "Chemische Verbrennung",
+                    "es": "Quemadura química",
+                    "fr": "Brûlure chimique"
+                },
+                "description": {
+                    "en": "Fire Flask can ignite your Acid Pools, creating a burning area.",
+                    "de": "Feuerkolben können deine Säuretümpel entzünden und somit brennende Gebiete erzeugen.",
+                    "es": "Matraz de fuego puede prender los charcos de ácido y crear una zona de fuego.",
+                    "fr": "Fiole de feu peut enflammer vos flaques d'acide, créant une zone d'incendie."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Inversion Reaction",
+                    "de": "Umkehrreaktion",
+                    "es": "Reacción inversa",
+                    "fr": "Activer inversion"
+                },
+                "description": {
+                    "en": "Hit your acid pool with E to create a debuff immunity area.",
+                    "de": "Treffe deinen Säuretümpel mit E, um ein Gebiet der Immunitätsschwächung zu erschaffen.",
+                    "es": "Impacta el charco de ácido con E y crea una zona de inmunidad a las debilitaciones.",
+                    "fr": "Toucher votre flaque d'acide avec E pour créer une zone d'immunité aux debuffs."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "A Mean Ole Acid",
+                    "de": "Üble Säure",
+                    "es": "Un ácido con mala leche",
+                    "fr": "Acide dévastateur"
+                },
+                "description": {
+                    "en": "Direct hits with Acid Flask deal extra damage.",
+                    "de": "Direkte Treffer mit  Säurekolben' verursachen zusätzlichen Schaden.",
+                    "es": "Los impactos directos con Matraz de ácido infligen daño adicional.",
+                    "fr": "Les coups directs avec Fiole d'acide infligent plus de dégâts."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Rapid Reaction",
+                    "de": "Schnelle Reaktion",
+                    "es": "Reacción rápida",
+                    "fr": "Réaction rapide"
+                },
+                "description": {
+                    "en": "Direct hits with Acid Flask deal +40 damage per second the first 3s",
+                    "de": "Direkte Treffer mit Säurekolben verursachen +40 Schaden pro Sekunde in den ersten 3 Sek.",
+                    "es": "Los impactos directos con Matraz de ácido infligen +40 de daño por segundo los primeros 3 s.",
+                    "fr": "Fiole d'acide inflige +40 de dégâts par seconde pendant les 3 premières secondes."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Acid Reflex",
+                    "de": "Säurereflex",
+                    "es": "Reflejo ácido",
+                    "fr": "Remontée acide"
+                },
+                "description": {
+                    "en": "You can throw Acid Flasks more often (7s cooldown)",
+                    "de": "Du kannst  Säurekolben  häufiger werfen. (7 Sek. Abklingzeit)",
+                    "es": "Puedes lanzar Matraz de ácido más a menudo (recarga: 7 s).",
+                    "fr": "Permet de lancer des Fioles d'acide plus souvent (temps de rechargement : 7 s)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "ELASTIC OOZE",
+                "de": "ELASTIKSCHLEIM",
+                "es": "LÉGAMO ELÃSTICO",
+                "fr": "FLAQUE MAGIQUE"
+            },
+            "description": {
+                "en": "Lobbed projectile: Creates a super-bounce puddle.",
+                "de": "Geschleudertes Projektil: Erzeugt eine superelastische Pfütze.",
+                "es": "Proyectil en trayectoria elevada: crea un charco para dar supersaltos.",
+                "fr": "Crée une flaque permettant de faire des sauts prodigieux."
+            },
+            "lore": {
+                "en": "\"Let's see what happens if I...WHEE!\" —Uncle Sven",
+                "de": "„Lasst uns einmal sehen, was passiert wenn ich ... HUIII!“ – Onkel Sven",
+                "es": "\"A ver qué pasa si... ¡Sííí!\" —Tío Sven",
+                "fr": "« Voyons ce qu'il se passe si je... WAOUH ! » —Oncle Sven"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Bounces Off Me...",
+                    "de": "Prallt an mir ab ...",
+                    "es": "Me rebota...",
+                    "fr": "Rebondissement"
+                },
+                "description": {
+                    "en": "Allies affected by Elastic Ooze take reduced damage for 5 seconds.",
+                    "de": "Verbündete, die vom  Elastikschleim' betroffen sind, nehmen für 5 Sek. reduzierten Schaden.",
+                    "es": "Los aliados afectados por Légamo elástico sufrirán menos daño durante 5 s.",
+                    "fr": "Les alliés affectés par Flaque magique subissent moins de dégâts (5 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Super Bounce",
+                    "de": "Superabpraller",
+                    "es": "Superrebote",
+                    "fr": "Super rebond"
+                },
+                "description": {
+                    "en": "Allies directly hit by Elastic Ooze reflect projectiles for 2s.",
+                    "de": "Verbündete, die direkt vom  Elastikschleim' getroffen wurden, werfen für 2 Sek. Projektile zurück.",
+                    "es": "Los aliados impactados directamente por Légamo elástico rebotarán los proyectiles durante 2 s.",
+                    "fr": "Les alliés qui profitent de Flaque magique dévient les projectiles (2 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Absorption Matrix",
+                    "de": "Absorptionsmatrix",
+                    "es": "Matriz de absorción",
+                    "fr": "Matrice d'absorption"
+                },
+                "description": {
+                    "en": "Hit ally with Q,E: extended heal. (10s)",
+                    "de": "Triff einen Verbündeten mit Q,E: Erweiterte Heilung. (10 Sek.)",
+                    "es": "Impacta a un aliado con Q,E: curación ampliada (10 s).",
+                    "fr": "Toucher un allié avec Q,E : guérison étendue (10 s)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "...Sticks To You.",
+                    "de": "... bleibt an dir kleben.",
+                    "es": "Te lo he pegado...",
+                    "fr": "Colle magique"
+                },
+                "description": {
+                    "en": "Enemies affected by Elastic Ooze are slowed for 3 seconds.",
+                    "de": "Gegner, die von  Elastikschleim' betroffen sind, sind für 3 Sek. verlangsamt.",
+                    "es": "Los enemigos afectados por Légamo elástico se ven ralentizados durante 3 s.",
+                    "fr": "Les ennemis touchés par Flaque magique sont ralentis (3 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Perfect Pitch",
+                    "de": "Perfekter Wurf",
+                    "es": "Lanzamiento perfecto",
+                    "fr": "Coup parfait"
+                },
+                "description": {
+                    "en": "Hit with Q,LMB: Ignite enemy for 6s, burning them and nearby enemies.",
+                    "de": "Treffe mit Q,LMB: Stecke einen Gegner für 6 Sek. In Brand, verbrenne ihn und Gegner in der Nähe.",
+                    "es": "Impacta con Q,LMB: quema al enemigo objetivo y los cercanos durante 6 s.",
+                    "fr": "Q,LMB : enflamme l'ennemi ainsi que les ennemis proches (6 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Oozing With Confidence",
+                    "de": "Triefend vor Selbstvertrauen",
+                    "es": "Rezumo confianza",
+                    "fr": "Va voir par-là"
+                },
+                "description": {
+                    "en": "Elastic Ooze now launches enemies and tosses them farther.",
+                    "de": "Elastikschleim' schleudert nun Gegner und wirft sie noch weiter.",
+                    "es": "Légamo elástico lanza a los enemigos más lejos.",
+                    "fr": "Flaque magique propulse désormais les ennemis et les repousse encore plus loin."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "HEALING WATERS",
+                "de": "HEILWASSER",
+                "es": "AGUAS CURATIVAS",
+                "fr": "EAUX APAISANTES"
+            },
+            "description": {
+                "en": "Lobbed projectile: Creates a healing area.",
+                "de": "Geschleudertes Projektil: Erzeugt ein heilendes Gebiet.",
+                "es": "Proyectil lanzado: crea una zona de curación.",
+                "fr": "Crée une zone de guérison."
+            },
+            "lore": {
+                "en": "Side effects include an overwhelming desire to return to battle and a willful disregard for danger.",
+                "de": "Zu den Nebenwirkungen gehört der überwältigende Wunsch, zum Schlachtfeld zurückzukehren und absichtlich Gefahren zu missachten.",
+                "es": "Los efectos secundarios incluyen un deseo incontenible de volver a la batalla y una terca indiferencia hacia el peligro.",
+                "fr": "Les effets secondaires sont un désir accru d'en découdre et une indifférence pour le danger encouru."
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Double Dose",
+                    "de": "Doppelte Dosis",
+                    "es": "Dosis doble",
+                    "fr": "Double dose"
+                },
+                "description": {
+                    "en": "Healing continues for an additional 10s after leaving Healing Waters.",
+                    "de": "Heilung dauert für zusätzliche 10 Sek. an, nachdem der Bereich  Heilwasser' verlassen wurde.",
+                    "es": "La curación continúa otros 10 s tras abandonar Aguas curativas.",
+                    "fr": "La guérison continue (+10 s) après avoir quitté Eaux apaisantes."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Precision Prescription ",
+                    "de": "Präzisionsrezept",
+                    "es": "Receta de precisión",
+                    "fr": "Prescription précise"
+                },
+                "description": {
+                    "en": "Increased heal if you hit an ally below 50% health.",
+                    "de": "Erhöhte Heilung, wenn du einen Verbündeten unter 50% Gesundheit triffst.",
+                    "es": "Aumenta la curación si aciertas a un aliado con menos del 50% de salud.",
+                    "fr": "Augmente la guérison si vous touchez un allié dont la santé est en dessous de 50 %."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Healthy Glow",
+                    "de": "Gesunder Glanz",
+                    "es": "Brillo sano",
+                    "fr": "Lueur de santé"
+                },
+                "description": {
+                    "en": "Allies affected by Double Dose also heal allies near them.",
+                    "de": "Verbündete, die von  Doppelte Dosis' betroffen sind, heilen auch Verbündete in ihrer Nähe.",
+                    "es": "Los aliados afectados por Dosis doble también curarán a los aliados que estén cerca de ellos.",
+                    "fr": "Les alliés affectés par Double dose guérissent aussi les alliés proches."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Only the Purest Ingredients",
+                    "de": "Nur die reinsten Zutaten",
+                    "es": "Solo los mejores ingredientes",
+                    "fr": "Seuls les ingrédients les plus purs"
+                },
+                "description": {
+                    "en": "Remove negative effects from allies in the area hit.",
+                    "de": "Entferne im getroffenen Gebiet negative Effekte von deinen Verbündeten.",
+                    "es": "Elimina los efectos negativos de los aliados que estén en la zona impactada.",
+                    "fr": "Enlève les effets négatifs sur les alliés dans la zone ciblée."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Persistent Purgative",
+                    "de": "Anhaltendes Abführmittel",
+                    "es": "Purga persistente",
+                    "fr": "Purgatif persistant"
+                },
+                "description": {
+                    "en": "Give immunity to negative effects for 6s.",
+                    "de": "Verleihe für 6 Sek. Immunität gegen negative Effekte.",
+                    "es": "Otorga inmunidad a los efectos negativos durante 6 s.",
+                    "fr": "Donne l'immunité aux effets négatifs (6 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Bitter Medicine",
+                    "de": "Bittere Medizin",
+                    "es": "Amarga medicina",
+                    "fr": "Médecine amère"
+                },
+                "description": {
+                    "en": "Enemies struck by Healing Waters are interrupted.",
+                    "de": "Gegner, die von  Heilwasser' getroffen wurden, werden unterbrochen.",
+                    "es": "Los enemigos impactados por Aguas curativas se ven interrumpidos.",
+                    "fr": "Les ennemis touchés par Eaux apaisantes sont stoppés."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "CHAOS QUAFF",
+                "de": "CHAOS-GESÖFF",
+                "es": "TRAGO CAÓTICO",
+                "fr": "LAMPÉE CHAOTIQUE"
+            },
+            "description": {
+                "en": "Lobbed projectile: Turns enemies into Motigas, locking out skills.",
+                "de": "Geschleudertes Projektil: Verwandelt<br>Gegner in Motigas ohne Fertigkeiten.",
+                "es": "Proyectil en trayectoria elevada: convierte a los enemigos en motigas y bloquea las habilidades.",
+                "fr": "Transforme les ennemis en motigas, et rend leurs compétences obsolètes."
+            },
+            "lore": {
+                "en": "\"I wanted a concoction that would devolve its subjects. Perhaps it devolves them too far, but they're so cute!\" —Uncle Sven",
+                "de": "„Ich wollte ein Gebräu herstellen, das seine Opfer zurückentwickelt. Vielleicht entwickelt es sie ja ein wenig zu weit zurück, aber sie sind einfach zu süß!“ – Onkel Sven",
+                "es": "\"Quería un brebaje que degenerara a los sujetos. Quizá los degenera demasiado, ¡pero son tan monos!\" —Tío Sven",
+                "fr": "« Je voulais un mélange qui rende mes ennemis inoffensifs. Les effets sont peut-être trop puissants, mais ils sont tellement mignons comme ça ! » —Oncle Sven"
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Chaos Theory",
+                    "de": "Chaostheorie",
+                    "es": "Teoría del caos",
+                    "fr": "Théorie du chaos"
+                },
+                "description": {
+                    "en": "F hits a larger area.",
+                    "de": "F trifft ein größeres Gebiet.",
+                    "es": "F impacta en una zona más amplia.",
+                    "fr": "F affecte une zone plus étendue."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Ooze and Ahhs",
+                        "de": "Schleimerei",
+                        "es": "Légamo peligroso",
+                        "fr": "Flaque à Da"
+                    },
+                    "description": {
+                        "en": "Q: You can use Elastic Ooze more often.",
+                        "de": "Q: Du kannst  Elastikschleim' öfters benutzen.",
+                        "es": "Q: puedes usar Légamo elástico más a menudo.",
+                        "fr": "Q : utiliser Flaque magique plus souvent."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Potent Medicine",
+                        "de": "Starke Medizin",
+                        "es": "Medicina potente",
+                        "fr": "Médecine douce"
+                    },
+                    "description": {
+                        "en": "E: Healing Flask heals for more.",
+                        "de": "E:  Heilungskolben' heilt noch mehr.",
+                        "es": "E: Aguas curativas cura más.",
+                        "fr": "E : Eaux apaisantes soigne davantage."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Calling the Shots",
+                        "de": "Ton angeben",
+                        "es": "Tomando decisiones",
+                        "fr": "Mener la danse"
+                    },
+                    "description": {
+                        "en": "When you debuff a foe, nearby allies gain +10% damage for 5s. (Once per 5s.)",
+                        "de": "Wenn du einen Gegner schwächst, erhalten Verbündete in der Nähe für 5 Sek. 10% mehr Schaden. (Einmal alle 5 Sek.)",
+                        "es": "Cuando debilitas a un enemigo, los aliados cercanos obtienen +10% de daño durante 5 s (una vez cada 5 s).",
+                        "fr": "Lorsque vous debuffez un ennemi, les alliés proches font +10 % de dégâts pendant 5 s (une fois toutes les 5 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Another's Keeper",
+                        "de": "Eines anderen Hüter",
+                        "es": "El guardián de otro",
+                        "fr": "Altruiste"
+                    },
+                    "description": {
+                        "en": "+10% healing power. Gain focus when you buff or heal an ally. (Once per 5s.)",
+                        "de": "10% mehr Heilkraft. Du erhältst Fokus, wenn du einen Verbündeten stärkst oder heilst. (Einmal alle 5 Sek.)",
+                        "es": "+10% de poder curativo. Ganas concentración al potenciar o curar a un aliado (una vez cada 5 s).",
+                        "fr": "Pouvoir de guérison +10 %. Vous gagnez du Focus quand vous améliorez ou que vous soignez un allié (une fois toutes les 5 s)."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Fringe Benefits",
+                        "de": "Nebenleistungen",
+                        "es": "Beneficios extraoficiales",
+                        "fr": "Avantages en nature"
+                    },
+                    "description": {
+                        "en": "+10 armor vs. Projectiles and Splash damage.",
+                        "de": "+10 Rüstung gegen Projektile und Bereichsschaden.",
+                        "es": "+10 de armadura contra proyectiles y daño de salpicadura.",
+                        "fr": "+10 d'armure avec les projectiles et les dégâts de zone d'effet."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Sustained Abilities",
+                        "de": "Ausdauernde Fähigkeiten",
+                        "es": "Habilidades sostenidas",
+                        "fr": "Capacités maintenues"
+                    },
+                    "description": {
+                        "en": "Your skills cost less stamina.",
+                        "de": "Deine Fertigkeiten kosten dich weniger Ausdauer.",
+                        "es": "Tus habilidades consumen menos resistencia.",
+                        "fr": "Vos compétences nécessitent moins d'énergie."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

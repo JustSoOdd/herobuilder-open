@@ -1,0 +1,57 @@
+.skill-icon {
+  text-align: center;
+  margin-bottom: 0.375rem;
+  position: relative;
+
+  &.selectable,
+  &.selectable &--image {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  &--image {
+    &-wrapper {
+      position: relative;
+      display: inline-block;
+      border: 3px solid $color-ggu-blue;
+      background: $color-ggu-blue;
+      margin-bottom: 3px;
+    }
+
+    &-placeholder {
+      width: 50px;
+      height: 50px;
+      font-size: 3rem;
+      color: $color-ggu-blue;
+      background: linear-gradient(to bottom, $color-ggu-blue-dark, $color-ggu-blue-darker);
+      user-select: none;
+    }
+  }
+
+  &--name {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  &--description {
+    display: none;
+  }
+
+  &:hover &--description {
+    display: block;
+  }
+
+  &--bubble {
+    background: $color-ggu-blue;
+    color: $color-ggu-white;
+    width: 1.0rem;
+    height: 1.0rem;
+    position: absolute;
+    top: -0.2rem;
+    right: -0.2rem;
+    font-size: 0.5rem;
+    border-radius: 1.0rem;
+    text-align: center;
+    line-height: 1.0rem;
+  }
+}

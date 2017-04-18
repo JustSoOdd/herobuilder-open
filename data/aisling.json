@@ -1,0 +1,677 @@
+{
+    "patch": "145389",
+    "fullName": {
+        "en": "Aisling",
+        "de": "Aisling",
+        "es": "Aisling",
+        "fr": "Aisling"
+    },
+    "shortName": "Aisling",
+    "description": {
+        "en": "Summons a Spectral Ally.",
+        "de": "Beschwört Spektralen Verbündeten.",
+        "es": "Congrega un aliado espectral.",
+        "fr": "Invoque un allié spectral"
+    },
+    "lore" : {
+      "en" : "\"Aisling promised to make her father proud, and Sir Cador promised to always protect his daughter. Even Cador's death could not break such promises.\" —Lord Protector Yath, House Aurion",
+      "de" : "„Aisling versprach, ihren Vater stolz zu machen, und Sir Cador versprach seiner Tochter, sie für immer zu beschützen. Selbst Cadors Tod konnte dieses Versprechen nicht brechen.“– Lordprotektor Yath, Haus Aurion",
+      "es" : "\"Aisling le prometió a su padre que se sentiría orgulloso de ella, y Sir Cador prometió siempre proteger a su hija. Ni la muerte de Cador pudo romper esas promesas.\"—Lord Protector Yath, Casa Aurion",
+      "fr" : "« Aisling a juré de faire la fierté de son père, et Sir Cador de toujours protéger sa fille. Même la mort ne saurait briser ces promesses. » —Seigneur protecteur Yath, Maison Aurion"
+    },
+    "house": "Unknown",
+    "playStyle": {
+        "en": {
+      "description" : "Fight as a team! Aisling's sword is deadly in its own right, but it also houses the spirit of her father, Sir Cador, who emerges from the sword to fight at his daughter's side.",
+      "playStyleTips" : [
+        "Send the ghost of Sir Cador out to harass your enemies.",
+        "Send the ghost of Sir Cador out to harass your enemies.",
+        "Send the ghost of Sir Cador out to harass your enemies."
+      ]
+    },
+        "de": {
+            "description": "Kämpfe als Team! Aislings Schwert ist bereits für sich allein genommen eine tödliche Waffe, doch wohnt darin auch der Geist ihres Vaters Sir Cador, der aus dem Schwert tritt, um an der Seite seiner Tochter zu kämpfen.",
+            "playStyleTips": [
+                "Entsende Sir Cadors Geist, um deine Gegner zu bedrängen.",
+                "ufe Sir Cador zurück in deine Klinge, wenn du höheren Schaden verursachen willst.",
+                "Jage Gegnern in der Nähe Aislings oder Sir Cadors mit deiner Fokus-Fähigkeit Angst ein."
+            ]
+        },
+        "es": {
+            "description": "¡Lucha en equipo! La espada de Aisling es mortal de por sí, pero también reside en ella el espíritu de su padre, Sir Cador, que emerge de la espada para luchar a su lado.",
+            "playStyleTips": [
+                "Envía el espíritu de Sir Cador a atormentar a tus enemigos.",
+                "Llama a Sir Cador de vuelta a la espada cuando necesites daño adicional.",
+                "Aterra a los enemigos cercanos a Aisling o a Sir Cador con la habilidad de concentración."
+            ]
+        },
+        "fr": {
+            "description": "Combattez en équipe ! L'épée d'Aisling est une arme mortelle en soi mais elle abrite aussi l'esprit de son père, Sir Cador, qui en surgit pour combattre auprès de sa fille.",
+            "playStyleTips": [
+                "Envoyez le fantôme de Sir Cador terrasser vos ennemis.",
+                "Faites-le revenir dans la lame pour infliger plus de dégâts.",
+                "Terrifiez les ennemis proches d'Aisling ou de Sir Cador grâce à votre focus."
+            ]
+        }
+    },
+    "attackStat": 50,
+    "defenseStat": 60,
+    "mobilityStat": 30,
+    "utilityStat": 80,
+    "difficulty": 8,
+    "Skills": {
+        "Skill1": {
+            "name": {
+                "en": "SLASH",
+                "de": "HIEB",
+                "es": "TAJO",
+                "fr": "TAILLADE"
+            },
+            "description": {
+                "en": "Melee attack combo.",
+                "de": "Nahkampf-Angriffscombo.",
+                "es": "Combinación de ataques cuerpo a cuerpo.",
+                "fr": "Combo d'attaques de mêlée."
+            },
+            "lore": {
+                "en": "It was supposed to be just ceremonial—a young warrior taking up her father's sword. But when Aisling grasped the hilt, she picked up a new purpose in life.",
+                "de": "Eigentlich war es nur als ein zeremonieller Anlass gedacht – eine junge Kriegerin, die das Schwert ihres Vaters an sich nimmt. Als Aisling jedoch das Heft ergriff, gewann ihr Leben einen ganz neuen Sinn.",
+                "es": "Debía haber sido solo una ceremonia: una joven guerrera tomando la espada de su padre. Pero cuando Aisling agarró la empuñadura, adquirió un nuevo propósito en la vida.",
+                "fr": "Ce ne devait être qu'une cérémonie, où une jeune guerrière aurait repris l'épée de son père. Mais quand Aisling s'est emparée de la garde, toute son existence a pris un nouveau sens."
+            },
+            "cooldown": 0,
+            "pcKey": "LMB",
+            "xboxKey": "RT",
+            "L": {
+                "name": {
+                    "en": "Father's Lessons",
+                    "de": "Vaters Lektionen",
+                    "es": "Lecciones del padre",
+                    "fr": "Leçons paternelles"
+                },
+                "description": {
+                    "en": "Slash has increased reach and can hit up to 3 targets.",
+                    "de": "Hieb' hat eine größere Reichweite und kann bis zu 3 Ziele treffen.",
+                    "es": "Aumenta el alcance de Tajo y puede impactar a un máximo de 3 objetivos.",
+                    "fr": "Taillade a une portée accrue et peut toucher jusqu'à 3 cibles."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Father's Flame",
+                    "de": "Vaters Flamme",
+                    "es": "La llama del padre",
+                    "fr": "Flamme paternelle"
+                },
+                "description": {
+                    "en": "You deal more damage to Burning enemies.",
+                    "de": "Du richtest mehr Schaden bei brennenden Gegnern an.",
+                    "es": "Infliges más daño a los enemigos quemados.",
+                    "fr": "Inflige plus de dégâts aux ennemis en feu."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Father's Reproof",
+                    "de": "Vaters Tadel",
+                    "es": "Reprobación del padre",
+                    "fr": "Réprimande paternelle"
+                },
+                "description": {
+                    "en": "Weakens enemies with each hit. (-5% damage, stacks up to 5 times)",
+                    "de": "Schwächt Gegner mit jedem Treffer. (5% weniger Schaden, kumuliert bis zu 5 Mal)",
+                    "es": "Debilita a los enemigos impactados (-5% de daño, se acumula hasta 5 veces).",
+                    "fr": "Affaiblit les ennemis à chaque coup (-5 % de dégâts, cumulable jusqu'à 5 fois)."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Spectral Blade",
+                    "de": "Spektrale Klinge",
+                    "es": "Filo espectral",
+                    "fr": "Lame spectrale"
+                },
+                "description": {
+                    "en": "If Slash misses, you send out a Spectral Wave projectile.",
+                    "de": "Wenn  Hieb' daneben geht, sendest du ein  Spektrale Welle'-Projektil aus.",
+                    "es": "Si Tajo falla, envías un proyectil de Oleada espectral.",
+                    "fr": "Si Taillade n'atteint pas sa cible, permet d'envoyer un projectile de Vague spectrale."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Spectral Might",
+                    "de": "Spektrale Macht",
+                    "es": "Poder espectral",
+                    "fr": "Force spectrale"
+                },
+                "description": {
+                    "en": "Allies hit by Spectral Wave gain +25% damage. (5s)",
+                    "de": "Verbündete, die von  Spektrale Welle' getroffen werden, verursachen 25% mehr Schaden. (5 Sek.)",
+                    "es": "Los aliados alcanzados por Oleada espectral obtienen +25% de daño (5 s).",
+                    "fr": "+25 % de dégâts (5 s) pour les alliés touchés par Vague spectrale."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Spectral Defense",
+                    "de": "Spektrale Verteidigung",
+                    "es": "Defensa espectral",
+                    "fr": "Défense spectrale"
+                },
+                "description": {
+                    "en": "Allies hit by Spectral Wave gain +20 armor. (5s)",
+                    "de": "Verbündete, die von  Spektrale Welle' getroffen werden, erhalten +20 Rüstung. (5 Sek.)",
+                    "es": "Los aliados alcanzados por Oleada espectral obtienen +20 de armadura (5 s).",
+                    "fr": "+20 d'armure (5 s) pour les alliés touchés par Vague spectrale."
+                }
+            }
+        },
+        "Skill2": {
+            "name": {
+                "en": "CADOR'S CHARGE",
+                "de": "CADORS ANSTURM",
+                "es": "CARGA DE CADOR",
+                "fr": "CHARGE DE CADOR"
+            },
+            "description": {
+                "en": "Cador moves to target location. <BR>Deals high area damage.",
+                "de": "Cador begibt sich zum Zielort. <BR>Verursacht hohen Flächenschaden.",
+                "es": "Cador se mueve a la ubicación objetivo. Inflige gran cantidad de daño de zona.",
+                "fr": "Cador se déplace vers le lieu ciblé. <BR>Inflige d'importants dégâts de zone."
+            },
+            "lore": {
+                "en": "When Sir Cador's spirit sought rest, the sword he wielded for decades felt like home. Never did he imagine that Aisling would insist on wielding it.",
+                "de": "Als Sir Cadors Geist seine letzte Ruhestätte suchte, erschien ihm das Schwert, das er jahrzehntelang geschwungen hatte, als die passende Wahl. Nie hätte er geahnt, dass Aisling darauf bestehen würde, es eines Tages zu führen.",
+                "es": "Cuando el alma de Sir Cador buscó reposo, encontró su refugio natural en la espada que había empuñado durante décadas. Nunca se imaginó que Aisling insistiría en empuñarla.",
+                "fr": "Quand l'esprit de Sir Cador s'est éteint, il s'est réfugié dans l'épée qu'il avait brandie pendant des décennies. Il n'aurait jamais imaginé qu'Aisling décide un jour de la manier à son tour."
+            },
+            "cooldown": 0,
+            "pcKey": "RMB",
+            "xboxKey": "LT",
+            "L": {
+                "name": {
+                    "en": "Cador's Reach",
+                    "de": "Cadors Reichweite",
+                    "es": "Alcance de Cador",
+                    "fr": "Portée de Cador"
+                },
+                "description": {
+                    "en": "Cador's Charge hits a larger area.",
+                    "de": "Cadors Ansturm' trifft ein größeres Gebiet.",
+                    "es": "Carga de Cador afecta a una zona más amplia.",
+                    "fr": "Charge de Cador touche une zone plus étendue."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Cador's Might",
+                    "de": "Cadors Macht",
+                    "es": "Poder de Cador",
+                    "fr": "Force de Cador"
+                },
+                "description": {
+                    "en": "Cador's Charge boosts Cador's damage by 25%. (6s)",
+                    "de": "Cadors Ansturm' verstärkt Cadors Schaden um 25%. (6 Sek.)",
+                    "es": "Carga de Cador potencia el daño de Cador un 25% (6 s).",
+                    "fr": "Charge de Cador améliore ses dégâts de 25% (6 s)."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Cador's Restoration",
+                    "de": "Cadors Wiederherstellung",
+                    "es": "Recuperación de Cador",
+                    "fr": "Restauration de Cador"
+                },
+                "description": {
+                    "en": "Cador's Charge heals Cador for 175 per enemy hit.",
+                    "de": "Cadors Ansturm' heilt Cador um 175 pro getroffenem Gegner.",
+                    "es": "Carga de Cador cura a Cador 175 PV por enemigo golpeado.",
+                    "fr": "Charge de Cador soigne Cador à raison de 175 par coup à l'ennemi."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Cador's Rage",
+                    "de": "Cadors Wut",
+                    "es": "Ira de Cador",
+                    "fr": "Rage de Cador"
+                },
+                "description": {
+                    "en": "Cador's Charge hits multiple times.",
+                    "de": "Cadors Ansturm' trifft mehrere Male.",
+                    "es": "Carga de Cador asesta varios golpes.",
+                    "fr": "Charge de Cador frappe plusieurs fois."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Burning Rage",
+                    "de": "Brennende Wut",
+                    "es": "Ira ardiente",
+                    "fr": "Rage enflammée"
+                },
+                "description": {
+                    "en": "Cador's Charge inflicts burning. (3s)",
+                    "de": "Cadors Ansturm  verursacht Brennen. (3 Sek.)",
+                    "es": "Carga de Cador inflige quemaduras (3 s).",
+                    "fr": "Charge de Cador inflige des brûlures (3 s)."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Shattering Rage",
+                    "de": "Zerschmetternde Wut",
+                    "es": "Ira destructiva",
+                    "fr": "Rage destructrice"
+                },
+                "description": {
+                    "en": "Cador's Charge breaks armor. (5s)",
+                    "de": "Cadors Ansturm' durchbricht Rüstungen. (5 Sek.)",
+                    "es": "Carga de Cador rompe armaduras (5 s).",
+                    "fr": "Charge de Cador brise les armures (5 s)."
+                }
+            }
+        },
+        "Skill3": {
+            "name": {
+                "en": "CADOR'S WAR CRY",
+                "de": "CADORS SCHLACHTRUF",
+                "es": "GRITO DE GUERRA DE CADOR",
+                "fr": "CRI DE GUERRE DE CADOR"
+            },
+            "description": {
+                "en": "Cador moves to target location.<BR>Interrupts and slows enemies.",
+                "de": "Cador begibt sich zum Zielort. <BR>Unterbricht und verlangsamt Gegner.",
+                "es": "Cador se mueve a la ubicación objetivo. Interrumpe y ralentiza a los enemigos.",
+                "fr": "Cador se déplace vers le lieu ciblé. <BR>Stoppe et ralentit les ennemis."
+            },
+            "lore": {
+                "en": "\"I remember Cador's voice, stern and low, as we climbed the barricades. I think of it whenever I must do something difficult.\" —Captain Marquette",
+                "de": "„Ich erinnere mich an Cadors Stimme, tief und streng, als wir die Barrikaden erkletterten. Seit jeher denke ich an sie, wenn ich eine Herausforderung zu bewältigen habe.“ —Captain Marquette",
+                "es": "\"Recuerdo la voz de Cador, seria y grave, mientras escalábamos las barricadas. Pienso en ello cuando debo enfrentarme a una situación difícil.\" —Capitán Marquette",
+                "fr": "« Je me souviens de la voix basse et ferme de Cador, quand nous escaladions les barricades. J'y pense à chaque fois que les choses vont mal. » —Capitaine Marquette"
+            },
+            "cooldown": 0,
+            "pcKey": "Q",
+            "xboxKey": "RB",
+            "L": {
+                "name": {
+                    "en": "Intimidation",
+                    "de": "Einschüchterung",
+                    "es": "Intimidación",
+                    "fr": "Intimidation"
+                },
+                "description": {
+                    "en": "Cador's War Cry inflicts Weakness. (5s)",
+                    "de": "Cadors Schlachtruf' verursacht Schwäche. (5 Sek.)",
+                    "es": "Grito de guerra de Cador inflige debilidad (1,5 s).",
+                    "fr": "Cri de guerre de Cador inflige Faiblesse (5 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Dread",
+                    "de": "Schrecken",
+                    "es": "Pavor",
+                    "fr": "Effroi"
+                },
+                "description": {
+                    "en": "Cador's War Cry immobilizes enemies for 1.5s. No longer slows.",
+                    "de": "Cadors Schlachtruf  macht Gegner bewegungsunfähig (1,5 Sek.). Verlangsamt nicht mehr.",
+                    "es": "Grito de guerra de Cador inmoviliza a los enemigos durante 1,5 s y no ralentiza.",
+                    "fr": "Cri de guerre de Cador immobilise les ennemis (1,5 s) mais ne les ralentit plus."
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Chastise",
+                    "de": "Züchtigung",
+                    "es": "Castigo",
+                    "fr": "Punition"
+                },
+                "description": {
+                    "en": "Cador's War Cry stuns attacking enemies.",
+                    "de": "Cadors Schlachtruf' betäubt angreifende Gegner.",
+                    "es": "Grito de guerra de Cador aturde a los enemigos que te ataquen.",
+                    "fr": "Cri de guerre de Cador assomme les ennemis qui l'attaquent."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Spectral Barrier",
+                    "de": "Spektrale Barriere",
+                    "es": "Barrera espectral",
+                    "fr": "Barrière spectrale"
+                },
+                "description": {
+                    "en": "Cador creates a projectile barrier (3s). No longer interrupts.",
+                    "de": "Cador erzeugt eine Barriere gegen Projektile (3 Sek.). Unterbricht nicht länger.",
+                    "es": "Cador crea una barrera contra proyectiles (3 s). No interrumpe.",
+                    "fr": "Cador crée une barrière anti-projectiles (3 s). Ne bloque plus."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Spectral Armor",
+                    "de": "Spektrale Rüstung",
+                    "es": "Armadura espectral",
+                    "fr": "Armure spectrale"
+                },
+                "description": {
+                    "en": "Allies inside the Spectral Barrier have +40 armor.",
+                    "de": "Verbündete innerhalb der Spektralen Barriere erhalten +40 Rüstung.",
+                    "es": "Los aliados dentro de la Barrera espectral tendrán +40 de armadura.",
+                    "fr": "Les alliés à l'intérieur de la Barrière spectrale ont +40 d'armure."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Spectral Lens",
+                    "de": "Spektrale Linse",
+                    "es": "Lente espectral",
+                    "fr": "Lentille spectrale"
+                },
+                "description": {
+                    "en": "Allies inside the barrier have 100% crit chance. ",
+                    "de": "Verbündete innerhalb der Barriere haben eine 100%-Chance auf kritische Treffer.",
+                    "es": "Los aliados que estén dentro de la barrera tendrán un 100% de probabilidad de golpes críticos.",
+                    "fr": "Les alliés à l'intérieur de la barrière ont 100 % de chance d'infliger des coups critiques."
+                }
+            }
+        },
+        "Skill4": {
+            "name": {
+                "en": "INTO THE BLADE",
+                "de": "IN DIE KLINGE",
+                "es": "A LA ESPADA",
+                "fr": "DANS LA LAME"
+            },
+            "description": {
+                "en": "Recall Sir Cador.<BR>+60% damage while Cador is in your blade.",
+                "de": "Rufe Sir Cador zurück.<BR>60% mehr Schaden, während Cador in deiner Klinge verweilt.",
+                "es": "Reclama a Sir Cador. +60% de daño mientras Cador esté en la espada.",
+                "fr": "Rappelle Sir Cador.<BR>+60 % de dégâts quand Cador est dans votre épée."
+            },
+            "lore": {
+                "en": "\"Sir Cador's spirit won't rest until his killer meets justice. But if that happens, what of Aisling and her sword?\" —Templar Rynall, House Aurion",
+                "de": "„Sir Cadors Geist wird keine Ruhe finden, bis seinen Mörder die gerechte Strafe ereilt hat. Doch wenn dies geschieht, was wird dann aus Aisling und ihrem Schwert werden?“ – Templerin Rynall, Haus Aurion",
+                "es": "\"El espíritu de Sir Cador no descansará hasta que se haga justicia con su asesino. Pero si eso ocurre, ¿qué pasará con Aisling y su espada?\" —Templaria Rynall, Casa Aurion",
+                "fr": "« L'esprit de Sir Cador ne trouvera la paix que lorsque la justice s'abattra sur celui qui l'a tué. Mais alors, qu'adviendra-t-il d'Aisling et de son épée ? » —Templier Rynall, Maison Aurion"
+            },
+            "cooldown": 0,
+            "pcKey": "E",
+            "xboxKey": "LB",
+            "L": {
+                "name": {
+                    "en": "Swift Return",
+                    "de": "Flinke Rückkehr",
+                    "es": "Regreso veloz",
+                    "fr": "Retour rapide"
+                },
+                "description": {
+                    "en": "On use, +25% MOVE SPEED (3s)",
+                    "de": "Bei Benutzung +25% auf BEWEGUNGSGESCHWINDIGKEIT (3 Sek.)",
+                    "es": "Al usarla, +25% de velocidad de movimiento (3 s).",
+                    "fr": "+25 % de rapidité de mouvement (3 s)."
+                }
+            },
+            "LL": {
+                "name": {
+                    "en": "Ephemeral Sprint",
+                    "de": "Flüchtiger Sprint",
+                    "es": "Esprín efímero",
+                    "fr": "Sprint éphémère"
+                },
+                "description": {
+                    "en": "Into the Blade hides your presence.<BR>Invisibility (3s)",
+                    "de": "In die Klinge' verbirgt deine Anwesenheit.<BR>Unsichtbarkeit (3 Sek.)",
+                    "es": "A la espada oculta tu presencia.<BR>Invisibilidad (3 s).",
+                    "fr": "Dans la lame vous rend invisible.<BR>Invisibilité (3 s)"
+                }
+            },
+            "LR": {
+                "name": {
+                    "en": "Ardent Blade",
+                    "de": "Lebhafte Klinge",
+                    "es": "Espada ardiente",
+                    "fr": "Lame ardente"
+                },
+                "description": {
+                    "en": "Cador's Blade parries projectiles.<BR>Deflects 1 projectile every 5s.",
+                    "de": "Cadors Klinge pariert Projektile.<BR>Wirft alle 5 Sek. 1 Projektil zurück.",
+                    "es": "Espada de Cador bloquea los proyectiles. Rechaza 1 proyectil cada 5 s.",
+                    "fr": "La lame de Cador pare les projectiles.<BR>Dévie un projectile toutes les 5 s."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Shielding Presence",
+                    "de": "Abschirmende Präsenz",
+                    "es": "Presencia protectora",
+                    "fr": "À l'abri"
+                },
+                "description": {
+                    "en": "Cador protects you from harm.<BR>+25% ARMOR BOOST (4s)",
+                    "de": "Cador schützt dich vor Schaden.<BR>+25% RÜSTUNGSBOOST (4 Sek.)",
+                    "es": "Cador te protege del daño.<BR>+25% DE ARMADURA ADICIONAL (4 s).",
+                    "fr": "Cador vous protège.<BR>+25 % de boost d'armure (4 s)."
+                }
+            },
+            "RL": {
+                "name": {
+                    "en": "Aura of Healing",
+                    "de": "Aura der Heilung",
+                    "es": "Aura curativa",
+                    "fr": "Aura de guérison"
+                },
+                "description": {
+                    "en": "While performing Into the Blade:<BR>Cador heals you and nearby allies.",
+                    "de": "Während  In die Klinge' ausgeführt wird:<BR>Cador heilt dich und Verbündete in der Nähe.",
+                    "es": "Al usar A la espada: Cador os cura a ti y a todos los aliados cercanos.",
+                    "fr": "En utilisant Dans la lame : Cador vous soigne ainsi que les alliés proches."
+                }
+            },
+            "RR": {
+                "name": {
+                    "en": "Pure of Spirit",
+                    "de": "Reinen Geistes",
+                    "es": "Espíritu puro",
+                    "fr": "Esprit pur"
+                },
+                "description": {
+                    "en": "Cador applies PURITY to all nearby allies.<BR>DEBUFF IMMUNITY (6s)",
+                    "de": "Cador wendet  LAUTERKEIT' auf alle Verbündeten in der Nähe an.<BR>IMMUNITÄT GEGEN SCHWÄCHUNGEN (6 Sek.)",
+                    "es": "Cador aplica Pureza a todos los aliados cercanos. Inmune a las debilitaciones (6 s).",
+                    "fr": "Cador applique PURETÉ à tous les alliés proches. Immunité debuff (6 s)."
+                }
+            }
+        },
+        "Focus": {
+            "name": {
+                "en": "TERRIFY",
+                "de": "ERSCHRECKEN",
+                "es": "ATERRAR",
+                "fr": "PEUR AU VENTRE"
+            },
+            "description": {
+                "en": "Enemies near you and Cador are Launched, slowed, and weakened. (4/6/8s)",
+                "de": "Gegner in deiner und Cadors Nähe werden hochgeschleudert, verlangsamt und geschwächt. (4/6/8 Sek.)",
+                "es": "Lanza, ralentiza y debilita a los enemigos cercanos a ti y a Cador (4 s/6 s/8 s).",
+                "fr": "Les ennemis près de vous et de Cador sont propulsés, ralentis et affaiblis (4/6/8 s)."
+            },
+            "lore": {
+                "en": "\"I know what it takes to get past Death, and you don't have it.\" —Sir Cador",
+                "de": "„Ich weiß, was es braucht, um dem Tode zu entrinnen – und das hast du nicht in dir.“ —Sir Cador",
+                "es": "\"Sé lo difícil que es burlar a la muerte, y tú no tienes lo que hay que tener para ello.\" —Sir Cador",
+                "fr": " "
+            },
+            "cooldown": 0,
+            "pcKey": "F",
+            "xboxKey": "LS+RS",
+            "L": {
+                "name": {
+                    "en": "Nigh Invulnerable",
+                    "de": "Nahezu unverwundbar",
+                    "es": "Casi invulnerable",
+                    "fr": "Presque invulnérable"
+                },
+                "description": {
+                    "en": "You take 90% less damage while performing F.",
+                    "de": "Du erleidest 90% weniger Schaden, während du F ausführst.",
+                    "es": "Al usar F, recibes un 90% menos de daño.",
+                    "fr": "90 % de dégâts en moins en appuyant sur F."
+                }
+            },
+            "R": {
+                "name": {
+                    "en": "Resurgence",
+                    "de": "Wiederauferstehung",
+                    "es": "Resurgir",
+                    "fr": "Récupération"
+                },
+                "description": {
+                    "en": "On use, you regain stamina.",
+                    "de": "Bei Benutzung erhältst du Ausdauer zurück.",
+                    "es": "Al usarla, recuperas resistencia.",
+                    "fr": "Permet de récupérer de l'énergie."
+                }
+            }
+        }
+    },
+    "Talents": {
+        "LVL3": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Relentless Attack",
+                        "de": "Unermüdliche Attacke",
+                        "es": "Ataque incesante",
+                        "fr": "Attaque impitoyable"
+                    },
+                    "description": {
+                        "en": "LMB: Your full attack combo has no recovery time.",
+                        "de": "LMB: Deine komplette Angriffscombo verfügt über keine Erholzeit.",
+                        "es": "LMB: la combinación de ataque completa no tiene tiempo de recuperación.",
+                        "fr": "LMB : votre combo parfait n'a plus besoin de recharger."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Total Recall",
+                        "de": "Totale Erinnerung",
+                        "es": "Desafío total",
+                        "fr": "Mémoire améliorée"
+                    },
+                    "description": {
+                        "en": "E: 3s shorter cooldown. No longer prevents you from moving.",
+                        "de": "E: 3 Sek. kürzere Abklingzeit. Hindert dich nicht länger am Bewegen.",
+                        "es": "E: la recarga dura 3 s menos. No te impide moverte.",
+                        "fr": "E : temps de rechargement raccourci de 3 s. Ne vous empêche plus de bouger."
+                    }
+                }
+            ]
+        },
+        "LVL5": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Precision",
+                        "de": "Präzision",
+                        "es": "Precisión",
+                        "fr": "Précision"
+                    },
+                    "description": {
+                        "en": "Crit chance builds faster.",
+                        "de": "Chance auf kritische Treffer baut sich schneller auf.",
+                        "es": "Aumenta más rápido la probabilidad de golpe crítico.",
+                        "fr": "Chance critique se développe plus rapidement."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "En Garde",
+                        "de": "En Garde",
+                        "es": "En Garde",
+                        "fr": "En garde"
+                    },
+                    "description": {
+                        "en": "+10 front armor, +20 while attacking.",
+                        "de": "+10 Frontalrüstung, +20, während du angreifst.",
+                        "es": "+10 de armadura frontal, +20 al atacar.",
+                        "fr": "+10 d'armure frontale, +20 en attaquant."
+                    }
+                }
+            ]
+        },
+        "LVL7": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Calling the Shots",
+                        "de": "Ton angeben",
+                        "es": "Tomando decisiones",
+                        "fr": "Mener la danse"
+                    },
+                    "description": {
+                        "en": "When you debuff a foe, nearby allies gain +10% damage for 5s. (Once per 5s.)",
+                        "de": "Wenn du einen Gegner schwächst, erhalten Verbündete in der Nähe für 5 Sek. 10% mehr Schaden. (Einmal alle 5 Sek.)",
+                        "es": "Cuando debilitas a un enemigo, los aliados cercanos obtienen +10% de daño durante 5 s (una vez cada 5 s).",
+                        "fr": "Lorsque vous debuffez un ennemi, les alliés proches font +10 % de dégâts pendant 5 s (une fois toutes les 5 s)."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Another's Keeper",
+                        "de": "Eines anderen Hüter",
+                        "es": "El guardián de otro",
+                        "fr": "Altruiste"
+                    },
+                    "description": {
+                        "en": "+10% healing power. Gain focus when you buff or heal an ally. (Once per 5s.)",
+                        "de": "10% mehr Heilkraft. Du erhältst Fokus, wenn du einen Verbündeten stärkst oder heilst. (Einmal alle 5 Sek.)",
+                        "es": "+10% de poder curativo. Ganas concentración al potenciar o curar a un aliado (una vez cada 5 s).",
+                        "fr": "Pouvoir de guérison +10 %. Vous gagnez du Focus quand vous améliorez ou que vous soignez un allié (une fois toutes les 5 s)."
+                    }
+                }
+            ]
+        },
+        "LVL9": {
+            "path": "Path of the ...",
+            "Talents": [
+                {
+                    "name": {
+                        "en": "Hero's Might",
+                        "de": "Macht des Helden",
+                        "es": "Poder de héroe",
+                        "fr": "Puissance de héros"
+                    },
+                    "description": {
+                        "en": "+10% damage.",
+                        "de": "10% mehr Schaden.",
+                        "es": "+10% de daño.",
+                        "fr": "+10 % de dégâts."
+                    }
+                },
+                {
+                    "name": {
+                        "en": "Hero's Vitality",
+                        "de": "Vitalität des Helden",
+                        "es": "Vitalidad de héroe",
+                        "fr": "Vitalité de héros"
+                    },
+                    "description": {
+                        "en": "+15% maximum health.",
+                        "de": "+15% maximale Gesundheit.",
+                        "es": "+15% de salud máxima.",
+                        "fr": "+15 % de santé max."
+                    }
+                }
+            ]
+        }
+    }
+}

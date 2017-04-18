@@ -1,0 +1,15 @@
+.hero-stats {
+  margin: 2rem 2rem 1rem 0.5rem;
+
+  @media screen and (max-width: $break-xs) {
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  @media screen and (min-width: $break-xs) {
+    width: 40%;
+    max-width: 40%;
+    flex: 1 1 40%;
+  }
+}

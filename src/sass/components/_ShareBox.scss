@@ -1,0 +1,52 @@
+.share-box {
+  @extend %generic-box;
+
+  &--key {
+    @extend %--key;
+  }
+
+  &--inner {
+    background: #FFF;
+    border: 1px solid #17637A;
+    border-radius: 0 0 3px 3px;
+    display: block;
+    padding: 15px 20px;
+  }
+
+  &--link {
+    background: lighten($color-ggu-grey, 10);
+    border: 1px solid $color-ggu-grey;
+    border-radius: 5px;
+    color: darken($color-ggu-grey, 50);
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  &--social {
+    margin: 0 auto;
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      background: #FFF;
+      border: 2px solid $color-ggu-blue;
+      color: $color-ggu-blue;
+      font-family: $font-ggu-default;
+      font-weight: bold;
+      font-size: 0.8em;
+      width: 130px;
+      padding: 10px 0;
+      cursor: pointer;
+      transform: skew(-8deg);
+      transition: 0.3s all ease;
+
+      &:hover {
+        background-color: $color-ggu-orange;
+        border-color: $color-ggu-orange;
+        color: white;
+      }
+    }
+  }
+}
